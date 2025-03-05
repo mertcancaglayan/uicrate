@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Minimalism Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A minimalist card design with an image, tags, and a description section.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-24"
+	},
+	"style": "@import url(\"https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap\");\n\nbody {\n  font-family: \"Sora\";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n  margin: 0;\n  padding: 0;\n  background: #fafaf9;\n  gap: 2.5em;\n}\n\n.card {\n  background: white;\n  padding: 16px;\n  border-radius: 16px;\n  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.1);\n  width: min-content;\n  margin: 0;\n}\n\n.card .img-container {\n  width: 336px;\n  height: 152px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border-radius: 8px;\n}\n\n.card .tags {\n  width: 336px;\n  overflow: hidden;\n  position: relative;\n}\n\n.card ul {\n  list-style: none;\n  padding: 0;\n  margin: 16px 0;\n  width: fit-content;\n  display: flex;\n  gap: 0.5em;\n}\n\n.card .tags::after {\n  height: 100%;\n  width: 25%;\n  background-image: linear-gradient(-90deg, white 50%, transparent);\n  content: \"\";\n  position: absolute;\n  right: -38px;\n  top: 0;\n  z-index: 5;\n}\n\n.card ul::-webkit-scrollbar {\n  display: none;\n}\n\n.card ul li {\n  padding: 4px 16px;\n  background-color: rgba(58, 225, 155, 0.25);\n  border-radius: 16px;\n  width: fit-content;\n  color: #04250c;\n  font-size: 0.625rem;\n  font-weight: 700;\n}\n\n.card h1 {\n  font-size: 1.125rem;\n  margin-bottom: 6px;\n  font-weight: 700;\n  color: #20293a;\n}\n\n.card p {\n  font-size: 0.875rem;\n  font-weight: 300;\n  margin: 0;\n  line-height: 1.5em;\n  color: #6c727f;\n  position: relative;\n}\n\n.card p:last-child {\n  margin-top: 20px;\n  padding-top: 20px;\n  font-size: 0.75rem;\n  font-weight: 400;\n}\n\n.card p:last-child::before {\n  content: \"\";\n  width: calc(100% + 32px);\n  height: 1px;\n  background: black;\n  position: absolute;\n  top: -1px;\n  left: -16px;\n  opacity: 0.1;\n}\n\n.card hr {\n  opacity: 0.1;\n  border-color: black;\n  position: absolute;\n}",
+	"html": "<div class=\"card\">\n  <div class=\"img-container\">\n    <img src=\"https://picsum.photos/600/400/\" width=\"336\" />\n  </div>\n  <div class=\"tags\">\n    <ul>\n      <li>Design</li>\n    </ul>\n  </div>\n  <h1>Lorem Ipsum Dolor</h1>\n  <p>\n     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam tempore asperiores nam! Distinctio laborum sapiente corporis\n  </p>\n  <p>Mert Can</p>\n</div>",
+	"script": ""
+}

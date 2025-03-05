@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Creative Loaders 4.0 – Text Bounce Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A text bounce loader with a playful animation and theme toggle for light and dark modes.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg: #f0f2f5;\n\t--text: #2d3436;\n\t--primary: #e74c3c;\n\t--secondary: #bdc3c7;\n\t--accent: #3498db;\n\t--transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #2d3436;\n\t--text: #f8f9fa;\n\t--primary: #e74c3c;\n\t--secondary: #636e72;\n\t--accent: #2980b9;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 50vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n/* Theme Toggle Buttons */\n.theme-container {\n\tposition: fixed;\n\ttop: 2rem;\n\tright: 2rem;\n\tdisplay: flex;\n\tgap: 1rem;\n}\n\n.theme-btn {\n\twidth: 3rem;\n\theight: 3rem;\n\tborder: none;\n\tborder-radius: 50%;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tcursor: pointer;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n\n/* Text Bounce Loader Styles */\n.text-loader {\n\tdisplay: flex;\n\tgap: 0.5rem;\n\tfont-weight: 600;\n\tfont-size: 1.5rem;\n}\n\n.text-loader span {\n\tdisplay: inline-block;\n\tanimation: textBounce 1.2s infinite ease;\n}\n\n@keyframes textBounce {\n\t0%,\n\t100% {\n\t\ttransform: translateY(0);\n\t}\n\t50% {\n\t\ttransform: translateY(-20px);\n\t}\n}\n",
+	"html": "\n<div class=\"theme-container\">\n\t<button class=\"theme-btn\" onclick=\"toggleTheme('light')\">🌞</button>\n\t<button class=\"theme-btn\" onclick=\"toggleTheme('dark')\">🌙</button>\n</div>\n\n<div class=\"text-loader\">\n\t<span style=\"animation-delay: 0.1s\">L</span>\n\t<span style=\"animation-delay: 0.2s\">O</span>\n\t<span style=\"animation-delay: 0.3s\">A</span>\n\t<span style=\"animation-delay: 0.4s\">D</span>\n\t<span style=\"animation-delay: 0.5s\">I</span>\n\t<span style=\"animation-delay: 0.6s\">N</span>\n\t<span style=\"animation-delay: 0.7s\">G</span>\n</div>\n",
+	"script": "function toggleTheme(theme) {\n\tdocument.body.setAttribute(\"data-theme\", theme);\n\tlocalStorage.setItem(\"theme\", theme);\n}\n\nconst savedTheme = localStorage.getItem(\"theme\") || \"light\";\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n"
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Orbital Dots Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A geometric loader animation featuring two dots orbiting around a central point. The loader supports light and dark themes and includes a theme toggle button.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg: #f8fafc;\n\t--text: #1e293b;\n\t--primary: #3b82f6;\n\t--secondary: #f59e0b;\n\t--loader-speed: 1.2s;\n\t--size: 50px;\n}\n[data-theme=\"dark\"] {\n\t--bg: #0f172a;\n\t--text: #f8fafc;\n\t--primary: #818cf8;\n\t--secondary: #fbbf24;\n}\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: all 0.3s ease;\n}\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tdisplay: grid;\n\tplace-items: center;\n\tfont-family: \"Inter\", system-ui;\n}\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--primary);\n\tborder: none;\n\tborder-radius: 50%;\n\tcursor: pointer;\n\ttransition: transform 0.3s;\n\tdisplay: grid;\n\tplace-items: center;\n}\n.theme-toggle svg {\n\twidth: 60%;\n\theight: 60%;\n\tfill: var(--bg);\n\ttransition: transform 0.3s;\n}\n.orbital-loader {\n\twidth: var(--size);\n\theight: var(--size);\n\tposition: relative;\n}\n.orbital-loader div {\n\twidth: 8px;\n\theight: 8px;\n\tbackground: var(--secondary);\n\tborder-radius: 50%;\n\tposition: absolute;\n\tanimation: orbit calc(var(--loader-speed) * 2) linear infinite;\n}\n.orbital-loader div:nth-child(2) {\n\tanimation-delay: -1s;\n}\n@keyframes orbit {\n\t0% {\n\t\ttransform: rotate(0deg) translateX(20px) rotate(0deg);\n\t}\n\t100% {\n\t\ttransform: rotate(360deg) translateX(20px) rotate(-360deg);\n\t}\n}\n",
+	"html": "<button class=\"theme-toggle\" onclick=\"toggleTheme()\">\n\t<svg viewBox=\"0 0 24 24\">\n\t\t<path d=\"M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-14v4m0 12v4M4.9 4.9l2.8 2.8m8.5 8.5l2.8 2.8M2 12h4m12 0h4M4.9 19.1l2.8-2.8m8.5-8.5l2.8-2.8\" />\n\t</svg>\n</button>\n<div class=\"orbital-loader\">\n\t<div></div>\n\t<div></div>\n</div>\n",
+	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst isDark = body.getAttribute(\"data-theme\") === \"dark\";\n\tbody.setAttribute(\"data-theme\", isDark ? \"\" : \"dark\");\n\tlocalStorage.setItem(\"geo-theme\", isDark ? \"light\" : \"dark\");\n\tconst toggle = document.querySelector(\".theme-toggle\");\n\ttoggle.style.transform = \"scale(0.9)\";\n\tsetTimeout(() => (toggle.style.transform = \"scale(1)\"), 100);\n}\nconst savedTheme = localStorage.getItem(\"geo-theme\");\nif (savedTheme === \"dark\") {\n\tdocument.body.setAttribute(\"data-theme\", \"dark\");\n}\n"
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Bouncing Dots Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A simple bouncing dots loader with a theme toggle functionality.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n    --bg: #f8f9fa;\n    --text: #212529;\n    --primary: #4a90e2;\n    --secondary: #e94d4d;\n    --loader-speed: 1.2s;\n}\n[data-theme=\"dark\"] {\n    --bg: #1a1a1a;\n    --text: #e8e8e8;\n    --primary: #6c5ce7;\n    --secondary: #ff7675;\n}\nbody {\n    margin: 0;\n    padding: 2rem;\n    min-height: 100vh;\n    background: var(--bg);\n    color: var(--text);\n    transition: all 0.3s ease;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    font-family: \"Segoe UI\", system-ui, sans-serif;\n}\n.bouncing-dots {\n    display: flex;\n    gap: 0.5rem;\n    justify-content: center;\n}\n.bouncing-dots div {\n    width: 16px;\n    height: 16px;\n    background: var(--primary);\n    border-radius: 50%;\n    animation: bounce var(--loader-speed) infinite ease-in-out;\n}\n.bouncing-dots div:nth-child(2) {\n    animation-delay: 0.2s;\n    background: var(--secondary);\n}\n.bouncing-dots div:nth-child(3) {\n    animation-delay: 0.4s;\n}\n@keyframes bounce {\n    0%,\n    80%,\n    100% {\n        transform: translateY(0);\n    }\n    40% {\n        transform: translateY(-20px);\n    }\n}\n.theme-toggle {\n    position: fixed;\n    top: 1rem;\n    right: 1rem;\n    padding: 0.75rem 1.25rem;\n    background: var(--primary);\n    color: var(--bg);\n    border: none;\n    border-radius: 8px;\n    cursor: pointer;\n    font-weight: 600;\n    transition: transform 0.2s;\n}\n.theme-toggle:hover {\n    transform: scale(1.05);\n}",
+	"html": "<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n<h1>Bouncing Dots Loader</h1>\n<div class=\"bouncing-dots\">\n    <div></div>\n    <div></div>\n    <div></div>\n</div>",
+	"script": "function toggleTheme() {\n    const body = document.body;\n    const currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n    const newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n    body.setAttribute(\"data-theme\", newTheme);\n    localStorage.setItem(\"loader-theme\", newTheme);\n}\n// Load saved theme\nconst savedTheme = localStorage.getItem(\"loader-theme\");\nif (savedTheme) {\n    document.body.setAttribute(\"data-theme\", savedTheme);\n}"
+}

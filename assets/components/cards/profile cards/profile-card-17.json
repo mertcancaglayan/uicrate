@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Elegant Profile Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A modern and elegant profile card with social icons and action buttons.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-22"
+	},
+	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tbackground: #f0f2f5;\n\tfont-family: \"Poppins\", sans-serif;\n}\n\n.profile-card {\n\tbackground: white;\n\tmax-width: 330px;\n\tborder-radius: 30px;\n\tbox-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);\n\ttext-align: center;\n\tpadding: 30px;\n\tposition: relative;\n}\n\n.profile-photo {\n\twidth: 110px;\n\theight: 110px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 5px solid white;\n\tbox-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n\tmargin-top: -25%;\n\tbackground: white;\n}\n\n.profile-card h2 {\n\tmargin: 10px 0 5px;\n\tfont-size: 24px;\n\tcolor: #333;\n}\n\n.profile-card p {\n\tcolor: #777;\n\tfont-size: 15px;\n\tmargin-bottom: 15px;\n}\n\n.social-icons {\n\tmargin: 15px 0;\n}\n\n.social-icons a {\n\tmargin: 0 10px;\n\tcolor: #007bff;\n\tfont-size: 22px;\n\ttransition: color 0.3s ease-in-out;\n}\n\n.social-icons a:hover {\n\tcolor: #0056b3;\n}\n\n.btn-container {\n\tdisplay: flex;\n\tjustify-content: center;\n\tgap: 15px;\n\tmargin-top: 10px;\n}\n\n.btn {\n\ttext-decoration: none;\n\tpadding: 10px 20px;\n\tborder-radius: 30px;\n\tborder: none;\n\tcursor: pointer;\n\tfont-size: 16px;\n\ttransition: background 0.3s ease-in-out;\n}\n\n.btn-follow {\n\tbackground: #007bff;\n\tcolor: white;\n}\n\n.btn-follow:hover {\n\tbackground: #0056b3;\n}\n\n.btn-message {\n\tbackground: #f4f4f4;\n\tcolor: #333;\n}\n\n.btn-message:hover {\n\tbackground: #ddd;\n}",
+	"html": "<div class=\"profile-card\">\n\t<img src=\"https://picsum.photos/110\" alt=\"Profile Image\" class=\"profile-photo\" />\n\t<h2>John Doe</h2>\n\t<p>UI/UX Designer</p>\n\t<div class=\"social-icons\">\n\t\t<a href=\"#\"><i class=\"fab fa-github\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\n\t</div>\n\t<div class=\"btn-container\">\n\t\t<button class=\"btn btn-follow\">Follow</button>\n\t\t<button class=\"btn btn-message\">Message</button>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
+	"script": ""
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Holographic Ring Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A neomorphic loader featuring a holographic ring with a gradient border animation. The loader supports light and dark themes and includes a theme toggle button.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg: #f0f2f5;\n\t--text: #2d3436;\n\t--primary: #4f46e5;\n\t--secondary: #ec4899;\n\t--shadow: 8px 8px 16px #d9dbe3, -8px -8px 16px #ffffff;\n\t--loader-speed: 3s;\n}\n[data-theme=\"dark\"] {\n\t--bg: #1a1c22;\n\t--text: #e8e8e8;\n\t--primary: #818cf8;\n\t--secondary: #f472b6;\n\t--shadow: 8px 8px 16px #0f1013, -8px -8px 16px #252831;\n}\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n}\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tdisplay: grid;\n\tplace-items: center;\n\tfont-family: \"Inter\", system-ui;\n}\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\twidth: 48px;\n\theight: 48px;\n\tborder-radius: 50%;\n\tbackground: var(--bg);\n\tbox-shadow: var(--shadow);\n\tcursor: pointer;\n\tdisplay: grid;\n\tplace-items: center;\n\ttransition: transform 0.3s;\n}\n.theme-toggle svg {\n\twidth: 24px;\n\theight: 24px;\n\tfill: var(--text);\n\ttransition: transform 0.3s;\n}\n.holographic-ring {\n\twidth: 60px;\n\theight: 60px;\n\tborder-radius: 50%;\n\tposition: relative;\n\tanimation: ringRotate var(--loader-speed) linear infinite;\n}\n.holographic-ring::before {\n\tcontent: \"\";\n\tposition: absolute;\n\tinset: 0;\n\tborder-radius: 50%;\n\tborder: 3px solid transparent;\n\tborder-top-color: var(--primary);\n\tborder-bottom-color: var(--secondary);\n\tmask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);\n\tmask-composite: exclude;\n\tpadding: 3px;\n}\n@keyframes ringRotate {\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+	"html": "<button class=\"theme-toggle\" onclick=\"toggleTheme()\">\n\t<svg viewBox=\"0 0 24 24\">\n\t\t<path d=\"M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-14v4m0 12v4M4.9 4.9l2.8 2.8m8.5 8.5l2.8 2.8M2 12h4m12 0h4M4.9 19.1l2.8-2.8m8.5-8.5l2.8-2.8\" />\n\t</svg>\n</button>\n<div class=\"holographic-ring\"></div>\n",
+	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst isDark = body.getAttribute(\"data-theme\") === \"dark\";\n\tbody.setAttribute(\"data-theme\", isDark ? \"\" : \"dark\");\n\tlocalStorage.setItem(\"neo-theme\", isDark ? \"light\" : \"dark\");\n\tconst toggle = document.querySelector(\".theme-toggle\");\n\ttoggle.style.transform = \"scale(0.9) rotate(180deg)\";\n\tsetTimeout(() => (toggle.style.transform = \"scale(1) rotate(0deg)\"), 300);\n}\nconst savedTheme = localStorage.getItem(\"neo-theme\");\nif (savedTheme === \"dark\") {\n\tdocument.body.setAttribute(\"data-theme\", \"dark\");\n}\n"
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Modern Gradient Hero",
+		"type": "sections",
+		"category": "hero",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A modern gradient hero section with animated elements and a call-to-action button.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-25"
+	},
+	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tfont-family: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nbody {\n\tbackground: #0f172a;\n}\n\n.hero {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tpadding: 120px 5% 60px;\n\tposition: relative;\n\toverflow: hidden;\n}\n\n.hero-content {\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tposition: relative;\n\tz-index: 1;\n\tcolor: white;\n}\n\n.hero-grid {\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n\tgap: 4rem;\n\talign-items: center;\n}\n\n.hero-text h1 {\n\tfont-size: clamp(2.5rem, 5vw, 4rem);\n\tline-height: 1.1;\n\tmargin-bottom: 1.5rem;\n\tbackground: linear-gradient(45deg, #7dd3fc, #38bdf8);\n\t-webkit-background-clip: text;\n\tbackground-clip: text;\n\t-webkit-text-fill-color: transparent;\n}\n\n.hero-text p {\n\tfont-size: 1.1rem;\n\tline-height: 1.6;\n\tcolor: #cbd5e1;\n\tmargin-bottom: 2rem;\n}\n\n.cta-button {\n\tdisplay: inline-flex;\n\talign-items: center;\n\tpadding: 1rem 2rem;\n\tbackground: linear-gradient(45deg, #38bdf8, #7dd3fc);\n\tcolor: white;\n\tborder: none;\n\tborder-radius: 0.5rem;\n\tfont-weight: 600;\n\ttext-decoration: none;\n\ttransition: transform 0.3s ease;\n}\n\n.cta-button:hover {\n\ttransform: translateY(-3px);\n}\n\n.hero-image {\n\tposition: relative;\n\tborder-radius: 1rem;\n\toverflow: hidden;\n\taspect-ratio: 1/1;\n\tbackground: url('https://picsum.photos/800/800') center/cover;\n\tbox-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);\n}\n\n.stats {\n\tposition: absolute;\n\tbottom: -1px;\n\tleft: -1px;\n\tbackground: rgba(15, 23, 42, 0.9);\n\tpadding: 1.5rem;\n\tborder-radius: 0 1rem 0 0;\n\tbackdrop-filter: blur(10px);\n\tz-index: 999;\n}\n\n.stat-item {\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 1rem;\n}\n\n.stat-number {\n\tfont-size: 1.5rem;\n\tfont-weight: 700;\n\tcolor: #38bdf8;\n}\n",
+	"html": "<section class=\"hero\">\n\t<div class=\"gradient-blob\" style=\"top: 20%; right: 10%\"></div>\n\t<div class=\"gradient-blob\" style=\"bottom: 20%; left: 10%\"></div>\n\t<div class=\"hero-content\">\n\t\t<div class=\"hero-grid\">\n\t\t\t<div class=\"hero-text\">\n\t\t\t\t<h1>Transform Your Digital Experience</h1>\n\t\t\t\t<p>Create stunning digital solutions with our cutting-edge platform designed for modern businesses and innovators.</p>\n\t\t\t\t<a href=\"#\" class=\"cta-button\">Start Free Trial</a>\n\t\t\t</div>\n\t\t\t<div class=\"hero-image\">\n\t\t\t\t<div class=\"stats\">\n\t\t\t\t\t<div class=\"stat-item\">\n\t\t\t\t\t\t<div class=\"stat-number\">99%</div>\n\t\t\t\t\t\t<div class=\"stat-label\">Customer Satisfaction</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n",
+	"script": ""
+}

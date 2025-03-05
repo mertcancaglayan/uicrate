@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Infinite Carousel",
+		"type": "UI Components",
+		"category": "sliders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A responsive carousel slider with smooth animation and hover pause functionality.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-26"
+	},
+	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\theight: 100dvh;\n\tbackground-color: rgb(27, 27, 27);\n}\n\n.carousel {\n\tmax-width: 1400px;\n\tmargin: 0 auto;\n\toverflow: hidden;\n}\n\n.carousel-items {\n\tdisplay: flex;\n\tanimation: carouselSlide 6s infinite forwards;\n}\n\n.carousel-item {\n\tmin-width: 600px;\n\twidth: 600px;\n\theight: 600px;\n}\n\n.carousel-item img {\n\twidth: 100%;\n\tobject-fit: cover;\n}\n\n.carousel:hover .carousel-items {\n\tanimation-play-state: paused;\n}\n\n@keyframes carouselSlide {\n\t100% {\n\t\ttransform: translateX(-2400px);\n\t}\n}\n",
+	"html": "<div class=\"carousel\">\n\t<div class=\"carousel-items\">\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/237/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/238/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/239/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/240/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/237/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/238/600/600\" alt=\"\" />\n\t\t</div>\n\t\t<div class=\"carousel-item\">\n\t\t\t<img src=\"https://picsum.photos/id/239/600/600\" alt=\"\" />\n\t\t</div>\n\t</div>\n</div>\n",
+	"script": ""
+}

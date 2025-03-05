@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Simple Profile Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A clean and simple profile card with hover effects and social icons.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-22"
+	},
+	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tbackground: #f4f4f4;\n\tfont-family: Arial, sans-serif;\n}\n\n.profile-card {\n\tbackground: white;\n\twidth: 300px;\n\tpadding: 20px;\n\ttext-align: center;\n\tborder-radius: 15px;\n\tbox-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n\ttransition: transform 0.3s ease-in-out;\n}\n\n.profile-card:hover {\n\ttransform: translateY(-5px);\n}\n\n.profile-card img {\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 4px solid #007bff;\n}\n\n.profile-card h2 {\n\tmargin: 15px 0 5px;\n\tfont-size: 22px;\n}\n\n.profile-card p {\n\tcolor: #666;\n\tfont-size: 14px;\n}\n\n.social-icons {\n\tmargin-top: 15px;\n}\n\n.social-icons a {\n\tmargin: 0 8px;\n\tcolor: #007bff;\n\tfont-size: 20px;\n\ttransition: color 0.3s ease-in-out;\n}\n\n.social-icons a:hover {\n\tcolor: #0056b3;\n}",
+	"html": "<div class=\"profile-card\">\n\t<img src=\"https://picsum.photos/100\" alt=\"Profile Image\" />\n\t<h2>John Doe</h2>\n\t<p>Frontend Developer</p>\n\t<div class=\"social-icons\">\n\t\t<a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-github\"></i></a>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\" />",
+	"script": ""
+}

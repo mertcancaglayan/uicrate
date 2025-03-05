@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Nature Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A beautiful nature card with an image and description of a serene scene, complete with icons for features and a call-to-action button.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-24"
+	},
+	"style": "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: \"Arial\", sans-serif;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n  background-color: #f9f9f9;\n}\n\n.card {\n  width: 400px;\n  max-width: 90%;\n  border-radius: 16px;\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);\n  overflow: hidden;\n  background: white;\n  transition: transform 0.3s ease;\n}\n\n.card:hover {\n  transform: translateY(-5px);\n}\n\n.card img {\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  position: relative;\n}\n\n.card-content {\n  padding: 20px;\n}\n\n.title {\n  font-size: 1.8rem;\n  font-weight: bold;\n  color: #2a5934;\n}\n\n.description {\n  font-size: 1rem;\n  color: #555;\n  margin: 10px 0;\n}\n\n.features {\n  display: flex;\n  gap: 15px;\n  margin-top: 15px;\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background: #2a5934;\n  color: white;\n  font-size: 1.4rem;\n}\n\n.button {\n  display: inline-block;\n  text-transform: uppercase;\n  background: #2a5934;\n  color: white;\n  padding: 10px 20px;\n  border-radius: 24px;\n  margin-top: 20px;\n  text-align: center;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.button:hover {\n  background: #1d4424;\n}\n\n@media (max-width: 768px) {\n  .card {\n    width: 90%;\n  }\n}",
+	"html": "<div class=\"card\">\n  <div class=\"image-container\">\n    <img src=\"https://picsum.photos/400/200?nature\" alt=\"Nature scenery\" />\n  </div>\n  <div class=\"card-content\">\n    <div class=\"title\">Beautiful Nature Scene</div>\n    <p class=\"description\">\n      Experience the serenity and beauty of nature through this captivating scene. Enjoy fresh air and\n      stunning landscapes.\n    </p>\n    <div class=\"features\">\n      <div class=\"feature-item\">🌿</div>\n      <div class=\"feature-item\">🌳</div>\n      <div class=\"feature-item\">🌞</div>\n    </div>\n    <div class=\"button\">Explore More</div>\n  </div>\n</div>",
+	"script": ""
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Nature Website Card - Unique Layout",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A unique layout card featuring nature with a striking image and a call-to-action button for users to start their journey.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-24"
+	},
+	"style": "* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: \"Arial\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #ecf0f1;\n}\n\n.card-container {\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n\tbackground: white;\n\tborder-radius: 16px;\n\tbox-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);\n\tmax-width: 700px;\n\toverflow: hidden;\n}\n\n.card-image {\n\tbackground: url(\"https://picsum.photos/340/340?random=5\") center/cover no-repeat;\n\theight: 100%;\n\tmin-height: 300px;\n}\n\n.card-content {\n\tpadding: 24px;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n}\n\n.card-title {\n\tfont-size: 2rem;\n\tcolor: #2c3e50;\n\tmargin-bottom: 10px;\n}\n\n.card-text {\n\tfont-size: 1rem;\n\tcolor: #34495e;\n\tline-height: 1.6;\n}\n\n.button {\n\tdisplay: inline-block;\n\tmargin-top: 16px;\n\tpadding: 12px 24px;\n\tbackground-color: #16a085;\n\tcolor: white;\n\tborder: none;\n\tborder-radius: 6px;\n\ttext-decoration: none;\n\tfont-size: 1rem;\n\ttransition: background-color 0.3s;\n\ttext-align: center;\n}\n\n.button:hover {\n\tbackground-color: #12876d;\n}\n\n@media (max-width: 600px) {\n\t.card-container {\n\t\tgrid-template-columns: 1fr;\n\t}\n\t.card-image {\n\t\theight: 200px;\n\t}\n}",
+	"html": "<div class=\"card-container\">\n\t<div class=\"card-image\"></div>\n\t<div class=\"card-content\">\n\t\t<h2 class=\"card-title\">Reconnect with Nature</h2>\n\t\t<p class=\"card-text\">\n\t\t\tDiscover hidden gems in the heart of nature. Let the vibrant wilderness refresh your senses and restore peace to your soul.\n\t\t</p>\n\t\t<a href=\"#\" class=\"button\">Start Your Journey</a>\n\t</div>\n</div>",
+	"script": ""
+}

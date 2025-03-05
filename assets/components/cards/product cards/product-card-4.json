@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Simple Product Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A clean and modern product card with an image, title, description, price, and 'Add to Cart' button.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-21"
+	},
+	"style": "* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: \"Arial\", sans-serif;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground-color: #f8f9fa;\n}\n\n.card {\n\tmax-width: 300px;\n\tbackground: white;\n\tborder-radius: 16px;\n\toverflow: hidden;\n\tbox-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n\ttransition: 0.3s ease;\n}\n\n.card:hover {\n\ttransform: translateY(-5px);\n\tbox-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);\n}\n\n.card img {\n\twidth: 100%;\n\theight: auto;\n}\n\n.card-content {\n\tpadding: 16px;\n}\n\n.card-title {\n\tfont-size: 1.4rem;\n\tfont-weight: bold;\n\tmargin-bottom: 8px;\n}\n\n.card-description {\n\tfont-size: 0.9rem;\n\tcolor: #555;\n\tmargin-bottom: 16px;\n}\n\n.price {\n\tfont-size: 1.2rem;\n\tcolor: #333;\n\tfont-weight: bold;\n\tmargin-bottom: 12px;\n}\n\n.btn {\n\tdisplay: inline-block;\n\ttext-align: center;\n\tbackground-color: #007bff;\n\tcolor: white;\n\tpadding: 10px 20px;\n\tborder: none;\n\tborder-radius: 8px;\n\ttext-decoration: none;\n\ttransition: background-color 0.2s ease;\n}\n\n.btn:hover {\n\tbackground-color: #0056b3;\n}",
+	"html": "<div class=\"card\">\n\t<img src=\"https://picsum.photos/300/200\" alt=\"Product Image\" />\n\t<div class=\"card-content\">\n\t\t<h2 class=\"card-title\">Product Name</h2>\n\t\t<p class=\"card-description\">\n\t\t\tThis is a brief description of the product. It's stylish, affordable, and must-have!\n\t\t</p>\n\t\t<p class=\"price\">$29.99</p>\n\t\t<a href=\"#\" class=\"btn\">Add to Cart</a>\n\t</div>\n</div>",
+	"script": ""
+}
