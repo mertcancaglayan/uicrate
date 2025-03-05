@@ -9,7 +9,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "480c2916f1",
-    "file": "alerts\\alert-1.json"
+    "file": "alerts/alert-1.json"
   },
   {
     "name": "CSS Toast Notifications",
@@ -21,7 +21,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "0506a39fb2",
-    "file": "alerts\\alert-10.json"
+    "file": "alerts/alert-10.json"
   },
   {
     "name": "Notification System",
@@ -33,7 +33,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "6101bc6d14",
-    "file": "alerts\\alert-11.json"
+    "file": "alerts/alert-11.json"
   },
   {
     "name": "Material Notifications",
@@ -45,7 +45,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "ec90750c7d",
-    "file": "alerts\\alert-12.json"
+    "file": "alerts/alert-12.json"
   },
   {
     "name": "Enhanced Alert System",
@@ -57,7 +57,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "323eba571f",
-    "file": "alerts\\alert-13.json"
+    "file": "alerts/alert-13.json"
   },
   {
     "name": "Modern Alert System",
@@ -69,7 +69,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "a2562be9d3",
-    "file": "alerts\\alert-14.json"
+    "file": "alerts/alert-14.json"
   },
   {
     "name": "Notification Buttons with Dynamic Alerts",
@@ -81,7 +81,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "2e3b2605f4",
-    "file": "alerts\\alert-2.json"
+    "file": "alerts/alert-2.json"
   },
   {
     "name": "Working Alert System",
@@ -93,7 +93,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "923a2362f2",
-    "file": "alerts\\alert-3.json"
+    "file": "alerts/alert-3.json"
   },
   {
     "name": "Dark Theme Alerts with Theme Toggle",
@@ -105,7 +105,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "1eb3325e08",
-    "file": "alerts\\alert-4.json"
+    "file": "alerts/alert-4.json"
   },
   {
     "name": "Minimal Alerts with Theme Toggle",
@@ -117,7 +117,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "934c4f4ece",
-    "file": "alerts\\alert-5.json"
+    "file": "alerts/alert-5.json"
   },
   {
     "name": "Toast Notifications",
@@ -129,7 +129,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "5c80dc3a97",
-    "file": "alerts\\alert-6.json"
+    "file": "alerts/alert-6.json"
   },
   {
     "name": "Smart Notifications with Priority Levels",
@@ -141,7 +141,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "560c5e98fc",
-    "file": "alerts\\alert-7.json"
+    "file": "alerts/alert-7.json"
   },
   {
     "name": "Holo Notifications",
@@ -153,7 +153,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "b073e11d19",
-    "file": "alerts\\alert-8.json"
+    "file": "alerts/alert-8.json"
   },
   {
     "name": "Modern Toast Notifications",
@@ -165,7 +165,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "a3a2f36d5e",
-    "file": "alerts\\alert-9.json"
+    "file": "alerts/alert-9.json"
   },
   {
     "name": "Breadcrumbs with Theme Toggle",
@@ -177,7 +177,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "e44e0dc08c",
-    "file": "breadcrumbs\\breadcrumb-1.json"
+    "file": "breadcrumbs/breadcrumb-1.json"
   },
   {
     "name": "Neon Breadcrumb Navigation",
@@ -189,7 +189,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "3960f64640",
-    "file": "breadcrumbs\\breadcrumb-10.json"
+    "file": "breadcrumbs/breadcrumb-10.json"
   },
   {
     "name": "Modern Horizontal Breadcrumb",
@@ -201,7 +201,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "2f3eb8f8c9",
-    "file": "breadcrumbs\\breadcrumb-11.json"
+    "file": "breadcrumbs/breadcrumb-11.json"
   },
   {
     "name": "Circular Stepped Breadcrumb",
@@ -213,7 +213,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "9c9b9b1679",
-    "file": "breadcrumbs\\breadcrumb-12.json"
+    "file": "breadcrumbs/breadcrumb-12.json"
   },
   {
     "name": "Responsive Horizontal Breadcrumb",
@@ -225,7 +225,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "c156327d7c",
-    "file": "breadcrumbs\\breadcrumb-13.json"
+    "file": "breadcrumbs/breadcrumb-13.json"
   },
   {
     "name": "Breadcrumbs with Theme Toggle",
@@ -237,7 +237,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "88b2458a17",
-    "file": "breadcrumbs\\breadcrumb-2.json"
+    "file": "breadcrumbs/breadcrumb-2.json"
   },
   {
     "name": "Glassmorphism Breadcrumb",
@@ -249,7 +249,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "ed257908ec",
-    "file": "breadcrumbs\\breadcrumb-3.json"
+    "file": "breadcrumbs/breadcrumb-3.json"
   },
   {
     "name": "Stylish Breadcrumb with Theme Toggle",
@@ -261,7 +261,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "4441ae2142",
-    "file": "breadcrumbs\\breadcrumb-4.json"
+    "file": "breadcrumbs/breadcrumb-4.json"
   },
   {
     "name": "Modern Breadcrumb with Theme Toggle",
@@ -273,7 +273,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "acce81ae32",
-    "file": "breadcrumbs\\breadcrumb-5.json"
+    "file": "breadcrumbs/breadcrumb-5.json"
   },
   {
     "name": "Floating Breadcrumb with Theme Toggle",
@@ -285,7 +285,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "2d890b23b6",
-    "file": "breadcrumbs\\breadcrumb-6.json"
+    "file": "breadcrumbs/breadcrumb-6.json"
   },
   {
     "name": "Breadcrumbs with Theme Toggle",
@@ -297,7 +297,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "a3a19d55a5",
-    "file": "breadcrumbs\\breadcrumb-7.json"
+    "file": "breadcrumbs/breadcrumb-7.json"
   },
   {
     "name": "Adaptive Breadcrumb with Theme Toggle",
@@ -309,7 +309,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "37720fa338",
-    "file": "breadcrumbs\\breadcrumb-8.json"
+    "file": "breadcrumbs/breadcrumb-8.json"
   },
   {
     "name": "Gradient abart Breadcrumb with Theme Toggle",
@@ -321,7 +321,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "78e4816872",
-    "file": "breadcrumbs\\breadcrumb-9.json"
+    "file": "breadcrumbs/breadcrumb-9.json"
   },
   {
     "name": "Modern Hotel Card",
@@ -333,7 +333,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "f3c22986c0",
-    "file": "cards\\booking cards\\booking-card-1.json"
+    "file": "cards/booking cards/booking-card-1.json"
   },
   {
     "name": "Flight to Paris Card",
@@ -345,7 +345,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "f9ff256687",
-    "file": "cards\\booking cards\\booking-card-10.json"
+    "file": "cards/booking cards/booking-card-10.json"
   },
   {
     "name": "Car Rental Card",
@@ -357,7 +357,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "1c7d5fa569",
-    "file": "cards\\booking cards\\booking-card-11.json"
+    "file": "cards/booking cards/booking-card-11.json"
   },
   {
     "name": "Interactive Hotel Card",
@@ -369,7 +369,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "a8400c217a",
-    "file": "cards\\booking cards\\booking-card-12.json"
+    "file": "cards/booking cards/booking-card-12.json"
   },
   {
     "name": "Luxury Beach Resort Card",
@@ -381,7 +381,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "f875c0408e",
-    "file": "cards\\booking cards\\booking-card-13.json"
+    "file": "cards/booking cards/booking-card-13.json"
   },
   {
     "name": "Bali Cultural Tour Card",
@@ -393,7 +393,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "cef9ef38d7",
-    "file": "cards\\booking cards\\booking-card-14.json"
+    "file": "cards/booking cards/booking-card-14.json"
   },
   {
     "name": "Flight Booking Card",
@@ -405,7 +405,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "c9ceb07d2e",
-    "file": "cards\\booking cards\\booking-card-15.json"
+    "file": "cards/booking cards/booking-card-15.json"
   },
   {
     "name": "Car Rental Card",
@@ -417,7 +417,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "322c336289",
-    "file": "cards\\booking cards\\booking-card-16.json"
+    "file": "cards/booking cards/booking-card-16.json"
   },
   {
     "name": "Car Rental Booking Card",
@@ -429,7 +429,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "146db3fe27",
-    "file": "cards\\booking cards\\booking-card-17.json"
+    "file": "cards/booking cards/booking-card-17.json"
   },
   {
     "name": "Tesla Model S Card",
@@ -441,7 +441,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "2287c34b41",
-    "file": "cards\\booking cards\\booking-card-18.json"
+    "file": "cards/booking cards/booking-card-18.json"
   },
   {
     "name": "Booking Card",
@@ -453,7 +453,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "060653d48e",
-    "file": "cards\\booking cards\\booking-card-2.json"
+    "file": "cards/booking cards/booking-card-2.json"
   },
   {
     "name": "Luxury Ocean Suite Card",
@@ -465,7 +465,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "b95626859a",
-    "file": "cards\\booking cards\\booking-card-3.json"
+    "file": "cards/booking cards/booking-card-3.json"
   },
   {
     "name": "Travel Destination Cards",
@@ -477,7 +477,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "06dcb5b34f",
-    "file": "cards\\booking cards\\booking-card-4.json"
+    "file": "cards/booking cards/booking-card-4.json"
   },
   {
     "name": "Travel Destination Cards - Updated",
@@ -489,7 +489,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "5961253c67",
-    "file": "cards\\booking cards\\booking-card-5.json"
+    "file": "cards/booking cards/booking-card-5.json"
   },
   {
     "name": "Sunset Beach Resort Card",
@@ -501,7 +501,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "1a798a76dc",
-    "file": "cards\\booking cards\\booking-card-6.json"
+    "file": "cards/booking cards/booking-card-6.json"
   },
   {
     "name": "Tropical Private Villa Card",
@@ -513,7 +513,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "b81a758f0d",
-    "file": "cards\\booking cards\\booking-card-7.json"
+    "file": "cards/booking cards/booking-card-7.json"
   },
   {
     "name": "City Lights Hotel Booking Card",
@@ -525,7 +525,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "e7e28e7fd5",
-    "file": "cards\\booking cards\\booking-card-8.json"
+    "file": "cards/booking cards/booking-card-8.json"
   },
   {
     "name": "The Grand Hotel Card",
@@ -537,7 +537,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "3f881c9ec7",
-    "file": "cards\\booking cards\\booking-card-9.json"
+    "file": "cards/booking cards/booking-card-9.json"
   },
   {
     "name": "Statistics Cards",
@@ -549,7 +549,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "89b86caccd",
-    "file": "cards\\dashboard cards\\a-1.json"
+    "file": "cards/dashboard cards/a-1.json"
   },
   {
     "name": "Statistics Cards",
@@ -561,7 +561,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "6306784c8d",
-    "file": "cards\\dashboard cards\\a-2.json"
+    "file": "cards/dashboard cards/a-2.json"
   },
   {
     "name": "Dashboard Overview",
@@ -573,7 +573,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "b0879804f6",
-    "file": "cards\\dashboard cards\\a-3.json"
+    "file": "cards/dashboard cards/a-3.json"
   },
   {
     "name": "Dialog Component",
@@ -585,7 +585,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "b02e8370ee",
-    "file": "cards\\dialog cards\\dialog-card-1.json"
+    "file": "cards/dialog cards/dialog-card-1.json"
   },
   {
     "name": "Newsletter Subscription Dialog",
@@ -597,7 +597,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "9df60703c3",
-    "file": "cards\\dialog cards\\dialog-card-2.json"
+    "file": "cards/dialog cards/dialog-card-2.json"
   },
   {
     "name": "Image Gallery Card",
@@ -609,7 +609,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "2218237690",
-    "file": "cards\\gallery cards\\gallery-card-1.json"
+    "file": "cards/gallery cards/gallery-card-1.json"
   },
   {
     "name": "Image Gallery Card with Caption",
@@ -621,7 +621,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "873df1f2b3",
-    "file": "cards\\gallery cards\\gallery-card-2.json"
+    "file": "cards/gallery cards/gallery-card-2.json"
   },
   {
     "name": "Ninja Card Component",
@@ -633,7 +633,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "49a5f8e134",
-    "file": "cards\\gallery cards\\gallery-card-3.json"
+    "file": "cards/gallery cards/gallery-card-3.json"
   },
   {
     "name": "Card Hover Effect",
@@ -645,7 +645,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "55ae4c630c",
-    "file": "cards\\gallery cards\\gallery-card-4.json"
+    "file": "cards/gallery cards/gallery-card-4.json"
   },
   {
     "name": "Pricing Card with Toggle",
@@ -657,7 +657,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "8fc75fba58",
-    "file": "cards\\pricing cards\\pricing-cards-1.json"
+    "file": "cards/pricing cards/pricing-cards-1.json"
   },
   {
     "name": "Card Flipper",
@@ -669,7 +669,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "d9f85cf4f0",
-    "file": "cards\\pricing cards\\pricing-cards-10.json"
+    "file": "cards/pricing cards/pricing-cards-10.json"
   },
   {
     "name": "AWS-Style Pricing",
@@ -681,7 +681,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "2a66d5f071",
-    "file": "cards\\pricing cards\\pricing-cards-11.json"
+    "file": "cards/pricing cards/pricing-cards-11.json"
   },
   {
     "name": "Spotify-Style Pricing",
@@ -693,7 +693,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "d382b25178",
-    "file": "cards\\pricing cards\\pricing-cards-12.json"
+    "file": "cards/pricing cards/pricing-cards-12.json"
   },
   {
     "name": "Zoom-Style Pricing",
@@ -705,7 +705,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "c180e0543d",
-    "file": "cards\\pricing cards\\pricing-cards-13.json"
+    "file": "cards/pricing cards/pricing-cards-13.json"
   },
   {
     "name": "Pricing Cards for SaaS",
@@ -717,7 +717,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "675b370429",
-    "file": "cards\\pricing cards\\pricing-cards-2.json"
+    "file": "cards/pricing cards/pricing-cards-2.json"
   },
   {
     "name": "Modern Pricing Cards",
@@ -729,7 +729,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "23336e5cd0",
-    "file": "cards\\pricing cards\\pricing-cards-3.json"
+    "file": "cards/pricing cards/pricing-cards-3.json"
   },
   {
     "name": "Pricing Cards",
@@ -741,7 +741,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "6cfafb27c6",
-    "file": "cards\\pricing cards\\pricing-cards-4.json"
+    "file": "cards/pricing cards/pricing-cards-4.json"
   },
   {
     "name": "Pricing Cards",
@@ -753,7 +753,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "2351959512",
-    "file": "cards\\pricing cards\\pricing-cards-5.json"
+    "file": "cards/pricing cards/pricing-cards-5.json"
   },
   {
     "name": "Modern Pricing Cards with 3D Flip Effect",
@@ -765,7 +765,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "f38c7471e7",
-    "file": "cards\\pricing cards\\pricing-cards-6.json"
+    "file": "cards/pricing cards/pricing-cards-6.json"
   },
   {
     "name": "Minimal Pricing Cards",
@@ -777,7 +777,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "437e6cca41",
-    "file": "cards\\pricing cards\\pricing-cards-7.json"
+    "file": "cards/pricing cards/pricing-cards-7.json"
   },
   {
     "name": "Pricing Cards",
@@ -789,7 +789,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "c3223bbea0",
-    "file": "cards\\pricing cards\\pricing-cards-8.json"
+    "file": "cards/pricing cards/pricing-cards-8.json"
   },
   {
     "name": "Pricing Plans with Toggle",
@@ -801,7 +801,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "863e39afd7",
-    "file": "cards\\pricing cards\\pricing-cards-9.json"
+    "file": "cards/pricing cards/pricing-cards-9.json"
   },
   {
     "name": "Product Card",
@@ -813,7 +813,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "49a7e3c1a3",
-    "file": "cards\\product cards\\product-card-1.json"
+    "file": "cards/product cards/product-card-1.json"
   },
   {
     "name": "Product Card",
@@ -825,7 +825,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "bb18559b24",
-    "file": "cards\\product cards\\product-card-2.json"
+    "file": "cards/product cards/product-card-2.json"
   },
   {
     "name": "Product Card with Rating",
@@ -837,7 +837,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "9d2bd3018f",
-    "file": "cards\\product cards\\product-card-3.json"
+    "file": "cards/product cards/product-card-3.json"
   },
   {
     "name": "Simple Product Card",
@@ -849,7 +849,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "a1fd9d1668",
-    "file": "cards\\product cards\\product-card-4.json"
+    "file": "cards/product cards/product-card-4.json"
   },
   {
     "name": "Futuristic Product Card",
@@ -861,7 +861,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "594372a378",
-    "file": "cards\\product cards\\product-card-5.json"
+    "file": "cards/product cards/product-card-5.json"
   },
   {
     "name": "Comic-Style Product Card",
@@ -873,7 +873,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "aee574a5fa",
-    "file": "cards\\product cards\\product-card-6.json"
+    "file": "cards/product cards/product-card-6.json"
   },
   {
     "name": "Comic-Style Product Panel",
@@ -885,7 +885,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "859f860f94",
-    "file": "cards\\product cards\\product-card-7.json"
+    "file": "cards/product cards/product-card-7.json"
   },
   {
     "name": "Comic-Style Product with Power Stats",
@@ -897,7 +897,7 @@
     "author": "Admin",
     "date": "2025-02-21",
     "id": "d913b32c63",
-    "file": "cards\\product cards\\product-card-8.json"
+    "file": "cards/product cards/product-card-8.json"
   },
   {
     "name": "Profile Card with Contact Button",
@@ -909,7 +909,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "ef47ad0802",
-    "file": "cards\\profile cards\\profile-card-1.json"
+    "file": "cards/profile cards/profile-card-1.json"
   },
   {
     "name": "Profile Card with Follow Button",
@@ -921,7 +921,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "87569da6fa",
-    "file": "cards\\profile cards\\profile-card-10.json"
+    "file": "cards/profile cards/profile-card-10.json"
   },
   {
     "name": "Profile Card with Tabs",
@@ -933,7 +933,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "dfe49408be",
-    "file": "cards\\profile cards\\profile-card-11.json"
+    "file": "cards/profile cards/profile-card-11.json"
   },
   {
     "name": "Profile Card Flip with Dark/Light Theme Toggle",
@@ -945,7 +945,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "bc03665d69",
-    "file": "cards\\profile cards\\profile-card-12.json"
+    "file": "cards/profile cards/profile-card-12.json"
   },
   {
     "name": "Parallax Glassmorphic Profile Card",
@@ -957,7 +957,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "3f7f65d704",
-    "file": "cards\\profile cards\\profile-card-13.json"
+    "file": "cards/profile cards/profile-card-13.json"
   },
   {
     "name": "Simple Profile Card",
@@ -969,7 +969,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "7d46ee9a21",
-    "file": "cards\\profile cards\\profile-card-14.json"
+    "file": "cards/profile cards/profile-card-14.json"
   },
   {
     "name": "Gradient Profile Card",
@@ -981,7 +981,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "26e4e3466c",
-    "file": "cards\\profile cards\\profile-card-15.json"
+    "file": "cards/profile cards/profile-card-15.json"
   },
   {
     "name": "Minimalist Profile Card",
@@ -993,7 +993,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "e5ca4d4650",
-    "file": "cards\\profile cards\\profile-card-16.json"
+    "file": "cards/profile cards/profile-card-16.json"
   },
   {
     "name": "Elegant Profile Card",
@@ -1005,7 +1005,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "a7278f154f",
-    "file": "cards\\profile cards\\profile-card-17.json"
+    "file": "cards/profile cards/profile-card-17.json"
   },
   {
     "name": "Dark Profile Card",
@@ -1017,7 +1017,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "62134b20e4",
-    "file": "cards\\profile cards\\profile-card-18.json"
+    "file": "cards/profile cards/profile-card-18.json"
   },
   {
     "name": "Dark Profile Card with Stats and Skills",
@@ -1029,7 +1029,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "80d450a780",
-    "file": "cards\\profile cards\\profile-card-19.json"
+    "file": "cards/profile cards/profile-card-19.json"
   },
   {
     "name": "Profile Card with Social Links",
@@ -1041,7 +1041,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "5c65b5d7e6",
-    "file": "cards\\profile cards\\profile-card-2.json"
+    "file": "cards/profile cards/profile-card-2.json"
   },
   {
     "name": "Glass Card Profile",
@@ -1053,7 +1053,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "3cd27ba3c3",
-    "file": "cards\\profile cards\\profile-card-20.json"
+    "file": "cards/profile cards/profile-card-20.json"
   },
   {
     "name": "Profile Card",
@@ -1065,7 +1065,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "af2b9bd19a",
-    "file": "cards\\profile cards\\profile-card-21.json"
+    "file": "cards/profile cards/profile-card-21.json"
   },
   {
     "name": "Profile Card with Metrics",
@@ -1077,7 +1077,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "91a6dbd5fa",
-    "file": "cards\\profile cards\\profile-card-22.json"
+    "file": "cards/profile cards/profile-card-22.json"
   },
   {
     "name": "Profile Card with Social Icons",
@@ -1089,7 +1089,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "840b5adf2b",
-    "file": "cards\\profile cards\\profile-card-3.json"
+    "file": "cards/profile cards/profile-card-3.json"
   },
   {
     "name": "Profile Card with Expertise",
@@ -1101,7 +1101,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "9a51042d84",
-    "file": "cards\\profile cards\\profile-card-4.json"
+    "file": "cards/profile cards/profile-card-4.json"
   },
   {
     "name": "Profile Card with Social Links",
@@ -1113,7 +1113,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "563791a6ae",
-    "file": "cards\\profile cards\\profile-card-5.json"
+    "file": "cards/profile cards/profile-card-5.json"
   },
   {
     "name": "Profile Card",
@@ -1125,7 +1125,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "7e67f067cd",
-    "file": "cards\\profile cards\\profile-card-6.json"
+    "file": "cards/profile cards/profile-card-6.json"
   },
   {
     "name": "Profile Card",
@@ -1137,7 +1137,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "88036e96ee",
-    "file": "cards\\profile cards\\profile-card-7.json"
+    "file": "cards/profile cards/profile-card-7.json"
   },
   {
     "name": "Dark Theme Profile Card",
@@ -1149,7 +1149,7 @@
     "author": "Admin",
     "date": "2025-02-23",
     "id": "9b878ef822",
-    "file": "cards\\profile cards\\profile-card-8.json"
+    "file": "cards/profile cards/profile-card-8.json"
   },
   {
     "name": "Profile Card with Skills and Contact Button",
@@ -1161,7 +1161,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "b05e40b1c8",
-    "file": "cards\\profile cards\\profile-card-9.json"
+    "file": "cards/profile cards/profile-card-9.json"
   },
   {
     "name": "Goal Achievement and Coding Progress Cards",
@@ -1173,7 +1173,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "95a1ecd42b",
-    "file": "cards\\progress cards\\progress-card-1.json"
+    "file": "cards/progress cards/progress-card-1.json"
   },
   {
     "name": "Interactive Progress Cards",
@@ -1185,7 +1185,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "9bdb20c6ad",
-    "file": "cards\\progress cards\\progress-card-10.json"
+    "file": "cards/progress cards/progress-card-10.json"
   },
   {
     "name": "Interactive Progress Cards",
@@ -1197,7 +1197,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "4dba6d1a03",
-    "file": "cards\\progress cards\\progress-card-11.json"
+    "file": "cards/progress cards/progress-card-11.json"
   },
   {
     "name": "Progress Cards",
@@ -1209,7 +1209,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "c30e0bf3a2",
-    "file": "cards\\progress cards\\progress-card-12.json"
+    "file": "cards/progress cards/progress-card-12.json"
   },
   {
     "name": "Project Progress Card",
@@ -1221,7 +1221,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "01a5f62f9a",
-    "file": "cards\\progress cards\\progress-card-13.json"
+    "file": "cards/progress cards/progress-card-13.json"
   },
   {
     "name": "Progress Cards",
@@ -1233,7 +1233,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "e3559ecffd",
-    "file": "cards\\progress cards\\progress-card-14.json"
+    "file": "cards/progress cards/progress-card-14.json"
   },
   {
     "name": "Animated Progress Cards with Timeline",
@@ -1245,7 +1245,7 @@
     "author": "Admin",
     "date": "2024-02-22",
     "id": "d68d00274a",
-    "file": "cards\\progress cards\\progress-card-15.json"
+    "file": "cards/progress cards/progress-card-15.json"
   },
   {
     "name": "Progress Cards",
@@ -1257,7 +1257,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "e8151df553",
-    "file": "cards\\progress cards\\progress-card-16.json"
+    "file": "cards/progress cards/progress-card-16.json"
   },
   {
     "name": "Progress Cards - Light & Dark Mode",
@@ -1269,7 +1269,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "15cc57af69",
-    "file": "cards\\progress cards\\progress-card-17.json"
+    "file": "cards/progress cards/progress-card-17.json"
   },
   {
     "name": "Progress Cards with Dark Mode",
@@ -1281,7 +1281,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "cc225b842f",
-    "file": "cards\\progress cards\\progress-card-18.json"
+    "file": "cards/progress cards/progress-card-18.json"
   },
   {
     "name": "Fitness Tracker, Project Management, and Weather Cards",
@@ -1293,7 +1293,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "f899c7929a",
-    "file": "cards\\progress cards\\progress-card-19.json"
+    "file": "cards/progress cards/progress-card-19.json"
   },
   {
     "name": "Progress Cards with Light & Dark Mode",
@@ -1305,7 +1305,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "1424cd377e",
-    "file": "cards\\progress cards\\progress-card-2.json"
+    "file": "cards/progress cards/progress-card-2.json"
   },
   {
     "name": "Progress Cards with Unique Layout",
@@ -1317,7 +1317,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "3102e1ac0b",
-    "file": "cards\\progress cards\\progress-card-3.json"
+    "file": "cards/progress cards/progress-card-3.json"
   },
   {
     "name": "Progress Cards",
@@ -1329,7 +1329,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "d921580e22",
-    "file": "cards\\progress cards\\progress-card-4.json"
+    "file": "cards/progress cards/progress-card-4.json"
   },
   {
     "name": "Progress Cards with Light/Dark Mode",
@@ -1341,7 +1341,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "903e0aceb6",
-    "file": "cards\\progress cards\\progress-card-5.json"
+    "file": "cards/progress cards/progress-card-5.json"
   },
   {
     "name": "Progress Cards with Light/Dark Theme",
@@ -1353,7 +1353,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "62d2290f6b",
-    "file": "cards\\progress cards\\progress-card-6.json"
+    "file": "cards/progress cards/progress-card-6.json"
   },
   {
     "name": "Progress Cards",
@@ -1365,7 +1365,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "e8e3dc5bf4",
-    "file": "cards\\progress cards\\progress-card-7.json"
+    "file": "cards/progress cards/progress-card-7.json"
   },
   {
     "name": "Progress Cards",
@@ -1377,7 +1377,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "f085c793d5",
-    "file": "cards\\progress cards\\progress-card-8.json"
+    "file": "cards/progress cards/progress-card-8.json"
   },
   {
     "name": "Progress Card UI",
@@ -1389,7 +1389,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "1153274f0a",
-    "file": "cards\\progress cards\\progress-card-9.json"
+    "file": "cards/progress cards/progress-card-9.json"
   },
   {
     "name": "Product Card",
@@ -1401,7 +1401,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "be63f1f94b",
-    "file": "cards\\simple cards\\simple-card-1.json"
+    "file": "cards/simple cards/simple-card-1.json"
   },
   {
     "name": "Nature Website Card - Example 2",
@@ -1413,7 +1413,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "06ca621061",
-    "file": "cards\\simple cards\\simple-card-10.json"
+    "file": "cards/simple cards/simple-card-10.json"
   },
   {
     "name": "Minimalist Nature Card",
@@ -1425,7 +1425,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "51c6e92ac4",
-    "file": "cards\\simple cards\\simple-card-11.json"
+    "file": "cards/simple cards/simple-card-11.json"
   },
   {
     "name": "Nature Adventure Card",
@@ -1437,7 +1437,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "3c842fd099",
-    "file": "cards\\simple cards\\simple-card-12.json"
+    "file": "cards/simple cards/simple-card-12.json"
   },
   {
     "name": "Nature Website Card - Unique Layout",
@@ -1449,7 +1449,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "b769655a13",
-    "file": "cards\\simple cards\\simple-card-13.json"
+    "file": "cards/simple cards/simple-card-13.json"
   },
   {
     "name": "Nature Adventure Card",
@@ -1461,7 +1461,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "cad8ff39ed",
-    "file": "cards\\simple cards\\simple-card-14.json"
+    "file": "cards/simple cards/simple-card-14.json"
   },
   {
     "name": "Nature Split Card",
@@ -1473,7 +1473,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "1092cc82d8",
-    "file": "cards\\simple cards\\simple-card-15.json"
+    "file": "cards/simple cards/simple-card-15.json"
   },
   {
     "name": "Vertical Split Nature Card",
@@ -1485,7 +1485,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "52eb5a7ad0",
-    "file": "cards\\simple cards\\simple-card-16.json"
+    "file": "cards/simple cards/simple-card-16.json"
   },
   {
     "name": "Minimalist Nature Card",
@@ -1497,7 +1497,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "dedf9bba16",
-    "file": "cards\\simple cards\\simple-card-17.json"
+    "file": "cards/simple cards/simple-card-17.json"
   },
   {
     "name": "Interactive Nature Card",
@@ -1509,7 +1509,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "1190194775",
-    "file": "cards\\simple cards\\simple-card-18.json"
+    "file": "cards/simple cards/simple-card-18.json"
   },
   {
     "name": "Nature Card",
@@ -1521,7 +1521,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "03579e436b",
-    "file": "cards\\simple cards\\simple-card-19.json"
+    "file": "cards/simple cards/simple-card-19.json"
   },
   {
     "name": "Services Card",
@@ -1533,7 +1533,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "ee594a5dab",
-    "file": "cards\\simple cards\\simple-card-2.json"
+    "file": "cards/simple cards/simple-card-2.json"
   },
   {
     "name": "Nature Card",
@@ -1545,7 +1545,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "491bf1ab58",
-    "file": "cards\\simple cards\\simple-card-20.json"
+    "file": "cards/simple cards/simple-card-20.json"
   },
   {
     "name": "Nature Card - Horizontal Layout",
@@ -1557,7 +1557,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "585d465c33",
-    "file": "cards\\simple cards\\simple-card-21.json"
+    "file": "cards/simple cards/simple-card-21.json"
   },
   {
     "name": "Nature Card - Text Reveal on Hover",
@@ -1569,7 +1569,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "2ff51f0f33",
-    "file": "cards\\simple cards\\simple-card-22.json"
+    "file": "cards/simple cards/simple-card-22.json"
   },
   {
     "name": "Nature Card",
@@ -1581,7 +1581,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "4b904b754c",
-    "file": "cards\\simple cards\\simple-card-23.json"
+    "file": "cards/simple cards/simple-card-23.json"
   },
   {
     "name": "Minimalism Card",
@@ -1593,7 +1593,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "d439dffc12",
-    "file": "cards\\simple cards\\simple-card-24.json"
+    "file": "cards/simple cards/simple-card-24.json"
   },
   {
     "name": "Nature Card",
@@ -1605,7 +1605,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "5d4c1e05b7",
-    "file": "cards\\simple cards\\simple-card-3.json"
+    "file": "cards/simple cards/simple-card-3.json"
   },
   {
     "name": "Nature Card 2",
@@ -1617,7 +1617,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "292f1fd5c0",
-    "file": "cards\\simple cards\\simple-card-4.json"
+    "file": "cards/simple cards/simple-card-4.json"
   },
   {
     "name": "Floating Label Nature Card",
@@ -1629,7 +1629,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "fe993f8c78",
-    "file": "cards\\simple cards\\simple-card-5.json"
+    "file": "cards/simple cards/simple-card-5.json"
   },
   {
     "name": "Horizontal Nature Card",
@@ -1641,7 +1641,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "3f5979e6b5",
-    "file": "cards\\simple cards\\simple-card-6.json"
+    "file": "cards/simple cards/simple-card-6.json"
   },
   {
     "name": "Overlay Nature Card",
@@ -1653,7 +1653,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "219e6324a1",
-    "file": "cards\\simple cards\\simple-card-7.json"
+    "file": "cards/simple cards/simple-card-7.json"
   },
   {
     "name": "Nature Feature Card",
@@ -1665,7 +1665,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "ed331c12c4",
-    "file": "cards\\simple cards\\simple-card-8.json"
+    "file": "cards/simple cards/simple-card-8.json"
   },
   {
     "name": "Nature Website Card",
@@ -1677,7 +1677,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "9863b38054",
-    "file": "cards\\simple cards\\simple-card-9.json"
+    "file": "cards/simple cards/simple-card-9.json"
   },
   {
     "name": "Classic Testimonial Card",
@@ -1689,7 +1689,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "66d45d9a71",
-    "file": "cards\\testimonial cards\\t-1.json"
+    "file": "cards/testimonial cards/t-1.json"
   },
   {
     "name": "Testimonial Card Example",
@@ -1701,7 +1701,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "ee8c6f9ccd",
-    "file": "cards\\testimonial cards\\t-10.json"
+    "file": "cards/testimonial cards/t-10.json"
   },
   {
     "name": "Animated Testimonial Card",
@@ -1713,7 +1713,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "aada832333",
-    "file": "cards\\testimonial cards\\t-11.json"
+    "file": "cards/testimonial cards/t-11.json"
   },
   {
     "name": "Testimonial Card",
@@ -1725,7 +1725,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "fa8b88bb04",
-    "file": "cards\\testimonial cards\\t-12.json"
+    "file": "cards/testimonial cards/t-12.json"
   },
   {
     "name": "Modern Testimonial Card",
@@ -1737,7 +1737,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "2409a4b46f",
-    "file": "cards\\testimonial cards\\t-13.json"
+    "file": "cards/testimonial cards/t-13.json"
   },
   {
     "name": "Modern Testimonial Card",
@@ -1749,7 +1749,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "5f0829951d",
-    "file": "cards\\testimonial cards\\t-2.json"
+    "file": "cards/testimonial cards/t-2.json"
   },
   {
     "name": "Testimonial Card",
@@ -1761,7 +1761,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "840981088f",
-    "file": "cards\\testimonial cards\\t-3.json"
+    "file": "cards/testimonial cards/t-3.json"
   },
   {
     "name": "Testimonial Card Example",
@@ -1773,7 +1773,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "5f4179993c",
-    "file": "cards\\testimonial cards\\t-4.json"
+    "file": "cards/testimonial cards/t-4.json"
   },
   {
     "name": "Testimonial Card",
@@ -1785,7 +1785,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "b16845e909",
-    "file": "cards\\testimonial cards\\t-5.json"
+    "file": "cards/testimonial cards/t-5.json"
   },
   {
     "name": "Testimonial Card Example",
@@ -1797,7 +1797,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "99851b2164",
-    "file": "cards\\testimonial cards\\t-6.json"
+    "file": "cards/testimonial cards/t-6.json"
   },
   {
     "name": "Testimonial Card Example",
@@ -1809,7 +1809,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "6827bb9229",
-    "file": "cards\\testimonial cards\\t-7.json"
+    "file": "cards/testimonial cards/t-7.json"
   },
   {
     "name": "Testimonial Card v2",
@@ -1821,7 +1821,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "5be9fcd47b",
-    "file": "cards\\testimonial cards\\t-8.json"
+    "file": "cards/testimonial cards/t-8.json"
   },
   {
     "name": "Testimonial Card Example",
@@ -1833,7 +1833,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "068d52d7ad",
-    "file": "cards\\testimonial cards\\t-9.json"
+    "file": "cards/testimonial cards/t-9.json"
   },
   {
     "name": "Contact Form",
@@ -1845,7 +1845,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "37faf437fa",
-    "file": "contact form\\cntc-1.json"
+    "file": "contact form/cntc-1.json"
   },
   {
     "name": "Contact Form v2",
@@ -1857,7 +1857,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "0852e62387",
-    "file": "contact form\\cntc-2.json"
+    "file": "contact form/cntc-2.json"
   },
   {
     "name": "Minimalistic Contact Form",
@@ -1869,7 +1869,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "1b51bd7f65",
-    "file": "contact form\\cntc-3.json"
+    "file": "contact form/cntc-3.json"
   },
   {
     "name": "Clean Contact Form",
@@ -1881,7 +1881,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "8443bca71d",
-    "file": "contact form\\cntc-4.json"
+    "file": "contact form/cntc-4.json"
   },
   {
     "name": "Modern CTA Section",
@@ -1893,7 +1893,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "c51a7249e6",
-    "file": "cta section\\cta-1.json"
+    "file": "cta section/cta-1.json"
   },
   {
     "name": "Car Rental CTA",
@@ -1905,7 +1905,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "07abba2c06",
-    "file": "cta section\\cta-10.json"
+    "file": "cta section/cta-10.json"
   },
   {
     "name": "Car Rental CTA",
@@ -1917,7 +1917,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "d23a953509",
-    "file": "cta section\\cta-11.json"
+    "file": "cta section/cta-11.json"
   },
   {
     "name": "Car Rental CTA",
@@ -1929,7 +1929,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "f7da41b90a",
-    "file": "cta section\\cta-12.json"
+    "file": "cta section/cta-12.json"
   },
   {
     "name": "Car Rental CTA - Side Layout",
@@ -1941,7 +1941,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "11a9075070",
-    "file": "cta section\\cta-13.json"
+    "file": "cta section/cta-13.json"
   },
   {
     "name": "Car Rental CTA",
@@ -1953,7 +1953,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "36cc94f365",
-    "file": "cta section\\cta-14.json"
+    "file": "cta section/cta-14.json"
   },
   {
     "name": "Car Rental CTA",
@@ -1965,7 +1965,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "c040e671f9",
-    "file": "cta section\\cta-15.json"
+    "file": "cta section/cta-15.json"
   },
   {
     "name": "Car Rental CTA - Image Right",
@@ -1977,7 +1977,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "02972b830a",
-    "file": "cta section\\cta-16.json"
+    "file": "cta section/cta-16.json"
   },
   {
     "name": "Nutrition CTA",
@@ -1989,7 +1989,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "a32df34508",
-    "file": "cta section\\cta-17.json"
+    "file": "cta section/cta-17.json"
   },
   {
     "name": "Nutrition CTA",
@@ -2001,7 +2001,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "8a08a20f8e",
-    "file": "cta section\\cta-18.json"
+    "file": "cta section/cta-18.json"
   },
   {
     "name": "Gourmet CTA - Modern Layout",
@@ -2013,7 +2013,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "3d161e778a",
-    "file": "cta section\\cta-19.json"
+    "file": "cta section/cta-19.json"
   },
   {
     "name": "Modern CTA 2",
@@ -2025,7 +2025,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "7396b032ea",
-    "file": "cta section\\cta-2.json"
+    "file": "cta section/cta-2.json"
   },
   {
     "name": "Wellness CTA",
@@ -2037,7 +2037,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "b5f43010dc",
-    "file": "cta section\\cta-20.json"
+    "file": "cta section/cta-20.json"
   },
   {
     "name": "Gourmet CTA - Vertical Split",
@@ -2049,7 +2049,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "d7ecedf1e3",
-    "file": "cta section\\cta-21.json"
+    "file": "cta section/cta-21.json"
   },
   {
     "name": "Floating CTA Section",
@@ -2061,7 +2061,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "6644e793e9",
-    "file": "cta section\\cta-3.json"
+    "file": "cta section/cta-3.json"
   },
   {
     "name": "Modern CTA Section",
@@ -2073,7 +2073,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "47f2ce0b90",
-    "file": "cta section\\cta-4.json"
+    "file": "cta section/cta-4.json"
   },
   {
     "name": "Modern CTA 2",
@@ -2085,7 +2085,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "0005690dc7",
-    "file": "cta section\\cta-5.json"
+    "file": "cta section/cta-5.json"
   },
   {
     "name": "Centered CTA Layout",
@@ -2097,7 +2097,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "df848fe3f3",
-    "file": "cta section\\cta-6.json"
+    "file": "cta section/cta-6.json"
   },
   {
     "name": "Split Screen CTA",
@@ -2109,7 +2109,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "7939766181",
-    "file": "cta section\\cta-7.json"
+    "file": "cta section/cta-7.json"
   },
   {
     "name": "CTA Section 3",
@@ -2121,7 +2121,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "90167e3e13",
-    "file": "cta section\\cta-8.json"
+    "file": "cta section/cta-8.json"
   },
   {
     "name": "Car Rental CTA",
@@ -2133,7 +2133,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "7b63575303",
-    "file": "cta section\\cta-9.json"
+    "file": "cta section/cta-9.json"
   },
   {
     "name": "Modern Features Section",
@@ -2145,7 +2145,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "48a1fc0395",
-    "file": "features section\\features-1.json"
+    "file": "features section/features-1.json"
   },
   {
     "name": "Food Services Features",
@@ -2157,7 +2157,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "01ee9d2476",
-    "file": "features section\\features-10.json"
+    "file": "features section/features-10.json"
   },
   {
     "name": "Features Section",
@@ -2169,7 +2169,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "72f362afb3",
-    "file": "features section\\features-11.json"
+    "file": "features section/features-11.json"
   },
   {
     "name": "Gaming Features - Comic Style",
@@ -2181,7 +2181,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "3ef474b67b",
-    "file": "features section\\features-12.json"
+    "file": "features section/features-12.json"
   },
   {
     "name": "Travel Features",
@@ -2193,7 +2193,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "9e0629e887",
-    "file": "features section\\features-13.json"
+    "file": "features section/features-13.json"
   },
   {
     "name": "Travel Services",
@@ -2205,7 +2205,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "69fbde261b",
-    "file": "features section\\features-14.json"
+    "file": "features section/features-14.json"
   },
   {
     "name": "Travel Features",
@@ -2217,7 +2217,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "122b805d4f",
-    "file": "features section\\features-15.json"
+    "file": "features section/features-15.json"
   },
   {
     "name": "Car Rental Features",
@@ -2229,7 +2229,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "c9ec7cb900",
-    "file": "features section\\features-16.json"
+    "file": "features section/features-16.json"
   },
   {
     "name": "Car Rental Features",
@@ -2241,7 +2241,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "46443de328",
-    "file": "features section\\features-17.json"
+    "file": "features section/features-17.json"
   },
   {
     "name": "Hotel Features",
@@ -2253,7 +2253,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "d9bd50cf2b",
-    "file": "features section\\features-18.json"
+    "file": "features section/features-18.json"
   },
   {
     "name": "Hotel Features",
@@ -2265,7 +2265,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "5b36e71871",
-    "file": "features section\\features-19.json"
+    "file": "features section/features-19.json"
   },
   {
     "name": "Feature Cards with Side Icons",
@@ -2277,7 +2277,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "3c40a7ed35",
-    "file": "features section\\features-2.json"
+    "file": "features section/features-2.json"
   },
   {
     "name": "Car Rental Features",
@@ -2289,7 +2289,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "cdb9a4f814",
-    "file": "features section\\features-20.json"
+    "file": "features section/features-20.json"
   },
   {
     "name": "Hotel Features",
@@ -2301,7 +2301,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "69c22f1891",
-    "file": "features section\\features-21.json"
+    "file": "features section/features-21.json"
   },
   {
     "name": "Hotel Features",
@@ -2313,7 +2313,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "b1bd5271e9",
-    "file": "features section\\features-22.json"
+    "file": "features section/features-22.json"
   },
   {
     "name": "Hotel Features",
@@ -2325,7 +2325,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "d2cb1c5b75",
-    "file": "features section\\features-23.json"
+    "file": "features section/features-23.json"
   },
   {
     "name": "Tech Features",
@@ -2337,7 +2337,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "5a04a8752e",
-    "file": "features section\\features-24.json"
+    "file": "features section/features-24.json"
   },
   {
     "name": "Clothing Features",
@@ -2349,7 +2349,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "30983fddc5",
-    "file": "features section\\features-25.json"
+    "file": "features section/features-25.json"
   },
   {
     "name": "Gaming Features",
@@ -2361,7 +2361,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "225fcf404b",
-    "file": "features section\\features-26.json"
+    "file": "features section/features-26.json"
   },
   {
     "name": "Interior Design Features",
@@ -2373,7 +2373,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "cae1cdebc8",
-    "file": "features section\\features-27.json"
+    "file": "features section/features-27.json"
   },
   {
     "name": "Gaming Features - Cyberpunk Edition",
@@ -2385,7 +2385,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "92efac632a",
-    "file": "features section\\features-28.json"
+    "file": "features section/features-28.json"
   },
   {
     "name": "Gaming Features - Comic Style",
@@ -2397,7 +2397,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "2a31ffd134",
-    "file": "features section\\features-29.json"
+    "file": "features section/features-29.json"
   },
   {
     "name": "Gradient Feature Cards",
@@ -2409,7 +2409,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "b848c44d8b",
-    "file": "features section\\features-3.json"
+    "file": "features section/features-3.json"
   },
   {
     "name": "Fitness Features",
@@ -2421,7 +2421,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "e69fcee000",
-    "file": "features section\\features-4.json"
+    "file": "features section/features-4.json"
   },
   {
     "name": "Fitness Dashboard",
@@ -2433,7 +2433,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "f397515669",
-    "file": "features section\\features-5.json"
+    "file": "features section/features-5.json"
   },
   {
     "name": "Modern Features Section",
@@ -2445,7 +2445,7 @@
     "author": "Admin",
     "date": "2025-02-22",
     "id": "bc99b30cd2",
-    "file": "features section\\features-6.json"
+    "file": "features section/features-6.json"
   },
   {
     "name": "Modern Features 2",
@@ -2457,7 +2457,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "3edca7b039",
-    "file": "features section\\features-7.json"
+    "file": "features section/features-7.json"
   },
   {
     "name": "Nature Features",
@@ -2469,7 +2469,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "78a69b8335",
-    "file": "features section\\features-8.json"
+    "file": "features section/features-8.json"
   },
   {
     "name": "Eco Features",
@@ -2481,7 +2481,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "659b18ca8b",
-    "file": "features section\\features-9.json"
+    "file": "features section/features-9.json"
   },
   {
     "name": "Modern Footer",
@@ -2493,7 +2493,7 @@
     "author": "Admin",
     "date": "2025-02-24",
     "id": "89e9908b04",
-    "file": "footer\\footer-1.json"
+    "file": "footer/footer-1.json"
   },
   {
     "name": "Minimal Footer",
@@ -2505,7 +2505,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "6f85b5223c",
-    "file": "footer\\footer-10.json"
+    "file": "footer/footer-10.json"
   },
   {
     "name": "Professional Footer",
@@ -2517,7 +2517,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "88c4c4ff5f",
-    "file": "footer\\footer-11.json"
+    "file": "footer/footer-11.json"
   },
   {
     "name": "Creative Footer",
@@ -2529,7 +2529,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "19ce9cc4c6",
-    "file": "footer\\footer-12.json"
+    "file": "footer/footer-12.json"
   },
   {
     "name": "Modern Corporate Footer",
@@ -2541,7 +2541,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "c4efa3be9f",
-    "file": "footer\\footer-13.json"
+    "file": "footer/footer-13.json"
   },
   {
     "name": "Accessible Modern Footer",
@@ -2553,7 +2553,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "165b2aaf0f",
-    "file": "footer\\footer-14.json"
+    "file": "footer/footer-14.json"
   },
   {
     "name": "Split-Color Footer",
@@ -2565,7 +2565,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "0cb5d7f6df",
-    "file": "footer\\footer-15.json"
+    "file": "footer/footer-15.json"
   },
   {
     "name": "Curved Footer Design",
@@ -2577,7 +2577,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "e9878b15a9",
-    "file": "footer\\footer-16.json"
+    "file": "footer/footer-16.json"
   },
   {
     "name": "Business Footer",
@@ -2589,7 +2589,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "62f7a08981",
-    "file": "footer\\footer-17.json"
+    "file": "footer/footer-17.json"
   },
   {
     "name": "Footer with Theme Toggle",
@@ -2601,7 +2601,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "d09625684d",
-    "file": "footer\\footer-18.json"
+    "file": "footer/footer-18.json"
   },
   {
     "name": "Footer with Theme Toggle",
@@ -2613,7 +2613,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "cff140339e",
-    "file": "footer\\footer-19.json"
+    "file": "footer/footer-19.json"
   },
   {
     "name": "Modern Footer",
@@ -2625,7 +2625,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "3ad5dd3e45",
-    "file": "footer\\footer-2.json"
+    "file": "footer/footer-2.json"
   },
   {
     "name": "Advanced Footer with Theme Toggle",
@@ -2637,7 +2637,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "89f5e33711",
-    "file": "footer\\footer-20.json"
+    "file": "footer/footer-20.json"
   },
   {
     "name": "Glassmorphic Footer with Theme Toggle",
@@ -2649,7 +2649,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "5f1252a789",
-    "file": "footer\\footer-21.json"
+    "file": "footer/footer-21.json"
   },
   {
     "name": "Footer Section",
@@ -2661,7 +2661,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "dff0fb24de",
-    "file": "footer\\footer-22.json"
+    "file": "footer/footer-22.json"
   },
   {
     "name": "Advanced Interactive Footer",
@@ -2673,7 +2673,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "c7e5a45765",
-    "file": "footer\\footer-23.json"
+    "file": "footer/footer-23.json"
   },
   {
     "name": "Fluid Gradient Footer",
@@ -2685,7 +2685,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "70ab943af9",
-    "file": "footer\\footer-24.json"
+    "file": "footer/footer-24.json"
   },
   {
     "name": "Modern Mega Footer",
@@ -2697,7 +2697,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "361952fdac",
-    "file": "footer\\footer-25.json"
+    "file": "footer/footer-25.json"
   },
   {
     "name": "Cyberpunk Footer with Theme Toggle",
@@ -2709,7 +2709,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "aa1786dec2",
-    "file": "footer\\footer-26.json"
+    "file": "footer/footer-26.json"
   },
   {
     "name": "Morphing Footer Design",
@@ -2721,7 +2721,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "bf40c17482",
-    "file": "footer\\footer-27.json"
+    "file": "footer/footer-27.json"
   },
   {
     "name": "Modern Dynamic Footer",
@@ -2733,7 +2733,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "770137b634",
-    "file": "footer\\footer-28.json"
+    "file": "footer/footer-28.json"
   },
   {
     "name": "Holographic Footer",
@@ -2745,7 +2745,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "9de880316e",
-    "file": "footer\\footer-29.json"
+    "file": "footer/footer-29.json"
   },
   {
     "name": "Modern Footer Example 2",
@@ -2757,7 +2757,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "e74359af85",
-    "file": "footer\\footer-3.json"
+    "file": "footer/footer-3.json"
   },
   {
     "name": "Parallax Tilt Footer",
@@ -2769,7 +2769,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "f72b8e8831",
-    "file": "footer\\footer-30.json"
+    "file": "footer/footer-30.json"
   },
   {
     "name": "Modern Split Footer",
@@ -2781,7 +2781,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "58f1389499",
-    "file": "footer\\footer-31.json"
+    "file": "footer/footer-31.json"
   },
   {
     "name": "Modern Footer Example 2",
@@ -2793,7 +2793,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "7169517d63",
-    "file": "footer\\footer-4.json"
+    "file": "footer/footer-4.json"
   },
   {
     "name": "Modern Card Stack Footer",
@@ -2805,7 +2805,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "c338e12ad5",
-    "file": "footer\\footer-5.json"
+    "file": "footer/footer-5.json"
   },
   {
     "name": "Vertical Modern Footer",
@@ -2817,7 +2817,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "da5bf81b4a",
-    "file": "footer\\footer-6.json"
+    "file": "footer/footer-6.json"
   },
   {
     "name": "Modern Footer Example 3",
@@ -2829,7 +2829,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "5f47cc3607",
-    "file": "footer\\footer-7.json"
+    "file": "footer/footer-7.json"
   },
   {
     "name": "Modern Footer - No Images",
@@ -2841,7 +2841,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "e8b513e432",
-    "file": "footer\\footer-8.json"
+    "file": "footer/footer-8.json"
   },
   {
     "name": "Business Footer",
@@ -2853,7 +2853,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "7d9bcec7b3",
-    "file": "footer\\footer-9.json"
+    "file": "footer/footer-9.json"
   },
   {
     "name": "Modern Hero Section",
@@ -2865,7 +2865,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "12ca0d6716",
-    "file": "hero section\\hero-1.json"
+    "file": "hero section/hero-1.json"
   },
   {
     "name": "Car Rental Hero Section",
@@ -2877,7 +2877,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "19e5774fa1",
-    "file": "hero section\\hero-10.json"
+    "file": "hero section/hero-10.json"
   },
   {
     "name": "Premium Car Rental Hero",
@@ -2889,7 +2889,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "3283b0848c",
-    "file": "hero section\\hero-11.json"
+    "file": "hero section/hero-11.json"
   },
   {
     "name": "Urban Car Rental Hero Section",
@@ -2901,7 +2901,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "da9ed90143",
-    "file": "hero section\\hero-12.json"
+    "file": "hero section/hero-12.json"
   },
   {
     "name": "FreshBasket Hero and Categories",
@@ -2913,7 +2913,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "79ec30a0b1",
-    "file": "hero section\\hero-13.json"
+    "file": "hero section/hero-13.json"
   },
   {
     "name": "MarketPlus Hero and Categories",
@@ -2925,7 +2925,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "ef6a07e77c",
-    "file": "hero section\\hero-14.json"
+    "file": "hero section/hero-14.json"
   },
   {
     "name": "Modern Hero Section",
@@ -2937,7 +2937,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "fb1e2fb67f",
-    "file": "hero section\\hero-15.json"
+    "file": "hero section/hero-15.json"
   },
   {
     "name": "Car Rental Hero Section",
@@ -2949,7 +2949,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "faa3c025cc",
-    "file": "hero section\\hero-16.json"
+    "file": "hero section/hero-16.json"
   },
   {
     "name": "City Car Rentals Hero Section",
@@ -2961,7 +2961,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "d78060d975",
-    "file": "hero section\\hero-17.json"
+    "file": "hero section/hero-17.json"
   },
   {
     "name": "Fitness & Wellness Hero Section",
@@ -2973,7 +2973,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "8c58437149",
-    "file": "hero section\\hero-18.json"
+    "file": "hero section/hero-18.json"
   },
   {
     "name": "FinestMart Grocery Delivery Hero Section",
@@ -2985,7 +2985,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "b3d75613ea",
-    "file": "hero section\\hero-19.json"
+    "file": "hero section/hero-19.json"
   },
   {
     "name": "Modern Split Hero Section",
@@ -2997,7 +2997,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "8b0aa3c5e4",
-    "file": "hero section\\hero-2.json"
+    "file": "hero section/hero-2.json"
   },
   {
     "name": "Digital Solutions Agency Hero Section",
@@ -3009,7 +3009,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "b4b21bfa31",
-    "file": "hero section\\hero-20.json"
+    "file": "hero section/hero-20.json"
   },
   {
     "name": "Innovative Business Solutions Hero Section",
@@ -3021,7 +3021,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "37dd95f30c",
-    "file": "hero section\\hero-21.json"
+    "file": "hero section/hero-21.json"
   },
   {
     "name": "Travel Agency Hero Section",
@@ -3033,7 +3033,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "2cb3fc1325",
-    "file": "hero section\\hero-22.json"
+    "file": "hero section/hero-22.json"
   },
   {
     "name": "Travel Booking Hero Section",
@@ -3045,7 +3045,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "d8f8aeeecb",
-    "file": "hero section\\hero-23.json"
+    "file": "hero section/hero-23.json"
   },
   {
     "name": "Business Growth Hero Section",
@@ -3057,7 +3057,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "8e0621d2ef",
-    "file": "hero section\\hero-24.json"
+    "file": "hero section/hero-24.json"
   },
   {
     "name": "Modern Hero Section",
@@ -3069,7 +3069,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "a884e4fc3d",
-    "file": "hero section\\hero-3.json"
+    "file": "hero section/hero-3.json"
   },
   {
     "name": "Modern Hero Section V2",
@@ -3081,7 +3081,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "0430ac1a55",
-    "file": "hero section\\hero-4.json"
+    "file": "hero section/hero-4.json"
   },
   {
     "name": "CSS-Only Hero Section",
@@ -3093,7 +3093,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "6d2d7ba8ec",
-    "file": "hero section\\hero-5.json"
+    "file": "hero section/hero-5.json"
   },
   {
     "name": "Modern CSS-Only Hero",
@@ -3105,7 +3105,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "7ec11029fe",
-    "file": "hero section\\hero-6.json"
+    "file": "hero section/hero-6.json"
   },
   {
     "name": "Modern Gradient Hero",
@@ -3117,7 +3117,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "0282d5fdb8",
-    "file": "hero section\\hero-7.json"
+    "file": "hero section/hero-7.json"
   },
   {
     "name": "Modern Animated Hero",
@@ -3129,7 +3129,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "5840c2174c",
-    "file": "hero section\\hero-8.json"
+    "file": "hero section/hero-8.json"
   },
   {
     "name": "Diagonal Hero Section",
@@ -3141,7 +3141,7 @@
     "author": "Admin",
     "date": "2025-02-25",
     "id": "ebfb671c00",
-    "file": "hero section\\hero-9.json"
+    "file": "hero section/hero-9.json"
   },
   {
     "name": "Spinner Loader with Theme Toggle",
@@ -3153,7 +3153,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "eda88de068",
-    "file": "loaders\\loader-1.json"
+    "file": "loaders/loader-1.json"
   },
   {
     "name": "Wave Loader",
@@ -3165,7 +3165,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "36deac42b7",
-    "file": "loaders\\loader-10.json"
+    "file": "loaders/loader-10.json"
   },
   {
     "name": "Pulse Loader",
@@ -3177,7 +3177,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "49823c96b2",
-    "file": "loaders\\loader-11.json"
+    "file": "loaders/loader-11.json"
   },
   {
     "name": "Wave Loader",
@@ -3189,7 +3189,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "686fd836d9",
-    "file": "loaders\\loader-12.json"
+    "file": "loaders/loader-12.json"
   },
   {
     "name": "Circle Dash Loader",
@@ -3201,7 +3201,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d2aad1feac",
-    "file": "loaders\\loader-13.json"
+    "file": "loaders/loader-13.json"
   },
   {
     "name": "Folding Cube Loader",
@@ -3213,7 +3213,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "5096908a5b",
-    "file": "loaders\\loader-14.json"
+    "file": "loaders/loader-14.json"
   },
   {
     "name": "Neon Spinner",
@@ -3225,7 +3225,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "97b8333204",
-    "file": "loaders\\loader-15.json"
+    "file": "loaders/loader-15.json"
   },
   {
     "name": "Morphing Blob",
@@ -3237,7 +3237,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "033d61e136",
-    "file": "loaders\\loader-16.json"
+    "file": "loaders/loader-16.json"
   },
   {
     "name": "DNA Helix Loader",
@@ -3249,7 +3249,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "72e244d49c",
-    "file": "loaders\\loader-17.json"
+    "file": "loaders/loader-17.json"
   },
   {
     "name": "Ripple Loader",
@@ -3261,7 +3261,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "0a8e06eb0a",
-    "file": "loaders\\loader-18.json"
+    "file": "loaders/loader-18.json"
   },
   {
     "name": "Modern Loaders 3.0 - Progress Spinner",
@@ -3273,7 +3273,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "22d1111074",
-    "file": "loaders\\loader-19.json"
+    "file": "loaders/loader-19.json"
   },
   {
     "name": "Dot Pulse Loader with Theme Toggle",
@@ -3285,7 +3285,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "908a92edcb",
-    "file": "loaders\\loader-2.json"
+    "file": "loaders/loader-2.json"
   },
   {
     "name": "Cube Loader",
@@ -3297,7 +3297,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "dfcab26adc",
-    "file": "loaders\\loader-20.json"
+    "file": "loaders/loader-20.json"
   },
   {
     "name": "Modern Loaders 3.0 - Circle Fade Loader",
@@ -3309,7 +3309,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "266386c885",
-    "file": "loaders\\loader-21.json"
+    "file": "loaders/loader-21.json"
   },
   {
     "name": "Holographic Bars",
@@ -3321,7 +3321,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "202bc220a6",
-    "file": "loaders\\loader-22.json"
+    "file": "loaders/loader-22.json"
   },
   {
     "name": "Holographic Loaders - Particle Swarm",
@@ -3333,7 +3333,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "f7ed02480d",
-    "file": "loaders\\loader-23.json"
+    "file": "loaders/loader-23.json"
   },
   {
     "name": "Phase Rings",
@@ -3345,7 +3345,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "e54e360de0",
-    "file": "loaders\\loader-24.json"
+    "file": "loaders/loader-24.json"
   },
   {
     "name": "Creative Loaders 4.0 – Text Bounce Loader",
@@ -3357,7 +3357,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "667fe2a808",
-    "file": "loaders\\loader-25.json"
+    "file": "loaders/loader-25.json"
   },
   {
     "name": "Hexagon Loader",
@@ -3369,7 +3369,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "725c2dfca8",
-    "file": "loaders\\loader-26.json"
+    "file": "loaders/loader-26.json"
   },
   {
     "name": "Geometric Loaders – Pulsing Triangles",
@@ -3381,7 +3381,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "46a6273524",
-    "file": "loaders\\loader-27.json"
+    "file": "loaders/loader-27.json"
   },
   {
     "name": "Wave Bars Loader",
@@ -3393,7 +3393,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "0790e2dbfe",
-    "file": "loaders\\loader-28.json"
+    "file": "loaders/loader-28.json"
   },
   {
     "name": "Orbital Dots Loader",
@@ -3405,7 +3405,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "c7197911e4",
-    "file": "loaders\\loader-29.json"
+    "file": "loaders/loader-29.json"
   },
   {
     "name": "Spinning Circle Loader",
@@ -3417,7 +3417,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "7fb087766f",
-    "file": "loaders\\loader-3.json"
+    "file": "loaders/loader-3.json"
   },
   {
     "name": "3D Cube Loader",
@@ -3429,7 +3429,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "84c5d9d59c",
-    "file": "loaders\\loader-30.json"
+    "file": "loaders/loader-30.json"
   },
   {
     "name": "Holographic Ring Loader",
@@ -3441,7 +3441,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "f528a17a30",
-    "file": "loaders\\loader-31.json"
+    "file": "loaders/loader-31.json"
   },
   {
     "name": "Binary Loader",
@@ -3453,7 +3453,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "ca77f4d623",
-    "file": "loaders\\loader-32.json"
+    "file": "loaders/loader-32.json"
   },
   {
     "name": "Automatic Progress Loader",
@@ -3465,7 +3465,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d0e8ef230e",
-    "file": "loaders\\loader-33.json"
+    "file": "loaders/loader-33.json"
   },
   {
     "name": "Grid Dots Loader",
@@ -3477,7 +3477,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "80b7d5c373",
-    "file": "loaders\\loader-34.json"
+    "file": "loaders/loader-34.json"
   },
   {
     "name": "Wave Loading Spinner",
@@ -3489,7 +3489,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "317ccdc81e",
-    "file": "loaders\\loader-35.json"
+    "file": "loaders/loader-35.json"
   },
   {
     "name": "Neon Loading Screen",
@@ -3501,7 +3501,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d1cf1dee2c",
-    "file": "loaders\\loader-36.json"
+    "file": "loaders/loader-36.json"
   },
   {
     "name": "Neon Text Loading Screen",
@@ -3513,7 +3513,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "ac74024ebd",
-    "file": "loaders\\loader-37.json"
+    "file": "loaders/loader-37.json"
   },
   {
     "name": "Neon Dots Loading Screen",
@@ -3525,7 +3525,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "f08a0a3b60",
-    "file": "loaders\\loader-38.json"
+    "file": "loaders/loader-38.json"
   },
   {
     "name": "Subtle Loading Bar",
@@ -3537,7 +3537,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "7f3ee1c6a8",
-    "file": "loaders\\loader-39.json"
+    "file": "loaders/loader-39.json"
   },
   {
     "name": "Spinner Loader with Theme Toggle",
@@ -3549,7 +3549,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "12d1220fc3",
-    "file": "loaders\\loader-4.json"
+    "file": "loaders/loader-4.json"
   },
   {
     "name": "Dancing Dots",
@@ -3561,7 +3561,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d671309a18",
-    "file": "loaders\\loader-40.json"
+    "file": "loaders/loader-40.json"
   },
   {
     "name": "Bouncing Dots Loader with Theme Toggle",
@@ -3573,7 +3573,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "c220bc41b4",
-    "file": "loaders\\loader-5.json"
+    "file": "loaders/loader-5.json"
   },
   {
     "name": "Bouncing Dots Loader",
@@ -3585,7 +3585,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "74d5bfc792",
-    "file": "loaders\\loader-6.json"
+    "file": "loaders/loader-6.json"
   },
   {
     "name": "Progress Bar Loader",
@@ -3597,7 +3597,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "a56c3bb33c",
-    "file": "loaders\\loader-7.json"
+    "file": "loaders/loader-7.json"
   },
   {
     "name": "Rotating Squares Loader",
@@ -3609,7 +3609,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "2491e9ac05",
-    "file": "loaders\\loader-8.json"
+    "file": "loaders/loader-8.json"
   },
   {
     "name": "Rotating Squares Loader",
@@ -3621,7 +3621,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "4196f37d4d",
-    "file": "loaders\\loader-9.json"
+    "file": "loaders/loader-9.json"
   },
   {
     "name": "Login Form",
@@ -3633,7 +3633,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "bbc8eb2271",
-    "file": "login form\\login-form-1.json"
+    "file": "login form/login-form-1.json"
   },
   {
     "name": "Login & Signup Form",
@@ -3645,7 +3645,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "64fecd7820",
-    "file": "login form\\login-form-10.json"
+    "file": "login form/login-form-10.json"
   },
   {
     "name": "Login/Signup Form",
@@ -3657,7 +3657,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "bb79f99d45",
-    "file": "login form\\login-form-11.json"
+    "file": "login form/login-form-11.json"
   },
   {
     "name": "Modern Auth Form",
@@ -3669,7 +3669,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "ee2eb113e3",
-    "file": "login form\\login-form-12.json"
+    "file": "login form/login-form-12.json"
   },
   {
     "name": "Modern Login Form",
@@ -3681,7 +3681,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "c3a64e4777",
-    "file": "login form\\login-form-2.json"
+    "file": "login form/login-form-2.json"
   },
   {
     "name": "3D Auth Form",
@@ -3693,7 +3693,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "1b191f9539",
-    "file": "login form\\login-form-3.json"
+    "file": "login form/login-form-3.json"
   },
   {
     "name": "Themeable Login Form",
@@ -3705,7 +3705,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "264e522c59",
-    "file": "login form\\login-form-4.json"
+    "file": "login form/login-form-4.json"
   },
   {
     "name": "Login/Signup Form with Dark Mode",
@@ -3717,7 +3717,7 @@
     "author": "Admin",
     "date": "2024-02-26",
     "id": "5de82f3a8c",
-    "file": "login form\\login-form-5.json"
+    "file": "login form/login-form-5.json"
   },
   {
     "name": "Floating Login Form",
@@ -3729,7 +3729,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "f51db297b3",
-    "file": "login form\\login-form-6.json"
+    "file": "login form/login-form-6.json"
   },
   {
     "name": "Login/Signup Form",
@@ -3741,7 +3741,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "71597c92b2",
-    "file": "login form\\login-form-7.json"
+    "file": "login form/login-form-7.json"
   },
   {
     "name": "Split-Screen Auth Form",
@@ -3753,7 +3753,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "00103b6ba5",
-    "file": "login form\\login-form-8.json"
+    "file": "login form/login-form-8.json"
   },
   {
     "name": "Secure Login Form",
@@ -3765,7 +3765,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "5390e4708d",
-    "file": "login form\\login-form-9.json"
+    "file": "login form/login-form-9.json"
   },
   {
     "name": "Animated Navigation Bar with Theme Toggle",
@@ -3777,7 +3777,7 @@
     "author": "Admin",
     "date": "2023-10-10",
     "id": "870a850c31",
-    "file": "navigations\\mobile-tabbar-1.json"
+    "file": "navigations/mobile-tabbar-1.json"
   },
   {
     "name": "Animated Navigation Bar",
@@ -3789,7 +3789,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "c2edef189d",
-    "file": "navigations\\mobile-tabbar-2.json"
+    "file": "navigations/mobile-tabbar-2.json"
   },
   {
     "name": "Interactive Navigation Bar",
@@ -3801,7 +3801,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "c0fa7f710d",
-    "file": "navigations\\mobile-tabbar-3.json"
+    "file": "navigations/mobile-tabbar-3.json"
   },
   {
     "name": "Interactive Navigation Bar",
@@ -3813,7 +3813,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "24312bad2c",
-    "file": "navigations\\mobile-tabbar-4.json"
+    "file": "navigations/mobile-tabbar-4.json"
   },
   {
     "name": "Sidebar Navigation",
@@ -3825,7 +3825,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "bf95360746",
-    "file": "navigations\\sidebar-1.json"
+    "file": "navigations/sidebar-1.json"
   },
   {
     "name": "Modern Stylish Sidebar",
@@ -3837,7 +3837,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "ad1eb18166",
-    "file": "navigations\\sidebar-2.json"
+    "file": "navigations/sidebar-2.json"
   },
   {
     "name": "Modern Sidebar v2",
@@ -3849,7 +3849,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "a9b7703357",
-    "file": "navigations\\sidebar-3.json"
+    "file": "navigations/sidebar-3.json"
   },
   {
     "name": "Glassmorphism Sidebar",
@@ -3861,7 +3861,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "a3772cb942",
-    "file": "navigations\\sidebar-4.json"
+    "file": "navigations/sidebar-4.json"
   },
   {
     "name": "Expandable Sidebar",
@@ -3873,7 +3873,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "2e54012bea",
-    "file": "navigations\\sidebar-5.json"
+    "file": "navigations/sidebar-5.json"
   },
   {
     "name": "Modern Collapsible Sidebar",
@@ -3885,7 +3885,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "acd25948f0",
-    "file": "navigations\\sidebar-6.json"
+    "file": "navigations/sidebar-6.json"
   },
   {
     "name": "Modern Collapsible Sidebar",
@@ -3897,7 +3897,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "5ddc6c2324",
-    "file": "navigations\\sidebar-7.json"
+    "file": "navigations/sidebar-7.json"
   },
   {
     "name": "Responsive Navbar",
@@ -3909,7 +3909,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "8d385089e6",
-    "file": "navigations\\simple-navbar-1.json"
+    "file": "navigations/simple-navbar-1.json"
   },
   {
     "name": "Modern Responsive Navbar",
@@ -3921,7 +3921,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "defe6a5e4c",
-    "file": "navigations\\simple-navbar-2.json"
+    "file": "navigations/simple-navbar-2.json"
   },
   {
     "name": "Advanced Responsive Navbar",
@@ -3933,7 +3933,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "a3e8eca651",
-    "file": "navigations\\simple-navbar-3.json"
+    "file": "navigations/simple-navbar-3.json"
   },
   {
     "name": "Premium Navigation",
@@ -3945,7 +3945,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "8e27982b6f",
-    "file": "navigations\\simple-navbar-4.json"
+    "file": "navigations/simple-navbar-4.json"
   },
   {
     "name": "Gradient Theme Navbar",
@@ -3957,7 +3957,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "06be47dcea",
-    "file": "navigations\\simple-navbar-5.json"
+    "file": "navigations/simple-navbar-5.json"
   },
   {
     "name": "Responsive Navbar with Animated Hamburger Menu",
@@ -3969,7 +3969,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "ef4db5196e",
-    "file": "navigations\\simple-navbar-6.json"
+    "file": "navigations/simple-navbar-6.json"
   },
   {
     "name": "Modern Flat Navbar with Slide Animation",
@@ -3981,7 +3981,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "dca7679c52",
-    "file": "navigations\\simple-navbar-7.json"
+    "file": "navigations/simple-navbar-7.json"
   },
   {
     "name": "Dark Theme Navbar",
@@ -3993,7 +3993,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "4f1b8400d2",
-    "file": "navigations\\simple-navbar-8.json"
+    "file": "navigations/simple-navbar-8.json"
   },
   {
     "name": "Modern Card Carousel",
@@ -4005,7 +4005,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "e994a8accf",
-    "file": "sliders\\carousel-1.json"
+    "file": "sliders/carousel-1.json"
   },
   {
     "name": "Infinite Carousel",
@@ -4017,7 +4017,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "2bb36ea0a9",
-    "file": "sliders\\carousel-2.json"
+    "file": "sliders/carousel-2.json"
   },
   {
     "name": "Modern Carousel",
@@ -4029,7 +4029,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "02d96a685b",
-    "file": "sliders\\carousel-3.json"
+    "file": "sliders/carousel-3.json"
   },
   {
     "name": "Modern Carousel",
@@ -4041,7 +4041,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "370dd8848b",
-    "file": "sliders\\carousel-4.json"
+    "file": "sliders/carousel-4.json"
   },
   {
     "name": "3D Rotating Image Slider",
@@ -4053,7 +4053,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "00730bdfb8",
-    "file": "sliders\\carousel-5.json"
+    "file": "sliders/carousel-5.json"
   },
   {
     "name": "Modern Image Slider",
@@ -4065,7 +4065,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "1848891c43",
-    "file": "sliders\\slider-1.json"
+    "file": "sliders/slider-1.json"
   },
   {
     "name": "Simple Modern Slider",
@@ -4077,7 +4077,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "826339472c",
-    "file": "sliders\\slider-10.json"
+    "file": "sliders/slider-10.json"
   },
   {
     "name": "3D Circular Carousel",
@@ -4089,7 +4089,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "1ff18ad91b",
-    "file": "sliders\\slider-11.json"
+    "file": "sliders/slider-11.json"
   },
   {
     "name": "Vanilla JS Image Slider",
@@ -4101,7 +4101,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "5c7e66a1b2",
-    "file": "sliders\\slider-12.json"
+    "file": "sliders/slider-12.json"
   },
   {
     "name": "Image Slider",
@@ -4113,7 +4113,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "67c72d85e2",
-    "file": "sliders\\slider-13.json"
+    "file": "sliders/slider-13.json"
   },
   {
     "name": "Vertical Parallax Carousel",
@@ -4125,7 +4125,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "ce76160fcc",
-    "file": "sliders\\slider-14.json"
+    "file": "sliders/slider-14.json"
   },
   {
     "name": "Image Slider",
@@ -4137,7 +4137,7 @@
     "author": "Admin",
     "date": "2025-02-27",
     "id": "da515c522d",
-    "file": "sliders\\slider-15.json"
+    "file": "sliders/slider-15.json"
   },
   {
     "name": "Modern Card Slider",
@@ -4149,7 +4149,7 @@
     "author": "Admin",
     "date": "2025-02-27",
     "id": "cfe655bf14",
-    "file": "sliders\\slider-16.json"
+    "file": "sliders/slider-16.json"
   },
   {
     "name": "Thumbnail Carousel",
@@ -4161,7 +4161,7 @@
     "author": "Admin",
     "date": "2025-02-27",
     "id": "8e4e1109a4",
-    "file": "sliders\\slider-17.json"
+    "file": "sliders/slider-17.json"
   },
   {
     "name": "Modern Image Slider",
@@ -4173,7 +4173,7 @@
     "author": "Admin",
     "date": "2025-02-26",
     "id": "82f5eac6cd",
-    "file": "sliders\\slider-2.json"
+    "file": "sliders/slider-2.json"
   },
   {
     "name": "Modern Vertical Slider",
@@ -4185,7 +4185,7 @@
     "author": "Admin",
     "date": "2023-10-26",
     "id": "466962fcc9",
-    "file": "sliders\\slider-3.json"
+    "file": "sliders/slider-3.json"
   },
   {
     "name": "Modern Card Slider",
@@ -4197,7 +4197,7 @@
     "author": "Admin",
     "date": "2025-02-27",
     "id": "b328933a0c",
-    "file": "sliders\\slider-4.json"
+    "file": "sliders/slider-4.json"
   },
   {
     "name": "Vertical Card Slider",
@@ -4209,7 +4209,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "9dadddb44b",
-    "file": "sliders\\slider-5.json"
+    "file": "sliders/slider-5.json"
   },
   {
     "name": "Fade Transition Slider",
@@ -4221,7 +4221,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "d044f827a8",
-    "file": "sliders\\slider-6.json"
+    "file": "sliders/slider-6.json"
   },
   {
     "name": "Scroll Snap Slider",
@@ -4233,7 +4233,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "fd6d10488c",
-    "file": "sliders\\slider-7.json"
+    "file": "sliders/slider-7.json"
   },
   {
     "name": "3D Carousel Slider",
@@ -4245,7 +4245,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "46ef415013",
-    "file": "sliders\\slider-8.json"
+    "file": "sliders/slider-8.json"
   },
   {
     "name": "Preview Slider",
@@ -4257,7 +4257,7 @@
     "author": "Admin",
     "date": "2023-10-27",
     "id": "a20d35562a",
-    "file": "sliders\\slider-9.json"
+    "file": "sliders/slider-9.json"
   },
   {
     "name": "Social Icons with Theme Toggle",
@@ -4269,7 +4269,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "a4a12468a6",
-    "file": "socials\\socials-1.json"
+    "file": "socials/socials-1.json"
   },
   {
     "name": "Modern Social Icons with Smooth Transitions",
@@ -4281,7 +4281,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "cb134d69a5",
-    "file": "socials\\socials-10.json"
+    "file": "socials/socials-10.json"
   },
   {
     "name": "Floating Social Dock with Tooltips",
@@ -4293,7 +4293,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "57a81dab0d",
-    "file": "socials\\socials-11.json"
+    "file": "socials/socials-11.json"
   },
   {
     "name": "Orbital Social Menu",
@@ -4305,7 +4305,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "c7e670d805",
-    "file": "socials\\socials-12.json"
+    "file": "socials/socials-12.json"
   },
   {
     "name": "Textual Social Links",
@@ -4317,7 +4317,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "278f25ffb3",
-    "file": "socials\\socials-13.json"
+    "file": "socials/socials-13.json"
   },
   {
     "name": "Radial Social Bloom Menu",
@@ -4329,7 +4329,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "4af3005505",
-    "file": "socials\\socials-14.json"
+    "file": "socials/socials-14.json"
   },
   {
     "name": "Themeable Social Icons",
@@ -4341,7 +4341,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "e53f16a67a",
-    "file": "socials\\socials-15.json"
+    "file": "socials/socials-15.json"
   },
   {
     "name": "Gradient Social Icons",
@@ -4353,7 +4353,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "e2d0709732",
-    "file": "socials\\socials-16.json"
+    "file": "socials/socials-16.json"
   },
   {
     "name": "Morphing Social Icons",
@@ -4365,7 +4365,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "1e573f55b6",
-    "file": "socials\\socials-17.json"
+    "file": "socials/socials-17.json"
   },
   {
     "name": "Wave Social Menu",
@@ -4377,7 +4377,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "3c2a8c1a8b",
-    "file": "socials\\socials-18.json"
+    "file": "socials/socials-18.json"
   },
   {
     "name": "Circular Social Menu",
@@ -4389,7 +4389,7 @@
     "author": "Admin",
     "date": "2025-03-04",
     "id": "d4e13da332",
-    "file": "socials\\socials-19.json"
+    "file": "socials/socials-19.json"
   },
   {
     "name": "Themeable Social Links",
@@ -4401,7 +4401,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "dcaa9d74da",
-    "file": "socials\\socials-2.json"
+    "file": "socials/socials-2.json"
   },
   {
     "name": "Modern Social Links with Theme Storage",
@@ -4413,7 +4413,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "70ff8d280f",
-    "file": "socials\\socials-3.json"
+    "file": "socials/socials-3.json"
   },
   {
     "name": "Floating Social Icons with Theme Switch",
@@ -4425,7 +4425,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "d3e8bb3c64",
-    "file": "socials\\socials-4.json"
+    "file": "socials/socials-4.json"
   },
   {
     "name": "Card Social Links with Theme Switch",
@@ -4437,7 +4437,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "2b11f15d89",
-    "file": "socials\\socials-5.json"
+    "file": "socials/socials-5.json"
   },
   {
     "name": "Minimal Social Links with Theme Storage",
@@ -4449,7 +4449,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "973199c7d4",
-    "file": "socials\\socials-6.json"
+    "file": "socials/socials-6.json"
   },
   {
     "name": "Gradient Social Links with Theme Switch",
@@ -4461,7 +4461,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "d5db1aca58",
-    "file": "socials\\socials-7.json"
+    "file": "socials/socials-7.json"
   },
   {
     "name": "Neomorphic Social Links",
@@ -4473,7 +4473,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "053c6ff34f",
-    "file": "socials\\socials-8.json"
+    "file": "socials/socials-8.json"
   },
   {
     "name": "Minimal Social Links with Theme Toggle",
@@ -4485,7 +4485,7 @@
     "author": "Admin",
     "date": "2025-03-03",
     "id": "57d1549ced",
-    "file": "socials\\socials-9.json"
+    "file": "socials/socials-9.json"
   },
   {
     "name": "Modern Responsive Tabs",
@@ -4497,7 +4497,7 @@
     "author": "Admin",
     "date": "2025-02-27",
     "id": "4984854ea1",
-    "file": "tabs\\tab-1.json"
+    "file": "tabs/tab-1.json"
   },
   {
     "name": "Tabs with Sliding Indicator & Theme Toggle",
@@ -4509,7 +4509,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "2a31a6a7bf",
-    "file": "tabs\\tab-10.json"
+    "file": "tabs/tab-10.json"
   },
   {
     "name": "Sidebar Tabs with Theme Toggle",
@@ -4521,7 +4521,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "0014349c61",
-    "file": "tabs\\tab-11.json"
+    "file": "tabs/tab-11.json"
   },
   {
     "name": "Modern Tabs with Dropdown",
@@ -4533,7 +4533,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "2117af1b98",
-    "file": "tabs\\tab-12.json"
+    "file": "tabs/tab-12.json"
   },
   {
     "name": "Modern Tabs with Theme Toggle",
@@ -4545,7 +4545,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "e778489f89",
-    "file": "tabs\\tab-13.json"
+    "file": "tabs/tab-13.json"
   },
   {
     "name": "Radio Button Tabs",
@@ -4557,7 +4557,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "14c0c323b2",
-    "file": "tabs\\tab-14.json"
+    "file": "tabs/tab-14.json"
   },
   {
     "name": "Tabs with Theme Toggle",
@@ -4569,7 +4569,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "811cade3a6",
-    "file": "tabs\\tab-15.json"
+    "file": "tabs/tab-15.json"
   },
   {
     "name": "Advanced Tabs with Theme Control",
@@ -4581,7 +4581,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "b1b11027cf",
-    "file": "tabs\\tab-16.json"
+    "file": "tabs/tab-16.json"
   },
   {
     "name": "Animated Gradient Tabs",
@@ -4593,7 +4593,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "e9184207aa",
-    "file": "tabs\\tab-17.json"
+    "file": "tabs/tab-17.json"
   },
   {
     "name": "Modern Vertical Tabs",
@@ -4605,7 +4605,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "5d3bb21b39",
-    "file": "tabs\\tab-18.json"
+    "file": "tabs/tab-18.json"
   },
   {
     "name": "Material Style Swipeable Tabs",
@@ -4617,7 +4617,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "c86d116569",
-    "file": "tabs\\tab-19.json"
+    "file": "tabs/tab-19.json"
   },
   {
     "name": "Responsive Website Tabs",
@@ -4629,7 +4629,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "cca6efa6d4",
-    "file": "tabs\\tab-2.json"
+    "file": "tabs/tab-2.json"
   },
   {
     "name": "Card Style Tabs",
@@ -4641,7 +4641,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "f6877de2c3",
-    "file": "tabs\\tab-20.json"
+    "file": "tabs/tab-20.json"
   },
   {
     "name": "Neomorphic Dynamic Tabs",
@@ -4653,7 +4653,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "3fb49319cb",
-    "file": "tabs\\tab-21.json"
+    "file": "tabs/tab-21.json"
   },
   {
     "name": "Glassmorphism Tabs",
@@ -4665,7 +4665,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "bd9a375d61",
-    "file": "tabs\\tab-22.json"
+    "file": "tabs/tab-22.json"
   },
   {
     "name": "Circular Indicator Tabs",
@@ -4677,7 +4677,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "384d32820a",
-    "file": "tabs\\tab-23.json"
+    "file": "tabs/tab-23.json"
   },
   {
     "name": "Glassmorphic Tabs",
@@ -4689,7 +4689,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "a0e77063f0",
-    "file": "tabs\\tab-24.json"
+    "file": "tabs/tab-24.json"
   },
   {
     "name": "Modern Animated Tabs",
@@ -4701,7 +4701,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "3035e45132",
-    "file": "tabs\\tab-25.json"
+    "file": "tabs/tab-25.json"
   },
   {
     "name": "Modern Sliding Tabs",
@@ -4713,7 +4713,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d944dfa1a7",
-    "file": "tabs\\tab-26.json"
+    "file": "tabs/tab-26.json"
   },
   {
     "name": "Floating Blob Tabs",
@@ -4725,7 +4725,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "ba8fe364ff",
-    "file": "tabs\\tab-27.json"
+    "file": "tabs/tab-27.json"
   },
   {
     "name": "Floating Tab System",
@@ -4737,7 +4737,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "56e94ead83",
-    "file": "tabs\\tab-28.json"
+    "file": "tabs/tab-28.json"
   },
   {
     "name": "Luxury Tabs",
@@ -4749,7 +4749,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "06d4b57457",
-    "file": "tabs\\tab-29.json"
+    "file": "tabs/tab-29.json"
   },
   {
     "name": "Responsive Vertical/Horizontal Tabs",
@@ -4761,7 +4761,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "b3bb89a175",
-    "file": "tabs\\tab-3.json"
+    "file": "tabs/tab-3.json"
   },
   {
     "name": "Modern Tabs Variation",
@@ -4773,7 +4773,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "38fb8c9b08",
-    "file": "tabs\\tab-4.json"
+    "file": "tabs/tab-4.json"
   },
   {
     "name": "Icon Enhanced Tabs",
@@ -4785,7 +4785,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "c1b61a325b",
-    "file": "tabs\\tab-5.json"
+    "file": "tabs/tab-5.json"
   },
   {
     "name": "Tabs with Theme Toggle",
@@ -4797,7 +4797,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "374191cb74",
-    "file": "tabs\\tab-6.json"
+    "file": "tabs/tab-6.json"
   },
   {
     "name": "Vertical Tabs with Theme Toggle",
@@ -4809,7 +4809,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "3c3c0ee795",
-    "file": "tabs\\tab-7.json"
+    "file": "tabs/tab-7.json"
   },
   {
     "name": "Card Tabs with Theme Toggle",
@@ -4821,7 +4821,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "f2118dc16a",
-    "file": "tabs\\tab-8.json"
+    "file": "tabs/tab-8.json"
   },
   {
     "name": "Modern Responsive Tabs",
@@ -4833,7 +4833,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "6e23797baa",
-    "file": "tabs\\tab-9.json"
+    "file": "tabs/tab-9.json"
   },
   {
     "name": "Testimonial Section",
@@ -4845,7 +4845,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "230f0e4668",
-    "file": "testimonial section\\testimonial-1.json"
+    "file": "testimonial section/testimonial-1.json"
   },
   {
     "name": "Animated Testimonial Section",
@@ -4857,7 +4857,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "5514cb1315",
-    "file": "testimonial section\\testimonial-10.json"
+    "file": "testimonial section/testimonial-10.json"
   },
   {
     "name": "Timeline Testimonials",
@@ -4869,7 +4869,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "512b723705",
-    "file": "testimonial section\\testimonial-11.json"
+    "file": "testimonial section/testimonial-11.json"
   },
   {
     "name": "3D Testimonial Cards",
@@ -4881,7 +4881,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "652d1a2ac9",
-    "file": "testimonial section\\testimonial-12.json"
+    "file": "testimonial section/testimonial-12.json"
   },
   {
     "name": "Testimonial Slider",
@@ -4893,7 +4893,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "5f76b37124",
-    "file": "testimonial section\\testimonial-2.json"
+    "file": "testimonial section/testimonial-2.json"
   },
   {
     "name": "Testimonial Section with Dark Mode",
@@ -4905,7 +4905,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "74bd51c08d",
-    "file": "testimonial section\\testimonial-3.json"
+    "file": "testimonial section/testimonial-3.json"
   },
   {
     "name": "Testimonial Slider with Dark Mode",
@@ -4917,7 +4917,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "f6764ecce6",
-    "file": "testimonial section\\testimonial-4.json"
+    "file": "testimonial section/testimonial-4.json"
   },
   {
     "name": "Modern Testimonials with Theme Toggle",
@@ -4929,7 +4929,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "afde36cdff",
-    "file": "testimonial section\\testimonial-5.json"
+    "file": "testimonial section/testimonial-5.json"
   },
   {
     "name": "Modern Testimonial Cards",
@@ -4941,7 +4941,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "2997fde002",
-    "file": "testimonial section\\testimonial-6.json"
+    "file": "testimonial section/testimonial-6.json"
   },
   {
     "name": "Grid Testimonial Section",
@@ -4953,7 +4953,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "d820097fb6",
-    "file": "testimonial section\\testimonial-7.json"
+    "file": "testimonial section/testimonial-7.json"
   },
   {
     "name": "Testimonial Carousel",
@@ -4965,7 +4965,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "e3c4253063",
-    "file": "testimonial section\\testimonial-8.json"
+    "file": "testimonial section/testimonial-8.json"
   },
   {
     "name": "Floating Testimonial Cards",
@@ -4977,7 +4977,7 @@
     "author": "Admin",
     "date": "2025-02-29",
     "id": "c35a970991",
-    "file": "testimonial section\\testimonial-9.json"
+    "file": "testimonial section/testimonial-9.json"
   },
   {
     "name": "Modern Toggle Button",
@@ -4989,7 +4989,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "fd4e4f7853",
-    "file": "toggle\\toggle-1.json"
+    "file": "toggle/toggle-1.json"
   },
   {
     "name": "Floating Morph Toggle",
@@ -5001,7 +5001,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "dffbf69fe1",
-    "file": "toggle\\toggle-10.json"
+    "file": "toggle/toggle-10.json"
   },
   {
     "name": "Vertical Toggle Switch",
@@ -5013,7 +5013,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "9118473967",
-    "file": "toggle\\toggle-11.json"
+    "file": "toggle/toggle-11.json"
   },
   {
     "name": "Hamburger Toggle Button",
@@ -5025,7 +5025,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "46edec7680",
-    "file": "toggle\\toggle-12.json"
+    "file": "toggle/toggle-12.json"
   },
   {
     "name": "Modern Pill Toggle",
@@ -5037,7 +5037,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "43ddfa7d00",
-    "file": "toggle\\toggle-2.json"
+    "file": "toggle/toggle-2.json"
   },
   {
     "name": "Modern Dark Toggle Switch",
@@ -5049,7 +5049,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "c55cf1b9a9",
-    "file": "toggle\\toggle-3.json"
+    "file": "toggle/toggle-3.json"
   },
   {
     "name": "Animated Flip Toggle",
@@ -5061,7 +5061,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "9935bf3cba",
-    "file": "toggle\\toggle-4.json"
+    "file": "toggle/toggle-4.json"
   },
   {
     "name": "Icon Toggle Button",
@@ -5073,7 +5073,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "689be64560",
-    "file": "toggle\\toggle-5.json"
+    "file": "toggle/toggle-5.json"
   },
   {
     "name": "Neumorphic Toggle Switch",
@@ -5085,7 +5085,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "d2540b8a0a",
-    "file": "toggle\\toggle-6.json"
+    "file": "toggle/toggle-6.json"
   },
   {
     "name": "3D Flip Toggle",
@@ -5097,7 +5097,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "0a2b3ad20c",
-    "file": "toggle\\toggle-7.json"
+    "file": "toggle/toggle-7.json"
   },
   {
     "name": "Gradient Slide Toggle",
@@ -5109,7 +5109,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "0cee1893e7",
-    "file": "toggle\\toggle-8.json"
+    "file": "toggle/toggle-8.json"
   },
   {
     "name": "Pulsating Circle Toggle",
@@ -5121,7 +5121,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "48cc8a102b",
-    "file": "toggle\\toggle-9.json"
+    "file": "toggle/toggle-9.json"
   },
   {
     "name": "Modern Tooltips with Theme Toggle",
@@ -5133,7 +5133,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "3111bd2387",
-    "file": "tooltips\\tooltip-1.json"
+    "file": "tooltips/tooltip-1.json"
   },
   {
     "name": "Styled Tooltip Variations",
@@ -5145,7 +5145,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "b1d1e94995",
-    "file": "tooltips\\tooltip-2.json"
+    "file": "tooltips/tooltip-2.json"
   },
   {
     "name": "Modern Tooltips - Styled Version",
@@ -5157,7 +5157,7 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "62afb73f85",
-    "file": "tooltips\\tooltip-3.json"
+    "file": "tooltips/tooltip-3.json"
   },
   {
     "name": "Minimal Tooltip Design",
@@ -5169,6 +5169,6 @@
     "author": "Admin",
     "date": "2025-02-28",
     "id": "1c5f42150d",
-    "file": "tooltips\\tooltip-4.json"
+    "file": "tooltips/tooltip-4.json"
   }
 ]
