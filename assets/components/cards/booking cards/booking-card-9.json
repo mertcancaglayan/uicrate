@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "The Grand Hotel Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A sleek hotel card design with detailed amenities, pricing, and booking option.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-22"
+	},
+	"style": "body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #e8f0fe; }\n\n.card { width: 350px; background-color: #fff; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; }\n\n.card:hover { transform: translateY(-8px); box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); }\n\n.card-image { width: 100%; height: 220px; object-fit: cover; }\n\n.card-content { padding: 25px; }\n\n.card-title { font-size: 1.4rem; font-weight: 700; color: #333; margin-bottom: 12px; }\n\n.card-details { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }\n\n.card-location { color: #666; font-size: 0.95rem; display: flex; align-items: center; gap: 8px; }\n\n.card-location i { color: #007bff; }\n\n.card-rating { color: #f2c14e; font-size: 1rem; }\n\n.card-description { color: #555; margin-bottom: 20px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; }\n\n.card-price { font-size: 1.3rem; font-weight: 600; color: #009688; margin-bottom: 25px; }\n\n.card-booking { background-color: #007bff; color: #fff; padding: 14px 25px; border: none; border-radius: 6px; cursor: pointer; font-size: 1.1rem; transition: background-color 0.3s; display: inline-flex; align-items: center; justify-content: center; gap: 10px; }\n\n.card-booking:hover { background-color: #0056b3; }\n\n.card-booking i { font-size: 1.2rem; }",
+	"html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" integrity=\"sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<div class=\"card\">\n  <img class=\"card-image\" src=\"https://picsum.photos/350/220\" alt=\"Destination\" />\n  <div class=\"card-content\">\n    <h2 class=\"card-title\">The Grand Hotel</h2>\n    <div class=\"card-details\">\n      <div class=\"card-location\"><i class=\"fas fa-map-marker-alt\"></i> Paris, France</div>\n      <div class=\"card-rating\">\n        <i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>\n        <i class=\"fas fa-star\"></i><i class=\"fas fa-star-half-alt\"></i>\n      </div>\n    </div>\n    <p class=\"card-description\">\n      Experience luxury and elegance at The Grand Hotel. Enjoy world-class dining, impeccable service, and\n      a prime location in the heart of Paris.\n    </p>\n    <div class=\"card-price\">$599 / night</div>\n    <button class=\"card-booking\">Book Now <i class=\"fas fa-arrow-right\"></i></button>\n  </div>\n</div>",
+	"script": ""
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Card Hover Effect",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A single interactive card where the image changes brightness and scale when hovered. The card displays icons on hover with a smooth transition effect.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-21"
+	},
+	"style": "@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');\n\nhtml {\n\theight: 100%;\n}\n\nbody {\n\theight: 100%;\n\tmargin: 0;\n\tbackground: linear-gradient(60deg, #554446, #6b6058);\n\tbackground-repeat: no-repeat;\n\tbackground-attachment: fixed;\n}\n\n.container {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmargin-top: 15%;\n}\n\n.card {\n\tposition: relative;\n\ttransition: 1s ease-in-out;\n\tmargin: 10px;\n\tdisplay: grid;\n\tplace-items: center;\n\tgrid-template-areas: 'center';\n\tborder-radius: 20px;\n\toverflow: hidden;\n\tcursor: pointer;\n}\n\n.card * {\n\tgrid-area: center;\n}\n\n.card img {\n\twidth: 350px;\n\taspect-ratio: 1 / 1;\n\tborder-radius: 20px;\n\tobject-fit: cover;\n}\n\n.card p {\n\topacity: 0;\n\tcolor: white;\n\tfont-size: larger;\n}\n\n.card .container {\n\tposition: absolute;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\twidth: 300px;\n\tbottom: 10px;\n\topacity: 0;\n\tcolor: white;\n}\n\n.card:is(:hover, :focus) p {\n\topacity: 1;\n\ttransform: scale(1.2);\n\ttransition: 0.7s ease-in-out;\n}\n\n.card:is(:hover, :focus) img {\n\tfilter: brightness(0.5);\n\ttransform: scale(1.2);\n\ttransition: 1s ease-in-out;\n}\n\n.card:is(:hover, :focus) .container {\n\topacity: 1;\n\ttransition: 1s ease-in-out;\n\t:first-child {\n\t\ttransform: translateX(100%) translateY(-60%) scale(1.3);\n\t\ttransition: 1s ease-in-out;\n\t}\n\t:nth-child(2) {\n\t\ttransform: translateX(-100%) translateY(-60%) scale(1.3);\n\t\ttransition: 1s ease-in-out;\n\t}\n}\n\n.card:not(:hover) * {\n\ttransition: 1s ease-in-out;\n}",
+	"html": "<link\n\trel=\"stylesheet\"\n\thref=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\"\n\tintegrity=\"sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==\"\n\tcrossorigin=\"anonymous\"\n\treferrerpolicy=\"no-referrer\"\n/>\n\n<main class=\"container\">\n\t<section class=\"gallery\">\n\t\t<article class=\"card\">\n\t\t\t<img src=\"https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\" alt=\"img-1\" />\n\t\t\t<p>Clear Sky During Night</p>\n\t\t\t<div class=\"container\">\n\t\t\t\t<i class=\"fa-regular fa-share-from-square\"></i>\n\t\t\t\t<i class=\"fa-regular fa-bookmark\"></i>\n\t\t\t</div>\n\t\t</article>\n\t</section>\n</main>",
+	"script": ""
+}

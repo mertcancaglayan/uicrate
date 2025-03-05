@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Cube Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A Cube Loader component with modern design and theme switching functionality.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n    --bg: #ffffff;\n    --text: #2d3436;\n    --primary: #6c5ce7;\n    --secondary: #a8a8a8;\n    --transition: all 0.4s ease-in-out;\n}\n[data-theme=\"dark\"] {\n    --bg: #2d3436;\n    --text: #ffffff;\n    --primary: #a66efa;\n    --secondary: #636e72;\n}\n* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    transition: var(--transition);\n}\nbody {\n    min-height: 100vh;\n    display: grid;\n    place-items: center;\n    background: var(--bg);\n    color: var(--text);\n    font-family: \"Inter\", system-ui, sans-serif;\n    padding: 2rem;\n}\n.theme-switcher {\n    position: fixed;\n    top: 1.5rem;\n    right: 1.5rem;\n    padding: 0.8rem;\n    border: none;\n    border-radius: 12px;\n    background: var(--primary);\n    color: var(--bg);\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    gap: 0.5rem;\n}\n.cube-loader {\n    width: 40px;\n    height: 40px;\n    position: relative;\n    transform-style: preserve-3d;\n    animation: cube 2s infinite ease-in-out;\n}\n.cube-face {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: var(--primary);\n    border: 2px solid var(--bg);\n    opacity: 0.8;\n}\n.front {\n    transform: translateZ(20px);\n}\n.back {\n    transform: translateZ(-20px) rotateY(180deg);\n}\n.right {\n    transform: rotateY(90deg) translateZ(20px);\n}\n.left {\n    transform: rotateY(-90deg) translateZ(20px);\n}\n.top {\n    transform: rotateX(90deg) translateZ(20px);\n}\n.bottom {\n    transform: rotateX(-90deg) translateZ(20px);\n}\n@keyframes cube {\n    0%,\n    100% {\n        transform: rotateX(-25deg) rotateY(45deg);\n    }\n    50% {\n        transform: rotateX(-25deg) rotateY(225deg);\n    }\n}",
+	"html": "<button class=\"theme-switcher\" aria-label=\"Toggle theme\">🌞</button>\n<h1>Cube Loader</h1>\n<div class=\"cube-loader\">\n    <div class=\"cube-face front\"></div>\n    <div class=\"cube-face back\"></div>\n    <div class=\"cube-face right\"></div>\n    <div class=\"cube-face left\"></div>\n    <div class=\"cube-face top\"></div>\n    <div class=\"cube-face bottom\"></div>\n</div>",
+	"script": "const themeSwitcher = document.querySelector(\".theme-switcher\");\nconst body = document.body;\nconst savedTheme = localStorage.getItem(\"theme\") || \"light\";\nbody.setAttribute(\"data-theme\", savedTheme);\nthemeSwitcher.textContent = savedTheme === \"dark\" ? \"🌜\" : \"🌞\";\nthemeSwitcher.addEventListener(\"click\", () => {\n    const newTheme = body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\";\n    body.setAttribute(\"data-theme\", newTheme);\n    localStorage.setItem(\"theme\", newTheme);\n    themeSwitcher.textContent = newTheme === \"dark\" ? \"🌜\" : \"🌞\";\n});"
+}

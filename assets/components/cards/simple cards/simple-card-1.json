@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Product Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A stylish product card with hover effects and responsive design.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-22"
+	},
+	"style": "@import url(\"https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap\");\n\n*,\n*::before,\n*::after {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\n.product-card {\n\t--card-background-color: wheat; \n\tmargin: 50px;\n\t--text-font: \"Lobster Two\", serif;\n\t--text-font-size: 20px;\n\t--paragraph-font: \"Playfair Display\";\n\t--text-light: #5b4636;\n\n\twidth: 250px;\n\tborder-radius: 12px;\n\toverflow: hidden;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n\ttransition: scale 0.3s ease, box-shadow 0.3s ease;\n\tcursor: pointer;\n\tbackground-color: var(--card-background-color);\n}\n\n.product-card:hover {\n\tscale: 1.02;\n\tbox-shadow: none;\n}\n\nfigure {\n\tmargin: 0;\n\tposition: relative;\n\twidth: 100%;\n}\n\nimg {\n\tborder-radius: 9px 9px 0 0;\n\twidth: 100%;\n\taspect-ratio: 1;\n\tobject-fit: cover;\n\theight: auto;\n\ttransition: scale 0.3s ease;\n}\n\nfigcaption {\n\tpadding: 10px 15px;\n\tgap: 5px;\n\tfont-family: var(--text-font);\n\tcolor: var(--text-light);\n\tbackground-color: var(--card-background-color);\n\tletter-spacing: 1px;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: start;\n\tjustify-content: start;\n\tmax-width: 100%;\n}\n\n.product-name {\n\tfont-weight: 700;\n\tfont-size: var(--text-font-size);\n\tletter-spacing: 2px;\n\tmax-width: 100%;\n\ttext-overflow: ellipsis;\n\toverflow: hidden;\n\twhite-space: nowrap;\n}\n\n.product-price {\n\tfont-weight: 500;\n\tfont-family: var(--paragraph-font);\n}\n\n@media (max-width: 1024px) {\n\t.product-card {\n\t\tmax-width: 100%;\n\t}\n}\n\n@media (max-width: 768px) {\n\t.product-card figcaption {\n\t\tfont-size: 16px;\n\t\tpadding: 10px;\n\t}\n}\n",
+	"html": "<div class=\"product-card\">\n\t<figure>\n\t\t<img loading=\"lazy\" src=\"https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\" alt=\"Apple Cinnamon Muffins\" />\n\t\t<figcaption>\n\t\t\t<span class=\"product-name\">Apple Cinnamon Muffins</span>\n\t\t\t<span class=\"product-price\">Muffin</span>\n\t\t</figcaption>\n\t</figure>\n</div>\n",
+	"script": ""
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Profile Card with Expertise",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A profile card displaying a person's image, name, years of experience, and areas of expertise such as SEO, PPC, and content strategy.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-23"
+	},
+	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tmargin: 0;\n\tbackground-color: #f0f0f0;\n\tfont-family: Arial, sans-serif;\n}\n\n.card {\n\tbackground-color: white;\n\tpadding: 30px;\n\tborder-radius: 10px;\n\tbox-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 25px;\n\tmax-width: 500px;\n}\n\n.profile-image {\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 50%;\n\tbackground-image: url(\"https://picsum.photos/300\");\n\tbackground-size: cover;\n\tbackground-position: center;\n\tflex-shrink: 0;\n}\n\n.content {\n\tdisplay: flex;\n\tflex-direction: column;\n}\n\n.name {\n\tfont-size: 24px;\n\tfont-weight: bold;\n\tmargin-bottom: 8px;\n\tcolor: #333;\n}\n\n.experience {\n\tfont-size: 16px;\n\tcolor: #666;\n\tmargin-bottom: 8px;\n}\n\n.expertise {\n\tfont-size: 14px;\n\tcolor: #666;\n}\n\n.expertise span {\n\tcolor: #444;\n\tfont-weight: 500;\n}",
+	"html": "<div class=\"card\">\n\t<div class=\"profile-image\"></div>\n\t<div class=\"content\">\n\t\t<div class=\"name\">John Smith</div>\n\t\t<div class=\"experience\">10+ years of experience in digital marketing.</div>\n\t\t<div class=\"expertise\">\n\t\t\tExpertise in <span>SEO</span>, <span>PPC</span>, and <span>content strategy</span>\n\t\t</div>\n\t</div>\n</div>",
+	"script": ""
+}

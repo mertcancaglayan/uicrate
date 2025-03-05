@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Testimonial Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A simple testimonial card with user review and details, designed with a clean and modern layout.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-24"
+	},
+	"style": "* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: \"Arial\", sans-serif;\n\tbackground-color: #f0f4fc;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n}\n\n.testimonial-card {\n\tmax-width: 350px;\n\tbackground-color: white;\n\tborder-radius: 12px;\n\tpadding: 20px;\n\tbox-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n\ttext-align: center;\n\tposition: relative;\n}\n\n.testimonial-card::before {\n\tcontent: \"★★★★★\";\n\tcolor: #ffb400;\n\tfont-size: 18px;\n}\n\n.testimonial-text {\n\tmargin-top: 12px;\n\tfont-size: 16px;\n\tcolor: #555;\n}\n\n.user-info {\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 12px;\n\tmargin-top: 16px;\n}\n\n.user-image {\n\twidth: 48px;\n\theight: 48px;\n\tborder-radius: 50%;\n\tbackground-color: #ddd;\n}\n\n.user-details {\n\ttext-align: left;\n}\n\n.user-name {\n\tfont-weight: bold;\n\tcolor: #333;\n}\n\n.user-position {\n\tfont-size: 14px;\n\tcolor: #777;\n}\n\n.testimonial-badge {\n\tdisplay: inline-block;\n\tfont-size: 12px;\n\tcolor: #0073ff;\n\tmargin-top: 6px;\n}",
+	"html": "<div class=\"testimonial-card\">\n\t<div class=\"testimonial-text\">\n\t\tI like Infinity Estate more and more each day because it makes my life a lot easier. We can't understand\n\t\thow we've been living without Infinity Estate. Infinity Estate has got everything I need. The service\n\t\twas excellent.\n\t</div>\n\t<div class=\"user-info\">\n\t\t<div class=\"user-image\">\n\t\t\t<!-- Placeholder for user's image -->\n\t\t\t<img src=\"https://i.pravatar.cc/150?img=12\" alt=\"User profile picture\" style=\"border-radius: 50%; width: 100%; height: 100%\" />\n\t\t</div>\n\t\t<div class=\"user-details\">\n\t\t\t<div class=\"user-name\">Darrell Steward</div>\n\t\t\t<div class=\"user-position\">Ferrari</div>\n\t\t\t<div class=\"testimonial-badge\">Testimonial</div>\n\t\t</div>\n\t</div>\n</div>",
+	"script": ""
+}

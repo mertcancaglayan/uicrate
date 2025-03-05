@@ -341,6 +341,21 @@
 			</button>
 		</aside>
 
+		<main class="main-content">
+			<div class="results-header">
+				<h2>Search Results: <span id="searchLength"></span></h2>
+				<select class="sort-control" id="sortSelect" aria-label="Sort results">
+					<option value="recent">Most Recent</option>
+					<option value="relevant">Most Relevant</option>
+					<option value="name">Name</option>
+				</select>
+			</div>
+
+			<section class="results-grid" id="resultsGrid"></section>
+			<div class="no-results" id="noResults" style="display: none">No results found.</div>
+			<div id="pagination" class="pagination"></div>
+		</main>
+
 		<script src="script.js"></script>
 	</body>
 </html>

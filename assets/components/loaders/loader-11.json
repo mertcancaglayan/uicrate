@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Pulse Loader",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A pulse loader with a smooth animation and theme toggle for light and dark modes.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg: #f8f9fa;\n\t--text: #212529;\n\t--primary: #4dabf7;\n\t--secondary: #adb5bd;\n\t--transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #212529;\n\t--text: #f8f9fa;\n\t--primary: #74c0fc;\n\t--secondary: #495057;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 50vh;\n\tdisplay: grid;\n\tplace-items: center;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-btn {\n\tposition: fixed;\n\ttop: 1.5rem;\n\tright: 1.5rem;\n\twidth: 3rem;\n\theight: 3rem;\n\tborder: 0;\n\tborder-radius: 50%;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tcursor: pointer;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n\n.pulse-loader {\n\twidth: 60px;\n\theight: 60px;\n\tborder-radius: 50%;\n\tbackground: var(--primary);\n\tanimation: pulse 1.5s infinite;\n\tbox-shadow: 0 0 0 0 rgba(77, 171, 247, 0.4);\n}\n\n@keyframes pulse {\n\tto {\n\t\ttransform: scale(1.1);\n\t\tbox-shadow: 0 0 0 15px rgba(77, 171, 247, 0);\n\t}\n}\n",
+	"html": "\n<button class=\"theme-btn\" aria-label=\"Toggle theme\">🌗</button>\n\n<h1>Pulse Loader</h1>\n\n<div class=\"pulse-loader\"></div>\n",
+	"script": "// Theme Management\nconst themeBtn = document.querySelector(\".theme-btn\");\nconst body = document.body;\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme) body.setAttribute(\"data-theme\", savedTheme);\nthemeBtn.addEventListener(\"click\", () => {\n\tconst newTheme = body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"theme\", newTheme);\n});\n"
+}

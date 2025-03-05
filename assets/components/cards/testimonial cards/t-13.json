@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Modern Testimonial Card",
+		"type": "UI Components",
+		"category": "cards",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A modern testimonial card featuring a user quote, profile picture, and rating stars. It has hover animation and uses Font Awesome icons.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-24"
+	},
+	"style": "body {\n\tfont-family: \"Inter\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #f8f9fa;\n\tmargin: 0;\n\tpadding: 20px;\n}\n\n.testimonial-card {\n\tbackground: white;\n\tborder-radius: 16px;\n\tpadding: 2.5rem;\n\tmax-width: 400px;\n\tbox-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);\n\ttransition: transform 0.3s ease;\n}\n\n.testimonial-card:hover {\n\ttransform: translateY(-5px);\n}\n\n.quote-icon {\n\tcolor: #e0e0e0;\n\tfont-size: 2.5rem;\n\tmargin-bottom: 1.5rem;\n}\n\n.testimonial-text {\n\tcolor: #444;\n\tfont-size: 1rem;\n\tline-height: 1.7;\n\tmargin-bottom: 1.5rem;\n}\n\n.user-info {\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 1rem;\n}\n\n.user-avatar {\n\twidth: 56px;\n\theight: 56px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n}\n\n.user-details h3 {\n\tmargin: 0;\n\tcolor: #222;\n\tfont-size: 1.1rem;\n}\n\n.user-details p {\n\tmargin: 0;\n\tcolor: #666;\n\tfont-size: 0.9rem;\n}\n\n.rating {\n\tcolor: #ffd700;\n\tmargin-top: 1rem;\n}",
+	"html": "<div class=\"testimonial-card\">\n\t<i class=\"fas fa-quote-left quote-icon\"></i>\n\t<p class=\"testimonial-text\">\n\t\t\"The service exceeded all our expectations. The team was professional, efficient, and delivered\n\t\toutstanding results.\"\n\t</p>\n\t<div class=\"user-info\">\n\t\t<img src=\"https://i.pravatar.cc/100?img=5\" alt=\"Sarah Johnson\" class=\"user-avatar\" />\n\t\t<div class=\"user-details\">\n\t\t\t<h3>Sarah Johnson</h3>\n\t\t\t<p>Marketing Director</p>\n\t\t\t<div class=\"rating\">\n\t\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
+	"script": ""
+}

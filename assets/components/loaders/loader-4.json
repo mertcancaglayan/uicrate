@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Spinner Loader with Theme Toggle",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A modern spinner loader with a theme toggle for light and dark modes.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg-color: #ffffff;\n\t--text-color: #1a1a1a;\n\t--primary-color: #646cff;\n\t--loader-speed: 1s;\n\t--transition: all 0.3s ease;\n}\n\n[data-theme=\"dark\"] {\n\t--bg-color: #1a1a1a;\n\t--text-color: #ffffff;\n\t--primary-color: #61dafb;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: var(--bg-color);\n\tcolor: var(--text-color);\n\tfont-family: system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 2rem;\n\tright: 2rem;\n\tpadding: 0.75rem;\n\tborder: none;\n\tborder-radius: 50%;\n\tbackground: var(--primary-color);\n\tcolor: var(--bg-color);\n\tcursor: pointer;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n\n.spinner {\n\twidth: clamp(50px, 8vw, 80px);\n\theight: clamp(50px, 8vw, 80px);\n\tborder: 4px solid rgba(0, 0, 0, 0.1);\n\tborder-top-color: var(--primary-color);\n\tborder-radius: 50%;\n\tanimation: spin var(--loader-speed) linear infinite;\n}\n\n@keyframes spin {\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+	"html": "\n<button class=\"theme-toggle\" aria-label=\"Toggle theme\">🌓</button>\n\n<div class=\"spinner\"></div>\n",
+	"script": "// Theme Toggle\nconst themeToggle = document.querySelector(\".theme-toggle\");\nconst body = document.body;\nthemeToggle.addEventListener(\"click\", () => {\n\tbody.setAttribute(\"data-theme\", body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\");\n});\n"
+}

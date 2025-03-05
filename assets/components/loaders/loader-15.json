@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Neon Spinner",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A neon-themed spinner loader with a gradient border animation and theme toggle for light and dark modes.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": ":root {\n\t--bg: #f0f2f5;\n\t--text: #1a1a1a;\n\t--primary: #2563eb;\n\t--secondary: #7c3aed;\n\t--neon-glow: 0 0 10px rgba(37, 99, 235, 0.5);\n\t--loader-speed: 1.4s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #0f172a;\n\t--text: #e2e8f0;\n\t--primary: #818cf8;\n\t--secondary: #c084fc;\n\t--neon-glow: 0 0 15px rgba(129, 140, 248, 0.7);\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 50vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\ttransition: all 0.4s ease;\n\tdisplay: grid;\n\tplace-items: center;\n\tfont-family: \"Inter\", system-ui, sans-serif;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.8rem 1.6rem;\n\tbackground: linear-gradient(135deg, var(--primary), var(--secondary));\n\tcolor: var(--bg);\n\tborder: none;\n\tborder-radius: 8px;\n\tcursor: pointer;\n\tfont-weight: 600;\n\ttransition: transform 0.2s, box-shadow 0.2s;\n\tbox-shadow: var(--neon-glow);\n}\n\n.theme-toggle:hover {\n\ttransform: translateY(-2px);\n\tbox-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n}\n\n/* Neon Spinner */\n.neon-spinner {\n\twidth: 60px;\n\theight: 60px;\n\tborder: 4px solid transparent;\n\tborder-top-color: var(--primary);\n\tborder-bottom-color: var(--secondary);\n\tborder-radius: 50%;\n\tposition: relative;\n\tanimation: spin var(--loader-speed) linear infinite;\n\tfilter: drop-shadow(var(--neon-glow));\n}\n\n.neon-spinner::after {\n\tcontent: \"\";\n\tposition: absolute;\n\tinset: -4px;\n\tborder: 4px solid transparent;\n\tborder-radius: 50%;\n\tborder-left-color: var(--secondary);\n\tborder-right-color: var(--primary);\n\tanimation: spin calc(var(--loader-speed) * 0.8) linear infinite reverse;\n}\n\n@keyframes spin {\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+	"html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Neon Theme</button>\n\n<h1>Neon Spinner</h1>\n\n<div class=\"neon-spinner\"></div>\n",
+	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst isDark = body.getAttribute(\"data-theme\") === \"dark\";\n\tbody.setAttribute(\"data-theme\", isDark ? \"\" : \"dark\");\n\tlocalStorage.setItem(\"neon-theme\", isDark ? \"light\" : \"dark\");\n\tdocument.querySelector(\".theme-toggle\").textContent = isDark ? \"Neon Theme\" : \"Dark Theme\";\n}\n\nconst savedTheme = localStorage.getItem(\"neon-theme\");\nif (savedTheme === \"dark\") {\n\tdocument.body.setAttribute(\"data-theme\", \"dark\");\n\tdocument.querySelector(\".theme-toggle\").textContent = \"Dark Theme\";\n}\n"
+}

@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Dancing Dots",
+		"type": "UI Components",
+		"category": "loaders",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A Dancing Dots loader animation with bouncing dot effects.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": "body {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background: #f0f0f0;\n}\n.dots {\n    display: flex;\n}\n.dot {\n    width: 10px;\n    height: 10px;\n    background: #3498db;\n    border-radius: 50%;\n    margin: 0 5px;\n    animation: bounce 1s infinite ease-in-out;\n}\n.dot:nth-child(2) {\n    animation-delay: 0.1s;\n}\n.dot:nth-child(3) {\n    animation-delay: 0.2s;\n}\n@keyframes bounce {\n    0%, 100% {\n        transform: translateY(0);\n    }\n    50% {\n        transform: translateY(-15px);\n    }\n}",
+	"html": "<div class=\"dots\">\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n    <div class=\"dot\"></div>\n</div>",
+	"script": ""
+}

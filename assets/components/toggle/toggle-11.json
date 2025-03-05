@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Vertical Toggle Switch",
+		"type": "UI Components",
+		"category": "toggles",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A vertical toggle switch with smooth animations and a modern design for intuitive user interaction.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": "/* Reset and Base Styles */\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tbackground: #f0f0f0;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\theight: 100vh;\n\tfont-family: sans-serif;\n}\n\n/* Vertical Toggle Container (as a label for clickability) */\n.vertical-toggle {\n\tposition: relative;\n\twidth: 60px;\n\theight: 120px;\n\tbackground: #ddd;\n\tborder-radius: 30px;\n\tcursor: pointer;\n\tdisplay: inline-block;\n\tbox-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);\n}\n\n/* Hide the native checkbox */\n.vertical-toggle input {\n\tdisplay: none;\n}\n\n/* Toggle Knob */\n.knob {\n\tposition: absolute;\n\tleft: 50%;\n\ttransform: translateX(-50%);\n\twidth: 50px;\n\theight: 50px;\n\tbackground: #fff;\n\tborder-radius: 50%;\n\tbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n\ttransition: bottom 0.3s ease, background 0.3s ease;\n\tbottom: 5px;\n}\n\n/* Checked state: move the knob upward and change its color */\n.vertical-toggle input:checked + .knob {\n\tbottom: 65px; /* (Container Height 120 - Knob Height 50 - 5px gap) */\n\tbackground: #4caf50;\n}\n\n/* Responsive adjustments */\n@media (max-width: 480px) {\n\t.vertical-toggle {\n\t\twidth: 50px;\n\t\theight: 100px;\n\t}\n\t.knob {\n\t\twidth: 40px;\n\t\theight: 40px;\n\t\tbottom: 5px;\n\t}\n\t.vertical-toggle input:checked + .knob {\n\t\tbottom: calc(100px - 40px - 5px); /* =55px */\n\t}\n}\n",
+	"html": "<label class=\"vertical-toggle\" for=\"toggleVertical\">\n\t<input type=\"checkbox\" id=\"toggleVertical\" />\n\t<div class=\"knob\"></div>\n</label>\n",
+	"script": ""
+}

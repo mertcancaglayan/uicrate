@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"name": "Modern Dark Toggle Switch",
+		"type": "UI Components",
+		"category": "toggles",
+		"image": "https://placehold.co/600x400/png",
+		"description": "A modern dark-themed toggle switch with smooth animations and a gradient active state.",
+		"version": "1.0",
+		"author": "Admin",
+		"date": "2025-02-28"
+	},
+	"style": "/* Reset and Base Styles */\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n\tbackground-color: #222;\n\tcolor: #fff;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\theight: 100vh;\n}\n\n/* Toggle Wrapper */\n.toggle-wrapper {\n\ttext-align: center;\n}\n\n/* Toggle Switch Style */\n.toggle {\n\tposition: relative;\n\twidth: 80px;\n\theight: 40px;\n\tbackground: #444;\n\tborder-radius: 50px;\n\tcursor: pointer;\n\ttransition: background 0.3s ease;\n\tbox-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);\n}\n\n.toggle:before {\n\tcontent: \"\";\n\tposition: absolute;\n\tleft: 10px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\tfont-size: 14px;\n\tcolor: #ccc;\n\ttransition: color 0.3s ease, left 0.3s ease;\n}\n\n.toggle:after {\n\tcontent: \"\";\n\tposition: absolute;\n\twidth: 36px;\n\theight: 36px;\n\tbackground: #fff;\n\tborder-radius: 50%;\n\ttop: 2px;\n\tleft: 2px;\n\ttransition: left 0.3s ease, background 0.3s ease;\n}\n\n/* Active State */\n.toggle.active {\n\tbackground: linear-gradient(45deg, #42a5f5, #478ed1);\n}\n\n.toggle.active:before {\n\tleft: auto;\n\tright: 10px;\n\tcolor: #fff;\n}\n\n.toggle.active:after {\n\tleft: 42px;\n}\n",
+	"html": "<div class=\"toggle-wrapper\">\n\t<div class=\"toggle\" id=\"modernToggle\"></div>\n</div>\n",
+	"script": "// Toggle interaction\nconst modernToggle = document.getElementById(\"modernToggle\");\nmodernToggle.addEventListener(\"click\", function () {\n\tthis.classList.toggle(\"active\");\n});\n"
+}
