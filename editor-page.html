@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+		<title>Resizable Code Editor</title>
+		<!-- CodeMirror CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/theme/material-darker.min.css"
+		/>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+			:root {
+				--primary: #8b5cf6;
+				--background: #121826;
+				--surface: #1e293b;
+				--text: #e2e8f0;
+				--border: #475569;
+				--editor-bg: #0f172a;
+				--gutter: #64748b;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: "Kode Mono", monospace;
+				font-optical-sizing: auto;
+				font-style: normal;
+				background: var(--background);
+				color: var(--text);
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100dvh;
+			}
+
+			.container {
+				display: flex;
+				width: 80%;
+				height: 85%;
+				overflow: hidden;
+			}
+
+			.editor-container {
+				width: 40%;
+				border-right: 2px solid #333;
+				display: flex;
+				flex-direction: column;
+				background: var(--surface);
+				border-right: 2px solid var(--border);
+			}
+
+			#editor-sections {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.editor-section {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.editor-header {
+				padding: 10px;
+				background: var(--primary);
+				color: var(--text);
+				text-align: center;
+				font-weight: bold;
+				cursor: pointer;
+				display: flex;
+				width: 100%;
+				align-items: center;
+				border-top: 2px solid var(--border);
+			}
+
+			.editor-header > * {
+				flex: 1;
+			}
+
+			.editor-header h5 {
+				text-align: start;
+				display: flex;
+				align-items: center;
+				height: calc(100% + 20px);
+			}
+
+			.editor-header button {
+				max-width: fit-content;
+				color: var(--text);
+				outline: none;
+				border: none;
+				border-radius: 0.5rem;
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0.2rem 0.75rem;
+				cursor: pointer;
+				background: var(--background);
+				transform: all 0.3s ease;
+			}
+
+			.editor-header button:hover {
+				background: rgba(124, 58, 237, 0.8);
+			}
+
+			.editor-header .arrow-icon {
+				background-color: #0f172a;
+				max-width: fit-content;
+			}
+
+			.editor-section.active .fa-chevron-down {
+				transform: rotate(180deg);
+				flex-direction: row-reverse;
+			}
+			.CodeMirror {
+				height: 0;
+				min-height: 0;
+				transition: min-height 0.3s ease;
+			}
+
+			.editor-section.active {
+				flex: 1;
+			}
+
+			.editor-section.active .CodeMirror {
+				min-height: 300px;
+				height: 100%;
+				max-height: 650px;
+			}
+
+			.code-editor {
+				flex: 1;
+				display: block;
+			}
+
+			.preview-container {
+				width: 50%;
+				height: 100%;
+
+				background: white;
+			}
+
+			.preview-iframe {
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+
+			.gutter {
+				background: var(--gutter);
+				cursor: ew-resize;
+				width: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" id="split-container">
+			<div class="editor-container" id="editor-container">
+				<div id="editor-sections">
+					<div class="editor-section active" id="html-section">
+						<div class="editor-header">
+							<div class="arrow-icon">
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<h5 onclick="toggleSection('html-editor')">HTML</h5>
+							<button class="copy-btn" onclick="copyToClipboard('html-editor')">
+								<span>Copy </span><i class="fa-regular fa-clipboard"></i>
+							</button>
+						</div>
+						<div id="html-editor" class="code-editor"></div>
+					</div>
+					<div class="editor-section" id="css-section">
+						<div class="editor-header">
+							<div class="arrow-icon">
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<h5 onclick="toggleSection('css-editor')">CSS</h5>
+							<button class="copy-btn" onclick="copyToClipboard('css-editor')">
+								<span>Copy </span><i class="fa-regular fa-clipboard"></i>
+							</button>
+						</div>
+						<div id="css-editor" class="code-editor"></div>
+					</div>
+					<div class="editor-section active" id="js-section">
+						<div class="editor-header">
+							<div class="arrow-icon">
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<h5 onclick="toggleSection('js-editor')">JS</h5>
+							<button class="copy-btn" onclick="copyToClipboard('js-editor')">
+								<span>Copy </span><i class="fa-regular fa-clipboard"></i>
+							</button>
+						</div>
+						<div id="js-editor" class="code-editor"></div>
+					</div>
+				</div>
+			</div>
+			<div class="gutter"></div>
+			<div class="preview-container" id="preview-container">
+				<iframe id="preview" class="preview-iframe"></iframe>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/htmlmixed/htmlmixed.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/css/css.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/javascript/javascript.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.5/split.min.js"></script>
+
+		<script>
+			const htmlEditor = CodeMirror(document.getElementById("html-editor"), {
+				lineNumbers: true,
+				mode: "htmlmixed",
+				theme: "material-darker",
+				value: "<h1>Hello World!</h1>\n<p>Start coding...</p>",
+			});
+
+			const cssEditor = CodeMirror(document.getElementById("css-editor"), {
+				lineNumbers: true,
+				mode: "css",
+				theme: "material-darker",
+				value: "body {\n  background: #f0f0f0;\n}",
+			});
+
+			const jsEditor = CodeMirror(document.getElementById("js-editor"), {
+				lineNumbers: true,
+				mode: "javascript",
+				theme: "material-darker",
+				value: 'console.log("Hello from JS!");',
+			});
+
+			const editors = {
+				"html-editor": htmlEditor,
+				"css-editor": cssEditor,
+				"js-editor": jsEditor,
+			};
+
+			function updatePreview() {
+				const html = htmlEditor.getValue();
+				const css = `<style>${cssEditor.getValue()}</style>`;
+				const js = `<script>${jsEditor.getValue()}<\/script>`;
+				document.getElementById("preview").srcdoc = `${css}${html}${js}`;
+			}
+
+			htmlEditor.on("change", updatePreview);
+			cssEditor.on("change", updatePreview);
+			jsEditor.on("change", updatePreview);
+			updatePreview();
+
+			Split(["#editor-container", "#preview-container"], {
+				sizes: [30, 70],
+				minSize: [300, 300],
+				gutterSize: 5,
+				cursor: "ew-resize",
+				onDragEnd: function () {
+					htmlEditor.refresh();
+					cssEditor.refresh();
+					jsEditor.refresh();
+				},
+			});
+
+			function toggleSection(id) {
+				const section = document.getElementById(id);
+				section.parentElement.classList.toggle("active");
+			}
+
+			function copyToClipboard(editorId) {
+				const editor =
+					editorId === "html-editor" ? htmlEditor : editorId === "css-editor" ? cssEditor : jsEditor;
+				navigator.clipboard
+					.writeText(editor.getValue())
+					.then(() => {
+						alert("Code copied to clipboard!");
+					})
+					.catch((err) => {
+						console.error("Failed to copy: ", err);
+					});
+			}
+
+			window.addEventListener("DOMContentLoaded", () => {
+				const urlParams = new URLSearchParams(window.location.search);
+				const componentFile = urlParams.get("component");
+
+				if (!componentFile) {
+					console.error("Component file is not specified in the URL.");
+					return;
+				}
+
+				const filePath = "components/" + componentFile;
+
+				let componentCode;
+
+				fetch(filePath)
+					.then((response) => {
+						if (!response.ok) throw new Error(`Failed to load ${componentFile}`);
+						return response.text();
+					})
+					.then((result) => {
+						componentCode = JSON.parse(result);
+						const extractedCSS = componentCode.style;
+						const extractedJS = componentCode.script;
+						const extractedHtml = componentCode.html;
+
+						htmlEditor.setValue(extractedHtml || "<!-- No HTML content -->");
+						cssEditor.setValue(extractedCSS || "/* No CSS found */");
+						jsEditor.setValue(extractedJS || "// No JavaScript found");
+
+						updatePreview();
+					})
+					.catch((error) => {
+						console.error("Error loading component:", error);
+						htmlEditor.setValue(`Error: ${error.message}`);
+						cssEditor.setValue("/* Failed to load CSS */");
+						jsEditor.setValue("// Failed to load JavaScript");
+					});
+			});
+		</script>
+
+		<script></script>
+	</body>
+</html>
