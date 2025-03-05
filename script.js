@@ -105,162 +105,46 @@ themeSwitch.addEventListener("click", () => {
 	updateTheme();
 });
 
-const searchInput = document.getElementById("searchInput");
 const resultsGrid = document.getElementById("resultsGrid");
+const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
-let activeFilters = {
-	category: "all",
-	type: "all",
-	sort: "recent",
-};
+const paginationContainer = document.getElementById("pagination");
+const noResults = document.getElementById("noResults");
+const searchLength = document.querySelector("#searchLength");
+const filterChips = document.querySelectorAll(".filter-chip");
 
-let allResults = [];
-
-// Fetch component data
-function getData() {
-	fetch("components-index.json")
-		.then((response) => response.json())
-		.then((result) => {
-			if (Array.isArray(result) && result.length > 0) {
-				allResults = result;
-				handleSearch();
-			} else {
-				resultsGrid.innerHTML = `<p class="no-data">No components available.</p>`;
-			}
-		})
-		.catch((error) => {
-			resultsGrid.innerHTML = `<p class="error">Failed to load components.</p>`;
-		});
-}
-getData();
-
-searchInput.addEventListener("input", debounce(handleSearch, 300));
-sortSelect.addEventListener("change", handleSearch);
-
-document.querySelector(".all-assets-btn").addEventListener("click", (e) => {
-	activeFilters = { category: "all", type: "all", sort: sortSelect.value };
-	filterActiveClass(e.target);
-	handleSearch();
-});
-
-document.querySelectorAll(".filter-chip").forEach((chip) => {
-	chip.addEventListener("click", () => {
-		filterActiveClass(chip);
-		filterItems(chip);
-	});
-});
-
-function filterActiveClass(chip) {
-	const filterChips = document.querySelectorAll(".filter-chip");
-	filterChips.forEach((i) => i.classList.remove("active"));
-	chip.classList.add("active");
-}
-
-function filterItems(chip) {
-	const parentGroup = chip.closest(".filter-group");
-	const filterType = parentGroup.querySelector(".filter-title") ? "category" : "type";
-
-	if (chip.dataset.category === "all") {
-		activeFilters[filterType] = chip.getAttribute("data-type");
-	} else {
-		activeFilters[filterType] = chip.getAttribute("data-category");
-	}
-
-	handleSearch();
-}
-
+let componentsData = {};
+let allComponents = [];
+let filteredComponents = [];
+let sortedComponents = [];
 let itemsPerPage = 20;
 let currentPage = 1;
-let totalPages;
+let totalPages = 1;
 
-let currentResults = [];
+async function getData() {
+	try {
+		const response = await fetch("components-index.json");
+		if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
-const paginationContainer = document.getElementById("pagination");
-function generatePagination(totalPages, currentPage) {
-	let buttons = "";
-	for (let i = 1; i <= totalPages; i++) {
-		buttons += `<button onclick="changePage(${i})" ${i === currentPage ? 'class="active"' : ""}>${i}</button>`;
-	}
-	return buttons;
-}
+		const data = await response.json();
+		if (data && Object.keys(data).length > 0) {
+			componentsData = data;
 
-function changePage(page) {
-	currentPage = page;
-	let startIndex = (currentPage - 1) * itemsPerPage;
-	let endIndex = startIndex + itemsPerPage;
-	const paginatedResults = currentResults.slice(startIndex, endIndex);
-	displayResults(paginatedResults);
-	paginationContainer.innerHTML = generatePagination(totalPages, currentPage);
-	scrollTop();
-}
+			allComponents = Object.values(componentsData)
+				.map((category) => Object.values(category).flat())
+				.flat();
 
-function displayResults(results) {
-	if (results.length === 0) {
-		noResults.style.display = "block";
-		resultsGrid.innerHTML = "";
-	} else {
-		noResults.style.display = "none";
-		resultsGrid.innerHTML = results
-			.map((component) => {
-				const imageUrl = component.image || "https://placehold.co/600x400/png?text=No+Image";
-				const componentFile = component.file ? encodeURIComponent(component.file) : "#";
-                console.log(componentFile)
-				return `
-					<article class="preview-card">
-						<div class="preview-card-content">
-							<img src="${imageUrl}" alt="${component.name || "Component"}" loading="lazy" />
-						</div>
-						<div class="preview-card-footer">
-							<p>${component.name || "Unnamed Component"}</p>
-							<a href="editor-page.html?component=${componentFile}" target="_blank" aria-label="View code for ${component.name}">
-								<span>Go to Code</span>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-									<path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
-								</svg>
-							</a>
-						</div>
-					</article>
-				`;
-			})
-			.join("");
-	}
-}
-
-function handleSearch() {
-	activeFilters.sort = sortSelect.value;
-	const query = searchInput.value.toLowerCase();
-
-	const filtered = allResults.filter((component) => {
-		const matchesSearch = component.name.toLowerCase().includes(query);
-
-		const matchesCategory =
-			activeFilters.category === "all" ||
-			activeFilters.category === component.type ||
-			component.category === activeFilters.category;
-
-		return matchesSearch && matchesCategory;
-	});
-
-	currentResults = sortResults(filtered);
-	totalPages = Math.ceil(currentResults.length / itemsPerPage);
-
-	paginationContainer.innerHTML = generatePagination(totalPages, 1);
-	document.querySelector("#searchLength").innerHTML = currentResults.length;
-
-	changePage(1);
-}
-
-// Update sort function
-function sortResults(results) {
-	return results.sort((a, b) => {
-		if (activeFilters.sort === "recent") {
-			return new Date(b.date) - new Date(a.date);
+			filteredComponents = [...allComponents];
+			handleSearch();
+		} else {
+			resultsGrid.innerHTML = `<p class="no-data">No components available.</p>`;
 		}
-		return a.name.localeCompare(b.name);
-	});
+	} catch (error) {
+		console.error("Error fetching data:", error);
+		resultsGrid.innerHTML = `<p class="error">Failed to load components.</p>`;
+	}
 }
 
-// Helpers
 function debounce(func, timeout = 300) {
 	let timer;
 	return function (...args) {
@@ -269,9 +153,114 @@ function debounce(func, timeout = 300) {
 	};
 }
 
+function filterActiveClass(chip) {
+	filterChips.forEach((chipEl) => chipEl.classList.remove("active"));
+	chip.classList.add("active");
+}
+
+function filterResults(btn) {
+	const filterType = btn.parentElement.getAttribute("data-type");
+	const filterCategory = btn.getAttribute("data-category");
+
+	if (filterCategory === "all") {
+		filteredComponents = Object.values(componentsData[filterType] || {}).flat();
+	} else {
+		filteredComponents = componentsData[filterType]?.[filterCategory] || [];
+	}
+	handleSearch();
+}
+
+function sortResults(components) {
+	const sortOption = sortSelect.value;
+	return [...components].sort((a, b) =>
+		sortOption === "recent" ? new Date(b.date) - new Date(a.date) : a.name.localeCompare(b.name),
+	);
+}
+
+function displayResults(components) {
+	if (components.length === 0) {
+		noResults.style.display = "block";
+		resultsGrid.innerHTML = "";
+	} else {
+		noResults.style.display = "none";
+		resultsGrid.innerHTML = components
+			.map(({ image, name, file }) => {
+				const imageUrl = image || "https://placehold.co/600x400/png?text=No+Image";
+				const componentFile = file ? encodeURIComponent(file) : "#";
+				return `
+          <article class="preview-card">
+            <div class="preview-card-content">
+              <img src="${imageUrl}" alt="${name || "Component"}" loading="lazy" />
+            </div>
+            <div class="preview-card-footer">
+              <p>${name || "Unnamed Component"}</p>
+              <a href="editor-page.html?component=${componentFile}" target="_blank" aria-label="View code for ${name}">
+                <span>Go to Code</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5-34.7 22-39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        `;
+			})
+			.join("");
+	}
+}
+
+function generatePagination(totalPages, currentPage) {
+	searchLength.textContent = filteredComponents.length;
+
+	let buttonsHTML = "";
+	for (let i = 1; i <= totalPages; i++) {
+		buttonsHTML += `<button onclick="changePage(${i})" ${i === currentPage ? 'class="active"' : ""}>${i}</button>`;
+	}
+	return buttonsHTML;
+}
+
+function changePage(page) {
+	currentPage = page;
+	const startIndex = (currentPage - 1) * itemsPerPage;
+	const endIndex = startIndex + itemsPerPage;
+	const paginatedComponents = sortedComponents.slice(startIndex, endIndex);
+	displayResults(paginatedComponents);
+	paginationContainer.innerHTML = generatePagination(totalPages, currentPage);
+	scrollTop();
+}
+
+function handleSearch() {
+	const query = searchInput.value.toLowerCase();
+
+	const searchedComponents = filteredComponents.filter(({ name }) => name.toLowerCase().includes(query));
+	sortedComponents = sortResults(searchedComponents);
+
+	totalPages = Math.ceil(sortedComponents.length / itemsPerPage) || 1;
+	paginationContainer.innerHTML = generatePagination(totalPages, 1);
+
+	changePage(1);
+}
+
+const debouncedHandleSearch = debounce(handleSearch, 300);
+
 function scrollTop() {
 	window.scrollTo(0, 0);
 }
 
-// Initial load
-handleSearch();
+searchInput.addEventListener("input", debouncedHandleSearch);
+sortSelect.addEventListener("change", handleSearch);
+filterChips.forEach((btn) => {
+	btn.addEventListener("click", () => {
+		filterActiveClass(btn);
+		filterResults(btn);
+	});
+});
+
+document.querySelector(".all-assets-btn").addEventListener("click", () => {
+	filteredComponents = [...allComponents];
+	sortedComponents = sortResults(filteredComponents);
+	totalPages = Math.ceil(sortedComponents.length / itemsPerPage) || 1;
+	paginationContainer.innerHTML = generatePagination(totalPages, 1);
+	changePage(1);
+});
+
+getData();
