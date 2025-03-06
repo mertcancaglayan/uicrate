@@ -1,109 +1,4 @@
-const circle = document.getElementById("circle");
-const header = document.querySelector("header");
-const navSections = document.querySelectorAll(".navSection");
-
-let firstHover = 0;
-
-header.addEventListener("mousemove", function (event) {
-	if (window.innerWidth <= 1000) {
-		return;
-	}
-	displayCircle();
-});
-
-function displayCircle() {
-	document.body.style.cursor = "none";
-
-	circle.style.display = "flex";
-	const x = event.clientX;
-	const y = event.clientY;
-
-	if (firstHover === 0) {
-		circle.style.left = `${x}px`;
-		circle.style.top = `${y}px`;
-		firstHover++;
-	} else {
-		circle.style.left = `${x - circle.offsetWidth / 2}px`;
-		circle.style.top = `${y - circle.offsetHeight / 2}px`;
-	}
-}
-
-header.addEventListener("mouseout", function () {
-	circle.style.display = "none";
-	document.body.style.cursor = "default";
-});
-
-navSections.forEach((navSection) => {
-	let navItems = navSection.querySelectorAll(".navItem");
-	navItems.forEach((item) => {
-		item.addEventListener("mouseover", function () {
-			circle.style.transform = "scale(2)";
-		});
-
-		item.addEventListener("mouseout", function () {
-			circle.style.transform = "scale(1)";
-		});
-	});
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-	document.querySelectorAll(".filter-title").forEach((title) => {
-		if (title.classList.contains("open")) {
-			const subSection = title.nextElementSibling;
-			setTimeout(() => {
-				subSection.style.maxHeight = "fit-content";
-			}, 300);
-		}
-
-		title.addEventListener("click", () => {
-			toggleSubSection(title);
-		});
-	});
-});
-
-function toggleSubSection(title) {
-	const subSection = title.nextElementSibling;
-
-	if (subSection.style.maxHeight) {
-		subSection.style.maxHeight = null;
-	} else {
-		subSection.style.maxHeight = subSection.scrollHeight + "px";
-	}
-
-	title.classList.toggle("open");
-}
-
-const mobileNav = document.querySelector(".mobile-nav");
-const toggleBtn = document.getElementById("toggleBtn");
-const links = mobileNav.querySelectorAll(".mobile-nav-item");
-
-links.forEach((link) => {
-	link.addEventListener("click", () => {
-		links.forEach((item) => item.classList.remove("active"));
-		link.classList.add("active");
-	});
-});
-
-toggleBtn.addEventListener("click", () => {
-	mobileNav.classList.toggle("active");
-	toggleBtn.classList.toggle("active");
-});
-
-const themeSwitch = document.getElementById("themeSwitch");
-let isDark = document.body.getAttribute("data-theme") === "dark";
-
-function updateTheme() {
-	document.body.setAttribute("data-theme", isDark ? "light" : "dark");
-	themeSwitch.innerHTML = isDark
-		? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg>'
-		: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>';
-	localStorage.setItem("theme", isDark ? "dark" : "light");
-}
-
-themeSwitch.addEventListener("click", () => {
-	isDark = !isDark;
-	updateTheme();
-});
+console.time()
 
 const resultsGrid = document.getElementById("resultsGrid");
 const searchInput = document.getElementById("searchInput");
@@ -116,7 +11,6 @@ const filterChips = document.querySelectorAll(".filter-chip");
 let componentsData = {};
 let allComponents = [];
 let filteredComponents = [];
-let sortedComponents = [];
 let itemsPerPage = 20;
 let currentPage = 1;
 let totalPages = 1;
@@ -171,10 +65,9 @@ function filterResults(btn) {
 }
 
 function sortResults(components) {
-	const sortOption = sortSelect.value;
-	return [...components].sort((a, b) =>
-		sortOption === "recent" ? new Date(b.date) - new Date(a.date) : a.name.localeCompare(b.name),
-	);
+	return components.slice().sort((a, b) => {
+		return sortSelect.value === "recent" ? new Date(b.date) - new Date(a.date) : a.name.localeCompare(b.name);
+	});
 }
 
 function displayResults(components) {
@@ -208,23 +101,52 @@ function displayResults(components) {
 	}
 }
 
-function generatePagination(totalPages, currentPage) {
-	searchLength.textContent = filteredComponents.length;
+let prevTotalPages = 0;
 
-	let buttonsHTML = "";
-	for (let i = 1; i <= totalPages; i++) {
-		buttonsHTML += `<button onclick="changePage(${i})" ${i === currentPage ? 'class="active"' : ""}>${i}</button>`;
+function generatePagination(currentPage) {
+	totalPages = Math.ceil(filteredComponents.length / itemsPerPage) || 1;
+
+	if (prevTotalPages !== totalPages) {
+		paginationContainer.innerHTML = "";
+		for (let i = 1; i <= totalPages; i++) {
+			const button = document.createElement("button");
+			button.textContent = i;
+			button.dataset.page = i;
+			button.addEventListener("click", () => changePage(i));
+			if (i === currentPage) {
+				button.classList.add("active");
+			}
+			paginationContainer.appendChild(button);
+		}
+		prevTotalPages = totalPages;
+	} else {
+		updateActiveButton(currentPage);
 	}
-	return buttonsHTML;
+}
+
+function updateActiveButton(currentPage) {
+	const buttons = paginationContainer.querySelectorAll("button");
+	buttons.forEach((button) => {
+		if (parseInt(button.dataset.page) === currentPage) {
+			button.classList.add("active");
+		} else {
+			button.classList.remove("active");
+		}
+	});
 }
 
 function changePage(page) {
+	searchLength.textContent = filteredComponents.length;
+
 	currentPage = page;
+
 	const startIndex = (currentPage - 1) * itemsPerPage;
 	const endIndex = startIndex + itemsPerPage;
-	const paginatedComponents = sortedComponents.slice(startIndex, endIndex);
+	const paginatedComponents = filteredComponents.slice(startIndex, endIndex);
+
 	displayResults(paginatedComponents);
-	paginationContainer.innerHTML = generatePagination(totalPages, currentPage);
+	generatePagination(currentPage);
+
 	scrollTop();
 }
 
@@ -232,19 +154,14 @@ function handleSearch() {
 	const query = searchInput.value.toLowerCase();
 
 	const searchedComponents = filteredComponents.filter(({ name }) => name.toLowerCase().includes(query));
-	sortedComponents = sortResults(searchedComponents);
-
-	totalPages = Math.ceil(sortedComponents.length / itemsPerPage) || 1;
-	paginationContainer.innerHTML = generatePagination(totalPages, 1);
+	filteredComponents = sortResults(searchedComponents);
 
 	changePage(1);
 }
 
 const debouncedHandleSearch = debounce(handleSearch, 300);
 
-function scrollTop() {
-	window.scrollTo(0, 0);
-}
+const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
 searchInput.addEventListener("input", debouncedHandleSearch);
 sortSelect.addEventListener("change", handleSearch);
@@ -255,12 +172,13 @@ filterChips.forEach((btn) => {
 	});
 });
 
-document.querySelector(".all-assets-btn").addEventListener("click", () => {
-	filteredComponents = [...allComponents];
-	sortedComponents = sortResults(filteredComponents);
-	totalPages = Math.ceil(sortedComponents.length / itemsPerPage) || 1;
-	paginationContainer.innerHTML = generatePagination(totalPages, 1);
+document.querySelector(".all-assets-btn").addEventListener("click", (e) => {
+	filterActiveClass(e.target);
+
+	filteredComponents = sortResults([...allComponents]);
+
 	changePage(1);
 });
 
 getData();
+console.timeEnd()
