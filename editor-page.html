@@ -5,167 +5,82 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
-		<title>Resizable Code Editor</title>
+		<title>Code Editor | UICrate</title>
 		<!-- CodeMirror CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/theme/material-darker.min.css"
 		/>
-		<style>
-			@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
-
-			:root {
-				--primary: #8b5cf6;
-				--background: #121826;
-				--surface: #1e293b;
-				--text: #e2e8f0;
-				--border: #475569;
-				--editor-bg: #0f172a;
-				--gutter: #64748b;
-			}
-
-			* {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-			}
-
-			body {
-				font-family: "Kode Mono", monospace;
-				font-optical-sizing: auto;
-				font-style: normal;
-				background: var(--background);
-				color: var(--text);
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				height: 100dvh;
-			}
-
-			.container {
-				display: flex;
-				width: 80%;
-				height: 85%;
-				overflow: hidden;
-			}
-
-			.editor-container {
-				width: 40%;
-				border-right: 2px solid #333;
-				display: flex;
-				flex-direction: column;
-				background: var(--surface);
-				border-right: 2px solid var(--border);
-			}
-
-			#editor-sections {
-				flex: 1;
-				display: flex;
-				flex-direction: column;
-			}
-
-			.editor-section {
-				display: flex;
-				flex-direction: column;
-			}
-
-			.editor-header {
-				padding: 10px;
-				background: var(--primary);
-				color: var(--text);
-				text-align: center;
-				font-weight: bold;
-				cursor: pointer;
-				display: flex;
-				width: 100%;
-				align-items: center;
-				border-top: 2px solid var(--border);
-			}
-
-			.editor-header > * {
-				flex: 1;
-			}
-
-			.editor-header h5 {
-				text-align: start;
-				display: flex;
-				align-items: center;
-				height: calc(100% + 20px);
-			}
-
-			.editor-header button {
-				max-width: fit-content;
-				color: var(--text);
-				outline: none;
-				border: none;
-				border-radius: 0.5rem;
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				padding: 0.2rem 0.75rem;
-				cursor: pointer;
-				background: var(--background);
-				transform: all 0.3s ease;
-			}
-
-			.editor-header button:hover {
-				background: rgba(124, 58, 237, 0.8);
-			}
-
-			.editor-header .arrow-icon {
-				background-color: #0f172a;
-				max-width: fit-content;
-			}
-
-			.editor-section.active .fa-chevron-down {
-				transform: rotate(180deg);
-				flex-direction: row-reverse;
-			}
-			.CodeMirror {
-				height: 0;
-				min-height: 0;
-				transition: min-height 0.3s ease;
-			}
-
-			.editor-section.active {
-				flex: 1;
-			}
-
-			.editor-section.active .CodeMirror {
-				min-height: 300px;
-				height: 100%;
-				max-height: 650px;
-			}
-
-			.code-editor {
-				flex: 1;
-				display: block;
-			}
-
-			.preview-container {
-				width: 50%;
-				height: 100%;
-
-				background: white;
-			}
-
-			.preview-iframe {
-				width: 100%;
-				height: 100%;
-				border: none;
-			}
-
-			.gutter {
-				background: var(--gutter);
-				cursor: ew-resize;
-				width: 5px;
-			}
-		</style>
+		<link rel="stylesheet" href="editor-page.css" />
 	</head>
 	<body>
-		<div class="container" id="split-container">
+		<header>
+			<a href="index.html" class="navSection" id="header-logo">
+				<svg
+					fill="#f8fafc"
+					height="30px"
+					width="30px"
+					version="1.1"
+					id="Capa_1"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 0 60 60"
+					xml:space="preserve"
+				>
+					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+					<g id="SVGRepo_iconCarrier">
+						<g>
+							<path
+								d="M12,0h-2H0v48v2v10h48h2h10V12v-2V0H12z M48,39.045L39.045,48H30.56L48,30.56V39.045z M48,41.873V48h-6.127L48,41.873z M27.731,48h-8.485L48,19.246v8.485L27.731,48z M48,16.418L16.418,48H12v-4.067L43.932,12H48V16.418z M12,41.104v-8.485L32.619,12 h8.485L12,41.104z M12,29.791v-8.486L21.305,12h8.486L12,29.791z M12,18.477V12h6.477L12,18.477z M2,2h8v10v8.477v14.143v8.485V48 H2V2z M48,58H2v-8h8h2h5.246h8.485h14.142H48V58z M58,58h-8V48v-8.127V25.731v-8.485V12h8V58z M50,10h-2h-4.896h-8.485H20.477H12V2 h46v8H50z"
+							></path>
+							<circle cx="55" cy="4" r="1"></circle>
+							<circle cx="51" cy="4" r="1"></circle>
+							<circle cx="55" cy="8" r="1"></circle>
+							<circle cx="51" cy="8" r="1"></circle>
+							<circle cx="56" cy="55" r="1"></circle>
+							<circle cx="56" cy="51" r="1"></circle>
+							<circle cx="52" cy="55" r="1"></circle>
+							<circle cx="52" cy="51" r="1"></circle>
+							<circle cx="5" cy="56" r="1"></circle>
+							<circle cx="9" cy="56" r="1"></circle>
+							<circle cx="5" cy="52" r="1"></circle>
+							<circle cx="9" cy="52" r="1"></circle>
+							<circle cx="4" cy="5" r="1"></circle>
+							<circle cx="4" cy="9" r="1"></circle>
+							<circle cx="8" cy="5" r="1"></circle>
+							<circle cx="8" cy="9" r="1"></circle>
+						</g>
+					</g>
+				</svg>
+				<h2 class="navItem">UICrate</h2>
+			</a>
+			<nav class="navbar">
+				<div class="navSection" id="navCategory">
+					<a href="index.html" class="navItem">Components</a>
+					<a href="#" class="navItem">Web Templates</a>
+					<a href="#" class="navItem">Blog</a>
+				</div>
+			</nav>
+
+			<nav class="mobile-nav">
+				<div class="mobile-nav-section">
+					<a href="index.html" class="mobile-nav-item">Components</a>
+					<a href="#" class="mobile-nav-item">Web Templates</a>
+					<a href="#" class="mobile-nav-item">Blog</a>
+				</div>
+			</nav>
+			<button class="toggle-btn" id="toggleBtn">
+				<div class="hamburger">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+			</button>
+		</header>
+		<div id="circle"></div>
+		<section class="container" id="split-container">
 			<div class="editor-container" id="editor-container">
 				<div id="editor-sections">
 					<div class="editor-section active" id="html-section">
@@ -210,7 +125,7 @@
 			<div class="preview-container" id="preview-container">
 				<iframe id="preview" class="preview-iframe"></iframe>
 			</div>
-		</div>
+		</section>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/htmlmixed/htmlmixed.min.js"></script>
