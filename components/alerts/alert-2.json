@@ -3,7 +3,7 @@
 		"name": "Notification Buttons with Dynamic Alerts",
 		"type": "UI Components",
 		"category": "alerts",
-		"image": "https://placehold.co/600x400/png",
+		"image": "assets/previewImages/alert1.png",
 		"description": "A set of buttons that trigger dynamic notifications (success, warning, error, info) with icons and close functionality. Notifications slide in from the right and auto-close after 5 seconds.",
 		"version": "1.0",
 		"author": "Admin",

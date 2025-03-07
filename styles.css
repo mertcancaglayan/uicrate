@@ -375,6 +375,8 @@ svg {
 .preview-card {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+
 	gap: 0.8rem;
 	background-color: var(--surface);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -390,16 +392,17 @@ svg {
 }
 
 .preview-card-content {
-	position: relative;
 	background-color: var(--background);
 	border-radius: 0.4rem;
 	overflow: hidden;
-	margin: 0 auto;
+	aspect-ratio: 1.4/1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
 .preview-card-content img {
 	width: 100%;
-	max-width: 350px;
 	height: 100%;
 	object-fit: cover;
 }
@@ -407,9 +410,10 @@ svg {
 .preview-card-footer {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: flex-start;
 	color: var(--text);
+	width: 100%;
 	min-height: 70px;
 }
 

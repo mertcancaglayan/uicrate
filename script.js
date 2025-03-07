@@ -1,5 +1,3 @@
-console.time()
-
 const resultsGrid = document.getElementById("resultsGrid");
 const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
@@ -101,6 +99,24 @@ function displayResults(components) {
 	}
 }
 
+async function validateImagePaths(components) {
+	for (const component of components) {
+		try {
+			const response = await fetch(component.image);
+			if (!response.ok) {
+				component.image = "https://placehold.co/600x400/png?text=No+Image";
+			}
+		} catch (error) {
+			component.image = "https://placehold.co/600x400/png?text=No+Image";
+		}
+	}
+}
+
+async function loadAndDisplayComponents(components) {
+	await validateImagePaths(components);
+	displayResults(components);
+}
+
 let prevTotalPages = 0;
 
 function generatePagination(currentPage) {
@@ -144,7 +160,7 @@ function changePage(page) {
 	const endIndex = startIndex + itemsPerPage;
 	const paginatedComponents = filteredComponents.slice(startIndex, endIndex);
 
-	displayResults(paginatedComponents);
+	loadAndDisplayComponents(paginatedComponents)
 	generatePagination(currentPage);
 
 	scrollTop();
@@ -181,4 +197,3 @@ document.querySelector(".all-assets-btn").addEventListener("click", (e) => {
 });
 
 getData();
-console.timeEnd()

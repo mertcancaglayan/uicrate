@@ -3,7 +3,7 @@
 		"name": "Breadcrumbs with Theme Toggle",
 		"type": "UI Components",
 		"category": "breadcrumbs",
-		"image": "https://placehold.co/600x400/png",
+		"image": "assets/previewImages/breadcrumbsPreview/breadcrumb1.png",
 		"description": "A modern breadcrumb navigation system with a theme toggle button. Supports light and dark themes and is fully responsive.",
 		"version": "1.0",
 		"author": "Admin",
