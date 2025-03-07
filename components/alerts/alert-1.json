@@ -3,7 +3,7 @@
 		"name": "Enhanced Alert/Warning Cards",
 		"type": "UI Components",
 		"category": "alerts",
-		"image": "https://placehold.co/600x400/png",
+		"image": "assets/previewImages/alert1.png",
 		"description": "A set of customizable alert cards for displaying information, success, warning, and error messages. Includes an icon with a subtle pulse effect and a close button for each alert.",
 		"version": "1.0",
 		"author": "Admin",
