@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Modern Toggle Button",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A modern, animated toggle button with smooth transitions and a clean design.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground-color: #f0f2f5;\n\tfont-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;\n}\n\n.toggle-container {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 3.75em;\n\theight: 2em;\n}\n\n.toggle-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.toggle-switch {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-color: #e0e0e0;\n\ttransition: 0.4s;\n\tborder-radius: 2em;\n}\n\n.toggle-switch:before {\n\tposition: absolute;\n\tcontent: \"\";\n\theight: 1.5em;\n\twidth: 1.5em;\n\tleft: 0.25em;\n\tbottom: 0.25em;\n\tbackground-color: white;\n\ttransition: 0.4s;\n\tborder-radius: 50%;\n\tbox-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.toggle-input:checked + .toggle-switch {\n\tbackground-color: #4bd763;\n}\n\n.toggle-input:checked + .toggle-switch:before {\n\ttransform: translateX(1.75em);\n}\n\n.toggle-input:disabled + .toggle-switch {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
-	"html": "<label class=\"toggle-container\">\n\t<input type=\"checkbox\" class=\"toggle-input\" />\n\t<span class=\"toggle-switch\"></span>\n</label>\n",
-	"script": ""
+    "metadata": {
+        "name": "Modern Toggle Button",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-1.png",
+        "description": "A modern, animated toggle button with smooth transitions and a clean design.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground-color: #f0f2f5;\n\tfont-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;\n}\n\n.toggle-container {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 3.75em;\n\theight: 2em;\n}\n\n.toggle-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.toggle-switch {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-color: #e0e0e0;\n\ttransition: 0.4s;\n\tborder-radius: 2em;\n}\n\n.toggle-switch:before {\n\tposition: absolute;\n\tcontent: \"\";\n\theight: 1.5em;\n\twidth: 1.5em;\n\tleft: 0.25em;\n\tbottom: 0.25em;\n\tbackground-color: white;\n\ttransition: 0.4s;\n\tborder-radius: 50%;\n\tbox-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.toggle-input:checked + .toggle-switch {\n\tbackground-color: #4bd763;\n}\n\n.toggle-input:checked + .toggle-switch:before {\n\ttransform: translateX(1.75em);\n}\n\n.toggle-input:disabled + .toggle-switch {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
+    "html": "<label class=\"toggle-container\">\n\t<input type=\"checkbox\" class=\"toggle-input\" />\n\t<span class=\"toggle-switch\"></span>\n</label>\n",
+    "script": ""
 }

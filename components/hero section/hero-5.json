@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "CSS-Only Hero Section",
-		"type": "sections",
-		"category": "hero",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A modern, responsive hero section with a background image, animated text, and a call-to-action button.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-25"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tfont-family: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nbody {\n\tscroll-behavior: smooth;\n}\n\n.hero {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tpadding: 120px 5% 60px;\n\tbackground: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),\n\t\turl('https://picsum.photos/1920/1080') center/cover;\n}\n\n.hero-content {\n\tmax-width: 800px;\n\tcolor: white;\n}\n\n.hero-title {\n\tfont-size: clamp(2.5rem, 5vw, 4rem);\n\tline-height: 1.1;\n\tmargin-bottom: 1.5rem;\n\tanimation: fadeUp 1s ease-out;\n}\n\n.hero-text {\n\tfont-size: 1.2rem;\n\tline-height: 1.6;\n\tmargin-bottom: 2.5rem;\n\tmax-width: 600px;\n\topacity: 0.9;\n\tanimation: fadeUp 1s ease-out 0.2s backwards;\n}\n\n.cta-button {\n\tdisplay: inline-block;\n\tpadding: 1rem 2.5rem;\n\tbackground-color: #2563eb;\n\tcolor: white;\n\ttext-decoration: none;\n\tborder-radius: 0.5rem;\n\tfont-weight: 600;\n\ttransition: transform 0.3s ease, background-color 0.3s ease;\n\tanimation: fadeUp 1s ease-out 0.4s backwards;\n}\n\n.cta-button:hover {\n\tbackground-color: #1d4ed8;\n\ttransform: translateY(-2px);\n}\n\n@keyframes fadeUp {\n\tfrom {\n\t\topacity: 0;\n\t\ttransform: translateY(30px);\n\t}\n\tto {\n\t\topacity: 1;\n\t\ttransform: translateY(0);\n\t}\n}\n\n@media (max-width: 768px) {\n\n\t.hero {\n\t\ttext-align: center;\n\t\tjustify-content: center;\n\t}\n\n\t.hero-text {\n\t\tmargin-left: auto;\n\t\tmargin-right: auto;\n\t}\n}\n\n@media (max-width: 480px) {\n\n\t.hero-title {\n\t\tfont-size: 2.2rem;\n\t}\n\n\t.cta-button {\n\t\tpadding: 0.8rem 2rem;\n\t\tfont-size: 0.95rem;\n\t}\n}\n",
-	"html": "<section class=\"hero\">\n\t<div class=\"hero-content\">\n\t\t<h1 class=\"hero-title\">Transform Your Digital Presence</h1>\n\t\t<p class=\"hero-text\">\n\t\t\tCreate stunning web experiences that captivate your audience and drive results with our innovative solutions.\n\t\t</p>\n\t\t<a href=\"#\" class=\"cta-button\">Explore Solutions</a>\n\t</div>\n</section>\n",
-	"script": ""
+    "metadata": {
+        "name": "CSS-Only Hero Section",
+        "type": "sections",
+        "category": "hero",
+        "image": "assets/previewImages/heroPreview/hero-5.png",
+        "description": "A modern, responsive hero section with a background image, animated text, and a call-to-action button.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-25"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tfont-family: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nbody {\n\tscroll-behavior: smooth;\n}\n\n.hero {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tpadding: 120px 5% 60px;\n\tbackground: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),\n\t\turl('https://picsum.photos/1920/1080') center/cover;\n}\n\n.hero-content {\n\tmax-width: 800px;\n\tcolor: white;\n}\n\n.hero-title {\n\tfont-size: clamp(2.5rem, 5vw, 4rem);\n\tline-height: 1.1;\n\tmargin-bottom: 1.5rem;\n\tanimation: fadeUp 1s ease-out;\n}\n\n.hero-text {\n\tfont-size: 1.2rem;\n\tline-height: 1.6;\n\tmargin-bottom: 2.5rem;\n\tmax-width: 600px;\n\topacity: 0.9;\n\tanimation: fadeUp 1s ease-out 0.2s backwards;\n}\n\n.cta-button {\n\tdisplay: inline-block;\n\tpadding: 1rem 2.5rem;\n\tbackground-color: #2563eb;\n\tcolor: white;\n\ttext-decoration: none;\n\tborder-radius: 0.5rem;\n\tfont-weight: 600;\n\ttransition: transform 0.3s ease, background-color 0.3s ease;\n\tanimation: fadeUp 1s ease-out 0.4s backwards;\n}\n\n.cta-button:hover {\n\tbackground-color: #1d4ed8;\n\ttransform: translateY(-2px);\n}\n\n@keyframes fadeUp {\n\tfrom {\n\t\topacity: 0;\n\t\ttransform: translateY(30px);\n\t}\n\tto {\n\t\topacity: 1;\n\t\ttransform: translateY(0);\n\t}\n}\n\n@media (max-width: 768px) {\n\n\t.hero {\n\t\ttext-align: center;\n\t\tjustify-content: center;\n\t}\n\n\t.hero-text {\n\t\tmargin-left: auto;\n\t\tmargin-right: auto;\n\t}\n}\n\n@media (max-width: 480px) {\n\n\t.hero-title {\n\t\tfont-size: 2.2rem;\n\t}\n\n\t.cta-button {\n\t\tpadding: 0.8rem 2rem;\n\t\tfont-size: 0.95rem;\n\t}\n}\n",
+    "html": "<section class=\"hero\">\n\t<div class=\"hero-content\">\n\t\t<h1 class=\"hero-title\">Transform Your Digital Presence</h1>\n\t\t<p class=\"hero-text\">\n\t\t\tCreate stunning web experiences that captivate your audience and drive results with our innovative solutions.\n\t\t</p>\n\t\t<a href=\"#\" class=\"cta-button\">Explore Solutions</a>\n\t</div>\n</section>\n",
+    "script": ""
 }

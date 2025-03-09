@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Hamburger Toggle Button",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A simple hamburger toggle button that transforms into an 'X' when activated.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ".toggle-btn {\n\tbackground: rgb(19, 18, 18);\n\tborder: none;\n\tborder-radius: 5px;\n\tpadding: 8px;\n}\n\n.hamburger {\n\tcursor: pointer;\n\tz-index: 1100;\n}\n\n.hamburger .bar {\n\twidth: 25px;\n\theight: 3px;\n\tbackground: #fff;\n\tmargin: 5px 0;\n\ttransition: 0.3s;\n}\n\n.toggle-btn.active .bar:nth-child(1) {\n\ttransform: translateY(8px) rotate(45deg);\n}\n\n.toggle-btn.active .bar:nth-child(2) {\n\topacity: 0;\n}\n\n.toggle-btn.active .bar:nth-child(3) {\n\ttransform: translateY(-8px) rotate(-45deg);\n}\n",
-	"html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />\n<button onclick=\"toggleIcon(this)\" class=\"toggle-btn\" id=\"toggleBtn\">\n\t<div class=\"hamburger\">\n\t\t<div class=\"bar\"></div>\n\t\t<div class=\"bar\"></div>\n\t\t<div class=\"bar\"></div>\n\t</div>\n</button>\n",
-	"script": "function toggleIcon(button) {\n\tbutton.classList.toggle(\"active\");\n}\n"
+    "metadata": {
+        "name": "Hamburger Toggle Button",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-12.png",
+        "description": "A simple hamburger toggle button that transforms into an 'X' when activated.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ".toggle-btn {\n\tbackground: rgb(19, 18, 18);\n\tborder: none;\n\tborder-radius: 5px;\n\tpadding: 8px;\n}\n\n.hamburger {\n\tcursor: pointer;\n\tz-index: 1100;\n}\n\n.hamburger .bar {\n\twidth: 25px;\n\theight: 3px;\n\tbackground: #fff;\n\tmargin: 5px 0;\n\ttransition: 0.3s;\n}\n\n.toggle-btn.active .bar:nth-child(1) {\n\ttransform: translateY(8px) rotate(45deg);\n}\n\n.toggle-btn.active .bar:nth-child(2) {\n\topacity: 0;\n}\n\n.toggle-btn.active .bar:nth-child(3) {\n\ttransform: translateY(-8px) rotate(-45deg);\n}\n",
+    "html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />\n<button onclick=\"toggleIcon(this)\" class=\"toggle-btn\" id=\"toggleBtn\">\n\t<div class=\"hamburger\">\n\t\t<div class=\"bar\"></div>\n\t\t<div class=\"bar\"></div>\n\t\t<div class=\"bar\"></div>\n\t</div>\n</button>\n",
+    "script": "function toggleIcon(button) {\n\tbutton.classList.toggle(\"active\");\n}\n"
 }

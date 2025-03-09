@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "name": "Testimonial Card",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/testimonial-card-3.png",
+        "description": "A simple testimonial card with a star rating, user info, and testimonial text.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-22"
+    },
+    "style": "* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: \"Arial\", sans-serif;\n\tbackground-color: #f3f4f7;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n}\n\n.testimonial-card {\n\tmax-width: 320px;\n\tbackground-color: white;\n\tborder-radius: 20px;\n\tpadding: 24px;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n\ttext-align: center;\n}\n\n.user-image {\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 50%;\n\tbackground-color: #ddd;\n\tmargin: 0 auto;\n\toverflow: hidden;\n}\n\n.user-image img {\n\twidth: 100%;\n\theight: 100%;\n\tobject-fit: cover;\n}\n\n.user-name {\n\tfont-size: 18px;\n\tfont-weight: bold;\n\tcolor: #333;\n\tmargin-top: 12px;\n}\n\n.user-position {\n\tfont-size: 14px;\n\tcolor: #777;\n\tmargin-bottom: 16px;\n}\n\n.star-rating {\n\tcolor: #4f46e5;\n\tfont-size: 18px;\n\tmargin: 8px 0;\n}\n\n.testimonial-text {\n\tfont-size: 16px;\n\tcolor: #555;\n\tmargin: 16px 0;\n}\n\n.testimonial-badge {\n\tfont-size: 12px;\n\tcolor: #0073ff;\n\tdisplay: inline-block;\n\tmargin-top: 8px;\n}",
+    "html": "<div class=\"testimonial-card\">\n\t<div class=\"user-image\">\n\t\t<img src=\"https://i.pravatar.cc/300\" alt=\"User profile\" />\n\t</div>\n\t<div class=\"user-name\">Robert Langosh</div>\n\t<div class=\"user-position\">Product Quality Engineer</div>\n\t<div class=\"star-rating\">★★★★★</div>\n\t<div class=\"testimonial-text\">TurboCool is exactly what I've been looking for.</div>\n\t<div class=\"testimonial-badge\">Testimonial</div>\n</div>",
+    "script": ""
+}

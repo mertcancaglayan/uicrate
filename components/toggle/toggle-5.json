@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Icon Toggle Button",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A toggle switch with icon labels (sun and moon) and a sliding knob for light/dark mode representation.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "/* Basic Reset */\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: Arial, sans-serif;\n\tbackground: #ececec;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n}\n\n/* Toggle Switch Container */\n.toggle-switch {\n\tposition: relative;\n\twidth: 100px;\n\theight: 50px;\n\tbackground: linear-gradient(90deg, #ffe259, #ffa751);\n\tborder-radius: 50px;\n\tcursor: pointer;\n\ttransition: background 0.3s ease;\n}\n\n/* Icon Labels */\n.toggle-switch::before,\n.toggle-switch::after {\n\tposition: absolute;\n\tfont-size: 24px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\tpointer-events: none;\n}\n\n.toggle-switch::before {\n\tcontent: \"☀️\";\n\tleft: 10px;\n}\n\n.toggle-switch::after {\n\tcontent: \"🌙\";\n\tright: 10px;\n}\n\n/* The Sliding Knob */\n.toggle-knob {\n\tz-index: 999;\n\tposition: absolute;\n\twidth: 40px;\n\theight: 40px;\n\tbackground: #fff;\n\tborder-radius: 50%;\n\ttop: 5px;\n\tleft: 5px;\n\ttransition: transform 0.3s ease;\n\tbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n}\n\n/* Active (Toggled) State */\n.toggle-switch.active {\n\tbackground: linear-gradient(90deg, #2c3e50, #4ca1af);\n}\n\n.toggle-switch.active .toggle-knob {\n\ttransform: translateX(50px);\n}\n",
-	"html": "<div class=\"toggle-switch\" id=\"iconToggle\">\n\t<div class=\"toggle-knob\"></div>\n</div>\n",
-	"script": "const iconToggle = document.getElementById(\"iconToggle\");\niconToggle.addEventListener(\"click\", function () {\n\tthis.classList.toggle(\"active\");\n});\n"
+    "metadata": {
+        "name": "Icon Toggle Button",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-5.png",
+        "description": "A toggle switch with icon labels (sun and moon) and a sliding knob for light/dark mode representation.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "/* Basic Reset */\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tfont-family: Arial, sans-serif;\n\tbackground: #ececec;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n}\n\n/* Toggle Switch Container */\n.toggle-switch {\n\tposition: relative;\n\twidth: 100px;\n\theight: 50px;\n\tbackground: linear-gradient(90deg, #ffe259, #ffa751);\n\tborder-radius: 50px;\n\tcursor: pointer;\n\ttransition: background 0.3s ease;\n}\n\n/* Icon Labels */\n.toggle-switch::before,\n.toggle-switch::after {\n\tposition: absolute;\n\tfont-size: 24px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\tpointer-events: none;\n}\n\n.toggle-switch::before {\n\tcontent: \"☀️\";\n\tleft: 10px;\n}\n\n.toggle-switch::after {\n\tcontent: \"🌙\";\n\tright: 10px;\n}\n\n/* The Sliding Knob */\n.toggle-knob {\n\tz-index: 999;\n\tposition: absolute;\n\twidth: 40px;\n\theight: 40px;\n\tbackground: #fff;\n\tborder-radius: 50%;\n\ttop: 5px;\n\tleft: 5px;\n\ttransition: transform 0.3s ease;\n\tbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n}\n\n/* Active (Toggled) State */\n.toggle-switch.active {\n\tbackground: linear-gradient(90deg, #2c3e50, #4ca1af);\n}\n\n.toggle-switch.active .toggle-knob {\n\ttransform: translateX(50px);\n}\n",
+    "html": "<div class=\"toggle-switch\" id=\"iconToggle\">\n\t<div class=\"toggle-knob\"></div>\n</div>\n",
+    "script": "const iconToggle = document.getElementById(\"iconToggle\");\niconToggle.addEventListener(\"click\", function () {\n\tthis.classList.toggle(\"active\");\n});\n"
 }

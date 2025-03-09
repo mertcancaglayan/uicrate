@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "name": "Testimonial Card Example",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/testimonial-card-10.png",
+        "description": "A testimonial card component featuring user reviews, star ratings, and user details with animated design elements.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-24"
+    },
+    "style": "body {\n\tbackground: linear-gradient(135deg, #f3f4f6, #e5e7eb);\n\tfont-family: \"Roboto\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tmargin: 0;\n}\n\n.testimonial-card {\n\tbackground: #ffffff;\n\tpadding: 2.5rem;\n\tmax-width: 400px;\n\twidth: 90%;\n\tborder-radius: 20px;\n\tbox-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);\n\tposition: relative;\n\ttext-align: center;\n\toverflow: hidden;\n}\n\n.testimonial-card::before {\n\tcontent: \"\";\n\tposition: absolute;\n\ttop: -50px;\n\tright: -50px;\n\twidth: 140px;\n\theight: 140px;\n\tbackground: #f59e0b;\n\topacity: 0.2;\n\ttransform: rotate(45deg);\n\tborder-radius: 50%;\n}\n\n.testimonial-card .header {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 0.3rem;\n\tmargin-bottom: 1rem;\n}\n\n.testimonial-card .header .stars {\n\tcolor: #f59e0b;\n\tfont-size: 1.5rem;\n}\n\n.testimonial-card p {\n\tfont-size: 1.1rem;\n\tcolor: #374151;\n\tline-height: 1.8;\n\tmargin: 1.5rem 0;\n\tfont-style: italic;\n}\n\n.testimonial-card .user {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tgap: 1rem;\n\tmargin-top: 2rem;\n}\n\n.testimonial-card .user img {\n\twidth: 80px;\n\theight: 80px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 3px solid #f59e0b;\n\tbox-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);\n}\n\n.testimonial-card .user-info h3 {\n\tmargin: 0;\n\tfont-size: 1.4rem;\n\tcolor: #111827;\n}\n\n.testimonial-card .user-info span {\n\tfont-size: 0.9rem;\n\tcolor: #6b7280;\n}",
+    "html": "<div class=\"testimonial-card\">\n\t<div class=\"header\">\n\t\t<div class=\"stars\">\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star-half-alt\"></i>\n\t\t</div>\n\t</div>\n\t<p>\n\t\t\"The design and functionality exceeded my expectations! The attention to detail and smooth user\n\t\texperience made everything seamless and enjoyable.\"\n\t</p>\n\t<div class=\"user\">\n\t\t<img src=\"https://i.pravatar.cc/150?img=32\" alt=\"User Avatar\" />\n\t\t<div class=\"user-info\">\n\t\t\t<h3>James Parker</h3>\n\t\t\t<span>UI/UX Designer</span>\n\t\t</div>\n\t</div>\n</div>",
+    "script": ""
+}

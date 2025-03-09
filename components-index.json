@@ -366,27 +366,27 @@
 				"date": "2025-02-22"
 			},
 			{
-				"id": "89b86caccd",
+				"id": "7e8dd24859",
 				"name": "Statistics Cards",
-				"image": "assets/previewImages/cardsPreview/a-1.png",
+				"image": "assets/previewImages/cardsPreview/dasboard-card-1.png",
 				"description": "A set of statistic cards displaying data like visits, sales, revenue, and users with a toggle for dark mode.",
-				"file": "cards/dashboard cards/a-1.json",
+				"file": "cards/dashboard cards/dasboard-card-1.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "6306784c8d",
+				"id": "b29564820c",
 				"name": "Statistics Cards",
-				"image": "assets/previewImages/cardsPreview/a-2.png",
+				"image": "assets/previewImages/cardsPreview/dasboard-card-2.png",
 				"description": "A collection of stats cards displaying user data, revenue, growth rate, and average rating, with a dark mode toggle.",
-				"file": "cards/dashboard cards/a-2.json",
+				"file": "cards/dashboard cards/dasboard-card-2.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "b0879804f6",
+				"id": "ca5f63953e",
 				"name": "Dashboard Overview",
-				"image": "assets/previewImages/cardsPreview/a-3.png",
+				"image": "assets/previewImages/cardsPreview/dasboard-card-3.png",
 				"description": "A dashboard overview with various statistics cards, a theme toggle button, and data visualizations. Includes a dark mode feature.",
-				"file": "cards/dashboard cards/a-3.json",
+				"file": "cards/dashboard cards/dasboard-card-3.json",
 				"date": "2025-02-24"
 			},
 			{
@@ -1126,107 +1126,107 @@
 				"date": "2025-02-24"
 			},
 			{
-				"id": "66d45d9a71",
+				"id": "0c3a77a089",
 				"name": "Classic Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-1.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-1.png",
 				"description": "A simple and elegant testimonial card with user image and quote icon.",
-				"file": "cards/testimonial cards/t-1.json",
+				"file": "cards/testimonial cards/testimonial-card-1.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "ee8c6f9ccd",
+				"id": "35764ec4a6",
 				"name": "Testimonial Card Example",
-				"image": "assets/previewImages/cardsPreview/t-10.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-10.png",
 				"description": "A testimonial card component featuring user reviews, star ratings, and user details with animated design elements.",
-				"file": "cards/testimonial cards/t-10.json",
+				"file": "cards/testimonial cards/testimonial-card-10.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "aada832333",
+				"id": "72ba2d617b",
 				"name": "Animated Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-11.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-11.png",
 				"description": "An animated testimonial card with flip effect, showing user reviews, stats, and social proof.",
-				"file": "cards/testimonial cards/t-11.json",
+				"file": "cards/testimonial cards/testimonial-card-11.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "fa8b88bb04",
+				"id": "88cbffcf10",
 				"name": "Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-12.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-12.png",
 				"description": "A simple testimonial card with user review and details, designed with a clean and modern layout.",
-				"file": "cards/testimonial cards/t-12.json",
+				"file": "cards/testimonial cards/testimonial-card-12.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "2409a4b46f",
+				"id": "0e80e224b3",
 				"name": "Modern Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-13.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-13.png",
 				"description": "A modern testimonial card featuring a user quote, profile picture, and rating stars. It has hover animation and uses Font Awesome icons.",
-				"file": "cards/testimonial cards/t-13.json",
+				"file": "cards/testimonial cards/testimonial-card-13.json",
 				"date": "2025-02-24"
 			},
 			{
-				"id": "5f0829951d",
+				"id": "7b2eb6c799",
 				"name": "Modern Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-2.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-2.png",
 				"description": "A modern testimonial card with gradient background and user initials as avatar.",
-				"file": "cards/testimonial cards/t-2.json",
+				"file": "cards/testimonial cards/testimonial-card-2.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "840981088f",
+				"id": "9bd4491ab0",
 				"name": "Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-3.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-3.png",
 				"description": "A simple testimonial card with a star rating, user info, and testimonial text.",
-				"file": "cards/testimonial cards/t-3.json",
+				"file": "cards/testimonial cards/testimonial-card-3.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "5f4179993c",
+				"id": "e56560ea75",
 				"name": "Testimonial Card Example",
-				"image": "assets/previewImages/cardsPreview/t-4.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-4.png",
 				"description": "A testimonial card design with quote icon, user info, and a photo using Font Awesome icons.",
-				"file": "cards/testimonial cards/t-4.json",
+				"file": "cards/testimonial cards/testimonial-card-4.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "b16845e909",
+				"id": "d5214d5dca",
 				"name": "Testimonial Card",
-				"image": "assets/previewImages/cardsPreview/t-5.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-5.png",
 				"description": "A testimonial card featuring a quote, user rating, testimonial text, and user info with a stylish hover effect.",
-				"file": "cards/testimonial cards/t-5.json",
+				"file": "cards/testimonial cards/testimonial-card-5.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "99851b2164",
+				"id": "5a283a3d38",
 				"name": "Testimonial Card Example",
-				"image": "assets/previewImages/cardsPreview/t-6.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-6.png",
 				"description": "A testimonial card with a top bar for star rating, a testimonial text, and user information including their avatar and role.",
-				"file": "cards/testimonial cards/t-6.json",
+				"file": "cards/testimonial cards/testimonial-card-6.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "6827bb9229",
+				"id": "45d09261bd",
 				"name": "Testimonial Card Example",
-				"image": "assets/previewImages/cardsPreview/t-7.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-7.png",
 				"description": "A testimonial card with a quote icon, testimonial text, and user information including avatar and role.",
-				"file": "cards/testimonial cards/t-7.json",
+				"file": "cards/testimonial cards/testimonial-card-7.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "5be9fcd47b",
+				"id": "3a62c9ddf0",
 				"name": "Testimonial Card v2",
-				"image": "assets/previewImages/cardsPreview/t-8.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-8.png",
 				"description": "A more advanced testimonial card featuring social media links, a verified badge, and dynamic hover effects.",
-				"file": "cards/testimonial cards/t-8.json",
+				"file": "cards/testimonial cards/testimonial-card-8.json",
 				"date": "2025-02-22"
 			},
 			{
-				"id": "068d52d7ad",
+				"id": "2ce6225870",
 				"name": "Testimonial Card Example",
-				"image": "assets/previewImages/cardsPreview/t-9.png",
+				"image": "assets/previewImages/cardsPreview/testimonial-card-9.png",
 				"description": "A testimonial card component featuring user reviews, star ratings, and user details.",
-				"file": "cards/testimonial cards/t-9.json",
+				"file": "cards/testimonial cards/testimonial-card-9.json",
 				"date": "2025-02-24"
 			}
 		],

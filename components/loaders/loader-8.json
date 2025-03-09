@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Rotating Squares Loader",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A rotating squares loader with a theme toggle functionality.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n    --bg: #f8f9fa;\n    --text: #212529;\n    --primary: #4a90e2;\n    --secondary: #e94d4d;\n    --loader-speed: 1.2s;\n}\n[data-theme=\"dark\"] {\n    --bg: #1a1a1a;\n    --text: #e8e8e8;\n    --primary: #6c5ce7;\n    --secondary: #ff7675;\n}\nbody {\n    margin: 0;\n    padding: 2rem;\n    min-height: 100vh;\n    background: var(--bg);\n    color: var(--text);\n    transition: all 0.3s ease;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    font-family: \"Segoe UI\", system-ui, sans-serif;\n}\n.rotating-squares {\n    position: relative;\n    width: 50px;\n    height: 50px;\n}\n.rotating-squares div {\n    position: absolute;\n    width: 16px;\n    height: 16px;\n    background: var(--primary);\n    animation: rotate-squares var(--loader-speed) infinite ease;\n}\n.rotating-squares div:nth-child(2) {\n    animation-delay: -0.4s;\n    background: var(--secondary);\n}\n@keyframes rotate-squares {\n    0% {\n        transform: rotate(0deg) scale(1);\n        top: 0;\n        left: 0;\n    }\n    50% {\n        transform: rotate(180deg) scale(0.6);\n        top: 20px;\n        left: 20px;\n    }\n    100% {\n        transform: rotate(360deg) scale(1);\n        top: 0;\n        left: 0;\n    }\n}\n.theme-toggle {\n    position: fixed;\n    top: 1rem;\n    right: 1rem;\n    padding: 0.75rem 1.25rem;\n    background: var(--primary);\n    color: var(--bg);\n    border: none;\n    border-radius: 8px;\n    cursor: pointer;\n    font-weight: 600;\n    transition: transform 0.2s;\n}\n.theme-toggle:hover {\n    transform: scale(1.05);\n}",
-	"html": "<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n<h1>Rotating Squares Loader</h1>\n<div class=\"rotating-squares\">\n    <div></div>\n    <div></div>\n</div>",
-	"script": "function toggleTheme() {\n    const body = document.body;\n    const currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n    const newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n    body.setAttribute(\"data-theme\", newTheme);\n    localStorage.setItem(\"loader-theme\", newTheme);\n}\n// Load saved theme\nconst savedTheme = localStorage.getItem(\"loader-theme\");\nif (savedTheme) {\n    document.body.setAttribute(\"data-theme\", savedTheme);\n}"
+    "metadata": {
+        "name": "Rotating Squares Loader",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-8.png",
+        "description": "A rotating squares loader with a theme toggle functionality.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n    --bg: #f8f9fa;\n    --text: #212529;\n    --primary: #4a90e2;\n    --secondary: #e94d4d;\n    --loader-speed: 1.2s;\n}\n[data-theme=\"dark\"] {\n    --bg: #1a1a1a;\n    --text: #e8e8e8;\n    --primary: #6c5ce7;\n    --secondary: #ff7675;\n}\nbody {\n    margin: 0;\n    padding: 2rem;\n    min-height: 100vh;\n    background: var(--bg);\n    color: var(--text);\n    transition: all 0.3s ease;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    font-family: \"Segoe UI\", system-ui, sans-serif;\n}\n.rotating-squares {\n    position: relative;\n    width: 50px;\n    height: 50px;\n}\n.rotating-squares div {\n    position: absolute;\n    width: 16px;\n    height: 16px;\n    background: var(--primary);\n    animation: rotate-squares var(--loader-speed) infinite ease;\n}\n.rotating-squares div:nth-child(2) {\n    animation-delay: -0.4s;\n    background: var(--secondary);\n}\n@keyframes rotate-squares {\n    0% {\n        transform: rotate(0deg) scale(1);\n        top: 0;\n        left: 0;\n    }\n    50% {\n        transform: rotate(180deg) scale(0.6);\n        top: 20px;\n        left: 20px;\n    }\n    100% {\n        transform: rotate(360deg) scale(1);\n        top: 0;\n        left: 0;\n    }\n}\n.theme-toggle {\n    position: fixed;\n    top: 1rem;\n    right: 1rem;\n    padding: 0.75rem 1.25rem;\n    background: var(--primary);\n    color: var(--bg);\n    border: none;\n    border-radius: 8px;\n    cursor: pointer;\n    font-weight: 600;\n    transition: transform 0.2s;\n}\n.theme-toggle:hover {\n    transform: scale(1.05);\n}",
+    "html": "<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n<h1>Rotating Squares Loader</h1>\n<div class=\"rotating-squares\">\n    <div></div>\n    <div></div>\n</div>",
+    "script": "function toggleTheme() {\n    const body = document.body;\n    const currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n    const newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n    body.setAttribute(\"data-theme\", newTheme);\n    localStorage.setItem(\"loader-theme\", newTheme);\n}\n// Load saved theme\nconst savedTheme = localStorage.getItem(\"loader-theme\");\nif (savedTheme) {\n    document.body.setAttribute(\"data-theme\", savedTheme);\n}"
 }

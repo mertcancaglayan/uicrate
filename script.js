@@ -81,7 +81,9 @@ function displayResults(components) {
 				return `
           <article class="preview-card">
             <div class="preview-card-content">
-              <img src="${imageUrl}" alt="${name || "Component"}" loading="lazy" />
+              <img src="${imageUrl}" onerror="this.onerror=null; this.src='https://placehold.co/600x400/png?text=No+Image';" alt="${
+					name || "Component"
+				}" loading="lazy" />
             </div>
             <div class="preview-card-footer">
               <p>${name || "Unnamed Component"}</p>
@@ -97,24 +99,6 @@ function displayResults(components) {
 			})
 			.join("");
 	}
-}
-
-async function validateImagePaths(components) {
-	for (const component of components) {
-		try {
-			const response = await fetch(component.image);
-			if (!response.ok) {
-				component.image = "https://placehold.co/600x400/png?text=No+Image";
-			}
-		} catch (error) {
-			component.image = "https://placehold.co/600x400/png?text=No+Image";
-		}
-	}
-}
-
-async function loadAndDisplayComponents(components) {
-	await validateImagePaths(components);
-	displayResults(components);
 }
 
 let prevTotalPages = 0;
@@ -160,7 +144,7 @@ function changePage(page) {
 	const endIndex = startIndex + itemsPerPage;
 	const paginatedComponents = filteredComponents.slice(startIndex, endIndex);
 
-	loadAndDisplayComponents(paginatedComponents)
+	displayResults(paginatedComponents);
 	generatePagination(currentPage);
 
 	scrollTop();

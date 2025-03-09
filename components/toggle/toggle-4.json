@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Animated Flip Toggle",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A modern animated flip toggle switch with smooth transitions and interactive hover effects.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #1a1a1a;\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n}\n\n.flip-toggle {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 80px;\n\theight: 40px;\n}\n\n.flip-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.flip-slider {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-color: #2d2d2d;\n\ttransition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n\tborder-radius: 8px;\n}\n\n.flip-slider:before {\n\tcontent: \"\";\n\tposition: absolute;\n\theight: 32px;\n\twidth: 32px;\n\tleft: 4px;\n\tbottom: 4px;\n\tbackground-color: white;\n\tborder-radius: 6px;\n\ttransition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 18px;\n}\n\n.flip-input:checked + .flip-slider {\n\tbackground-color: #007bff;\n}\n\n.flip-input:checked + .flip-slider:before {\n\ttransform: translateX(40px) rotate(360deg);\n\tcontent: \"✓\";\n\tcolor: #007bff;\n\tbackground-color: white;\n}\n\n.flip-input:not(:checked) + .flip-slider:before {\n\tcontent: \"✕\";\n\tcolor: #2d2d2d;\n}\n\n/* Hover effects */\n.flip-slider:hover:before {\n\ttransform: scale(1.1);\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);\n}\n\n.flip-input:checked + .flip-slider:hover:before {\n\ttransform: translateX(40px) rotate(360deg) scale(1.1);\n}\n\n/* Focus state */\n.flip-input:focus-visible + .flip-slider {\n\tbox-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);\n}\n\n/* Disabled state */\n.flip-input:disabled + .flip-slider {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
-	"html": "<label class=\"flip-toggle\">\n\t<input type=\"checkbox\" class=\"flip-input\" />\n\t<span class=\"flip-slider\"></span>\n</label>\n",
-	"script": ""
+    "metadata": {
+        "name": "Animated Flip Toggle",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-4.png",
+        "description": "A modern animated flip toggle switch with smooth transitions and interactive hover effects.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #1a1a1a;\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n}\n\n.flip-toggle {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 80px;\n\theight: 40px;\n}\n\n.flip-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.flip-slider {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-color: #2d2d2d;\n\ttransition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n\tborder-radius: 8px;\n}\n\n.flip-slider:before {\n\tcontent: \"\";\n\tposition: absolute;\n\theight: 32px;\n\twidth: 32px;\n\tleft: 4px;\n\tbottom: 4px;\n\tbackground-color: white;\n\tborder-radius: 6px;\n\ttransition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 18px;\n}\n\n.flip-input:checked + .flip-slider {\n\tbackground-color: #007bff;\n}\n\n.flip-input:checked + .flip-slider:before {\n\ttransform: translateX(40px) rotate(360deg);\n\tcontent: \"✓\";\n\tcolor: #007bff;\n\tbackground-color: white;\n}\n\n.flip-input:not(:checked) + .flip-slider:before {\n\tcontent: \"✕\";\n\tcolor: #2d2d2d;\n}\n\n/* Hover effects */\n.flip-slider:hover:before {\n\ttransform: scale(1.1);\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);\n}\n\n.flip-input:checked + .flip-slider:hover:before {\n\ttransform: translateX(40px) rotate(360deg) scale(1.1);\n}\n\n/* Focus state */\n.flip-input:focus-visible + .flip-slider {\n\tbox-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);\n}\n\n/* Disabled state */\n.flip-input:disabled + .flip-slider {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
+    "html": "<label class=\"flip-toggle\">\n\t<input type=\"checkbox\" class=\"flip-input\" />\n\t<span class=\"flip-slider\"></span>\n</label>\n",
+    "script": ""
 }

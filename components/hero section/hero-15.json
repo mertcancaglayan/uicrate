@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Modern Hero Section",
-		"type": "sections",
-		"category": "hero",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A full-screen hero section with a background image, overlay, animated fade-in effect, and a call-to-action button.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-26"
-	},
-	"style": "/* Reset defaults */\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nhtml,\nbody {\n\theight: 100%;\n\tfont-family: Arial, sans-serif;\n}\n\n/* Hero Section Styles */\n.hero {\n\tposition: relative;\n\tbackground: url(\"https://picsum.photos/seed/hero/1920/1080\") no-repeat center center/cover;\n\theight: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\ttext-align: center;\n\tcolor: #fff;\n}\n\n/* Overlay for better contrast */\n.overlay {\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground: rgba(0, 0, 0, 0.6);\n\tz-index: 1;\n}\n\n/* Hero content */\n.hero-content {\n\tposition: relative;\n\tz-index: 2;\n\tmax-width: 800px;\n\tpadding: 20px;\n\tanimation: fadeIn 1.5s ease-out;\n}\n\n.hero-content h1 {\n\tfont-size: 3.5rem;\n\tmargin-bottom: 20px;\n}\n\n.hero-content p {\n\tfont-size: 1.25rem;\n\tmargin-bottom: 30px;\n\tline-height: 1.5;\n}\n\n.hero-content a {\n\ttext-decoration: none;\n\tbackground-color: #ff5c5c;\n\tcolor: #fff;\n\tpadding: 15px 30px;\n\tborder-radius: 4px;\n\ttransition: background-color 0.3s ease;\n}\n\n.hero-content a:hover {\n\tbackground-color: #ff1e1e;\n}\n\n/* Fade-in animation */\n@keyframes fadeIn {\n\tfrom {\n\t\topacity: 0;\n\t\ttransform: translateY(20px);\n\t}\n\tto {\n\t\topacity: 1;\n\t\ttransform: translateY(0);\n\t}\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n\t.hero-content h1 {\n\t\tfont-size: 2.5rem;\n\t}\n\t.hero-content p {\n\t\tfont-size: 1rem;\n\t}\n}\n\n@media (max-width: 480px) {\n\t.hero-content h1 {\n\t\tfont-size: 2rem;\n\t}\n\t.hero-content a {\n\t\tpadding: 12px 25px;\n\t}\n}",
-	"html": "<section class=\"hero\">\n\t<div class=\"overlay\"></div>\n\t<div class=\"hero-content\">\n\t\t<h1>Discover Your Next Adventure</h1>\n\t\t<p>\n\t\t\tExplore the world with us. Find beautiful destinations, unique experiences, and create memories that\n\t\t\tlast a lifetime.\n\t\t</p>\n\t\t<a href=\"#learn-more\">Learn More</a>\n\t</div>\n</section>\n",
-	"script": ""
+    "metadata": {
+        "name": "Modern Hero Section",
+        "type": "sections",
+        "category": "hero",
+        "image": "assets/previewImages/heroPreview/hero-15.png",
+        "description": "A full-screen hero section with a background image, overlay, animated fade-in effect, and a call-to-action button.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-26"
+    },
+    "style": "/* Reset defaults */\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nhtml,\nbody {\n\theight: 100%;\n\tfont-family: Arial, sans-serif;\n}\n\n/* Hero Section Styles */\n.hero {\n\tposition: relative;\n\tbackground: url(\"https://picsum.photos/seed/hero/1920/1080\") no-repeat center center/cover;\n\theight: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\ttext-align: center;\n\tcolor: #fff;\n}\n\n/* Overlay for better contrast */\n.overlay {\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground: rgba(0, 0, 0, 0.6);\n\tz-index: 1;\n}\n\n/* Hero content */\n.hero-content {\n\tposition: relative;\n\tz-index: 2;\n\tmax-width: 800px;\n\tpadding: 20px;\n\tanimation: fadeIn 1.5s ease-out;\n}\n\n.hero-content h1 {\n\tfont-size: 3.5rem;\n\tmargin-bottom: 20px;\n}\n\n.hero-content p {\n\tfont-size: 1.25rem;\n\tmargin-bottom: 30px;\n\tline-height: 1.5;\n}\n\n.hero-content a {\n\ttext-decoration: none;\n\tbackground-color: #ff5c5c;\n\tcolor: #fff;\n\tpadding: 15px 30px;\n\tborder-radius: 4px;\n\ttransition: background-color 0.3s ease;\n}\n\n.hero-content a:hover {\n\tbackground-color: #ff1e1e;\n}\n\n/* Fade-in animation */\n@keyframes fadeIn {\n\tfrom {\n\t\topacity: 0;\n\t\ttransform: translateY(20px);\n\t}\n\tto {\n\t\topacity: 1;\n\t\ttransform: translateY(0);\n\t}\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n\t.hero-content h1 {\n\t\tfont-size: 2.5rem;\n\t}\n\t.hero-content p {\n\t\tfont-size: 1rem;\n\t}\n}\n\n@media (max-width: 480px) {\n\t.hero-content h1 {\n\t\tfont-size: 2rem;\n\t}\n\t.hero-content a {\n\t\tpadding: 12px 25px;\n\t}\n}",
+    "html": "<section class=\"hero\">\n\t<div class=\"overlay\"></div>\n\t<div class=\"hero-content\">\n\t\t<h1>Discover Your Next Adventure</h1>\n\t\t<p>\n\t\t\tExplore the world with us. Find beautiful destinations, unique experiences, and create memories that\n\t\t\tlast a lifetime.\n\t\t</p>\n\t\t<a href=\"#learn-more\">Learn More</a>\n\t</div>\n</section>\n",
+    "script": ""
 }

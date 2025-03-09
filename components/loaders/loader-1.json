@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Spinner Loader with Theme Toggle",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A minimal spinner loader with a theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg-color: #ffffff;\n\t--text-color: #1a1a1a;\n\t--primary-color: #646cff;\n\t--loader-speed: 1s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg-color: #1a1a1a;\n\t--text-color: #ffffff;\n\t--primary-color: #64ff8a;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground-color: var(--bg-color);\n\tcolor: var(--text-color);\n\ttransition: background-color 0.3s, color 0.3s;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: system-ui, sans-serif;\n}\n\n.spinner {\n\twidth: 50px;\n\theight: 50px;\n\tborder: 4px solid rgba(0, 0, 0, 0.1);\n\tborder-top-color: var(--primary-color);\n\tborder-radius: 50%;\n\tanimation: spin var(--loader-speed) linear infinite;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.5rem 1rem;\n\tbackground: var(--primary-color);\n\tborder: none;\n\tborder-radius: 4px;\n\tcolor: var(--bg-color);\n\tcursor: pointer;\n\ttransition: opacity 0.3s;\n}\n\n.theme-toggle:hover {\n\topacity: 0.8;\n}\n\n@keyframes spin {\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
-	"html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Spinner Loader</h1>\n\n<div class=\"spinner\"></div>\n",
-	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\");\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"theme\", newTheme);\n}\n\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
+    "metadata": {
+        "name": "Spinner Loader with Theme Toggle",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-1.png",
+        "description": "A minimal spinner loader with a theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg-color: #ffffff;\n\t--text-color: #1a1a1a;\n\t--primary-color: #646cff;\n\t--loader-speed: 1s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg-color: #1a1a1a;\n\t--text-color: #ffffff;\n\t--primary-color: #64ff8a;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground-color: var(--bg-color);\n\tcolor: var(--text-color);\n\ttransition: background-color 0.3s, color 0.3s;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: system-ui, sans-serif;\n}\n\n.spinner {\n\twidth: 50px;\n\theight: 50px;\n\tborder: 4px solid rgba(0, 0, 0, 0.1);\n\tborder-top-color: var(--primary-color);\n\tborder-radius: 50%;\n\tanimation: spin var(--loader-speed) linear infinite;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.5rem 1rem;\n\tbackground: var(--primary-color);\n\tborder: none;\n\tborder-radius: 4px;\n\tcolor: var(--bg-color);\n\tcursor: pointer;\n\ttransition: opacity 0.3s;\n}\n\n.theme-toggle:hover {\n\topacity: 0.8;\n}\n\n@keyframes spin {\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+    "html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Spinner Loader</h1>\n\n<div class=\"spinner\"></div>\n",
+    "script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\");\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"theme\", newTheme);\n}\n\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
 }

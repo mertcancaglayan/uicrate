@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Bouncing Dots Loader with Theme Toggle",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A bouncing dots loader with a theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg-color: #ffffff;\n\t--text-color: #1a1a1a;\n\t--primary-color: #646cff;\n\t--loader-speed: 1s;\n\t--transition: all 0.3s ease;\n}\n\n[data-theme=\"dark\"] {\n\t--bg-color: #1a1a1a;\n\t--text-color: #ffffff;\n\t--primary-color: #61dafb;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: var(--bg-color);\n\tcolor: var(--text-color);\n\tfont-family: system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 2rem;\n\tright: 2rem;\n\tpadding: 0.75rem;\n\tborder: none;\n\tborder-radius: 50%;\n\tbackground: var(--primary-color);\n\tcolor: var(--bg-color);\n\tcursor: pointer;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n\n.bouncing-dots {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tgap: 0.5rem;\n\theight: clamp(50px, 8vw, 80px);\n}\n\n.bouncing-dots div {\n\twidth: clamp(12px, 2vw, 16px);\n\theight: clamp(12px, 2vw, 16px);\n\tbackground: var(--primary-color);\n\tborder-radius: 50%;\n\tanimation: bounce var(--loader-speed) infinite ease-in-out;\n}\n\n.bouncing-dots div:nth-child(2) {\n\tanimation-delay: 0.2s;\n}\n\n.bouncing-dots div:nth-child(3) {\n\tanimation-delay: 0.4s;\n}\n\n@keyframes bounce {\n\t0%,\n\t100% {\n\t\ttransform: translateY(0);\n\t}\n\t50% {\n\t\ttransform: translateY(-20px);\n\t}\n}\n",
-	"html": "\n<button class=\"theme-toggle\" aria-label=\"Toggle theme\">🌓</button>\n\n<div class=\"bouncing-dots\">\n\t<div></div>\n\t<div></div>\n\t<div></div>\n</div>\n",
-	"script": "// Theme Toggle\nconst themeToggle = document.querySelector(\".theme-toggle\");\nconst body = document.body;\nthemeToggle.addEventListener(\"click\", () => {\n\tbody.setAttribute(\"data-theme\", body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\");\n});\n"
+    "metadata": {
+        "name": "Bouncing Dots Loader with Theme Toggle",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-5.png",
+        "description": "A bouncing dots loader with a theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg-color: #ffffff;\n\t--text-color: #1a1a1a;\n\t--primary-color: #646cff;\n\t--loader-speed: 1s;\n\t--transition: all 0.3s ease;\n}\n\n[data-theme=\"dark\"] {\n\t--bg-color: #1a1a1a;\n\t--text-color: #ffffff;\n\t--primary-color: #61dafb;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: var(--bg-color);\n\tcolor: var(--text-color);\n\tfont-family: system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 2rem;\n\tright: 2rem;\n\tpadding: 0.75rem;\n\tborder: none;\n\tborder-radius: 50%;\n\tbackground: var(--primary-color);\n\tcolor: var(--bg-color);\n\tcursor: pointer;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n\n.bouncing-dots {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tgap: 0.5rem;\n\theight: clamp(50px, 8vw, 80px);\n}\n\n.bouncing-dots div {\n\twidth: clamp(12px, 2vw, 16px);\n\theight: clamp(12px, 2vw, 16px);\n\tbackground: var(--primary-color);\n\tborder-radius: 50%;\n\tanimation: bounce var(--loader-speed) infinite ease-in-out;\n}\n\n.bouncing-dots div:nth-child(2) {\n\tanimation-delay: 0.2s;\n}\n\n.bouncing-dots div:nth-child(3) {\n\tanimation-delay: 0.4s;\n}\n\n@keyframes bounce {\n\t0%,\n\t100% {\n\t\ttransform: translateY(0);\n\t}\n\t50% {\n\t\ttransform: translateY(-20px);\n\t}\n}\n",
+    "html": "\n<button class=\"theme-toggle\" aria-label=\"Toggle theme\">🌓</button>\n\n<div class=\"bouncing-dots\">\n\t<div></div>\n\t<div></div>\n\t<div></div>\n</div>\n",
+    "script": "// Theme Toggle\nconst themeToggle = document.querySelector(\".theme-toggle\");\nconst body = document.body;\nthemeToggle.addEventListener(\"click\", () => {\n\tbody.setAttribute(\"data-theme\", body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\");\n});\n"
 }

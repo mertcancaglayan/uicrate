@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Floating Morph Toggle",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A floating morph toggle switch with smooth animations, hover effects, and a modern design.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #f0f3f8;\n\tfont-family: \"Inter\", system-ui, sans-serif;\n}\n\n.morph-toggle {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 72px;\n\theight: 40px;\n}\n\n.morph-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.morph-switch {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground: #ffffff;\n\tborder-radius: 12px;\n\ttransition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.05);\n}\n\n.morph-switch:before {\n\tcontent: \"\";\n\tposition: absolute;\n\tleft: 4px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 32px;\n\theight: 32px;\n\tbackground: #ffffff;\n\tborder-radius: 8px;\n\ttransition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\n\tbox-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), inset 0 -2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.morph-switch:after {\n\tcontent: \"\";\n\tposition: absolute;\n\tright: 8px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 16px;\n\theight: 16px;\n\tbackground: #4caf50;\n\tborder-radius: 4px;\n\topacity: 0;\n\ttransition: all 0.3s ease;\n}\n\n.morph-input:checked + .morph-switch {\n\tbackground: #4caf50;\n\tbox-shadow: 0 6px 16px rgba(76, 175, 80, 0.3), inset 0 -2px 4px rgba(0, 0, 0, 0.05);\n}\n\n.morph-input:checked + .morph-switch:before {\n\ttransform: translate(32px, -50%);\n\tborder-radius: 50%;\n\tbackground: #ffffff;\n\twidth: 24px;\n\theight: 24px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n\n/* Hover effects */\n.morph-switch:hover:before {\n\ttransform: translateY(-50%) scale(1.05);\n}\n\n.morph-input:checked + .morph-switch:hover:before {\n\ttransform: translate(32px, -50%) scale(1.05);\n}\n\n.morph-input:focus-visible + .morph-switch {\n\tbox-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3);\n}\n\n.morph-input:active + .morph-switch:before {\n\twidth: 36px;\n}\n\n.morph-input:checked:active + .morph-switch:before {\n\ttransform: translate(32px, -50%) scale(0.9);\n}\n",
-	"html": "<label class=\"morph-toggle\">\n\t<input type=\"checkbox\" class=\"morph-input\" />\n\t<span class=\"morph-switch\"></span>\n</label>\n",
-	"script": ""
+    "metadata": {
+        "name": "Floating Morph Toggle",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-10.png",
+        "description": "A floating morph toggle switch with smooth animations, hover effects, and a modern design.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #f0f3f8;\n\tfont-family: \"Inter\", system-ui, sans-serif;\n}\n\n.morph-toggle {\n\tposition: relative;\n\tdisplay: inline-block;\n\twidth: 72px;\n\theight: 40px;\n}\n\n.morph-input {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n}\n\n.morph-switch {\n\tposition: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground: #ffffff;\n\tborder-radius: 12px;\n\ttransition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.05);\n}\n\n.morph-switch:before {\n\tcontent: \"\";\n\tposition: absolute;\n\tleft: 4px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 32px;\n\theight: 32px;\n\tbackground: #ffffff;\n\tborder-radius: 8px;\n\ttransition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\n\tbox-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), inset 0 -2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.morph-switch:after {\n\tcontent: \"\";\n\tposition: absolute;\n\tright: 8px;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 16px;\n\theight: 16px;\n\tbackground: #4caf50;\n\tborder-radius: 4px;\n\topacity: 0;\n\ttransition: all 0.3s ease;\n}\n\n.morph-input:checked + .morph-switch {\n\tbackground: #4caf50;\n\tbox-shadow: 0 6px 16px rgba(76, 175, 80, 0.3), inset 0 -2px 4px rgba(0, 0, 0, 0.05);\n}\n\n.morph-input:checked + .morph-switch:before {\n\ttransform: translate(32px, -50%);\n\tborder-radius: 50%;\n\tbackground: #ffffff;\n\twidth: 24px;\n\theight: 24px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n}\n\n/* Hover effects */\n.morph-switch:hover:before {\n\ttransform: translateY(-50%) scale(1.05);\n}\n\n.morph-input:checked + .morph-switch:hover:before {\n\ttransform: translate(32px, -50%) scale(1.05);\n}\n\n.morph-input:focus-visible + .morph-switch {\n\tbox-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3);\n}\n\n.morph-input:active + .morph-switch:before {\n\twidth: 36px;\n}\n\n.morph-input:checked:active + .morph-switch:before {\n\ttransform: translate(32px, -50%) scale(0.9);\n}\n",
+    "html": "<label class=\"morph-toggle\">\n\t<input type=\"checkbox\" class=\"morph-input\" />\n\t<span class=\"morph-switch\"></span>\n</label>\n",
+    "script": ""
 }

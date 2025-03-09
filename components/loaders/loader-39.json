@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Subtle Loading Bar",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A subtle loading bar with a smooth animation. The progress bar fills from 0% to 100% and then resets, creating a continuous loading effect.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #f0f0f0;\n}\n.loading-bar {\n\twidth: 200px;\n\theight: 10px;\n\tbackground: #ddd;\n\tborder-radius: 5px;\n\toverflow: hidden;\n}\n.progress {\n\twidth: 0;\n\theight: 100%;\n\tbackground: #3498db;\n\tanimation: load 3s linear infinite;\n\tbox-shadow: 0 0 3px #3498db;\n}\n@keyframes load {\n\t0% {\n\t\twidth: 0%;\n\t}\n\t50% {\n\t\twidth: 100%;\n\t}\n\t100% {\n\t\twidth: 0;\n\t}\n}\n",
-	"html": "<div class=\"loading-bar\">\n\t<div class=\"progress\"></div>\n</div>\n",
-	"script": ""
+    "metadata": {
+        "name": "Subtle Loading Bar",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-39.png",
+        "description": "A subtle loading bar with a smooth animation. The progress bar fills from 0% to 100% and then resets, creating a continuous loading effect.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #f0f0f0;\n}\n.loading-bar {\n\twidth: 200px;\n\theight: 10px;\n\tbackground: #ddd;\n\tborder-radius: 5px;\n\toverflow: hidden;\n}\n.progress {\n\twidth: 0;\n\theight: 100%;\n\tbackground: #3498db;\n\tanimation: load 3s linear infinite;\n\tbox-shadow: 0 0 3px #3498db;\n}\n@keyframes load {\n\t0% {\n\t\twidth: 0%;\n\t}\n\t50% {\n\t\twidth: 100%;\n\t}\n\t100% {\n\t\twidth: 0;\n\t}\n}\n",
+    "html": "<div class=\"loading-bar\">\n\t<div class=\"progress\"></div>\n</div>\n",
+    "script": ""
 }

@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Progress Bar Loader",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A progress bar loader with a gradient animation and theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg: #f8f9fa;\n\t--text: #212529;\n\t--primary: #4a90e2;\n\t--secondary: #e94d4d;\n\t--loader-speed: 1.2s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #1a1a1a;\n\t--text: #e8e8e8;\n\t--primary: #6c5ce7;\n\t--secondary: #ff7675;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\ttransition: all 0.3s ease;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n}\n\n.progress-loader {\n\twidth: 200px;\n\theight: 4px;\n\tbackground: rgba(0, 0, 0, 0.1);\n\tborder-radius: 2px;\n\toverflow: hidden;\n}\n\n.progress-loader::after {\n\tcontent: \"\";\n\tdisplay: block;\n\twidth: 40%;\n\theight: 100%;\n\tbackground: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);\n\tanimation: progress calc(var(--loader-speed) * 2) ease-in-out infinite;\n}\n\n@keyframes progress {\n\t0% {\n\t\ttransform: translateX(-100%);\n\t}\n\t100% {\n\t\ttransform: translateX(250%);\n\t}\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.75rem 1.25rem;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tborder: none;\n\tborder-radius: 8px;\n\tcursor: pointer;\n\tfont-weight: 600;\n\ttransition: transform 0.2s;\n}\n\n.theme-toggle:hover {\n\ttransform: scale(1.05);\n}\n",
-	"html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Progress Bar Loader</h1>\n\n<div class=\"progress-loader\"></div>\n",
-	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"loader-theme\", newTheme);\n}\n\n// Load saved theme\nconst savedTheme = localStorage.getItem(\"loader-theme\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
+    "metadata": {
+        "name": "Progress Bar Loader",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-7.png",
+        "description": "A progress bar loader with a gradient animation and theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg: #f8f9fa;\n\t--text: #212529;\n\t--primary: #4a90e2;\n\t--secondary: #e94d4d;\n\t--loader-speed: 1.2s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #1a1a1a;\n\t--text: #e8e8e8;\n\t--primary: #6c5ce7;\n\t--secondary: #ff7675;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\ttransition: all 0.3s ease;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: \"Segoe UI\", system-ui, sans-serif;\n}\n\n.progress-loader {\n\twidth: 200px;\n\theight: 4px;\n\tbackground: rgba(0, 0, 0, 0.1);\n\tborder-radius: 2px;\n\toverflow: hidden;\n}\n\n.progress-loader::after {\n\tcontent: \"\";\n\tdisplay: block;\n\twidth: 40%;\n\theight: 100%;\n\tbackground: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);\n\tanimation: progress calc(var(--loader-speed) * 2) ease-in-out infinite;\n}\n\n@keyframes progress {\n\t0% {\n\t\ttransform: translateX(-100%);\n\t}\n\t100% {\n\t\ttransform: translateX(250%);\n\t}\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.75rem 1.25rem;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tborder: none;\n\tborder-radius: 8px;\n\tcursor: pointer;\n\tfont-weight: 600;\n\ttransition: transform 0.2s;\n}\n\n.theme-toggle:hover {\n\ttransform: scale(1.05);\n}\n",
+    "html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Progress Bar Loader</h1>\n\n<div class=\"progress-loader\"></div>\n",
+    "script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"loader-theme\", newTheme);\n}\n\n// Load saved theme\nconst savedTheme = localStorage.getItem(\"loader-theme\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
 }

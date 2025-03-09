@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Dark Profile Card",
-		"type": "UI Components",
-		"category": "cards",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A sleek dark-themed profile card with social icons and interactive buttons.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-22"
-	},
-	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tbackground: #1e1e1e;\n\tfont-family: \"Poppins\", sans-serif;\n}\n\n.profile-card {\n\tbackground: #2a2a2a;\n\twidth: 360px;\n\tborder-radius: 20px;\n\tbox-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n\ttext-align: center;\n\tpadding: 30px;\n\tposition: relative;\n\tcolor: #ffffff;\n}\n\n.profile-photo {\n\twidth: 120px;\n\theight: 120px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 5px solid #007bff;\n\tbox-shadow: 0 5px 15px rgba(0, 123, 255, 0.5);\n\tmargin-top: -60px;\n\tbackground: white;\n}\n\n.profile-card h2 {\n\tmargin: 15px 0 5px;\n\tfont-size: 26px;\n\tcolor: #fff;\n}\n\n.profile-card p {\n\tcolor: #bbb;\n\tfont-size: 14px;\n\tmargin-bottom: 15px;\n}\n\n.social-icons {\n\tmargin: 15px 0;\n}\n\n.social-icons a {\n\tmargin: 0 12px;\n\tcolor: #007bff;\n\tfont-size: 24px;\n\ttransition: transform 0.3s ease-in-out, color 0.3s ease-in-out;\n}\n\n.social-icons a:hover {\n\tcolor: #00d4ff;\n\ttransform: scale(1.2);\n}\n\n.btn-container {\n\tdisplay: flex;\n\tjustify-content: center;\n\tgap: 15px;\n\tmargin-top: 15px;\n}\n\n.btn {\n\ttext-decoration: none;\n\tpadding: 12px 22px;\n\tborder-radius: 25px;\n\tborder: none;\n\tcursor: pointer;\n\tfont-size: 16px;\n\ttransition: background 0.3s ease-in-out, transform 0.2s;\n}\n\n.btn-follow {\n\tbackground: #007bff;\n\tcolor: white;\n}\n\n.btn-follow:hover {\n\tbackground: #0056b3;\n\ttransform: scale(1.05);\n}\n\n.btn-message {\n\tbackground: #333;\n\tcolor: white;\n\tborder: 1px solid #555;\n}\n\n.btn-message:hover {\n\tbackground: #444;\n\ttransform: scale(1.05);\n}",
-	"html": "<div class=\"profile-card\">\n\t<img src=\"https://picsum.photos/120\" alt=\"Profile Image\" class=\"profile-photo\" />\n\t<h2>David Carter</h2>\n\t<p>Software Engineer</p>\n\t<div class=\"social-icons\">\n\t\t<a href=\"#\"><i class=\"fab fa-github\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\n\t</div>\n\t<div class=\"btn-container\">\n\t\t<button class=\"btn btn-follow\">Follow</button>\n\t\t<button class=\"btn btn-message\">Message</button>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
-	"script": ""
+    "metadata": {
+        "name": "Dark Profile Card",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/profile-card-18.png",
+        "description": "A sleek dark-themed profile card with social icons and interactive buttons.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-22"
+    },
+    "style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tbackground: #1e1e1e;\n\tfont-family: \"Poppins\", sans-serif;\n}\n\n.profile-card {\n\tbackground: #2a2a2a;\n\twidth: 360px;\n\tborder-radius: 20px;\n\tbox-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n\ttext-align: center;\n\tpadding: 30px;\n\tposition: relative;\n\tcolor: #ffffff;\n}\n\n.profile-photo {\n\twidth: 120px;\n\theight: 120px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 5px solid #007bff;\n\tbox-shadow: 0 5px 15px rgba(0, 123, 255, 0.5);\n\tmargin-top: -60px;\n\tbackground: white;\n}\n\n.profile-card h2 {\n\tmargin: 15px 0 5px;\n\tfont-size: 26px;\n\tcolor: #fff;\n}\n\n.profile-card p {\n\tcolor: #bbb;\n\tfont-size: 14px;\n\tmargin-bottom: 15px;\n}\n\n.social-icons {\n\tmargin: 15px 0;\n}\n\n.social-icons a {\n\tmargin: 0 12px;\n\tcolor: #007bff;\n\tfont-size: 24px;\n\ttransition: transform 0.3s ease-in-out, color 0.3s ease-in-out;\n}\n\n.social-icons a:hover {\n\tcolor: #00d4ff;\n\ttransform: scale(1.2);\n}\n\n.btn-container {\n\tdisplay: flex;\n\tjustify-content: center;\n\tgap: 15px;\n\tmargin-top: 15px;\n}\n\n.btn {\n\ttext-decoration: none;\n\tpadding: 12px 22px;\n\tborder-radius: 25px;\n\tborder: none;\n\tcursor: pointer;\n\tfont-size: 16px;\n\ttransition: background 0.3s ease-in-out, transform 0.2s;\n}\n\n.btn-follow {\n\tbackground: #007bff;\n\tcolor: white;\n}\n\n.btn-follow:hover {\n\tbackground: #0056b3;\n\ttransform: scale(1.05);\n}\n\n.btn-message {\n\tbackground: #333;\n\tcolor: white;\n\tborder: 1px solid #555;\n}\n\n.btn-message:hover {\n\tbackground: #444;\n\ttransform: scale(1.05);\n}",
+    "html": "<div class=\"profile-card\">\n\t<img src=\"https://picsum.photos/120\" alt=\"Profile Image\" class=\"profile-photo\" />\n\t<h2>David Carter</h2>\n\t<p>Software Engineer</p>\n\t<div class=\"social-icons\">\n\t\t<a href=\"#\"><i class=\"fab fa-github\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n\t\t<a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\n\t</div>\n\t<div class=\"btn-container\">\n\t\t<button class=\"btn btn-follow\">Follow</button>\n\t\t<button class=\"btn btn-message\">Message</button>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
+    "script": ""
 }

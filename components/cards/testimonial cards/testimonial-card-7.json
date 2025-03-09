@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "name": "Testimonial Card Example",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/testimonial-card-7.png",
+        "description": "A testimonial card with a quote icon, testimonial text, and user information including avatar and role.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-22"
+    },
+    "style": "/* Basic reset and body styling */\nbody {\n\tbackground: #f9f9f9;\n\tfont-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tmargin: 0;\n}\n\n/* Testimonial Card Styling */\n.testimonial-card {\n\tbackground: linear-gradient(to bottom, #ffffff, #f0f0f0);\n\tpadding: 2rem;\n\tmax-width: 360px;\n\twidth: 90%;\n\tborder-radius: 20px;\n\tbox-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);\n\tposition: relative;\n\ttext-align: center;\n}\n\n/* Quote icon styling */\n.testimonial-card .quote-icon {\n\tfont-size: 3rem;\n\tcolor: #3498db;\n\tposition: absolute;\n\ttop: -25px;\n\tleft: 50%;\n\ttransform: translateX(-50%);\n\tbackground: #fff;\n\tpadding: 10px;\n\tborder-radius: 50%;\n\tborder: 3px solid #3498db;\n}\n\n/* Testimonial text */\n.testimonial-card p {\n\tfont-size: 1rem;\n\tcolor: #333;\n\tline-height: 1.6;\n\tmargin: 2.5rem 0 1.5rem;\n\tfont-style: italic;\n}\n\n/* User info container */\n.testimonial-card .user {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tgap: 1rem;\n}\n\n/* User image */\n.testimonial-card .user img {\n\twidth: 70px;\n\theight: 70px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 2px solid #3498db;\n}\n\n/* User name */\n.testimonial-card .user-info h3 {\n\tmargin: 0;\n\tfont-size: 1.2rem;\n\tcolor: #333;\n}\n\n/* User role */\n.testimonial-card .user-info span {\n\tfont-size: 0.9rem;\n\tcolor: #777;\n}",
+    "html": "<div class=\"testimonial-card\">\n\t<i class=\"fas fa-quote-left quote-icon\"></i>\n\t<p>\n\t\t\"I had an amazing experience! The service provided was top-notch and the team was incredibly supportive\n\t\tthroughout the entire process.\"\n\t</p>\n\t<div class=\"user\">\n\t\t<img src=\"https://i.pravatar.cc/150?img=12\" alt=\"User Avatar\" />\n\t\t<div class=\"user-info\">\n\t\t\t<h3>Alex Johnson</h3>\n\t\t\t<span>Marketing Specialist</span>\n\t\t</div>\n\t</div>\n</div>",
+    "script": ""
+}
