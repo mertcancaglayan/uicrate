@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Services Card",
-		"type": "UI Components",
-		"category": "cards",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A service card with an icon, title, and description. It includes hover effects and a responsive design.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-22"
-	},
-	"style": "@import url(\"https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap\");\n\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tpadding: 40px;\n}\n\n.services-card {\n\t--line-color: #7a5937;\n\t--paragraph-font: \"Playfair Display\";\n\t--card-background-color: #f5f5f5;\n\t--text-font: \"Lobster Two\", serif;\n\t--text-font-size: 20px;\n\t--secondary-dark: #4e342e;\n\tmin-width: 260px;\n\tmax-width: 300px;\n\theight: auto;\n\tborder: 1px solid var(--line-color);\n\tbackground-color: var(--card-background-color);\n\tborder-radius: 8px;\n\tpadding: 20px 20px 40px;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n\ttransition: transform 0.3s ease;\n\ttext-align: center;\n}\n\n.services-card:hover {\n\ttransform: translateY(-5px);\n\tbox-shadow: none;\n}\n\n.icon-container {\n\twidth: 100%;\n\tdisplay: flex;\n\tjustify-content: center;\n}\n\n.services-icon {\n\tborder-radius: 8px;\n\tborder: 1px solid var(--line-color);\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\twidth: 50px;\n\theight: 50px;\n\tpadding: 5px;\n}\n\nsvg {\n\twidth: 45px;\n\theight: 45px;\n}\n\nh3 {\n\tmargin: 10px;\n\tfont-family: var(--text-font);\n\tfont-size: var(--text-font-size);\n}\n\np {\n\tcolor: var(--secondary-dark);\n\tfont-family: var(--paragraph-font);\n}\n",
-	"html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />\n\n<article class=\"services-card\">\n\t<div class=\"icon-container\">\n\t\t<span class=\"services-icon\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\">\n\t\t\t\t<path d=\"M48 0C21.5 0 0 21.5 0 48L0 368c0 26.5 21.5 48 48 48l16 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L48 0zM416 160l50.7 0L544 237.3l0 18.7-128 0 0-96zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z\" />\n\t\t\t</svg>\n\t\t</span>\n\t</div>\n\t<h3>Delivery</h3>\n\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quisquam!</p>\n</article>\n",
-	"script": ""
+    "metadata": {
+        "name": "Services Card",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/simple-card-2.png",
+        "description": "A service card with an icon, title, and description. It includes hover effects and a responsive design.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-22"
+    },
+    "style": "@import url(\"https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap\");\n\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tpadding: 40px;\n}\n\n.services-card {\n\t--line-color: #7a5937;\n\t--paragraph-font: \"Playfair Display\";\n\t--card-background-color: #f5f5f5;\n\t--text-font: \"Lobster Two\", serif;\n\t--text-font-size: 20px;\n\t--secondary-dark: #4e342e;\n\tmin-width: 260px;\n\tmax-width: 300px;\n\theight: auto;\n\tborder: 1px solid var(--line-color);\n\tbackground-color: var(--card-background-color);\n\tborder-radius: 8px;\n\tpadding: 20px 20px 40px;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n\ttransition: transform 0.3s ease;\n\ttext-align: center;\n}\n\n.services-card:hover {\n\ttransform: translateY(-5px);\n\tbox-shadow: none;\n}\n\n.icon-container {\n\twidth: 100%;\n\tdisplay: flex;\n\tjustify-content: center;\n}\n\n.services-icon {\n\tborder-radius: 8px;\n\tborder: 1px solid var(--line-color);\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\twidth: 50px;\n\theight: 50px;\n\tpadding: 5px;\n}\n\nsvg {\n\twidth: 45px;\n\theight: 45px;\n}\n\nh3 {\n\tmargin: 10px;\n\tfont-family: var(--text-font);\n\tfont-size: var(--text-font-size);\n}\n\np {\n\tcolor: var(--secondary-dark);\n\tfont-family: var(--paragraph-font);\n}\n",
+    "html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />\n\n<article class=\"services-card\">\n\t<div class=\"icon-container\">\n\t\t<span class=\"services-icon\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\">\n\t\t\t\t<path d=\"M48 0C21.5 0 0 21.5 0 48L0 368c0 26.5 21.5 48 48 48l16 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L48 0zM416 160l50.7 0L544 237.3l0 18.7-128 0 0-96zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z\" />\n\t\t\t</svg>\n\t\t</span>\n\t</div>\n\t<h3>Delivery</h3>\n\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quisquam!</p>\n</article>\n",
+    "script": ""
 }

@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Geometric Loaders – Pulsing Triangles",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A geometric loader with pulsing triangles and a theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg: #f8fafc;\n\t--text: #1e293b;\n\t--primary: #3b82f6;\n\t--secondary: #f59e0b;\n\t--loader-speed: 1.2s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #0f172a;\n\t--text: #f8fafc;\n\t--primary: #818cf8;\n\t--secondary: #fbbf24;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: all 0.3s ease;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tdisplay: grid;\n\tplace-items: center;\n\tfont-family: \"Inter\", system-ui;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--primary);\n\tborder: none;\n\tborder-radius: 50%;\n\tcursor: pointer;\n\ttransition: transform 0.3s;\n\tdisplay: grid;\n\tplace-items: center;\n}\n\n.theme-toggle svg {\n\twidth: 60%;\n\theight: 60%;\n\tfill: var(--bg);\n\ttransition: transform 0.3s;\n}\n\n/* Pulsing Triangles Loader */\n.tri-loader {\n\tdisplay: flex;\n\tgap: 0.5rem;\n}\n\n.tri-loader div {\n\twidth: 0;\n\theight: 0;\n\tborder-left: 12px solid transparent;\n\tborder-right: 12px solid transparent;\n\tborder-bottom: 20px solid var(--primary);\n\tanimation: pulse var(--loader-speed) ease-in-out infinite;\n}\n\n.tri-loader div:nth-child(2) {\n\tborder-bottom-color: var(--secondary);\n\tanimation-delay: 0.2s;\n}\n\n@keyframes pulse {\n\t0%,\n\t100% {\n\t\ttransform: translateY(0);\n\t}\n\t50% {\n\t\ttransform: translateY(-10px) scale(1.2);\n\t}\n}\n",
-	"html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">\n\t<svg viewBox=\"0 0 24 24\">\n\t\t<path\n\t\t\td=\"M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-14v4m0 12v4M4.9 4.9l2.8 2.8m8.5 8.5 2.8 2.8M2 12h4m12 0h4M4.9 19.1l2.8-2.8m8.5-8.5 2.8-2.8\"\n\t\t/>\n\t</svg>\n</button>\n\n<div class=\"tri-loader\">\n\t<div></div>\n\t<div></div>\n</div>\n",
-	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst isDark = body.getAttribute(\"data-theme\") === \"dark\";\n\tbody.setAttribute(\"data-theme\", isDark ? \"\" : \"dark\");\n\tlocalStorage.setItem(\"geo-theme\", isDark ? \"light\" : \"dark\");\n\tconst toggle = document.querySelector(\".theme-toggle\");\n\ttoggle.style.transform = \"scale(0.9)\";\n\tsetTimeout(() => (toggle.style.transform = \"scale(1)\"), 100);\n}\n\nconst savedTheme = localStorage.getItem(\"geo-theme\");\nif (savedTheme === \"dark\") {\n\tdocument.body.setAttribute(\"data-theme\", \"dark\");\n}\n"
+    "metadata": {
+        "name": "Geometric Loaders – Pulsing Triangles",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-27.png",
+        "description": "A geometric loader with pulsing triangles and a theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg: #f8fafc;\n\t--text: #1e293b;\n\t--primary: #3b82f6;\n\t--secondary: #f59e0b;\n\t--loader-speed: 1.2s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #0f172a;\n\t--text: #f8fafc;\n\t--primary: #818cf8;\n\t--secondary: #fbbf24;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: all 0.3s ease;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tdisplay: grid;\n\tplace-items: center;\n\tfont-family: \"Inter\", system-ui;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--primary);\n\tborder: none;\n\tborder-radius: 50%;\n\tcursor: pointer;\n\ttransition: transform 0.3s;\n\tdisplay: grid;\n\tplace-items: center;\n}\n\n.theme-toggle svg {\n\twidth: 60%;\n\theight: 60%;\n\tfill: var(--bg);\n\ttransition: transform 0.3s;\n}\n\n/* Pulsing Triangles Loader */\n.tri-loader {\n\tdisplay: flex;\n\tgap: 0.5rem;\n}\n\n.tri-loader div {\n\twidth: 0;\n\theight: 0;\n\tborder-left: 12px solid transparent;\n\tborder-right: 12px solid transparent;\n\tborder-bottom: 20px solid var(--primary);\n\tanimation: pulse var(--loader-speed) ease-in-out infinite;\n}\n\n.tri-loader div:nth-child(2) {\n\tborder-bottom-color: var(--secondary);\n\tanimation-delay: 0.2s;\n}\n\n@keyframes pulse {\n\t0%,\n\t100% {\n\t\ttransform: translateY(0);\n\t}\n\t50% {\n\t\ttransform: translateY(-10px) scale(1.2);\n\t}\n}\n",
+    "html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">\n\t<svg viewBox=\"0 0 24 24\">\n\t\t<path\n\t\t\td=\"M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-14v4m0 12v4M4.9 4.9l2.8 2.8m8.5 8.5 2.8 2.8M2 12h4m12 0h4M4.9 19.1l2.8-2.8m8.5-8.5 2.8-2.8\"\n\t\t/>\n\t</svg>\n</button>\n\n<div class=\"tri-loader\">\n\t<div></div>\n\t<div></div>\n</div>\n",
+    "script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst isDark = body.getAttribute(\"data-theme\") === \"dark\";\n\tbody.setAttribute(\"data-theme\", isDark ? \"\" : \"dark\");\n\tlocalStorage.setItem(\"geo-theme\", isDark ? \"light\" : \"dark\");\n\tconst toggle = document.querySelector(\".theme-toggle\");\n\ttoggle.style.transform = \"scale(0.9)\";\n\tsetTimeout(() => (toggle.style.transform = \"scale(1)\"), 100);\n}\n\nconst savedTheme = localStorage.getItem(\"geo-theme\");\nif (savedTheme === \"dark\") {\n\tdocument.body.setAttribute(\"data-theme\", \"dark\");\n}\n"
 }

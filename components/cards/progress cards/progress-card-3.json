@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Progress Cards with Unique Layout",
-		"type": "UI Components",
-		"category": "cards",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A set of two progress cards with unique layouts, including a dark-themed card and a light-themed card with gradient progress bars.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-24"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\nbody {\n\tfont-family: \"Arial\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground-color: #f0f2f5;\n}\n.wrapper {\n\tdisplay: grid;\n\tgrid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n\tgap: 20px;\n\tmax-width: 900px;\n\twidth: 100%;\n}\n.card {\n\tbackground-color: #fff;\n\tpadding: 20px;\n\tborder-radius: 15px;\n\tbox-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n\tposition: relative;\n\toverflow: hidden;\n}\n.card.dark {\n\tbackground-color: #2c2f33;\n\tcolor: white;\n}\n.icon-container {\n\tposition: absolute;\n\ttop: -30px;\n\tright: -30px;\n\tbackground-color: rgba(0, 0, 0, 0.05);\n\tpadding: 20px;\n\tborder-radius: 50%;\n}\n.icon {\n\tfont-size: 4rem;\n\tcolor: #ff6b6b;\n}\nh2 {\n\tfont-size: 1.8rem;\n\tmargin: 20px 0 10px;\n}\np {\n\tfont-size: 0.95rem;\n\tcolor: #666;\n}\n.progress-bar-container {\n\tmargin-top: 15px;\n\tbackground-color: #e0e0e0;\n\theight: 10px;\n\tborder-radius: 8px;\n}\n.progress-bar {\n\theight: 10px;\n\tbackground: linear-gradient(90deg, #36d1dc, #5b86e5);\n\tborder-radius: 8px;\n\twidth: 75%;\n}",
-	"html": "<div class=\"wrapper\">\n\t<!-- Dark Card with Gradient Progress -->\n\t<div class=\"card dark\">\n\t\t<div class=\"icon-container\">\n\t\t\t<i class=\"fas fa-chart-line icon\"></i>\n\t\t</div>\n\t\t<h2>Sales Growth</h2>\n\t\t<p>Your sales performance has increased by 75% compared to last month!</p>\n\t\t<div class=\"progress-bar-container\">\n\t\t\t<div class=\"progress-bar\" style=\"width: 75%\"></div>\n\t\t</div>\n\t</div>\n\n\t<!-- Light Card with Different Progress -->\n\t<div class=\"card\">\n\t\t<div class=\"icon-container\">\n\t\t\t<i class=\"fas fa-balance-scale icon\" style=\"color: #36d1dc\"></i>\n\t\t</div>\n\t\t<h2>Task Completion</h2>\n\t\t<p>45% of your tasks have been completed this week. Keep pushing forward!</p>\n\t\t<div class=\"progress-bar-container\">\n\t\t\t<div class=\"progress-bar\" style=\"width: 45%; background-color: #ffa36c\"></div>\n\t\t</div>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
-	"script": ""
+    "metadata": {
+        "name": "Progress Cards with Unique Layout",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/progress-card-3.png",
+        "description": "A set of two progress cards with unique layouts, including a dark-themed card and a light-themed card with gradient progress bars.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-24"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\nbody {\n\tfont-family: \"Arial\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground-color: #f0f2f5;\n}\n.wrapper {\n\tdisplay: grid;\n\tgrid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n\tgap: 20px;\n\tmax-width: 900px;\n\twidth: 100%;\n}\n.card {\n\tbackground-color: #fff;\n\tpadding: 20px;\n\tborder-radius: 15px;\n\tbox-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n\tposition: relative;\n\toverflow: hidden;\n}\n.card.dark {\n\tbackground-color: #2c2f33;\n\tcolor: white;\n}\n.icon-container {\n\tposition: absolute;\n\ttop: -30px;\n\tright: -30px;\n\tbackground-color: rgba(0, 0, 0, 0.05);\n\tpadding: 20px;\n\tborder-radius: 50%;\n}\n.icon {\n\tfont-size: 4rem;\n\tcolor: #ff6b6b;\n}\nh2 {\n\tfont-size: 1.8rem;\n\tmargin: 20px 0 10px;\n}\np {\n\tfont-size: 0.95rem;\n\tcolor: #666;\n}\n.progress-bar-container {\n\tmargin-top: 15px;\n\tbackground-color: #e0e0e0;\n\theight: 10px;\n\tborder-radius: 8px;\n}\n.progress-bar {\n\theight: 10px;\n\tbackground: linear-gradient(90deg, #36d1dc, #5b86e5);\n\tborder-radius: 8px;\n\twidth: 75%;\n}",
+    "html": "<div class=\"wrapper\">\n\t<!-- Dark Card with Gradient Progress -->\n\t<div class=\"card dark\">\n\t\t<div class=\"icon-container\">\n\t\t\t<i class=\"fas fa-chart-line icon\"></i>\n\t\t</div>\n\t\t<h2>Sales Growth</h2>\n\t\t<p>Your sales performance has increased by 75% compared to last month!</p>\n\t\t<div class=\"progress-bar-container\">\n\t\t\t<div class=\"progress-bar\" style=\"width: 75%\"></div>\n\t\t</div>\n\t</div>\n\n\t<!-- Light Card with Different Progress -->\n\t<div class=\"card\">\n\t\t<div class=\"icon-container\">\n\t\t\t<i class=\"fas fa-balance-scale icon\" style=\"color: #36d1dc\"></i>\n\t\t</div>\n\t\t<h2>Task Completion</h2>\n\t\t<p>45% of your tasks have been completed this week. Keep pushing forward!</p>\n\t\t<div class=\"progress-bar-container\">\n\t\t\t<div class=\"progress-bar\" style=\"width: 45%; background-color: #ffa36c\"></div>\n\t\t</div>\n\t</div>\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\" />",
+    "script": ""
 }

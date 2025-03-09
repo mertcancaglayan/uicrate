@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Spinning Circle Loader",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A simple spinning circle loader with smooth animation.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #f0f0f0;\n}\n\n.spinner {\n\twidth: 50px;\n\theight: 50px;\n\tborder: 5px solid #eee;\n\tborder-top: 5px solid #3498db;\n\tborder-radius: 50%;\n\tanimation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
-	"html": "\n<div class=\"spinner\"></div>\n",
-	"script": ""
+    "metadata": {
+        "name": "Spinning Circle Loader",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-3.png",
+        "description": "A simple spinning circle loader with smooth animation.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #f0f0f0;\n}\n\n.spinner {\n\twidth: 50px;\n\theight: 50px;\n\tborder: 5px solid #eee;\n\tborder-top: 5px solid #3498db;\n\tborder-radius: 50%;\n\tanimation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+    "html": "\n<div class=\"spinner\"></div>\n",
+    "script": ""
 }

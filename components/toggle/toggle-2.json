@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Modern Pill Toggle",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A modern pill-shaped toggle switch with smooth animations and ON/OFF text indicators.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #f5f7fa;\n\tfont-family: system-ui, -apple-system, sans-serif;\n}\n\n.toggle-wrapper {\n\tposition: relative;\n\tdisplay: inline-block;\n}\n\n.toggle-checkbox {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n\tposition: absolute;\n}\n\n.toggle-label {\n\tdisplay: flex;\n\talign-items: center;\n\tcursor: pointer;\n\twidth: 6em;\n\theight: 2.5em;\n\tbackground: #e0e0e0;\n\tborder-radius: 2em;\n\tposition: relative;\n\ttransition: all 0.3s ease;\n\tbox-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.toggle-label:before {\n\tcontent: \"\";\n\tposition: absolute;\n\tleft: 0.25em;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 2em;\n\theight: 2em;\n\tbackground: white;\n\tborder-radius: 50%;\n\ttransition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n\tbox-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n\tz-index: 2;\n}\n\n.toggle-text {\n\tposition: absolute;\n\tfont-weight: 500;\n\tfont-size: 0.85em;\n\ttransition: opacity 0.3s ease;\n\tcolor: white;\n}\n\n.toggle-on {\n\tleft: 0.75em;\n\topacity: 0;\n}\n\n.toggle-off {\n\tright: 0.75em;\n\topacity: 0.7;\n}\n\n.toggle-checkbox:checked + .toggle-label {\n\tbackground: #6c5ce7;\n}\n\n.toggle-checkbox:checked + .toggle-label:before {\n\ttransform: translate(3.5em, -50%);\n}\n\n.toggle-checkbox:checked + .toggle-label .toggle-on {\n\topacity: 1;\n}\n\n.toggle-checkbox:checked + .toggle-label .toggle-off {\n\topacity: 0;\n}\n\n.toggle-label:hover:before {\n\ttransform: translateY(-50%) scale(1.05);\n}\n\n.toggle-checkbox:focus-visible + .toggle-label {\n\tbox-shadow: 0 0 0 3px rgba(108, 92, 231, 0.3);\n}\n\n.toggle-checkbox:disabled + .toggle-label {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
-	"html": "<label class=\"toggle-wrapper\">\n\t<input type=\"checkbox\" class=\"toggle-checkbox\" />\n\t<div class=\"toggle-label\">\n\t\t<span class=\"toggle-text toggle-on\">ON</span>\n\t\t<span class=\"toggle-text toggle-off\">OFF</span>\n\t</div>\n</label>\n",
-	"script": ""
+    "metadata": {
+        "name": "Modern Pill Toggle",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-2.png",
+        "description": "A modern pill-shaped toggle switch with smooth animations and ON/OFF text indicators.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tbackground: #f5f7fa;\n\tfont-family: system-ui, -apple-system, sans-serif;\n}\n\n.toggle-wrapper {\n\tposition: relative;\n\tdisplay: inline-block;\n}\n\n.toggle-checkbox {\n\topacity: 0;\n\twidth: 0;\n\theight: 0;\n\tposition: absolute;\n}\n\n.toggle-label {\n\tdisplay: flex;\n\talign-items: center;\n\tcursor: pointer;\n\twidth: 6em;\n\theight: 2.5em;\n\tbackground: #e0e0e0;\n\tborder-radius: 2em;\n\tposition: relative;\n\ttransition: all 0.3s ease;\n\tbox-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.toggle-label:before {\n\tcontent: \"\";\n\tposition: absolute;\n\tleft: 0.25em;\n\ttop: 50%;\n\ttransform: translateY(-50%);\n\twidth: 2em;\n\theight: 2em;\n\tbackground: white;\n\tborder-radius: 50%;\n\ttransition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n\tbox-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n\tz-index: 2;\n}\n\n.toggle-text {\n\tposition: absolute;\n\tfont-weight: 500;\n\tfont-size: 0.85em;\n\ttransition: opacity 0.3s ease;\n\tcolor: white;\n}\n\n.toggle-on {\n\tleft: 0.75em;\n\topacity: 0;\n}\n\n.toggle-off {\n\tright: 0.75em;\n\topacity: 0.7;\n}\n\n.toggle-checkbox:checked + .toggle-label {\n\tbackground: #6c5ce7;\n}\n\n.toggle-checkbox:checked + .toggle-label:before {\n\ttransform: translate(3.5em, -50%);\n}\n\n.toggle-checkbox:checked + .toggle-label .toggle-on {\n\topacity: 1;\n}\n\n.toggle-checkbox:checked + .toggle-label .toggle-off {\n\topacity: 0;\n}\n\n.toggle-label:hover:before {\n\ttransform: translateY(-50%) scale(1.05);\n}\n\n.toggle-checkbox:focus-visible + .toggle-label {\n\tbox-shadow: 0 0 0 3px rgba(108, 92, 231, 0.3);\n}\n\n.toggle-checkbox:disabled + .toggle-label {\n\topacity: 0.6;\n\tcursor: not-allowed;\n}\n",
+    "html": "<label class=\"toggle-wrapper\">\n\t<input type=\"checkbox\" class=\"toggle-checkbox\" />\n\t<div class=\"toggle-label\">\n\t\t<span class=\"toggle-text toggle-on\">ON</span>\n\t\t<span class=\"toggle-text toggle-off\">OFF</span>\n\t</div>\n</label>\n",
+    "script": ""
 }

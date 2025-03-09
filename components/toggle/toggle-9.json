@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Pulsating Circle Toggle",
-		"type": "UI Components",
-		"category": "toggles",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A pulsating circle toggle switch with smooth animations and a glowing effect for a modern interactive experience.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "/* Reset & Base Styles */\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tbackground: #f0f0f0;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\theight: 100vh;\n\tfont-family: Arial, sans-serif;\n}\n\n/* Pulsating Circle Toggle Styles */\n.pulse-toggle {\n\twidth: 80px;\n\theight: 80px;\n\tborder-radius: 50%;\n\tbackground-color: #ccc;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tcursor: pointer;\n\ttransition: background-color 0.3s ease, box-shadow 0.3s ease;\n\tfont-size: 1em;\n\tcolor: #fff;\n\tuser-select: none;\n}\n\n.pulse-toggle input {\n\tdisplay: none;\n}\n\n/* Active State with Pulsing Animation */\n.pulse-toggle.on {\n\tbackground-color: #2196f3;\n\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\tanimation: pulse 1.5s infinite;\n}\n\n@keyframes pulse {\n\t0% {\n\t\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\t}\n\t50% {\n\t\tbox-shadow: 0 0 25px 10px rgba(33, 150, 243, 0.8);\n\t}\n\t100% {\n\t\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\t}\n}\n\n/* Responsive Adjustments */\n@media (max-width: 480px) {\n\t.pulse-toggle {\n\t\twidth: 60px;\n\t\theight: 60px;\n\t\tfont-size: 0.8em;\n\t}\n}\n",
-	"html": "<label class=\"pulse-toggle\" for=\"pulseToggle\">\n\t<input type=\"checkbox\" id=\"pulseToggle\" />\n\t<span class=\"toggle-text\">OFF</span>\n</label>\n",
-	"script": "const pulseToggleInput = document.getElementById(\"pulseToggle\");\nconst pulseToggleLabel = document.querySelector(\".pulse-toggle\");\nconst toggleText = document.querySelector(\".toggle-text\");\n\npulseToggleInput.addEventListener(\"change\", function () {\n\tif (this.checked) {\n\t\tpulseToggleLabel.classList.add(\"on\");\n\t\ttoggleText.textContent = \"ON\";\n\t} else {\n\t\tpulseToggleLabel.classList.remove(\"on\");\n\t\ttoggleText.textContent = \"OFF\";\n\t}\n});\n"
+    "metadata": {
+        "name": "Pulsating Circle Toggle",
+        "type": "UI Components",
+        "category": "toggles",
+        "image": "assets/previewImages/togglesPreview/toggle-9.png",
+        "description": "A pulsating circle toggle switch with smooth animations and a glowing effect for a modern interactive experience.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "/* Reset & Base Styles */\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nbody {\n\tbackground: #f0f0f0;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\theight: 100vh;\n\tfont-family: Arial, sans-serif;\n}\n\n/* Pulsating Circle Toggle Styles */\n.pulse-toggle {\n\twidth: 80px;\n\theight: 80px;\n\tborder-radius: 50%;\n\tbackground-color: #ccc;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tcursor: pointer;\n\ttransition: background-color 0.3s ease, box-shadow 0.3s ease;\n\tfont-size: 1em;\n\tcolor: #fff;\n\tuser-select: none;\n}\n\n.pulse-toggle input {\n\tdisplay: none;\n}\n\n/* Active State with Pulsing Animation */\n.pulse-toggle.on {\n\tbackground-color: #2196f3;\n\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\tanimation: pulse 1.5s infinite;\n}\n\n@keyframes pulse {\n\t0% {\n\t\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\t}\n\t50% {\n\t\tbox-shadow: 0 0 25px 10px rgba(33, 150, 243, 0.8);\n\t}\n\t100% {\n\t\tbox-shadow: 0 0 15px 5px rgba(33, 150, 243, 0.6);\n\t}\n}\n\n/* Responsive Adjustments */\n@media (max-width: 480px) {\n\t.pulse-toggle {\n\t\twidth: 60px;\n\t\theight: 60px;\n\t\tfont-size: 0.8em;\n\t}\n}\n",
+    "html": "<label class=\"pulse-toggle\" for=\"pulseToggle\">\n\t<input type=\"checkbox\" id=\"pulseToggle\" />\n\t<span class=\"toggle-text\">OFF</span>\n</label>\n",
+    "script": "const pulseToggleInput = document.getElementById(\"pulseToggle\");\nconst pulseToggleLabel = document.querySelector(\".pulse-toggle\");\nconst toggleText = document.querySelector(\".toggle-text\");\n\npulseToggleInput.addEventListener(\"change\", function () {\n\tif (this.checked) {\n\t\tpulseToggleLabel.classList.add(\"on\");\n\t\ttoggleText.textContent = \"ON\";\n\t} else {\n\t\tpulseToggleLabel.classList.remove(\"on\");\n\t\ttoggleText.textContent = \"OFF\";\n\t}\n});\n"
 }

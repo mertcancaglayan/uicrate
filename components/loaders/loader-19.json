@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Modern Loaders 3.0 - Progress Spinner",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A modern progress spinner loader with a theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg: #ffffff;\n\t--text: #2d3436;\n\t--primary: #6c5ce7;\n\t--secondary: #a8a8a8;\n\t--transition: all 0.4s ease-in-out;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #2d3436;\n\t--text: #ffffff;\n\t--primary: #a66efa;\n\t--secondary: #636e72;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: grid;\n\tplace-items: center;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tfont-family: \"Inter\", system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-switcher {\n\tposition: fixed;\n\ttop: 1.5rem;\n\tright: 1.5rem;\n\tpadding: 0.8rem;\n\tborder: none;\n\tborder-radius: 12px;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 0.5rem;\n}\n\n.progress-spinner {\n\twidth: 80px;\n\theight: 80px;\n\tborder-radius: 50%;\n\tbackground: conic-gradient(var(--primary) calc(var(--progress) * 1%), transparent 0);\n\t-webkit-mask: radial-gradient(farthest-side, transparent calc(98% - 8px), black calc(100% - 8px));\n\tmask: radial-gradient(farthest-side, transparent calc(98% - 8px), black calc(100% - 8px));\n\tanimation: rotate 2s linear infinite;\n}\n\n@keyframes rotate {\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
-	"html": "\n<button class=\"theme-switcher\" aria-label=\"Toggle theme\">🌞</button>\n\n<h1>Progress Spinner</h1>\n\n<div class=\"progress-spinner\" style=\"--progress: 75\"></div>\n",
-	"script": "const themeSwitcher = document.querySelector(\".theme-switcher\");\nconst body = document.body;\nconst savedTheme = localStorage.getItem(\"theme\") || \"light\";\nbody.setAttribute(\"data-theme\", savedTheme);\nthemeSwitcher.textContent = savedTheme === \"dark\" ? \"🌜\" : \"🌞\";\nthemeSwitcher.addEventListener(\"click\", () => {\n\tconst newTheme = body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"theme\", newTheme);\n\tthemeSwitcher.textContent = newTheme === \"dark\" ? \"🌜\" : \"🌞\";\n});\n"
+    "metadata": {
+        "name": "Modern Loaders 3.0 - Progress Spinner",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-19.png",
+        "description": "A modern progress spinner loader with a theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg: #ffffff;\n\t--text: #2d3436;\n\t--primary: #6c5ce7;\n\t--secondary: #a8a8a8;\n\t--transition: all 0.4s ease-in-out;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #2d3436;\n\t--text: #ffffff;\n\t--primary: #a66efa;\n\t--secondary: #636e72;\n}\n\n* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\ttransition: var(--transition);\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: grid;\n\tplace-items: center;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\tfont-family: \"Inter\", system-ui, sans-serif;\n\tpadding: 2rem;\n}\n\n.theme-switcher {\n\tposition: fixed;\n\ttop: 1.5rem;\n\tright: 1.5rem;\n\tpadding: 0.8rem;\n\tborder: none;\n\tborder-radius: 12px;\n\tbackground: var(--primary);\n\tcolor: var(--bg);\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 0.5rem;\n}\n\n.progress-spinner {\n\twidth: 80px;\n\theight: 80px;\n\tborder-radius: 50%;\n\tbackground: conic-gradient(var(--primary) calc(var(--progress) * 1%), transparent 0);\n\t-webkit-mask: radial-gradient(farthest-side, transparent calc(98% - 8px), black calc(100% - 8px));\n\tmask: radial-gradient(farthest-side, transparent calc(98% - 8px), black calc(100% - 8px));\n\tanimation: rotate 2s linear infinite;\n}\n\n@keyframes rotate {\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n",
+    "html": "\n<button class=\"theme-switcher\" aria-label=\"Toggle theme\">🌞</button>\n\n<h1>Progress Spinner</h1>\n\n<div class=\"progress-spinner\" style=\"--progress: 75\"></div>\n",
+    "script": "const themeSwitcher = document.querySelector(\".theme-switcher\");\nconst body = document.body;\nconst savedTheme = localStorage.getItem(\"theme\") || \"light\";\nbody.setAttribute(\"data-theme\", savedTheme);\nthemeSwitcher.textContent = savedTheme === \"dark\" ? \"🌜\" : \"🌞\";\nthemeSwitcher.addEventListener(\"click\", () => {\n\tconst newTheme = body.getAttribute(\"data-theme\") === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"theme\", newTheme);\n\tthemeSwitcher.textContent = newTheme === \"dark\" ? \"🌜\" : \"🌞\";\n});\n"
 }

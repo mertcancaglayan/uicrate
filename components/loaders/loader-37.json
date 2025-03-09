@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Neon Text Loading Screen",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A neon text loading screen with a pulsating animation effect. The text 'LOADING' glows in a light blue neon color, creating a futuristic and engaging visual.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #000;\n\tfont-family: \"Arial\", sans-serif;\n}\n.neon-text {\n\tfont-size: 4em;\n\tcolor: #3498db;\n\ttext-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #2980b9, 0 0 70px #2980b9, 0 0 80px #2980b9, 0 0 100px #2980b9;\n\tanimation: pulse 1.5s infinite alternate;\n}\n@keyframes pulse {\n\tfrom {\n\t\ttext-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #2980b9, 0 0 70px #2980b9, 0 0 80px #2980b9, 0 0 100px #2980b9;\n\t}\n\tto {\n\t\ttext-shadow: 0 0 5px #3498db, 0 0 10px #3498db, 0 0 15px #3498db, 0 0 20px #2980b9, 0 0 35px #2980b9, 0 0 40px #2980b9, 0 0 50px #2980b9;\n\t}\n}\n",
-	"html": "<div class=\"neon-text\">LOADING</div>\n",
-	"script": ""
+    "metadata": {
+        "name": "Neon Text Loading Screen",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-37.png",
+        "description": "A neon text loading screen with a pulsating animation effect. The text 'LOADING' glows in a light blue neon color, creating a futuristic and engaging visual.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": "body {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n\tmargin: 0;\n\tbackground: #000;\n\tfont-family: \"Arial\", sans-serif;\n}\n.neon-text {\n\tfont-size: 4em;\n\tcolor: #3498db;\n\ttext-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #2980b9, 0 0 70px #2980b9, 0 0 80px #2980b9, 0 0 100px #2980b9;\n\tanimation: pulse 1.5s infinite alternate;\n}\n@keyframes pulse {\n\tfrom {\n\t\ttext-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #2980b9, 0 0 70px #2980b9, 0 0 80px #2980b9, 0 0 100px #2980b9;\n\t}\n\tto {\n\t\ttext-shadow: 0 0 5px #3498db, 0 0 10px #3498db, 0 0 15px #3498db, 0 0 20px #2980b9, 0 0 35px #2980b9, 0 0 40px #2980b9, 0 0 50px #2980b9;\n\t}\n}\n",
+    "html": "<div class=\"neon-text\">LOADING</div>\n",
+    "script": ""
 }

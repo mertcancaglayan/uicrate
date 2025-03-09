@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "name": "Classic Testimonial Card",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/testimonial-card-1.png",
+        "description": "A simple and elegant testimonial card with user image and quote icon.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-22"
+    },
+    "style": ".testimonial-card.classic {\n\tbackground: #fff;\n\tborder-radius: 15px;\n\tpadding: 2rem;\n\tbox-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);\n\tmax-width: 400px;\n\tposition: relative;\n}\n\n.quote-icon {\n\tfont-size: 4rem;\n\tcolor: #4a90e2;\n\tline-height: 1;\n\tmargin-bottom: 1rem;\n}\n\n.user-avatar {\n\twidth: 60px;\n\theight: 60px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n}\n\n.user-info {\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 1rem;\n\tmargin-top: 1.5rem;\n}",
+    "html": "<div class=\"testimonial-card classic\">\n\t<div class=\"quote-icon\">“</div>\n\t<p class=\"testimonial-text\">This product completely transformed our workflow. It's intuitive and powerful!</p>\n\t<div class=\"user-info\">\n\t\t<img src=\"https://i.pravatar.cc/60\" alt=\"Sarah Johnson\" class=\"user-avatar\" />\n\t\t<div class=\"user-details\">\n\t\t\t<h4 class=\"user-name\">Sarah Johnson</h4>\n\t\t\t<p class=\"user-role\">Marketing Director</p>\n\t\t</div>\n\t</div>\n</div>",
+    "script": ""
+}

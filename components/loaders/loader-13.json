@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "Circle Dash Loader",
-		"type": "UI Components",
-		"category": "loaders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A circle dash loader with a gradient border animation and theme toggle for light and dark modes.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-28"
-	},
-	"style": ":root {\n\t--bg: #ffffff;\n\t--text: #2d3436;\n\t--primary: #6c5ce7;\n\t--secondary: #00b894;\n\t--loader-size: 40px;\n\t--animation-speed: 1s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #2d3436;\n\t--text: #dfe6e9;\n\t--primary: #a66efa;\n\t--secondary: #55efc4;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\ttransition: all 0.3s ease;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: system-ui, sans-serif;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.75rem 1.5rem;\n\tbackground: linear-gradient(45deg, var(--primary), var(--secondary));\n\tcolor: var(--bg);\n\tborder: none;\n\tborder-radius: 8px;\n\tcursor: pointer;\n\tfont-weight: 600;\n\ttransition: transform 0.2s;\n}\n\n.theme-toggle:hover {\n\ttransform: translateY(-2px);\n}\n\n/* Circle Dash Loader Styles */\n.circle-dash {\n\twidth: var(--loader-size);\n\theight: var(--loader-size);\n\tborder: 3px solid transparent;\n\tborder-top-color: var(--primary);\n\tborder-bottom-color: var(--secondary);\n\tborder-radius: 50%;\n\tanimation: spin var(--animation-speed) linear infinite;\n\tposition: relative;\n}\n\n.circle-dash::after {\n\tcontent: \"\";\n\tposition: absolute;\n\ttop: -3px;\n\tleft: -3px;\n\tright: -3px;\n\tbottom: -3px;\n\tborder: 3px dashed var(--primary);\n\tborder-radius: 50%;\n\tanimation: dash calc(var(--animation-speed) * 2) linear infinite;\n}\n\n@keyframes spin {\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n@keyframes dash {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t\tstroke-dashoffset: 0;\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t\tstroke-dashoffset: -100;\n\t}\n}\n",
-	"html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Circle Dash Loader</h1>\n\n<div class=\"circle-dash\"></div>\n",
-	"script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"loader-theme-v3\", newTheme);\n}\n\nconst savedTheme = localStorage.getItem(\"loader-theme-v3\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
+    "metadata": {
+        "name": "Circle Dash Loader",
+        "type": "UI Components",
+        "category": "loaders",
+        "image": "assets/previewImages/loadersPreview/loader-13.png",
+        "description": "A circle dash loader with a gradient border animation and theme toggle for light and dark modes.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-28"
+    },
+    "style": ":root {\n\t--bg: #ffffff;\n\t--text: #2d3436;\n\t--primary: #6c5ce7;\n\t--secondary: #00b894;\n\t--loader-size: 40px;\n\t--animation-speed: 1s;\n}\n\n[data-theme=\"dark\"] {\n\t--bg: #2d3436;\n\t--text: #dfe6e9;\n\t--primary: #a66efa;\n\t--secondary: #55efc4;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 2rem;\n\tmin-height: 100vh;\n\tbackground: var(--bg);\n\tcolor: var(--text);\n\ttransition: all 0.3s ease;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tfont-family: system-ui, sans-serif;\n}\n\n.theme-toggle {\n\tposition: fixed;\n\ttop: 1rem;\n\tright: 1rem;\n\tpadding: 0.75rem 1.5rem;\n\tbackground: linear-gradient(45deg, var(--primary), var(--secondary));\n\tcolor: var(--bg);\n\tborder: none;\n\tborder-radius: 8px;\n\tcursor: pointer;\n\tfont-weight: 600;\n\ttransition: transform 0.2s;\n}\n\n.theme-toggle:hover {\n\ttransform: translateY(-2px);\n}\n\n/* Circle Dash Loader Styles */\n.circle-dash {\n\twidth: var(--loader-size);\n\theight: var(--loader-size);\n\tborder: 3px solid transparent;\n\tborder-top-color: var(--primary);\n\tborder-bottom-color: var(--secondary);\n\tborder-radius: 50%;\n\tanimation: spin var(--animation-speed) linear infinite;\n\tposition: relative;\n}\n\n.circle-dash::after {\n\tcontent: \"\";\n\tposition: absolute;\n\ttop: -3px;\n\tleft: -3px;\n\tright: -3px;\n\tbottom: -3px;\n\tborder: 3px dashed var(--primary);\n\tborder-radius: 50%;\n\tanimation: dash calc(var(--animation-speed) * 2) linear infinite;\n}\n\n@keyframes spin {\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n@keyframes dash {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t\tstroke-dashoffset: 0;\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t\tstroke-dashoffset: -100;\n\t}\n}\n",
+    "html": "\n<button class=\"theme-toggle\" onclick=\"toggleTheme()\">Toggle Theme</button>\n\n<h1>Circle Dash Loader</h1>\n\n<div class=\"circle-dash\"></div>\n",
+    "script": "function toggleTheme() {\n\tconst body = document.body;\n\tconst currentTheme = body.getAttribute(\"data-theme\") || \"light\";\n\tconst newTheme = currentTheme === \"dark\" ? \"light\" : \"dark\";\n\tbody.setAttribute(\"data-theme\", newTheme);\n\tlocalStorage.setItem(\"loader-theme-v3\", newTheme);\n}\n\nconst savedTheme = localStorage.getItem(\"loader-theme-v3\");\nif (savedTheme) {\n\tdocument.body.setAttribute(\"data-theme\", savedTheme);\n}\n"
 }

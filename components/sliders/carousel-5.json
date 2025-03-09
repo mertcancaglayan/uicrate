@@ -1,15 +1,15 @@
 {
-	"metadata": {
-		"name": "3D Rotating Image Slider",
-		"type": "UI Components",
-		"category": "sliders",
-		"image": "https://placehold.co/600x400/png",
-		"description": "A 3D rotating image slider that cycles through images in a circular motion.",
-		"version": "1.0",
-		"author": "Admin",
-		"date": "2025-02-26"
-	},
-	"style": "body {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tbackground-color: black;\n}\n\n.container {\n\twidth: 100vw;\n\theight: 100vh;\n\ttext-align: center;\n\toverflow: hidden;\n\tposition: relative;\n}\n\n.container .slider {\n\tposition: absolute;\n\twidth: 200px;\n\theight: 250px;\n\ttop: 40%;\n\tleft: calc(50% - 100px);\n\ttransform-style: preserve-3d;\n\ttransform: perspective(1000px);\n}\n\n.container .slider .item {\n\tposition: absolute;\n\tinset: 0 0 0 0;\n\ttransition: 0.4s ease;\n\tcursor: pointer;\n\tborder-radius: 10px;\n\toverflow: hidden;\n\tbox-shadow: 0 0 5px 0 #48abe0;\n}\n\n.container .slider .item:hover {\n\tbox-shadow: none;\n}\n\n.container .slider .item img {\n\twidth: 100%;\n\theight: 100%;\n\tobject-fit: cover;\n\tpointer-events: none;\n}\n\n@keyframes rotateSlider {\n\tfrom {\n\t\ttransform: perspective(1000px) rotateY(0deg);\n\t}\n\tto {\n\t\ttransform: perspective(1000px) rotateY(360deg);\n\t}\n}\n",
-	"html": "<div class=\"container\">\n\t<div class=\"slider\" draggable=\"false\"></div>\n</div>\n",
-	"script": "const slider = document.querySelector(\".slider\");\n\nconst images = [\n\t\"assets/img (1).jpg\",\n\t\"assets/img (2).jpg\",\n\t\"assets/img (3).jpg\",\n\t\"assets/img (4).jpg\",\n\t\"assets/img (5).jpg\",\n\t\"assets/img (6).jpg\",\n\t\"assets/img (7).jpg\",\n\t\"assets/img (8).jpg\",\n\t\"assets/img (9).jpg\",\n\t\"assets/img (10).jpg\"\n];\n\nimages.forEach((src, index) => {\n\tconst item = document.createElement(\"div\");\n\titem.classList.add(\"item\");\n\n\tconst img = document.createElement(\"img\");\n\timg.src = src;\n\timg.alt = `Image ${index + 1}`;\n\titem.appendChild(img);\n\tslider.appendChild(item);\n});\n\nconst items = document.querySelectorAll(\".item\");\n\nitems.forEach((item, index) => {\n\tlet position = (index + 1 - 1) * (360 / items.length);\n\titem.style.transform = `rotateY(${position}deg) translateZ(550px)`;\n\n\titem.addEventListener(\"mouseenter\", () => {\n\t\tslider.style.animationPlayState = \"paused\";\n\t});\n\n\titem.addEventListener(\"mouseleave\", () => {\n\t\tslider.style.animationPlayState = \"running\";\n\t});\n});\n\nconst rotateSlider = () => {\n\tslider.style.animation = \"rotateSlider 40s linear infinite\";\n};\n\nrotateSlider();\n"
+    "metadata": {
+        "name": "3D Rotating Image Slider",
+        "type": "UI Components",
+        "category": "sliders",
+        "image": "assets/previewImages/slidersPreview/carousel-5.png",
+        "description": "A 3D rotating image slider that cycles through images in a circular motion.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-26"
+    },
+    "style": "body {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tbackground-color: black;\n}\n\n.container {\n\twidth: 100vw;\n\theight: 100vh;\n\ttext-align: center;\n\toverflow: hidden;\n\tposition: relative;\n}\n\n.container .slider {\n\tposition: absolute;\n\twidth: 200px;\n\theight: 250px;\n\ttop: 40%;\n\tleft: calc(50% - 100px);\n\ttransform-style: preserve-3d;\n\ttransform: perspective(1000px);\n}\n\n.container .slider .item {\n\tposition: absolute;\n\tinset: 0 0 0 0;\n\ttransition: 0.4s ease;\n\tcursor: pointer;\n\tborder-radius: 10px;\n\toverflow: hidden;\n\tbox-shadow: 0 0 5px 0 #48abe0;\n}\n\n.container .slider .item:hover {\n\tbox-shadow: none;\n}\n\n.container .slider .item img {\n\twidth: 100%;\n\theight: 100%;\n\tobject-fit: cover;\n\tpointer-events: none;\n}\n\n@keyframes rotateSlider {\n\tfrom {\n\t\ttransform: perspective(1000px) rotateY(0deg);\n\t}\n\tto {\n\t\ttransform: perspective(1000px) rotateY(360deg);\n\t}\n}\n",
+    "html": "<div class=\"container\">\n\t<div class=\"slider\" draggable=\"false\"></div>\n</div>\n",
+    "script": "const slider = document.querySelector(\".slider\");\n\nconst images = [\n\t\"assets/img (1).jpg\",\n\t\"assets/img (2).jpg\",\n\t\"assets/img (3).jpg\",\n\t\"assets/img (4).jpg\",\n\t\"assets/img (5).jpg\",\n\t\"assets/img (6).jpg\",\n\t\"assets/img (7).jpg\",\n\t\"assets/img (8).jpg\",\n\t\"assets/img (9).jpg\",\n\t\"assets/img (10).jpg\"\n];\n\nimages.forEach((src, index) => {\n\tconst item = document.createElement(\"div\");\n\titem.classList.add(\"item\");\n\n\tconst img = document.createElement(\"img\");\n\timg.src = src;\n\timg.alt = `Image ${index + 1}`;\n\titem.appendChild(img);\n\tslider.appendChild(item);\n});\n\nconst items = document.querySelectorAll(\".item\");\n\nitems.forEach((item, index) => {\n\tlet position = (index + 1 - 1) * (360 / items.length);\n\titem.style.transform = `rotateY(${position}deg) translateZ(550px)`;\n\n\titem.addEventListener(\"mouseenter\", () => {\n\t\tslider.style.animationPlayState = \"paused\";\n\t});\n\n\titem.addEventListener(\"mouseleave\", () => {\n\t\tslider.style.animationPlayState = \"running\";\n\t});\n});\n\nconst rotateSlider = () => {\n\tslider.style.animation = \"rotateSlider 40s linear infinite\";\n};\n\nrotateSlider();\n"
 }

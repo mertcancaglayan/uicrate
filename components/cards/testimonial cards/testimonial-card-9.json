@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "name": "Testimonial Card Example",
+        "type": "UI Components",
+        "category": "cards",
+        "image": "assets/previewImages/cardsPreview/testimonial-card-9.png",
+        "description": "A testimonial card component featuring user reviews, star ratings, and user details.",
+        "version": "1.0",
+        "author": "Admin",
+        "date": "2025-02-24"
+    },
+    "style": "body {\n\tbackground: #f3f4f6;\n\tfont-family: \"Roboto\", sans-serif;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tmin-height: 100vh;\n\tmargin: 0;\n}\n\n.testimonial-card {\n\tbackground: #ffffff;\n\tpadding: 2.5rem;\n\tmax-width: 380px;\n\twidth: 90%;\n\tborder-radius: 15px;\n\tbox-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);\n\tposition: relative;\n\ttext-align: center;\n}\n\n.testimonial-card .header {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 0.3rem;\n}\n\n.testimonial-card .header .stars {\n\tcolor: #f59e0b;\n\tfont-size: 1.5rem;\n}\n\n.testimonial-card p {\n\tfont-size: 1rem;\n\tcolor: #374151;\n\tline-height: 1.6;\n\tmargin: 1.5rem 0;\n\tfont-style: italic;\n}\n\n.testimonial-card .user {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tgap: 1rem;\n}\n\n.testimonial-card .user img {\n\twidth: 70px;\n\theight: 70px;\n\tborder-radius: 50%;\n\tobject-fit: cover;\n\tborder: 2px solid #f59e0b;\n}\n\n.testimonial-card .user-info h3 {\n\tmargin: 0;\n\tfont-size: 1.3rem;\n\tcolor: #111827;\n}\n\n.testimonial-card .user-info span {\n\tfont-size: 0.9rem;\n\tcolor: #6b7280;\n}",
+    "html": "<div class=\"testimonial-card\">\n\t<div class=\"header\">\n\t\t<div class=\"stars\">\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star\"></i>\n\t\t\t<i class=\"fas fa-star-half-alt\"></i>\n\t\t</div>\n\t</div>\n\t<p>\n\t\t\"I am thoroughly impressed! Their attention to detail and commitment to quality made all the difference.\n\t\tHighly recommend to anyone seeking top-notch service.\"\n\t</p>\n\t<div class=\"user\">\n\t\t<img src=\"https://i.pravatar.cc/150?img=25\" alt=\"User Avatar\" />\n\t\t<div class=\"user-info\">\n\t\t\t<h3>Emily Davis</h3>\n\t\t\t<span>Product Manager</span>\n\t\t</div>\n\t</div>\n</div>",
+    "script": ""
+}
