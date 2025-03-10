@@ -24,8 +24,20 @@ document.addEventListener("DOMContentLoaded", function () {
 	function updatePreview() {
 		const html = htmlEditor.getValue();
 		const css = `<style>${cssEditor.getValue()}</style>`;
-		const js = `<script>${jsEditor.getValue().replace(/<\/script>/gi, "<\\/script>")}</script>`;
-		document.getElementById("preview").srcdoc = `${css}${html}${js}`;
+		const jsCode = jsEditor.getValue().replace(/<\/script>/gi, "<\\/script>");
+
+		const antiNavigationScript = `
+			<script>
+				document.querySelectorAll('a').forEach(link => {
+					link.addEventListener('click', function(event) {
+						event.preventDefault();
+					});
+				});
+			<\/script>
+		`;
+
+		const iframe = document.getElementById("preview");
+		iframe.srcdoc = `${css}${html}${antiNavigationScript}<script>${jsCode}</script>`;
 	}
 
 	function debounceUpdatePreview() {
