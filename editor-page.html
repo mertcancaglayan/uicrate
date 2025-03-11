@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Open source components for developers" />
+		<meta name="keywords" content="HTML, CSS, JavaScript, UI Components, Css Styles, Code Editor" />
+
 		<title>Code Editor | UICrate</title>
 
 		<link rel="stylesheet" href="editor-page.css" />
@@ -67,7 +70,7 @@
 					<a href="#" class="mobile-nav-item">Blog</a>
 				</div>
 			</nav>
-			<button class="toggle-btn" id="toggleBtn">
+			<button class="toggle-btn" id="toggleBtn" aria-label="Toggle Navigation">
 				<div class="hamburger">
 					<div class="bar"></div>
 					<div class="bar"></div>
@@ -80,7 +83,7 @@
 				<div id="split-0" class="editor">
 					<label for="htmlEditor">HTML</label>
 					<div class="copyCodeButton">
-						<button onclick="copyToClipboard('htmlEditor')">
+						<button aria-label="Copy Html" onclick="copyToClipboard('htmlEditor')">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
 								<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 								<path
@@ -95,7 +98,7 @@
 				<div id="split-1" class="editor">
 					<label for="cssEditor">CSS</label>
 					<div class="copyCodeButton">
-						<button onclick="copyToClipboard('cssEditor')">
+						<button aria-label="Copy Css" onclick="copyToClipboard('cssEditor')">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
 								<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 								<path
@@ -111,7 +114,7 @@
 				<div id="split-2" class="editor">
 					<label for="jsEditor">JavaScript</label>
 					<div class="copyCodeButton">
-						<button onclick="copyToClipboard('jsEditor')">
+						<button aria-label="Copy Javascript" onclick="copyToClipboard('jsEditor')">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
 								<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 								<path
