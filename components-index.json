@@ -7,7 +7,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-1.png",
 				"description": "A set of customizable alert cards for displaying information, success, warning, and error messages. Includes an icon with a subtle pulse effect and a close button for each alert.",
 				"file": "alerts/alert-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "0506a39fb2",
@@ -15,7 +16,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-10.png",
 				"description": "A clean and modern toast notification system built with pure CSS and JavaScript. Includes success, info, warning, and error notifications with progress bars, icons, and auto-dismiss functionality.",
 				"file": "alerts/alert-10.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "6101bc6d14",
@@ -23,7 +25,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-11.png",
 				"description": "A clean and modern notification system with success, info, and warning notifications. Includes progress bars, icons, and auto-dismiss functionality.",
 				"file": "alerts/alert-11.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "ec90750c7d",
@@ -31,7 +34,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-12.png",
 				"description": "A modern material design-inspired notification system with success, info, warning, and error notifications. Includes progress bars, icons, and action buttons.",
 				"file": "alerts/alert-12.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "323eba571f",
@@ -39,7 +43,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-13.png",
 				"description": "A modern and visually appealing alert system with success, info, warning, and danger alerts. Includes progress bars, icons, and auto-dismiss functionality.",
 				"file": "alerts/alert-13.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "a2562be9d3",
@@ -47,7 +52,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-14.png",
 				"description": "A modern and sleek alert system with success, info, warning, and error alerts. Includes progress bars, icons, and auto-dismiss functionality.",
 				"file": "alerts/alert-14.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "2e3b2605f4",
@@ -55,7 +61,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-2.png",
 				"description": "A set of buttons that trigger dynamic notifications (success, warning, error, info) with icons and close functionality. Notifications slide in from the right and auto-close after 5 seconds.",
 				"file": "alerts/alert-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "923a2362f2",
@@ -63,7 +70,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-3.png",
 				"description": "A dynamic alert system that allows users to trigger success, warning, error, and info alerts. Alerts slide in from the right, include icons and messages, and auto-close after 5 seconds.",
 				"file": "alerts/alert-3.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "1eb3325e08",
@@ -71,7 +79,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-4.png",
 				"description": "A dark-themed alert system with a theme toggle button. Users can trigger success, warning, error, and info alerts. Alerts slide in from the right, include icons and messages, and auto-close after 5 seconds. Supports light and dark themes.",
 				"file": "alerts/alert-4.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "934c4f4ece",
@@ -79,7 +88,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-5.png",
 				"description": "A minimal and modern alert system with a theme toggle button. Users can trigger success, warning, error, and info alerts. Alerts slide down from the top, include icons and messages, and auto-close after 4 seconds. Supports light and dark themes.",
 				"file": "alerts/alert-5.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "5c80dc3a97",
@@ -87,7 +97,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-6.png",
 				"description": "A sleek toast notification system with success, warning, error, and info toasts. Toasts slide in from the right, include icons, titles, and messages, and auto-dismiss after 5 seconds. Supports swipe-to-dismiss on touch devices.",
 				"file": "alerts/alert-6.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "560c5e98fc",
@@ -95,7 +106,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-7.png",
 				"description": "A smart notification system with priority levels (critical, high, normal, low). Notifications appear in different positions based on priority, include icons, titles, and messages, and auto-dismiss after a specified duration. Supports expandable details and progress indicators.",
 				"file": "alerts/alert-7.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "b073e11d19",
@@ -103,7 +115,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-8.png",
 				"description": "A futuristic holographic notification system with cyberpunk aesthetics. Notifications include animated sound waves, glowing borders, and dynamic icons. Supports info, alert, success, and error notifications.",
 				"file": "alerts/alert-8.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			},
 			{
 				"id": "a3a2f36d5e",
@@ -111,7 +124,8 @@
 				"image": "assets/previewImages/alertsPreview/alert-9.png",
 				"description": "A modern and sleek toast notification system with support for light and dark themes. Includes success, info, warning, and error notifications with progress bars and close functionality.",
 				"file": "alerts/alert-9.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "alerts"
 			}
 		],
 		"breadcrumbs": [
@@ -121,7 +135,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-1.png",
 				"description": "A modern breadcrumb navigation system with a theme toggle button. Supports light and dark themes and is fully responsive.",
 				"file": "breadcrumbs/breadcrumb-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "3960f64640",
@@ -129,7 +144,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-10.png",
 				"description": "A futuristic neon-style breadcrumb navigation component with a theme toggle. The breadcrumb links glow with a neon effect and include smooth hover animations. The theme toggle supports dark and light modes with a glowing switch effect and particle animation.",
 				"file": "breadcrumbs/breadcrumb-10.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "2f3eb8f8c9",
@@ -137,7 +153,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-11.png",
 				"description": "A modern and responsive horizontal breadcrumb navigation component with a theme toggle. It supports light and dark themes, smooth scrolling, and interactive breadcrumb links.",
 				"file": "breadcrumbs/breadcrumb-11.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "9c9b9b1679",
@@ -145,7 +162,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-12.png",
 				"description": "A circular stepped breadcrumb navigation system with a theme toggle button. It supports both light and dark themes and is fully responsive.",
 				"file": "breadcrumbs/breadcrumb-12.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "c156327d7c",
@@ -153,7 +171,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-13.png",
 				"description": "A responsive horizontal breadcrumb navigation component with theme toggle. Supports smooth scrolling and animations. The component can switch between light and dark themes.",
 				"file": "breadcrumbs/breadcrumb-13.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "88b2458a17",
@@ -161,7 +180,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-2.png",
 				"description": "A modern breadcrumb navigation system with a theme toggle button. Supports light and dark themes and is fully responsive.",
 				"file": "breadcrumbs/breadcrumb-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "ed257908ec",
@@ -169,7 +189,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-3.png",
 				"description": "A modern glassmorphism-style breadcrumb navigation with icons, hover effects, and a theme toggle for light and dark modes.",
 				"file": "breadcrumbs/breadcrumb-3.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "4441ae2142",
@@ -177,7 +198,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-4.png",
 				"description": "A stylish breadcrumb navigation component with a theme toggle feature. The breadcrumb links are interactive, and the theme toggle allows switching between light and dark modes. The design is responsive and includes smooth transitions.",
 				"file": "breadcrumbs/breadcrumb-4.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "acce81ae32",
@@ -185,7 +207,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-5.png",
 				"description": "A modern breadcrumb navigation component with a theme toggle feature. The breadcrumb links are interactive, and the theme toggle allows switching between light and dark modes. The design includes smooth transitions, a gradient overlay, and ripple effects on link clicks.",
 				"file": "breadcrumbs/breadcrumb-5.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "2d890b23b6",
@@ -193,7 +216,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-6.png",
 				"description": "A floating breadcrumb navigation component with a theme toggle feature. The breadcrumb links are interactive, and the theme toggle allows switching between light and dark modes. The design includes smooth transitions, hover effects, and a pulse animation for separators.",
 				"file": "breadcrumbs/breadcrumb-6.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "a3a19d55a5",
@@ -201,7 +225,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-7.png",
 				"description": "A modern breadcrumb navigation system with a theme toggle button. Supports light and dark themes and is fully responsive.",
 				"file": "breadcrumbs/breadcrumb-7.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "37720fa338",
@@ -209,7 +234,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-8.png",
 				"description": "An adaptive breadcrumb navigation component with a theme toggle feature. The breadcrumb links are interactive, and the design includes a gradient overlay, hover effects, and a responsive layout that adjusts for mobile devices. The theme toggle allows switching between light and dark modes with a smooth animation.",
 				"file": "breadcrumbs/breadcrumb-8.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			},
 			{
 				"id": "78e4816872",
@@ -217,7 +243,8 @@
 				"image": "assets/previewImages/breadcrumbsPreview/breadcrumb-9.png",
 				"description": "A gradient-themed breadcrumb navigation component with a theme toggle feature. The breadcrumb links include a gradient underline effect on hover, and the current page is highlighted with a gradient text effect. The theme toggle allows switching between light and dark modes with a smooth sliding animation.",
 				"file": "breadcrumbs/breadcrumb-9.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "breadcrumbs"
 			}
 		],
 		"cards": [
@@ -227,7 +254,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-1.png",
 				"description": "A stylish hotel card design featuring amenities, location, and booking functionality. Perfect for displaying hotel options in a clean, modern format.",
 				"file": "cards/booking cards/booking-card-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "f9ff256687",
@@ -235,7 +263,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-10.png",
 				"description": "A flight booking card showing departure and arrival details with a progress bar for booking status.",
 				"file": "cards/booking cards/booking-card-10.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "1c7d5fa569",
@@ -243,7 +272,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-11.png",
 				"description": "A car rental card showing car image, specifications, price, and booking options.",
 				"file": "cards/booking cards/booking-card-11.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "a8400c217a",
@@ -251,7 +281,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-12.png",
 				"description": "An interactive hotel room card component featuring room options, gallery, price, and a booking button.",
 				"file": "cards/booking cards/booking-card-12.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "f875c0408e",
@@ -259,7 +290,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-13.png",
 				"description": "A luxury beach resort card showcasing details such as rating, amenities, location, and price with a favorite button.",
 				"file": "cards/booking cards/booking-card-13.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "cef9ef38d7",
@@ -267,7 +299,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-14.png",
 				"description": "A tour card showcasing a Bali cultural tour with options for basic and premium pricing, with highlights like hotel, meals, transport, and guide.",
 				"file": "cards/booking cards/booking-card-14.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "c9ceb07d2e",
@@ -275,7 +308,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-15.png",
 				"description": "A flight booking card component showcasing flight details and pricing options.",
 				"file": "cards/booking cards/booking-card-15.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "322c336289",
@@ -283,7 +317,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-16.png",
 				"description": "A car rental card where users can book a car, choose dates, and view the total price based on the rental duration.",
 				"file": "cards/booking cards/booking-card-16.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "146db3fe27",
@@ -291,7 +326,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-17.png",
 				"description": "A car rental booking card that allows users to select fuel types, additional options, and see a price breakdown.",
 				"file": "cards/booking cards/booking-card-17.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "2287c34b41",
@@ -299,7 +335,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-18.png",
 				"description": "A stylish and interactive car rental card showcasing the Tesla Model S with a modern design and interactive features.",
 				"file": "cards/booking cards/booking-card-18.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "060653d48e",
@@ -307,7 +344,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-2.png",
 				"description": "A clean and stylish booking card that displays a hotel image, location, rating, description, price, and a booking button.",
 				"file": "cards/booking cards/booking-card-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "b95626859a",
@@ -315,7 +353,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-3.png",
 				"description": "A modern, responsive card showcasing a luxury suite with detailed amenities, price, and booking button.",
 				"file": "cards/booking cards/booking-card-3.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "06dcb5b34f",
@@ -323,7 +362,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-4.png",
 				"description": "A responsive card layout displaying various travel destinations with booking options and details.",
 				"file": "cards/booking cards/booking-card-4.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "5961253c67",
@@ -331,7 +371,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-5.png",
 				"description": "A responsive grid layout displaying various travel destinations with detailed information and booking options.",
 				"file": "cards/booking cards/booking-card-5.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "1a798a76dc",
@@ -339,7 +380,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-6.png",
 				"description": "A sleek card component showcasing a beachfront resort with rating, price, and booking button.",
 				"file": "cards/booking cards/booking-card-6.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "b81a758f0d",
@@ -347,7 +389,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-7.png",
 				"description": "A luxurious tropical private villa booking card showcasing essential amenities and pricing.",
 				"file": "cards/booking cards/booking-card-7.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "e7e28e7fd5",
@@ -355,7 +398,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-8.png",
 				"description": "A booking card component showcasing a hotel with a beautiful header image, location, price, and booking button.",
 				"file": "cards/booking cards/booking-card-8.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "3f881c9ec7",
@@ -363,7 +407,8 @@
 				"image": "assets/previewImages/cardsPreview/booking-card-9.png",
 				"description": "A sleek hotel card design with detailed amenities, pricing, and booking option.",
 				"file": "cards/booking cards/booking-card-9.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "7e8dd24859",
@@ -371,7 +416,8 @@
 				"image": "assets/previewImages/cardsPreview/dasboard-card-1.png",
 				"description": "A set of statistic cards displaying data like visits, sales, revenue, and users with a toggle for dark mode.",
 				"file": "cards/dashboard cards/dasboard-card-1.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "b29564820c",
@@ -379,7 +425,8 @@
 				"image": "assets/previewImages/cardsPreview/dasboard-card-2.png",
 				"description": "A collection of stats cards displaying user data, revenue, growth rate, and average rating, with a dark mode toggle.",
 				"file": "cards/dashboard cards/dasboard-card-2.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "ca5f63953e",
@@ -387,7 +434,8 @@
 				"image": "assets/previewImages/cardsPreview/dasboard-card-3.png",
 				"description": "A dashboard overview with various statistics cards, a theme toggle button, and data visualizations. Includes a dark mode feature.",
 				"file": "cards/dashboard cards/dasboard-card-3.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "b02e8370ee",
@@ -395,7 +443,8 @@
 				"image": "assets/previewImages/cardsPreview/dialog-card-1.png",
 				"description": "A simple modal dialog component with open and close actions, including confirm and cancel buttons.",
 				"file": "cards/dialog cards/dialog-card-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "9df60703c3",
@@ -403,7 +452,8 @@
 				"image": "assets/previewImages/cardsPreview/dialog-card-2.png",
 				"description": "A stylish newsletter subscription dialog that asks the user to input their email and subscribe to weekly updates.",
 				"file": "cards/dialog cards/dialog-card-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "2218237690",
@@ -411,7 +461,8 @@
 				"image": "assets/previewImages/cardsPreview/gallery-card-1.png",
 				"description": "A stylish image gallery card that displays an image with a title overlay. On hover, the image color changes, and the title fades in.",
 				"file": "cards/gallery cards/gallery-card-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "873df1f2b3",
@@ -419,7 +470,8 @@
 				"image": "assets/previewImages/cardsPreview/gallery-card-2.png",
 				"description": "A gallery card component that displays an image with a caption underneath. On hover, the image moves up slightly, and the caption slides out of view.",
 				"file": "cards/gallery cards/gallery-card-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "49a5f8e134",
@@ -427,7 +479,8 @@
 				"image": "assets/previewImages/cardsPreview/gallery-card-3.png",
 				"description": "A stylish card component with a top image and a bottom description. On hover, the image sharpens, and the content slides into view with a subtle shadow effect.",
 				"file": "cards/gallery cards/gallery-card-3.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "55ae4c630c",
@@ -435,7 +488,8 @@
 				"image": "assets/previewImages/cardsPreview/gallery-card-4.png",
 				"description": "A single interactive card where the image changes brightness and scale when hovered. The card displays icons on hover with a smooth transition effect.",
 				"file": "cards/gallery cards/gallery-card-4.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "8fc75fba58",
@@ -443,7 +497,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-1.png",
 				"description": "A responsive pricing card component with a billing toggle. Users can switch between annual and monthly pricing, with highlighted popular plans and custom features.",
 				"file": "cards/pricing cards/pricing-cards-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "d9f85cf4f0",
@@ -451,7 +506,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-10.png",
 				"description": "A set of interactive subscription cards that flip to reveal details on hover, displaying different subscription tiers.",
 				"file": "cards/pricing cards/pricing-cards-10.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "2a66d5f071",
@@ -459,7 +515,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-11.png",
 				"description": "This is an AWS-style pricing component showcasing different service tiers with their features, prices, and CTAs.",
 				"file": "cards/pricing cards/pricing-cards-11.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "d382b25178",
@@ -467,7 +524,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-12.png",
 				"description": "A pricing section inspired by Spotify with individual, duo, and family plans. Includes hover effects, a popular plan badge, and toggle buttons for pricing options.",
 				"file": "cards/pricing cards/pricing-cards-12.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "c180e0543d",
@@ -475,7 +533,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-13.png",
 				"description": "A pricing section styled like Zoom's pricing plans, featuring different tiers with icons, prices, and call-to-action buttons.",
 				"file": "cards/pricing cards/pricing-cards-13.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "675b370429",
@@ -483,7 +542,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-2.png",
 				"description": "A set of modern and responsive pricing cards for SaaS applications.",
 				"file": "cards/pricing cards/pricing-cards-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "23336e5cd0",
@@ -491,7 +551,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-3.png",
 				"description": "A modern and responsive pricing card component with a toggle for monthly and annual billing. Features gradient backgrounds, hover effects, and a recommended badge.",
 				"file": "cards/pricing cards/pricing-cards-3.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "6cfafb27c6",
@@ -499,7 +560,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-4.png",
 				"description": "A collection of interactive pricing cards with hover effects, progress bars, and a toggle button to switch between monthly and annual plans.",
 				"file": "cards/pricing cards/pricing-cards-4.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "2351959512",
@@ -507,7 +569,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-5.png",
 				"description": "A set of interactive pricing cards with hover effects, including Basic, Professional, and Enterprise plans.",
 				"file": "cards/pricing cards/pricing-cards-5.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "f38c7471e7",
@@ -515,7 +578,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-6.png",
 				"description": "A modern and interactive pricing card component with a 3D flip effect for switching between monthly and annual billing. Features clean design, hover effects, and a recommended badge.",
 				"file": "cards/pricing cards/pricing-cards-6.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "437e6cca41",
@@ -523,7 +587,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-7.png",
 				"description": "A clean and minimal pricing card component with a dark theme toggle feature.",
 				"file": "cards/pricing cards/pricing-cards-7.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "c3223bbea0",
@@ -531,7 +596,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-8.png",
 				"description": "A set of pricing cards with hover effects, featuring different pricing tiers and a recommended badge.",
 				"file": "cards/pricing cards/pricing-cards-8.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "863e39afd7",
@@ -539,7 +605,8 @@
 				"image": "assets/previewImages/cardsPreview/pricing-cards-9.png",
 				"description": "A responsive pricing table with toggle for monthly and annual billing options, including a badge for the most popular plan.",
 				"file": "cards/pricing cards/pricing-cards-9.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "49a7e3c1a3",
@@ -547,7 +614,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-1.png",
 				"description": "A product card with image, price details, and color selection.",
 				"file": "cards/product cards/product-card-1.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "bb18559b24",
@@ -555,7 +623,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-2.png",
 				"description": "A sleek and modern product card displaying a featured item with price, image, and a 'Buy' button.",
 				"file": "cards/product cards/product-card-2.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "9d2bd3018f",
@@ -563,7 +632,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-3.png",
 				"description": "A stylish product card featuring an image, title, description, price, rating, and an 'Add to Cart' button.",
 				"file": "cards/product cards/product-card-3.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "a1fd9d1668",
@@ -571,7 +641,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-4.png",
 				"description": "A clean and modern product card with an image, title, description, price, and 'Add to Cart' button.",
 				"file": "cards/product cards/product-card-4.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "594372a378",
@@ -579,7 +650,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-5.png",
 				"description": "A modern and sleek product card with a futuristic design, gradient background, and interactive hover effects.",
 				"file": "cards/product cards/product-card-5.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "aee574a5fa",
@@ -587,7 +659,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-6.png",
 				"description": "A playful comic-style product card with a dynamic badge, bold typography, and vibrant colors.",
 				"file": "cards/product cards/product-card-6.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "859f860f94",
@@ -595,7 +668,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-7.png",
 				"description": "A comic-style product panel with bold typography, animated badge, star rating, and vibrant call-to-action button.",
 				"file": "cards/product cards/product-card-7.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "d913b32c63",
@@ -603,7 +677,8 @@
 				"image": "assets/previewImages/cardsPreview/product-card-8.png",
 				"description": "A dynamic comic-style product panel showcasing power stats, hero image, price tag with discount, and a call-to-action button.",
 				"file": "cards/product cards/product-card-8.json",
-				"date": "2025-02-21"
+				"date": "2025-02-21",
+				"category": "cards"
 			},
 			{
 				"id": "ef47ad0802",
@@ -611,7 +686,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-1.png",
 				"description": "A profile card displaying a user's image, name, location, job title, and a contact button.",
 				"file": "cards/profile cards/profile-card-1.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "87569da6fa",
@@ -619,7 +695,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-10.png",
 				"description": "A responsive profile card with an interactive follow button, displaying social media links, user stats, and a profile image.",
 				"file": "cards/profile cards/profile-card-10.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "dfe49408be",
@@ -627,7 +704,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-11.png",
 				"description": "A profile card component with tabbed navigation for About, Skills, and Contact sections. Designed with a modern, gradient header and responsive layout.",
 				"file": "cards/profile cards/profile-card-11.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "bc03665d69",
@@ -635,7 +713,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-12.png",
 				"description": "A profile card component with a flip animation, including stats and social media links. It supports dark/light theme toggling for a dynamic user experience.",
 				"file": "cards/profile cards/profile-card-12.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "3f7f65d704",
@@ -643,7 +722,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-13.png",
 				"description": "A modern glassmorphic profile card with parallax effect.",
 				"file": "cards/profile cards/profile-card-13.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "7d46ee9a21",
@@ -651,7 +731,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-14.png",
 				"description": "A clean and simple profile card with hover effects and social icons.",
 				"file": "cards/profile cards/profile-card-14.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "26e4e3466c",
@@ -659,7 +740,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-15.png",
 				"description": "A stylish profile card with gradient background, social icons, and action buttons.",
 				"file": "cards/profile cards/profile-card-15.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "e5ca4d4650",
@@ -667,7 +749,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-16.png",
 				"description": "A clean and minimalist profile card with a cover photo, social links, and action buttons.",
 				"file": "cards/profile cards/profile-card-16.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "a7278f154f",
@@ -675,7 +758,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-17.png",
 				"description": "A modern and elegant profile card with social icons and action buttons.",
 				"file": "cards/profile cards/profile-card-17.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "62134b20e4",
@@ -683,7 +767,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-18.png",
 				"description": "A sleek dark-themed profile card with social icons and interactive buttons.",
 				"file": "cards/profile cards/profile-card-18.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "80d450a780",
@@ -691,7 +776,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-19.png",
 				"description": "A sleek dark-themed profile card featuring user stats, expertise, and interactive buttons.",
 				"file": "cards/profile cards/profile-card-19.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "5c65b5d7e6",
@@ -699,7 +785,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-2.png",
 				"description": "A profile card displaying a user's image, name, job title, and links to GitHub and LinkedIn profiles.",
 				"file": "cards/profile cards/profile-card-2.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "3cd27ba3c3",
@@ -707,7 +794,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-20.png",
 				"description": "A glassy profile card with social links, skills, and statistics.",
 				"file": "cards/profile cards/profile-card-20.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "af2b9bd19a",
@@ -715,7 +803,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-21.png",
 				"description": "A sleek profile card component featuring a cover image, avatar, bio, stats, and actions such as follow and message.",
 				"file": "cards/profile cards/profile-card-21.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "91a6dbd5fa",
@@ -723,7 +812,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-22.png",
 				"description": "A profile card component with profile picture, role, bio, metrics, and interactive buttons.",
 				"file": "cards/profile cards/profile-card-22.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "840b5adf2b",
@@ -731,7 +821,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-3.png",
 				"description": "A profile card with an image, job title, skills, and links to social media platforms like Twitter, Instagram, and Facebook.",
 				"file": "cards/profile cards/profile-card-3.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "9a51042d84",
@@ -739,7 +830,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-4.png",
 				"description": "A profile card displaying a person's image, name, years of experience, and areas of expertise such as SEO, PPC, and content strategy.",
 				"file": "cards/profile cards/profile-card-4.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "563791a6ae",
@@ -747,7 +839,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-5.png",
 				"description": "A profile card component displaying an image, name, description, and social links with hover effects.",
 				"file": "cards/profile cards/profile-card-5.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "7e67f067cd",
@@ -755,7 +848,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-6.png",
 				"description": "A simple and modern profile card with hover effects and social media links. Displays user's projects, experience, and rating.",
 				"file": "cards/profile cards/profile-card-6.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "88036e96ee",
@@ -763,7 +857,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-7.png",
 				"description": "A modern profile card design featuring a profile image, personal details, social links, and a call-to-action button. It includes hover effects and responsive design.",
 				"file": "cards/profile cards/profile-card-7.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "9b878ef822",
@@ -771,7 +866,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-8.png",
 				"description": "A modern profile card with a dark theme toggle functionality and interactive social links. The design features a stylish avatar, personal details, and smooth hover effects.",
 				"file": "cards/profile cards/profile-card-8.json",
-				"date": "2025-02-23"
+				"date": "2025-02-23",
+				"category": "cards"
 			},
 			{
 				"id": "b05e40b1c8",
@@ -779,7 +875,8 @@
 				"image": "assets/previewImages/cardsPreview/profile-card-9.png",
 				"description": "A profile card that showcases the user's name, title, skills with progress bars, social links, and a contact button.",
 				"file": "cards/profile cards/profile-card-9.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "95a1ecd42b",
@@ -787,7 +884,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-1.png",
 				"description": "A pair of cards showcasing goal achievement and coding progress. Each card features an icon, a progress bar, and descriptive text. One card is styled in dark mode, while the other uses light mode for a clean and modern design.",
 				"file": "cards/progress cards/progress-card-1.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "9bdb20c6ad",
@@ -795,7 +893,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-10.png",
 				"description": "A pair of interactive progress cards with toggleable light/dark themes, showcasing task progress and the ability to switch between themes.",
 				"file": "cards/progress cards/progress-card-10.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "4dba6d1a03",
@@ -803,7 +902,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-11.png",
 				"description": "Interactive cards with both horizontal and circular progress indicators, with a theme toggle feature that switches between light and dark modes.",
 				"file": "cards/progress cards/progress-card-11.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "c30e0bf3a2",
@@ -811,7 +911,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-12.png",
 				"description": "Interactive cards that display progress in circular and linear forms. Includes dark mode toggle.",
 				"file": "cards/progress cards/progress-card-12.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "01a5f62f9a",
@@ -819,7 +920,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-13.png",
 				"description": "A project progress card with circular progress, task list, and metrics in both light and dark themes.",
 				"file": "cards/progress cards/progress-card-13.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "e3559ecffd",
@@ -827,7 +929,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-14.png",
 				"description": "A set of progress cards displaying project completion percentages with dark mode support.",
 				"file": "cards/progress cards/progress-card-14.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "d68d00274a",
@@ -835,7 +938,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-15.png",
 				"description": "Dual-theme progress tracking cards with animated wave indicators, task grids, and timeline history. Features light/dark modes and FontAwesome icons.",
 				"file": "cards/progress cards/progress-card-15.json",
-				"date": "2024-02-22"
+				"date": "2024-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "e8151df553",
@@ -843,7 +947,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-16.png",
 				"description": "A collection of progress cards with a modern design and dark mode support.",
 				"file": "cards/progress cards/progress-card-16.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "15cc57af69",
@@ -851,7 +956,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-17.png",
 				"description": "A set of progress cards with light and dark modes, including animated progress bars.",
 				"file": "cards/progress cards/progress-card-17.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "cc225b842f",
@@ -859,7 +965,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-18.png",
 				"description": "A set of progress cards with animated progress bars and dark mode toggle.",
 				"file": "cards/progress cards/progress-card-18.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "f899c7929a",
@@ -867,7 +974,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-19.png",
 				"description": "A set of three interactive cards featuring a fitness tracker, project management progress, and weather forecast. The cards feature icons, progress bars, and stats to display information in a clean and modern style.",
 				"file": "cards/progress cards/progress-card-19.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "1424cd377e",
@@ -875,7 +983,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-2.png",
 				"description": "Two interactive progress cards demonstrating light and dark modes, complete with progress bars and FontAwesome icons.",
 				"file": "cards/progress cards/progress-card-2.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "3102e1ac0b",
@@ -883,7 +992,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-3.png",
 				"description": "A set of two progress cards with unique layouts, including a dark-themed card and a light-themed card with gradient progress bars.",
 				"file": "cards/progress cards/progress-card-3.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "d921580e22",
@@ -891,7 +1001,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-4.png",
 				"description": "A set of two progress cards (light and dark mode) showing task and project progress with a toggle button for switching themes.",
 				"file": "cards/progress cards/progress-card-4.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "903e0aceb6",
@@ -899,7 +1010,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-5.png",
 				"description": "A set of progress cards with a light/dark mode toggle to display task progress with a visual progress bar.",
 				"file": "cards/progress cards/progress-card-5.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "62d2290f6b",
@@ -907,7 +1019,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-6.png",
 				"description": "A set of cards showing progress in different stages with light/dark themes. Each card includes progress bars, stats, and relevant icons.",
 				"file": "cards/progress cards/progress-card-6.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "e8e3dc5bf4",
@@ -915,7 +1028,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-7.png",
 				"description": "A card layout with progress bars that can toggle between light and dark themes.",
 				"file": "cards/progress cards/progress-card-7.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "f085c793d5",
@@ -923,7 +1037,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-8.png",
 				"description": "A card layout with progress bars for multiple projects, featuring a toggle for light and dark themes.",
 				"file": "cards/progress cards/progress-card-8.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "1153274f0a",
@@ -931,7 +1046,8 @@
 				"image": "assets/previewImages/cardsPreview/progress-card-9.png",
 				"description": "A set of progress cards that show project status, with a light and dark theme. Each card includes progress bars, metrics, and status badges.",
 				"file": "cards/progress cards/progress-card-9.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "be63f1f94b",
@@ -939,7 +1055,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-1.png",
 				"description": "A stylish product card with hover effects and responsive design.",
 				"file": "cards/simple cards/simple-card-1.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "06ca621061",
@@ -947,7 +1064,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-10.png",
 				"description": "A modern and elegant nature-themed card component with a hover effect. This card showcases an image, title, description, and a call-to-action button. Perfect for websites focused on nature, travel, or adventure.",
 				"file": "cards/simple cards/simple-card-10.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "51c6e92ac4",
@@ -955,7 +1073,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-11.png",
 				"description": "A sleek and minimalist card showcasing nature's beauty, with a price tag, image overlay, and feature icons. Ideal for travel or outdoor-related websites.",
 				"file": "cards/simple cards/simple-card-11.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "3c842fd099",
@@ -963,7 +1082,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-12.png",
 				"description": "A beautiful card showcasing nature adventures with a hiking theme. Includes hero image, adventure details, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-12.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "b769655a13",
@@ -971,7 +1091,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-13.png",
 				"description": "A unique layout card featuring nature with a striking image and a call-to-action button for users to start their journey.",
 				"file": "cards/simple cards/simple-card-13.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "cad8ff39ed",
@@ -979,7 +1100,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-14.png",
 				"description": "A nature adventure card featuring a hiking theme, with a hero image, statistics, and a call-to-action button to book an adventure.",
 				"file": "cards/simple cards/simple-card-14.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "1092cc82d8",
@@ -987,7 +1109,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-15.png",
 				"description": "A beautiful and responsive card showcasing a forest retreat with an image, price, description, features, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-15.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "52eb5a7ad0",
@@ -995,7 +1118,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-16.png",
 				"description": "A vertically split card displaying a mountain escape with an image, title, subtitle, features, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-16.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "dedf9bba16",
@@ -1003,7 +1127,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-17.png",
 				"description": "A minimalist card design with nature images and a simple layout. It features an image section with a gradient overlay, stats display, and a call-to-action button for bookings.",
 				"file": "cards/simple cards/simple-card-17.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "1190194775",
@@ -1011,7 +1136,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-18.png",
 				"description": "An interactive card with a flip animation showcasing nature retreats with features like nature trails, camping, and photo tours.",
 				"file": "cards/simple cards/simple-card-18.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "03579e436b",
@@ -1019,7 +1145,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-19.png",
 				"description": "A beautiful nature card with an image and description of a serene scene, complete with icons for features and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-19.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "ee594a5dab",
@@ -1027,7 +1154,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-2.png",
 				"description": "A service card with an icon, title, and description. It includes hover effects and a responsive design.",
 				"file": "cards/simple cards/simple-card-2.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "491bf1ab58",
@@ -1035,7 +1163,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-20.png",
 				"description": "A beautifully designed nature card showcasing an image, features, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-20.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "585d465c33",
@@ -1043,7 +1172,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-21.png",
 				"description": "A horizontal layout nature card featuring an image, title, description, features, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-21.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "2ff51f0f33",
@@ -1051,7 +1181,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-22.png",
 				"description": "A nature card that reveals text on hover with an image and overlay effect.",
 				"file": "cards/simple cards/simple-card-22.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "4b904b754c",
@@ -1059,7 +1190,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-23.png",
 				"description": "A nature-themed card with image overlay, features, and a call-to-action button.",
 				"file": "cards/simple cards/simple-card-23.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "d439dffc12",
@@ -1067,7 +1199,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-24.png",
 				"description": "A minimalist card design with an image, tags, and a description section.",
 				"file": "cards/simple cards/simple-card-24.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "5d4c1e05b7",
@@ -1075,7 +1208,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-3.png",
 				"description": "A nature-themed card with an image, title, subtitle, description, and a call-to-action button. It features hover effects and a modern aesthetic.",
 				"file": "cards/simple cards/simple-card-3.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "292f1fd5c0",
@@ -1083,7 +1217,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-4.png",
 				"description": "A nature-themed card showcasing a mountain landscape with stats about trails, altitude, and rating.",
 				"file": "cards/simple cards/simple-card-4.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "fe993f8c78",
@@ -1091,7 +1226,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-5.png",
 				"description": "A floating label nature-themed card featuring a forest trail with details like difficulty and duration.",
 				"file": "cards/simple cards/simple-card-5.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "3f5979e6b5",
@@ -1099,7 +1235,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-6.png",
 				"description": "A responsive horizontal card component showcasing a nature expedition. Includes image, description, and features like altitude, duration, difficulty, and rating.",
 				"file": "cards/simple cards/simple-card-6.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "219e6324a1",
@@ -1107,7 +1244,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-7.png",
 				"description": "A beautiful overlay card component showcasing a wilderness retreat with an image, badge, description, rating, and price. Includes gradient overlay and text shadow effects.",
 				"file": "cards/simple cards/simple-card-7.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "ed331c12c4",
@@ -1115,7 +1253,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-8.png",
 				"description": "A feature card component showcasing a lakeside camping experience with an image, features grid, price section, and a booking button. Includes FontAwesome icons for each feature.",
 				"file": "cards/simple cards/simple-card-8.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "9863b38054",
@@ -1123,7 +1262,8 @@
 				"image": "assets/previewImages/cardsPreview/simple-card-9.png",
 				"description": "A simple nature website card component showcasing an image, title, description, and a call-to-action button. Ideal for displaying content in a clean, modern style.",
 				"file": "cards/simple cards/simple-card-9.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "0c3a77a089",
@@ -1131,7 +1271,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-1.png",
 				"description": "A simple and elegant testimonial card with user image and quote icon.",
 				"file": "cards/testimonial cards/testimonial-card-1.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "35764ec4a6",
@@ -1139,7 +1280,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-10.png",
 				"description": "A testimonial card component featuring user reviews, star ratings, and user details with animated design elements.",
 				"file": "cards/testimonial cards/testimonial-card-10.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "72ba2d617b",
@@ -1147,7 +1289,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-11.png",
 				"description": "An animated testimonial card with flip effect, showing user reviews, stats, and social proof.",
 				"file": "cards/testimonial cards/testimonial-card-11.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "88cbffcf10",
@@ -1155,7 +1298,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-12.png",
 				"description": "A simple testimonial card with user review and details, designed with a clean and modern layout.",
 				"file": "cards/testimonial cards/testimonial-card-12.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "0e80e224b3",
@@ -1163,7 +1307,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-13.png",
 				"description": "A modern testimonial card featuring a user quote, profile picture, and rating stars. It has hover animation and uses Font Awesome icons.",
 				"file": "cards/testimonial cards/testimonial-card-13.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			},
 			{
 				"id": "7b2eb6c799",
@@ -1171,7 +1316,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-2.png",
 				"description": "A modern testimonial card with gradient background and user initials as avatar.",
 				"file": "cards/testimonial cards/testimonial-card-2.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "9bd4491ab0",
@@ -1179,7 +1325,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-3.png",
 				"description": "A simple testimonial card with a star rating, user info, and testimonial text.",
 				"file": "cards/testimonial cards/testimonial-card-3.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "e56560ea75",
@@ -1187,7 +1334,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-4.png",
 				"description": "A testimonial card design with quote icon, user info, and a photo using Font Awesome icons.",
 				"file": "cards/testimonial cards/testimonial-card-4.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "d5214d5dca",
@@ -1195,7 +1343,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-5.png",
 				"description": "A testimonial card featuring a quote, user rating, testimonial text, and user info with a stylish hover effect.",
 				"file": "cards/testimonial cards/testimonial-card-5.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "5a283a3d38",
@@ -1203,7 +1352,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-6.png",
 				"description": "A testimonial card with a top bar for star rating, a testimonial text, and user information including their avatar and role.",
 				"file": "cards/testimonial cards/testimonial-card-6.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "45d09261bd",
@@ -1211,7 +1361,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-7.png",
 				"description": "A testimonial card with a quote icon, testimonial text, and user information including avatar and role.",
 				"file": "cards/testimonial cards/testimonial-card-7.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "3a62c9ddf0",
@@ -1219,7 +1370,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-8.png",
 				"description": "A more advanced testimonial card featuring social media links, a verified badge, and dynamic hover effects.",
 				"file": "cards/testimonial cards/testimonial-card-8.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cards"
 			},
 			{
 				"id": "2ce6225870",
@@ -1227,7 +1379,8 @@
 				"image": "assets/previewImages/cardsPreview/testimonial-card-9.png",
 				"description": "A testimonial card component featuring user reviews, star ratings, and user details.",
 				"file": "cards/testimonial cards/testimonial-card-9.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "cards"
 			}
 		],
 		"loaders": [
@@ -1237,7 +1390,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-1.png",
 				"description": "A minimal spinner loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-1.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "36deac42b7",
@@ -1245,7 +1399,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-10.png",
 				"description": "A wave loader component featuring animated bars and a theme toggle button.",
 				"file": "loaders/loader-10.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "49823c96b2",
@@ -1253,7 +1408,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-11.png",
 				"description": "A pulse loader with a smooth animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-11.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "686fd836d9",
@@ -1261,7 +1417,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-12.png",
 				"description": "A wave loader component with theme toggle functionality.",
 				"file": "loaders/loader-12.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "d2aad1feac",
@@ -1269,7 +1426,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-13.png",
 				"description": "A circle dash loader with a gradient border animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-13.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "5096908a5b",
@@ -1277,7 +1435,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-14.png",
 				"description": "A Folding Cube Loader component with theme toggle functionality.",
 				"file": "loaders/loader-14.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "97b8333204",
@@ -1285,7 +1444,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-15.png",
 				"description": "A neon-themed spinner loader with a gradient border animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-15.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "033d61e136",
@@ -1293,7 +1453,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-16.png",
 				"description": "A Morphing Blob loader with neon theme toggle functionality.",
 				"file": "loaders/loader-16.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "72e244d49c",
@@ -1301,7 +1462,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-17.png",
 				"description": "A DNA helix-themed loader with a neon-style animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-17.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "0a8e06eb0a",
@@ -1309,7 +1471,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-18.png",
 				"description": "A Ripple Loader component with neon theme toggle functionality.",
 				"file": "loaders/loader-18.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "22d1111074",
@@ -1317,7 +1480,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-19.png",
 				"description": "A modern progress spinner loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-19.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "908a92edcb",
@@ -1325,7 +1489,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-2.png",
 				"description": "A dot pulse loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-2.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "dfcab26adc",
@@ -1333,7 +1498,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-20.png",
 				"description": "A Cube Loader component with modern design and theme switching functionality.",
 				"file": "loaders/loader-20.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "266386c885",
@@ -1341,7 +1507,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-21.png",
 				"description": "A circle fade loader with a smooth animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-21.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "202bc220a6",
@@ -1349,7 +1516,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-22.png",
 				"description": "A Holographic Bars loader component with a theme switch functionality.",
 				"file": "loaders/loader-22.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "f7ed02480d",
@@ -1357,7 +1525,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-23.png",
 				"description": "A holographic particle swarm loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-23.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "e54e360de0",
@@ -1365,7 +1534,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-24.png",
 				"description": "A Phase Rings loader component with a theme switch functionality using holographic colors.",
 				"file": "loaders/loader-24.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "667fe2a808",
@@ -1373,7 +1543,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-25.png",
 				"description": "A text bounce loader with a playful animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-25.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "725c2dfca8",
@@ -1381,7 +1552,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-26.png",
 				"description": "A Hexagon Loader component with a geometric design and theme toggle functionality.",
 				"file": "loaders/loader-26.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "46a6273524",
@@ -1389,7 +1561,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-27.png",
 				"description": "A geometric loader with pulsing triangles and a theme toggle for light and dark modes.",
 				"file": "loaders/loader-27.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "0790e2dbfe",
@@ -1397,7 +1570,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-28.png",
 				"description": "A Wave Bars Loader component with geometric design and theme toggle functionality.",
 				"file": "loaders/loader-28.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "c7197911e4",
@@ -1405,7 +1579,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-29.png",
 				"description": "A geometric loader animation featuring two dots orbiting around a central point. The loader supports light and dark themes and includes a theme toggle button.",
 				"file": "loaders/loader-29.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "7fb087766f",
@@ -1413,7 +1588,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-3.png",
 				"description": "A simple spinning circle loader with smooth animation.",
 				"file": "loaders/loader-3.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "84c5d9d59c",
@@ -1421,7 +1597,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-30.png",
 				"description": "A 3D Cube Loader component with a neomorphic design and theme toggle functionality.",
 				"file": "loaders/loader-30.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "f528a17a30",
@@ -1429,7 +1606,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-31.png",
 				"description": "A neomorphic loader featuring a holographic ring with a gradient border animation. The loader supports light and dark themes and includes a theme toggle button.",
 				"file": "loaders/loader-31.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "ca77f4d623",
@@ -1437,7 +1615,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-32.png",
 				"description": "A Binary Loader component with neomorphic style and a theme toggle functionality.",
 				"file": "loaders/loader-32.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "d0e8ef230e",
@@ -1445,7 +1624,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-33.png",
 				"description": "A sleek progress loader with an automatic animation and a theme-switching toggle. The loader supports light and dark themes and includes a smooth transition effect.",
 				"file": "loaders/loader-33.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "80b7d5c373",
@@ -1453,7 +1633,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-34.png",
 				"description": "A Grid Dots Loader component with theme switching functionality using CSS grid and animated dots.",
 				"file": "loaders/loader-34.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "317ccdc81e",
@@ -1461,7 +1642,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-35.png",
 				"description": "A wave-like loading spinner with a smooth animation and a dark mode toggle. The spinner consists of five vertical bars that animate in a wave pattern.",
 				"file": "loaders/loader-35.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "d1cf1dee2c",
@@ -1469,7 +1651,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-36.png",
 				"description": "A neon loading screen with spinning and pulsing animations.",
 				"file": "loaders/loader-36.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "ac74024ebd",
@@ -1477,7 +1660,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-37.png",
 				"description": "A neon text loading screen with a pulsating animation effect. The text 'LOADING' glows in a light blue neon color, creating a futuristic and engaging visual.",
 				"file": "loaders/loader-37.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "f08a0a3b60",
@@ -1485,7 +1669,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-38.png",
 				"description": "A Neon Dots Loading Screen component with animated neon dots.",
 				"file": "loaders/loader-38.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "7f3ee1c6a8",
@@ -1493,7 +1678,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-39.png",
 				"description": "A subtle loading bar with a smooth animation. The progress bar fills from 0% to 100% and then resets, creating a continuous loading effect.",
 				"file": "loaders/loader-39.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "12d1220fc3",
@@ -1501,7 +1687,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-4.png",
 				"description": "A modern spinner loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-4.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "d671309a18",
@@ -1509,7 +1696,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-40.png",
 				"description": "A Dancing Dots loader animation with bouncing dot effects.",
 				"file": "loaders/loader-40.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "c220bc41b4",
@@ -1517,7 +1705,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-5.png",
 				"description": "A bouncing dots loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-5.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "74d5bfc792",
@@ -1525,7 +1714,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-6.png",
 				"description": "A simple bouncing dots loader with a theme toggle functionality.",
 				"file": "loaders/loader-6.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "a56c3bb33c",
@@ -1533,7 +1723,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-7.png",
 				"description": "A progress bar loader with a gradient animation and theme toggle for light and dark modes.",
 				"file": "loaders/loader-7.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "2491e9ac05",
@@ -1541,7 +1732,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-8.png",
 				"description": "A rotating squares loader with a theme toggle functionality.",
 				"file": "loaders/loader-8.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			},
 			{
 				"id": "4196f37d4d",
@@ -1549,7 +1741,8 @@
 				"image": "assets/previewImages/loadersPreview/loader-9.png",
 				"description": "A rotating squares loader with a theme toggle for light and dark modes.",
 				"file": "loaders/loader-9.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "loaders"
 			}
 		],
 		"navigations": [
@@ -1559,7 +1752,8 @@
 				"image": "assets/previewImages/navigationsPreview/mobile-tabbar-1.png",
 				"description": "A responsive navigation bar with smooth indicator animation and dark/light theme toggle functionality.",
 				"file": "navigations/mobile-tabbar-1.json",
-				"date": "2023-10-10"
+				"date": "2023-10-10",
+				"category": "navigations"
 			},
 			{
 				"id": "c2edef189d",
@@ -1567,7 +1761,8 @@
 				"image": "assets/previewImages/navigationsPreview/mobile-tabbar-2.png",
 				"description": "A responsive animated navigation bar with an indicator and FontAwesome icons.",
 				"file": "navigations/mobile-tabbar-2.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "navigations"
 			},
 			{
 				"id": "c0fa7f710d",
@@ -1575,7 +1770,8 @@
 				"image": "assets/previewImages/navigationsPreview/mobile-tabbar-3.png",
 				"description": "A responsive navigation bar with FontAwesome icons and an active state toggle.",
 				"file": "navigations/mobile-tabbar-3.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "navigations"
 			},
 			{
 				"id": "24312bad2c",
@@ -1583,7 +1779,8 @@
 				"image": "assets/previewImages/navigationsPreview/mobile-tabbar-4.png",
 				"description": "A responsive navigation bar featuring FontAwesome icons with an interactive active state.",
 				"file": "navigations/mobile-tabbar-4.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "navigations"
 			},
 			{
 				"id": "bf95360746",
@@ -1591,7 +1788,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-1.png",
 				"description": "A sidebar navigation component with hover tooltips and FontAwesome icons.",
 				"file": "navigations/sidebar-1.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "ad1eb18166",
@@ -1599,7 +1797,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-2.png",
 				"description": "A modern stylish sidebar component featuring a toggle button, SVG icons, and smooth animations.",
 				"file": "navigations/sidebar-2.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "a9b7703357",
@@ -1607,7 +1806,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-3.png",
 				"description": "A modern sidebar component with responsive design, toggle functionality, overlay, and SVG icons.",
 				"file": "navigations/sidebar-3.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "a3772cb942",
@@ -1615,7 +1815,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-4.png",
 				"description": "A glassmorphism styled sidebar featuring a profile section, navigation links with SVG icons, and responsive toggle functionality with overlay.",
 				"file": "navigations/sidebar-4.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "2e54012bea",
@@ -1623,7 +1824,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-5.png",
 				"description": "An expandable sidebar that toggles between a collapsed and expanded state. It features navigation links with icons and adjusts responsively for mobile devices.",
 				"file": "navigations/sidebar-5.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "acd25948f0",
@@ -1631,7 +1833,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-6.png",
 				"description": "A modern, responsive, and collapsible sidebar with dark/light theme support and tooltips for navigation items.",
 				"file": "navigations/sidebar-6.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "5ddc6c2324",
@@ -1639,7 +1842,8 @@
 				"image": "assets/previewImages/navigationsPreview/sidebar-7.png",
 				"description": "A modern, collapsible sidebar with dark mode support and tooltips for navigation items.",
 				"file": "navigations/sidebar-7.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "navigations"
 			},
 			{
 				"id": "8d385089e6",
@@ -1647,7 +1851,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-1.png",
 				"description": "A responsive navigation bar with a mobile-friendly hamburger menu and smooth transitions.",
 				"file": "navigations/simple-navbar-1.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "defe6a5e4c",
@@ -1655,7 +1860,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-2.png",
 				"description": "A modern, responsive navbar with a hamburger menu for mobile view, call-to-action buttons, and FontAwesome icons.",
 				"file": "navigations/simple-navbar-2.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "a3e8eca651",
@@ -1663,7 +1869,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-3.png",
 				"description": "A responsive navigation bar with dropdown menus, mobile-friendly toggle, and smooth animations.",
 				"file": "navigations/simple-navbar-3.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "8e27982b6f",
@@ -1671,7 +1878,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-4.png",
 				"description": "A premium navigation bar with a progress indicator, dynamic active states, smooth scrolling, and responsive mobile menu using Boxicons.",
 				"file": "navigations/simple-navbar-4.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "06be47dcea",
@@ -1679,7 +1887,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-5.png",
 				"description": "A modern gradient-themed responsive navbar featuring a hamburger menu with sliding animations for mobile devices.",
 				"file": "navigations/simple-navbar-5.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "ef4db5196e",
@@ -1687,7 +1896,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-6.png",
 				"description": "A responsive navigation bar with an animated hamburger menu and smooth transitions.",
 				"file": "navigations/simple-navbar-6.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "dca7679c52",
@@ -1695,7 +1905,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-7.png",
 				"description": "A modern flat navigation bar with a slide animation for mobile responsiveness.",
 				"file": "navigations/simple-navbar-7.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			},
 			{
 				"id": "4f1b8400d2",
@@ -1703,7 +1914,8 @@
 				"image": "assets/previewImages/navigationsPreview/simple-navbar-8.png",
 				"description": "A dark-themed responsive navbar with a sticky layout, hamburger menu toggle, and sliding animation for nav links.",
 				"file": "navigations/simple-navbar-8.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "navigations"
 			}
 		],
 		"sliders": [
@@ -1713,7 +1925,8 @@
 				"image": "assets/previewImages/slidersPreview/carousel-1.png",
 				"description": "A modern and responsive card carousel with smooth transitions, navigation buttons, and dot indicators.",
 				"file": "sliders/carousel-1.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "2bb36ea0a9",
@@ -1721,7 +1934,8 @@
 				"image": "assets/previewImages/slidersPreview/carousel-2.png",
 				"description": "A responsive carousel slider with smooth animation and hover pause functionality.",
 				"file": "sliders/carousel-2.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "02d96a685b",
@@ -1729,7 +1943,8 @@
 				"image": "assets/previewImages/slidersPreview/carousel-3.png",
 				"description": "A responsive and modern carousel with navigation controls, dot indicators, and auto-slide functionality.",
 				"file": "sliders/carousel-3.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "370dd8848b",
@@ -1737,7 +1952,8 @@
 				"image": "assets/previewImages/slidersPreview/carousel-4.png",
 				"description": "A responsive and modern carousel with navigation buttons, pagination dots, and auto-advance functionality.",
 				"file": "sliders/carousel-4.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "00730bdfb8",
@@ -1745,7 +1961,8 @@
 				"image": "assets/previewImages/slidersPreview/carousel-5.png",
 				"description": "A 3D rotating image slider that cycles through images in a circular motion.",
 				"file": "sliders/carousel-5.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "1848891c43",
@@ -1753,7 +1970,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-1.png",
 				"description": "A modern image slider with navigation buttons and pagination dots.",
 				"file": "sliders/slider-1.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "826339472c",
@@ -1761,7 +1979,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-10.png",
 				"description": "A simple and modern slider with navigation controls, dots, and auto-slide functionality.",
 				"file": "sliders/slider-10.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "1ff18ad91b",
@@ -1769,7 +1988,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-11.png",
 				"description": "A 3D circular carousel with smooth transitions, navigation controls, and auto-rotation.",
 				"file": "sliders/slider-11.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "5c7e66a1b2",
@@ -1777,7 +1997,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-12.png",
 				"description": "A responsive image slider with smooth scrolling and navigation controls.",
 				"file": "sliders/slider-12.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "67c72d85e2",
@@ -1785,7 +2006,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-13.png",
 				"description": "A modern image slider with smooth transitions, hover effects, and navigation controls.",
 				"file": "sliders/slider-13.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "ce76160fcc",
@@ -1793,7 +2015,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-14.png",
 				"description": "A vertical parallax carousel with smooth transitions, navigation dots, and scroll/touch controls.",
 				"file": "sliders/slider-14.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "da515c522d",
@@ -1801,7 +2024,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-15.png",
 				"description": "A simple image slider with thumbnail navigation, utilizing pure HTML and CSS.",
 				"file": "sliders/slider-15.json",
-				"date": "2025-02-27"
+				"date": "2025-02-27",
+				"category": "sliders"
 			},
 			{
 				"id": "cfe655bf14",
@@ -1809,7 +2033,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-16.png",
 				"description": "A responsive and modern card slider with navigation buttons, smooth scrolling, and hover effects.",
 				"file": "sliders/slider-16.json",
-				"date": "2025-02-27"
+				"date": "2025-02-27",
+				"category": "sliders"
 			},
 			{
 				"id": "8e4e1109a4",
@@ -1817,7 +2042,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-17.png",
 				"description": "A responsive thumbnail carousel with navigation buttons, auto-play, and touch support.",
 				"file": "sliders/slider-17.json",
-				"date": "2025-02-27"
+				"date": "2025-02-27",
+				"category": "sliders"
 			},
 			{
 				"id": "82f5eac6cd",
@@ -1825,7 +2051,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-2.png",
 				"description": "A modern image slider with navigation buttons and dots for easy interaction.",
 				"file": "sliders/slider-2.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "sliders"
 			},
 			{
 				"id": "466962fcc9",
@@ -1833,7 +2060,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-3.png",
 				"description": "A sleek and modern vertical slider with smooth transitions, progress indicators, and navigation controls.",
 				"file": "sliders/slider-3.json",
-				"date": "2023-10-26"
+				"date": "2023-10-26",
+				"category": "sliders"
 			},
 			{
 				"id": "b328933a0c",
@@ -1841,7 +2069,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-4.png",
 				"description": "A modern and responsive card slider with auto-play and navigation controls.",
 				"file": "sliders/slider-4.json",
-				"date": "2025-02-27"
+				"date": "2025-02-27",
+				"category": "sliders"
 			},
 			{
 				"id": "9dadddb44b",
@@ -1849,7 +2078,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-5.png",
 				"description": "A modern vertical card slider with smooth transitions, hover effects, and navigation dots.",
 				"file": "sliders/slider-5.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "d044f827a8",
@@ -1857,7 +2087,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-6.png",
 				"description": "A fade transition slider with thumbnails, smooth animations, and navigation controls.",
 				"file": "sliders/slider-6.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "fd6d10488c",
@@ -1865,7 +2096,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-7.png",
 				"description": "A smooth scroll-snap slider with navigation controls, pagination, and auto-scroll functionality.",
 				"file": "sliders/slider-7.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "46ef415013",
@@ -1873,7 +2105,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-8.png",
 				"description": "A 3D carousel slider with smooth transitions, navigation controls, and radial pagination.",
 				"file": "sliders/slider-8.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			},
 			{
 				"id": "a20d35562a",
@@ -1881,7 +2114,8 @@
 				"image": "assets/previewImages/slidersPreview/slider-9.png",
 				"description": "A preview slider with a main slide and a thumbnail track for navigation.",
 				"file": "sliders/slider-9.json",
-				"date": "2023-10-27"
+				"date": "2023-10-27",
+				"category": "sliders"
 			}
 		],
 		"socials": [
@@ -1891,7 +2125,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-1.png",
 				"description": "A responsive social media links component with dark/light theme toggle functionality using CSS variables and Font Awesome icons.",
 				"file": "socials/socials-1.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "cb134d69a5",
@@ -1899,7 +2134,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-10.png",
 				"description": "Clean social media links with smooth hover animations and theme toggle functionality using CSS cubic-bezier transitions.",
 				"file": "socials/socials-10.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "57a81dab0d",
@@ -1907,7 +2143,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-11.png",
 				"description": "Modern floating social media dock with hover tooltips, blur background effect, and theme switching capabilities.",
 				"file": "socials/socials-11.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "c7e670d805",
@@ -1915,7 +2152,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-12.png",
 				"description": "Animated circular social menu with orbital expansion effect and theme switching capabilities",
 				"file": "socials/socials-12.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "278f25ffb3",
@@ -1923,7 +2161,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-13.png",
 				"description": "Minimal text-based social links with animated underline effects and theme switching functionality",
 				"file": "socials/socials-13.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "4af3005505",
@@ -1931,7 +2170,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-14.png",
 				"description": "Animated radial social menu with bloom effect, theme persistence, and dynamic positioning using trigonometric calculations",
 				"file": "socials/socials-14.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "e53f16a67a",
@@ -1939,7 +2179,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-15.png",
 				"description": "Modern social media links with theme toggle functionality and CSS variables for easy customization",
 				"file": "socials/socials-15.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "e2d0709732",
@@ -1947,7 +2188,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-16.png",
 				"description": "Animated social links with rotating gradient effects and dual theme support using CSS variables",
 				"file": "socials/socials-16.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "1e573f55b6",
@@ -1955,7 +2197,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-17.png",
 				"description": "Animated social links with morphing hover effects and smooth theme transition using CSS custom properties",
 				"file": "socials/socials-17.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "3c2a8c1a8b",
@@ -1963,7 +2206,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-18.png",
 				"description": "Radial social menu with wave animation and theme persistence using CSS variables and trigonometric positioning",
 				"file": "socials/socials-18.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "d4e13da332",
@@ -1971,7 +2215,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-19.png",
 				"description": "Radial social media menu with smooth animations and theme switching using CSS variables",
 				"file": "socials/socials-19.json",
-				"date": "2025-03-04"
+				"date": "2025-03-04",
+				"category": "socials"
 			},
 			{
 				"id": "dcaa9d74da",
@@ -1979,7 +2224,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-2.png",
 				"description": "Responsive social media links with dynamic theme switching, hover animations, and system preference detection using CSS data attributes.",
 				"file": "socials/socials-2.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "70ff8d280f",
@@ -1987,7 +2233,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-3.png",
 				"description": "Contemporary social media links component with gradient effects, hover tooltips, theme persistence, and system preference detection.",
 				"file": "socials/socials-3.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "d3e8bb3c64",
@@ -1995,7 +2242,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-4.png",
 				"description": "Circular social media links with floating hover effect, dual theme support, and smooth transitions using CSS variables.",
 				"file": "socials/socials-4.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "2b11f15d89",
@@ -2003,7 +2251,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-5.png",
 				"description": "Responsive card-based social media component with custom toggle switch and dual theme support using CSS variables.",
 				"file": "socials/socials-5.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "973199c7d4",
@@ -2011,7 +2260,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-6.png",
 				"description": "Clean social media links component with theme persistence using localStorage and CSS data attributes.",
 				"file": "socials/socials-6.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "d5db1aca58",
@@ -2019,7 +2269,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-7.png",
 				"description": "Modern social media links with gradient effects, dynamic theme switching, and responsive grid layout using CSS variables.",
 				"file": "socials/socials-7.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "053c6ff34f",
@@ -2027,7 +2278,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-8.png",
 				"description": "Soft UI social media links with neomorphic design and dynamic theme switching using CSS shadows and gradients.",
 				"file": "socials/socials-8.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			},
 			{
 				"id": "57d1549ced",
@@ -2035,7 +2287,8 @@
 				"image": "assets/previewImages/socialsPreview/socials-9.png",
 				"description": "Ultra-minimal social media links with subtle hover effects and theme switching using CSS border transitions.",
 				"file": "socials/socials-9.json",
-				"date": "2025-03-03"
+				"date": "2025-03-03",
+				"category": "socials"
 			}
 		],
 		"tabs": [
@@ -2045,7 +2298,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-1.png",
 				"description": "A responsive and modern tab component with smooth transitions and FontAwesome icons.",
 				"file": "tabs/tab-1.json",
-				"date": "2025-02-27"
+				"date": "2025-02-27",
+				"category": "tabs"
 			},
 			{
 				"id": "2a31a6a7bf",
@@ -2053,7 +2307,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-10.png",
 				"description": "A responsive tab component with a sliding indicator, theme toggle (light/dark mode), and FontAwesome icons.",
 				"file": "tabs/tab-10.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "0014349c61",
@@ -2061,7 +2316,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-11.png",
 				"description": "A responsive sidebar tab component with a theme toggle (light/dark mode) and FontAwesome icons.",
 				"file": "tabs/tab-11.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "2117af1b98",
@@ -2069,7 +2325,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-12.png",
 				"description": "A responsive tab component with a dropdown for mobile view. Includes FontAwesome icons and smooth animations.",
 				"file": "tabs/tab-12.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "e778489f89",
@@ -2077,7 +2334,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-13.png",
 				"description": "A responsive tab component with a theme toggle feature. Includes FontAwesome icons, smooth animations, and dark/light mode support.",
 				"file": "tabs/tab-13.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "14c0c323b2",
@@ -2085,7 +2343,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-14.png",
 				"description": "A simple tab component using radio buttons for tab selection. Includes smooth transitions and minimal styling.",
 				"file": "tabs/tab-14.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "811cade3a6",
@@ -2093,7 +2352,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-15.png",
 				"description": "A responsive tab component with a theme toggle feature. Includes smooth transitions and dark/light mode support.",
 				"file": "tabs/tab-15.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "b1b11027cf",
@@ -2101,7 +2361,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-16.png",
 				"description": "A responsive vertical tab component with theme control and accent color customization. Includes FontAwesome icons, smooth animations, and keyboard navigation.",
 				"file": "tabs/tab-16.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "e9184207aa",
@@ -2109,7 +2370,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-17.png",
 				"description": "A modern tab component with animated gradients, floating action button, and dynamic content. Includes FontAwesome icons and smooth animations.",
 				"file": "tabs/tab-17.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "5d3bb21b39",
@@ -2117,7 +2379,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-18.png",
 				"description": "A responsive vertical tab component with smooth animations, keyboard navigation, and a clean design. Includes FontAwesome icons and badges.",
 				"file": "tabs/tab-18.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "c86d116569",
@@ -2125,7 +2388,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-19.png",
 				"description": "A swipeable tab component with Material Design styling, progress indicator, and theme toggle. Includes FontAwesome icons and touch/swipe support.",
 				"file": "tabs/tab-19.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "cca6efa6d4",
@@ -2133,7 +2397,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-2.png",
 				"description": "A responsive tabbed interface for websites, featuring smooth transitions and FontAwesome icons.",
 				"file": "tabs/tab-2.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "f6877de2c3",
@@ -2141,7 +2406,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-20.png",
 				"description": "A card-style tab component with smooth animations, an indicator, and responsive design. Includes FontAwesome icons and dynamic tab switching.",
 				"file": "tabs/tab-20.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "3fb49319cb",
@@ -2149,7 +2415,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-21.png",
 				"description": "A neomorphic-style tab component with dynamic content loading, theme toggle, and smooth animations. Includes FontAwesome icons and keyboard navigation.",
 				"file": "tabs/tab-21.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "bd9a375d61",
@@ -2157,7 +2424,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-22.png",
 				"description": "A glassmorphism-style tab component with smooth animations, indicator, and responsive design. Includes FontAwesome icons and dynamic tab switching.",
 				"file": "tabs/tab-22.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "384d32820a",
@@ -2165,7 +2433,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-23.png",
 				"description": "A modern tab component with circular icons, gradient background, and smooth animations. Includes FontAwesome icons and dynamic indicator.",
 				"file": "tabs/tab-23.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "a0e77063f0",
@@ -2173,7 +2442,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-24.png",
 				"description": "A glassmorphic tab component with theme toggle, smooth animations, and dynamic content. Includes FontAwesome icons and hover effects.",
 				"file": "tabs/tab-24.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "3035e45132",
@@ -2181,7 +2451,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-25.png",
 				"description": "A modern tab component with smooth animations, responsive design, and FontAwesome icons. Includes hover effects and dynamic content switching.",
 				"file": "tabs/tab-25.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "d944dfa1a7",
@@ -2189,7 +2460,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-26.png",
 				"description": "A modern sliding tab component with theme toggle and dynamic tab indicator.",
 				"file": "tabs/tab-26.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "ba8fe364ff",
@@ -2197,7 +2469,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-27.png",
 				"description": "A modern tab component featuring a dynamic blob animation effect for active tabs with theme toggle support.",
 				"file": "tabs/tab-27.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "56e94ead83",
@@ -2205,7 +2478,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-28.png",
 				"description": "A floating tab system with dynamic tab indicator and responsive design for modern web interfaces.",
 				"file": "tabs/tab-28.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "06d4b57457",
@@ -2213,7 +2487,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-29.png",
 				"description": "A luxury-themed tab component featuring elegant design, smooth transitions, and interactive elements.",
 				"file": "tabs/tab-29.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "b3bb89a175",
@@ -2221,7 +2496,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-3.png",
 				"description": "A responsive tab component that switches between vertical and horizontal layouts based on screen size, with FontAwesome icons.",
 				"file": "tabs/tab-3.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "38fb8c9b08",
@@ -2229,7 +2505,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-4.png",
 				"description": "A modern and responsive tabbed interface with smooth animations and FontAwesome icons.",
 				"file": "tabs/tab-4.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "c1b61a325b",
@@ -2237,7 +2514,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-5.png",
 				"description": "A clean and responsive tabbed interface with FontAwesome icons for enhanced visual appeal.",
 				"file": "tabs/tab-5.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "374191cb74",
@@ -2245,7 +2523,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-6.png",
 				"description": "A responsive tab component with a theme toggle (light/dark mode) and FontAwesome icons.",
 				"file": "tabs/tab-6.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "3c3c0ee795",
@@ -2253,7 +2532,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-7.png",
 				"description": "A responsive vertical tab component with a theme toggle (light/dark mode) and FontAwesome icons.",
 				"file": "tabs/tab-7.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "f2118dc16a",
@@ -2261,7 +2541,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-8.png",
 				"description": "A responsive card-based tab component with a theme toggle (light/dark mode) and FontAwesome icons.",
 				"file": "tabs/tab-8.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			},
 			{
 				"id": "6e23797baa",
@@ -2269,7 +2550,8 @@
 				"image": "assets/previewImages/tabsPreview/tab-9.png",
 				"description": "A responsive and modern tab component with smooth animations and FontAwesome icons.",
 				"file": "tabs/tab-9.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tabs"
 			}
 		],
 		"toggles": [
@@ -2279,7 +2561,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-1.png",
 				"description": "A modern, animated toggle button with smooth transitions and a clean design.",
 				"file": "toggle/toggle-1.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "dffbf69fe1",
@@ -2287,7 +2570,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-10.png",
 				"description": "A floating morph toggle switch with smooth animations, hover effects, and a modern design.",
 				"file": "toggle/toggle-10.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "9118473967",
@@ -2295,7 +2579,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-11.png",
 				"description": "A vertical toggle switch with smooth animations and a modern design for intuitive user interaction.",
 				"file": "toggle/toggle-11.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "46edec7680",
@@ -2303,7 +2588,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-12.png",
 				"description": "A simple hamburger toggle button that transforms into an 'X' when activated.",
 				"file": "toggle/toggle-12.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "43ddfa7d00",
@@ -2311,7 +2597,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-2.png",
 				"description": "A modern pill-shaped toggle switch with smooth animations and ON/OFF text indicators.",
 				"file": "toggle/toggle-2.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "c55cf1b9a9",
@@ -2319,7 +2606,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-3.png",
 				"description": "A modern dark-themed toggle switch with smooth animations and a gradient active state.",
 				"file": "toggle/toggle-3.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "9935bf3cba",
@@ -2327,7 +2615,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-4.png",
 				"description": "A modern animated flip toggle switch with smooth transitions and interactive hover effects.",
 				"file": "toggle/toggle-4.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "689be64560",
@@ -2335,7 +2624,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-5.png",
 				"description": "A toggle switch with icon labels (sun and moon) and a sliding knob for light/dark mode representation.",
 				"file": "toggle/toggle-5.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "d2540b8a0a",
@@ -2343,7 +2633,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-6.png",
 				"description": "A neumorphic toggle switch with soft shadows and a smooth sliding knob for a modern, tactile design.",
 				"file": "toggle/toggle-6.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "0a2b3ad20c",
@@ -2351,7 +2642,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-7.png",
 				"description": "A 3D flip toggle switch with smooth animations, hover effects, and a shine effect for a modern interactive experience.",
 				"file": "toggle/toggle-7.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "0cee1893e7",
@@ -2359,7 +2651,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-8.png",
 				"description": "A gradient slide toggle switch with smooth animations and a modern neumorphic design.",
 				"file": "toggle/toggle-8.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			},
 			{
 				"id": "48cc8a102b",
@@ -2367,7 +2660,8 @@
 				"image": "assets/previewImages/togglesPreview/toggle-9.png",
 				"description": "A pulsating circle toggle switch with smooth animations and a glowing effect for a modern interactive experience.",
 				"file": "toggle/toggle-9.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "toggles"
 			}
 		],
 		"tooltips": [
@@ -2377,7 +2671,8 @@
 				"image": "assets/previewImages/tooltipsPreview/tooltip-1.png",
 				"description": "A modern tooltip component with four directional tooltips and a theme toggle for light and dark modes.",
 				"file": "tooltips/tooltip-1.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tooltips"
 			},
 			{
 				"id": "b1d1e94995",
@@ -2385,7 +2680,8 @@
 				"image": "assets/previewImages/tooltipsPreview/tooltip-2.png",
 				"description": "A collection of styled tooltip variations with directional positioning and a theme toggle for light and dark modes.",
 				"file": "tooltips/tooltip-2.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tooltips"
 			},
 			{
 				"id": "62afb73f85",
@@ -2393,7 +2689,8 @@
 				"image": "assets/previewImages/tooltipsPreview/tooltip-3.png",
 				"description": "A modern and styled tooltip component with directional positioning, gradient buttons, and a theme toggle for light and dark modes.",
 				"file": "tooltips/tooltip-3.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tooltips"
 			},
 			{
 				"id": "1c5f42150d",
@@ -2401,7 +2698,8 @@
 				"image": "assets/previewImages/tooltipsPreview/tooltip-4.png",
 				"description": "A minimal and clean tooltip design with directional positioning and a theme toggle for light and dark modes.",
 				"file": "tooltips/tooltip-4.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "tooltips"
 			}
 		]
 	},
@@ -2413,7 +2711,8 @@
 				"image": "assets/previewImages/contactPreview/cntc-1.png",
 				"description": "A modern and responsive contact form with theme toggle support, input validation, and smooth UI styling. Includes Font Awesome icons.",
 				"file": "contact form/cntc-1.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "contact"
 			},
 			{
 				"id": "0852e62387",
@@ -2421,7 +2720,8 @@
 				"image": "assets/previewImages/contactPreview/cntc-2.png",
 				"description": "A modern and responsive contact form with dark mode support.",
 				"file": "contact form/cntc-2.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "contact"
 			},
 			{
 				"id": "1b51bd7f65",
@@ -2429,7 +2729,8 @@
 				"image": "assets/previewImages/contactPreview/cntc-3.png",
 				"description": "A minimalistic contact form with a dark mode toggle, smooth transitions, and simple validation.",
 				"file": "contact form/cntc-3.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "contact"
 			},
 			{
 				"id": "8443bca71d",
@@ -2437,7 +2738,8 @@
 				"image": "assets/previewImages/contactPreview/cntc-4.png",
 				"description": "A modern and minimal contact form with a dark mode toggle.",
 				"file": "contact form/cntc-4.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "contact"
 			}
 		],
 		"login": [
@@ -2447,7 +2749,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-1.png",
 				"description": "A simple login form with username and password fields, including a show/hide password feature.",
 				"file": "login form/login-form-1.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "64fecd7820",
@@ -2455,7 +2758,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-10.png",
 				"description": "A responsive login and signup form with toggle functionality, light/dark theme support, and SVG icons for inputs.",
 				"file": "login form/login-form-10.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "bb79f99d45",
@@ -2463,7 +2767,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-11.png",
 				"description": "A responsive login and signup form with light/dark theme toggle functionality and FontAwesome icons.",
 				"file": "login form/login-form-11.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "ee2eb113e3",
@@ -2471,7 +2776,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-12.png",
 				"description": "A modern authentication form with light/dark theme toggle, form validation, and FontAwesome icons.",
 				"file": "login form/login-form-12.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "c3a64e4777",
@@ -2479,7 +2785,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-2.png",
 				"description": "A modern and sleek login form with social login options and password toggle functionality.",
 				"file": "login form/login-form-2.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "login"
 			},
 			{
 				"id": "1b191f9539",
@@ -2487,7 +2794,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-3.png",
 				"description": "A 3D flip card authentication form with login and signup options, dark/light theme toggle, and smooth animations.",
 				"file": "login form/login-form-3.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "login"
 			},
 			{
 				"id": "264e522c59",
@@ -2495,7 +2803,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-4.png",
 				"description": "A themeable login form with light/dark mode toggle, floating labels, and password visibility toggle.",
 				"file": "login form/login-form-4.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "login"
 			},
 			{
 				"id": "5de82f3a8c",
@@ -2503,7 +2812,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-5.png",
 				"description": "A responsive login/signup form with dark mode toggle, Google login option, and smooth transitions.",
 				"file": "login form/login-form-5.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "login"
 			},
 			{
 				"id": "f51db297b3",
@@ -2511,7 +2821,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-6.png",
 				"description": "A modern floating login form with dark/light theme toggle and social login options.",
 				"file": "login form/login-form-6.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "71597c92b2",
@@ -2519,7 +2830,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-7.png",
 				"description": "A responsive login and signup form with dark mode support.",
 				"file": "login form/login-form-7.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "00103b6ba5",
@@ -2527,7 +2839,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-8.png",
 				"description": "A responsive split-screen authentication form with a toggle between login and signup forms. Includes light and dark theme support.",
 				"file": "login form/login-form-8.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			},
 			{
 				"id": "5390e4708d",
@@ -2535,7 +2848,8 @@
 				"image": "assets/previewImages/loginPreview/login-form-9.png",
 				"description": "A modern and secure login form with email and password fields, featuring a clean design with subtle animations and responsive layout.",
 				"file": "login form/login-form-9.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "login"
 			}
 		]
 	},
@@ -2547,7 +2861,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-1.png",
 				"description": "A modern call-to-action (CTA) section with a sleek design, including a title, description, button, and an image.",
 				"file": "cta section/cta-1.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cta"
 			},
 			{
 				"id": "07abba2c06",
@@ -2555,7 +2870,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-10.png",
 				"description": "A premium car rental service call-to-action section with a search form and benefits list.",
 				"file": "cta section/cta-10.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "d23a953509",
@@ -2563,7 +2879,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-11.png",
 				"description": "A stylish call-to-action section for a car rental service, featuring luxury vehicle options and 24/7 availability.",
 				"file": "cta section/cta-11.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "f7da41b90a",
@@ -2571,7 +2888,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-12.png",
 				"description": "A call-to-action section for a car rental service with a special weekend offer, featuring a modern design, benefits list, and a responsive layout.",
 				"file": "cta section/cta-12.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "11a9075070",
@@ -2579,7 +2897,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-13.png",
 				"description": "A stylish side layout call-to-action section for car rentals with an image and a badge. Includes a button and statistics highlighting key offerings.",
 				"file": "cta section/cta-13.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "36cc94f365",
@@ -2587,7 +2906,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-14.png",
 				"description": "A call-to-action section for a luxury car rental service, featuring a dynamic image, features grid, and a book-now button.",
 				"file": "cta section/cta-14.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "c040e671f9",
@@ -2595,7 +2915,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-15.png",
 				"description": "A call-to-action section for a car rental service with a luxury feel, featuring a vehicle image, service features, and a booking button.",
 				"file": "cta section/cta-15.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "02972b830a",
@@ -2603,7 +2924,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-16.png",
 				"description": "A call-to-action section for a premium car rental service with an image on the right side. It includes vehicle statistics, a catchy title, and a button to explore the fleet.",
 				"file": "cta section/cta-16.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "a32df34508",
@@ -2611,7 +2933,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-17.png",
 				"description": "A call-to-action section promoting nutrition plans with dynamic meal images and a stylish layout.",
 				"file": "cta section/cta-17.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cta"
 			},
 			{
 				"id": "8a08a20f8e",
@@ -2619,7 +2942,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-18.png",
 				"description": "A nutrition call-to-action section for healthy living, featuring meal plans, expert advice, and easy meal tracking.",
 				"file": "cta section/cta-18.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cta"
 			},
 			{
 				"id": "3d161e778a",
@@ -2627,7 +2951,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-19.png",
 				"description": "A modern call-to-action section for a gourmet dining experience with a seasonal badge, image hover effect, and highlights.",
 				"file": "cta section/cta-19.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "7396b032ea",
@@ -2635,7 +2960,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-2.png",
 				"description": "A sleek and modern call-to-action section with an eye-catching design and smooth animations.",
 				"file": "cta section/cta-2.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cta"
 			},
 			{
 				"id": "b5f43010dc",
@@ -2643,7 +2969,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-20.png",
 				"description": "A call-to-action section for promoting holistic wellness with custom meal plans, daily progress tracking, and expert coaching.",
 				"file": "cta section/cta-20.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "d7ecedf1e3",
@@ -2651,7 +2978,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-21.png",
 				"description": "A vertical split CTA section featuring a gourmet dining experience with call-to-action button and features grid.",
 				"file": "cta section/cta-21.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "6644e793e9",
@@ -2659,7 +2987,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-3.png",
 				"description": "A floating call-to-action (CTA) section that highlights a business offer with interactive animations and a responsive design.",
 				"file": "cta section/cta-3.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "47f2ce0b90",
@@ -2667,7 +2996,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-4.png",
 				"description": "A modern call-to-action section designed to enhance user engagement with a visually appealing layout.",
 				"file": "cta section/cta-4.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "0005690dc7",
@@ -2675,7 +3005,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-5.png",
 				"description": "A modern call-to-action section with background image, tagline, main title, descriptive text, a button, and statistics showcasing user data.",
 				"file": "cta section/cta-5.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "df848fe3f3",
@@ -2683,7 +3014,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-6.png",
 				"description": "A modern and interactive Call-To-Action section with a gradient background, a responsive card, and animated hover effects.",
 				"file": "cta section/cta-6.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "7939766181",
@@ -2691,7 +3023,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-7.png",
 				"description": "A split-screen Call-to-Action section with an email subscription form and background image.",
 				"file": "cta section/cta-7.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "cta"
 			},
 			{
 				"id": "90167e3e13",
@@ -2699,7 +3032,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-8.png",
 				"description": "A modern call-to-action section with a sleek design, featuring a badge, title, description, email input form, and a trusted-by section with logos. The image dynamically loads a random picture.",
 				"file": "cta section/cta-8.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			},
 			{
 				"id": "7b63575303",
@@ -2707,7 +3041,8 @@
 				"image": "assets/previewImages/ctaPreview/cta-9.png",
 				"description": "A call-to-action section for a car rental service, featuring a form and benefits list.",
 				"file": "cta section/cta-9.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "cta"
 			}
 		],
 		"features": [
@@ -2717,7 +3052,8 @@
 				"image": "assets/previewImages/featuresPreview/features-1.png",
 				"description": "A modern features section showcasing various key attributes with icons and theme toggle functionality.",
 				"file": "features section/features-1.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "features"
 			},
 			{
 				"id": "01ee9d2476",
@@ -2725,7 +3061,8 @@
 				"image": "assets/previewImages/featuresPreview/features-10.png",
 				"description": "Highlighting key food services with emphasis on speed, variety, and quality.",
 				"file": "features section/features-10.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "72f362afb3",
@@ -2733,7 +3070,8 @@
 				"image": "assets/previewImages/featuresPreview/features-11.png",
 				"description": "A section showcasing key features of a product or service with the option to toggle dark mode.",
 				"file": "features section/features-11.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "3ef474b67b",
@@ -2741,7 +3079,8 @@
 				"image": "assets/previewImages/featuresPreview/features-12.png",
 				"description": "A playful and comic-style section showcasing exciting gaming features with a toggle for dark mode.",
 				"file": "features section/features-12.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "9e0629e887",
@@ -2749,7 +3088,8 @@
 				"image": "assets/previewImages/featuresPreview/features-13.png",
 				"description": "Explore a variety of travel features designed for the modern traveler, from flight deals to adventure travel.",
 				"file": "features section/features-13.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "69fbde261b",
@@ -2757,7 +3097,8 @@
 				"image": "assets/previewImages/featuresPreview/features-14.png",
 				"description": "Explore a range of travel services to make your trips smoother, from visa assistance to winter wonders.",
 				"file": "features section/features-14.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "122b805d4f",
@@ -2765,7 +3106,8 @@
 				"image": "assets/previewImages/featuresPreview/features-15.png",
 				"description": "Explore a variety of travel-related services with interactive features and a modern design.",
 				"file": "features section/features-15.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "c9ec7cb900",
@@ -2773,7 +3115,8 @@
 				"image": "assets/previewImages/featuresPreview/features-16.png",
 				"description": "A set of features highlighting the benefits of car rental services, including options like wide selection, 24/7 service, and competitive pricing.",
 				"file": "features section/features-16.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "46443de328",
@@ -2781,7 +3124,8 @@
 				"image": "assets/previewImages/featuresPreview/features-17.png",
 				"description": "Discover the unique advantages of our car rental service, featuring the latest models, unlimited mileage, and flexible cancellation.",
 				"file": "features section/features-17.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "d9bd50cf2b",
@@ -2789,7 +3133,8 @@
 				"image": "assets/previewImages/featuresPreview/features-18.png",
 				"description": "Showcase of luxurious hotel features like plush bedding, gourmet dining, and more.",
 				"file": "features section/features-18.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "5b36e71871",
@@ -2797,7 +3142,8 @@
 				"image": "assets/previewImages/featuresPreview/features-19.png",
 				"description": "Explore the luxurious features and amenities of our hotel with a modern, responsive design.",
 				"file": "features section/features-19.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "3c40a7ed35",
@@ -2805,7 +3151,8 @@
 				"image": "assets/previewImages/featuresPreview/features-2.png",
 				"description": "A section with feature cards featuring icons on the side for a modern layout.",
 				"file": "features section/features-2.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "features"
 			},
 			{
 				"id": "cdb9a4f814",
@@ -2813,7 +3160,8 @@
 				"image": "assets/previewImages/featuresPreview/features-20.png",
 				"description": "A showcase of features available in the car rental service, highlighting vehicle selection, booking options, support, and more.",
 				"file": "features section/features-20.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "69c22f1891",
@@ -2821,7 +3169,8 @@
 				"image": "assets/previewImages/featuresPreview/features-21.png",
 				"description": "A list of features for a hotel with a vintage aesthetic. Users can toggle between light and dark modes.",
 				"file": "features section/features-21.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "b1bd5271e9",
@@ -2829,7 +3178,8 @@
 				"image": "assets/previewImages/featuresPreview/features-22.png",
 				"description": "Showcase of nature-inspired hotel features including gardens, hiking trails, and more.",
 				"file": "features section/features-22.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "d2cb1c5b75",
@@ -2837,7 +3187,8 @@
 				"image": "assets/previewImages/featuresPreview/features-23.png",
 				"description": "A modern hotel features page showcasing the amenities with an option for dark mode.",
 				"file": "features section/features-23.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "5a04a8752e",
@@ -2845,7 +3196,8 @@
 				"image": "assets/previewImages/featuresPreview/features-24.png",
 				"description": "A showcase of powerful product features with theme toggling.",
 				"file": "features section/features-24.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "30983fddc5",
@@ -2853,7 +3205,8 @@
 				"image": "assets/previewImages/featuresPreview/features-25.png",
 				"description": "Explore fashion features like trendsetting styles, perfect fit, sustainable materials, and more.",
 				"file": "features section/features-25.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "225fcf404b",
@@ -2861,7 +3214,8 @@
 				"image": "assets/previewImages/featuresPreview/features-26.png",
 				"description": "Explore cutting-edge gaming features with an immersive design and futuristic feel.",
 				"file": "features section/features-26.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "cae1cdebc8",
@@ -2869,7 +3223,8 @@
 				"image": "assets/previewImages/featuresPreview/features-27.png",
 				"description": "Explore our top-notch interior design features with tailored plans and exclusive designs for every space.",
 				"file": "features section/features-27.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "features"
 			},
 			{
 				"id": "92efac632a",
@@ -2877,7 +3232,8 @@
 				"image": "assets/previewImages/featuresPreview/features-28.png",
 				"description": "A futuristic gaming experience with cutting-edge features like augmented reality, neural interface, AI opponents, and more.",
 				"file": "features section/features-28.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "2a31ffd134",
@@ -2885,7 +3241,8 @@
 				"image": "assets/previewImages/featuresPreview/features-29.png",
 				"description": "Comic-inspired gaming features with a playful style.",
 				"file": "features section/features-29.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "b848c44d8b",
@@ -2893,7 +3250,8 @@
 				"image": "assets/previewImages/featuresPreview/features-3.png",
 				"description": "A set of feature cards with gradient backgrounds and hover effects, perfect for showcasing product features or services.",
 				"file": "features section/features-3.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "features"
 			},
 			{
 				"id": "e69fcee000",
@@ -2901,7 +3259,8 @@
 				"image": "assets/previewImages/featuresPreview/features-4.png",
 				"description": "A section featuring fitness-related cards highlighting various features like workouts, heart rate tracking, personalized plans, and more.",
 				"file": "features section/features-4.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "f397515669",
@@ -2909,7 +3268,8 @@
 				"image": "assets/previewImages/featuresPreview/features-5.png",
 				"description": "A fitness dashboard to monitor workout progress, track nutrition, and manage HIIT programs, with real-time statistics.",
 				"file": "features section/features-5.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "features"
 			},
 			{
 				"id": "bc99b30cd2",
@@ -2917,7 +3277,8 @@
 				"image": "assets/previewImages/featuresPreview/features-6.png",
 				"description": "A modern features section showcasing different feature cards with icons and descriptions. The layout is responsive and includes a theme toggle functionality.",
 				"file": "features section/features-6.json",
-				"date": "2025-02-22"
+				"date": "2025-02-22",
+				"category": "features"
 			},
 			{
 				"id": "3edca7b039",
@@ -2925,7 +3286,8 @@
 				"image": "assets/previewImages/featuresPreview/features-7.png",
 				"description": "A modern and advanced features section with cloud sync, encryption, and team collaboration features. Includes a theme toggle functionality and responsive design.",
 				"file": "features section/features-7.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "78a69b8335",
@@ -2933,7 +3295,8 @@
 				"image": "assets/previewImages/featuresPreview/features-8.png",
 				"description": "Discover the wonders of nature with eco-friendly adventures, conservation efforts, and sustainable experiences.",
 				"file": "features section/features-8.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			},
 			{
 				"id": "659b18ca8b",
@@ -2941,7 +3304,8 @@
 				"image": "assets/previewImages/featuresPreview/features-9.png",
 				"description": "A collection of eco-friendly initiatives aimed at preserving the environment through sustainable practices.",
 				"file": "features section/features-9.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "features"
 			}
 		],
 		"footer": [
@@ -2951,7 +3315,8 @@
 				"image": "assets/previewImages/footerPreview/footer-1.png",
 				"description": "A modern footer section with social links, contact info, quick links, and a back-to-top button.",
 				"file": "footer/footer-1.json",
-				"date": "2025-02-24"
+				"date": "2025-02-24",
+				"category": "footer"
 			},
 			{
 				"id": "6f85b5223c",
@@ -2959,7 +3324,8 @@
 				"image": "assets/previewImages/footerPreview/footer-10.png",
 				"description": "A clean and minimal footer section with links, social media icons, and newsletter subscription form.",
 				"file": "footer/footer-10.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "88c4c4ff5f",
@@ -2967,7 +3333,8 @@
 				"image": "assets/previewImages/footerPreview/footer-11.png",
 				"description": "A professional footer with company info, services, contact details, social media links, and legal links.",
 				"file": "footer/footer-11.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "19ce9cc4c6",
@@ -2975,7 +3342,8 @@
 				"image": "assets/previewImages/footerPreview/footer-12.png",
 				"description": "A creative footer section with company details, products, resources, newsletter signup, social media links, and legal links. It also includes a floating element animation for a dynamic effect.",
 				"file": "footer/footer-12.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "c4efa3be9f",
@@ -2983,7 +3351,8 @@
 				"image": "assets/previewImages/footerPreview/footer-13.png",
 				"description": "A modern corporate footer section with social links, contact info, newsletter subscription, and quick links.",
 				"file": "footer/footer-13.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "165b2aaf0f",
@@ -2991,7 +3360,8 @@
 				"image": "assets/previewImages/footerPreview/footer-14.png",
 				"description": "A modern and accessible footer section with contact details, quick links, legal links, social media, and a newsletter subscription form.",
 				"file": "footer/footer-14.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "0cb5d7f6df",
@@ -2999,7 +3369,8 @@
 				"image": "assets/previewImages/footerPreview/footer-15.png",
 				"description": "A modern split-color footer with sections for company, services, contact, and newsletter, featuring a clean and responsive design with social media links and a subscription form.",
 				"file": "footer/footer-15.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "e9878b15a9",
@@ -3007,7 +3378,8 @@
 				"image": "assets/previewImages/footerPreview/footer-16.png",
 				"description": "A curved footer design with sections for company information, services, social media links, and a newsletter form. It includes a back-to-top button and responsive design.",
 				"file": "footer/footer-16.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "62f7a08981",
@@ -3015,7 +3387,8 @@
 				"image": "assets/previewImages/footerPreview/footer-17.png",
 				"description": "A business footer section with company details, support, resources, social media links, and a newsletter subscription form.",
 				"file": "footer/footer-17.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "d09625684d",
@@ -3023,7 +3396,8 @@
 				"image": "assets/previewImages/footerPreview/footer-18.png",
 				"description": "A footer section with theme toggle functionality, including contact info, social links, newsletter subscription form, and legal links.",
 				"file": "footer/footer-18.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "cff140339e",
@@ -3031,7 +3405,8 @@
 				"image": "assets/previewImages/footerPreview/footer-19.png",
 				"description": "A footer section with a theme toggle button, newsletter subscription form, and social media links. It also includes a theme switch feature for light and dark modes, and a responsive layout.",
 				"file": "footer/footer-19.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "3ad5dd3e45",
@@ -3039,7 +3414,8 @@
 				"image": "assets/previewImages/footerPreview/footer-2.png",
 				"description": "A modern footer section with quick links, contact information, and social media links. It features a gradient background and smooth scroll-to-top button functionality.",
 				"file": "footer/footer-2.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "89f5e33711",
@@ -3047,7 +3423,8 @@
 				"image": "assets/previewImages/footerPreview/footer-20.png",
 				"description": "A responsive footer with theme toggle, language selector, and cookie consent feature.",
 				"file": "footer/footer-20.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "5f1252a789",
@@ -3055,7 +3432,8 @@
 				"image": "assets/previewImages/footerPreview/footer-21.png",
 				"description": "A glassmorphic styled footer with theme toggle functionality, including newsletter form and social links.",
 				"file": "footer/footer-21.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "dff0fb24de",
@@ -3063,7 +3441,8 @@
 				"image": "assets/previewImages/footerPreview/footer-22.png",
 				"description": "A footer section with social media icons, a newsletter subscription form, and useful footer links.",
 				"file": "footer/footer-22.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "c7e5a45765",
@@ -3071,7 +3450,8 @@
 				"image": "assets/previewImages/footerPreview/footer-23.png",
 				"description": "A footer section with company, support, legal, and connect sections. Includes theme toggle, collapsible sections, back-to-top button, and a newsletter subscription form.",
 				"file": "footer/footer-23.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "70ab943af9",
@@ -3079,7 +3459,8 @@
 				"image": "assets/previewImages/footerPreview/footer-24.png",
 				"description": "A fluid gradient footer with a modern design. Includes links to products, company information, and a subscription form. It also supports theme toggling between light and dark modes.",
 				"file": "footer/footer-24.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "361952fdac",
@@ -3087,7 +3468,8 @@
 				"image": "assets/previewImages/footerPreview/footer-25.png",
 				"description": "A modern mega footer with multiple sections for company, products, support, legal, and locations. It includes a theme toggle, newsletter form, and back-to-top button.",
 				"file": "footer/footer-25.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "aa1786dec2",
@@ -3095,7 +3477,8 @@
 				"image": "assets/previewImages/footerPreview/footer-26.png",
 				"description": "A futuristic cyberpunk footer with theme toggle, neon effects, and interactive elements like subscription form and social media links.",
 				"file": "footer/footer-26.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "bf40c17482",
@@ -3103,7 +3486,8 @@
 				"image": "assets/previewImages/footerPreview/footer-27.png",
 				"description": "A creative footer design with morphing background effects, glassy sections, and smooth hover animations. Includes social media icons and a dark theme toggle.",
 				"file": "footer/footer-27.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "770137b634",
@@ -3111,7 +3495,8 @@
 				"image": "assets/previewImages/footerPreview/footer-28.png",
 				"description": "A modern footer with contact information, social links, newsletter form, legal links, and a theme toggle.",
 				"file": "footer/footer-28.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "9de880316e",
@@ -3119,7 +3504,8 @@
 				"image": "assets/previewImages/footerPreview/footer-29.png",
 				"description": "A holographic footer section with dynamic theme toggling, animated social links, and a newsletter subscription form. The design includes a futuristic look with a backdrop-filter effect and gradient color scheme.",
 				"file": "footer/footer-29.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "e74359af85",
@@ -3127,7 +3513,8 @@
 				"image": "assets/previewImages/footerPreview/footer-3.png",
 				"description": "A modern footer design with social media links, newsletter subscription, recent products, and payment methods. It includes smooth animations, a flexible layout, and supports light/dark themes.",
 				"file": "footer/footer-3.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "f72b8e8831",
@@ -3135,7 +3522,8 @@
 				"image": "assets/previewImages/footerPreview/footer-30.png",
 				"description": "A modern footer section with parallax tilt effect and theme toggle feature. Includes links to discover, connect, and subscribe, as well as a newsletter form.",
 				"file": "footer/footer-30.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "58f1389499",
@@ -3143,7 +3531,8 @@
 				"image": "assets/previewImages/footerPreview/footer-31.png",
 				"description": "A modern footer design with sections for company info, community, legal links, and newsletter subscription. Includes a theme toggle for light and dark modes.",
 				"file": "footer/footer-31.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "7169517d63",
@@ -3151,7 +3540,8 @@
 				"image": "assets/previewImages/footerPreview/footer-4.png",
 				"description": "A modern footer with multiple columns, social media links, newsletter form, and contact information, featuring a gradient background and smooth animations on scroll.",
 				"file": "footer/footer-4.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "c338e12ad5",
@@ -3159,7 +3549,8 @@
 				"image": "assets/previewImages/footerPreview/footer-5.png",
 				"description": "A modern footer design with card stack layout, dynamic content loading, and theme toggle.",
 				"file": "footer/footer-5.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "da5bf81b4a",
@@ -3167,7 +3558,8 @@
 				"image": "assets/previewImages/footerPreview/footer-6.png",
 				"description": "A clean and modern vertical footer with sections for about us, team, and newsletter subscription.",
 				"file": "footer/footer-6.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "5f47cc3607",
@@ -3175,7 +3567,8 @@
 				"image": "assets/previewImages/footerPreview/footer-7.png",
 				"description": "A modern footer layout with quick links, gallery, social media, and newsletter subscription form.",
 				"file": "footer/footer-7.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "e8b513e432",
@@ -3183,7 +3576,8 @@
 				"image": "assets/previewImages/footerPreview/footer-8.png",
 				"description": "A modern footer design with multiple sections such as company info, support, legal, and a newsletter subscription form. The footer is styled with a dark theme and interactive elements like social links and a back-to-top button.",
 				"file": "footer/footer-8.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			},
 			{
 				"id": "7d9bcec7b3",
@@ -3191,7 +3585,8 @@
 				"image": "assets/previewImages/footerPreview/footer-9.png",
 				"description": "A business footer with contact information, quick links, legal links, and a newsletter subscription form.",
 				"file": "footer/footer-9.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "footer"
 			}
 		],
 		"hero": [
@@ -3201,7 +3596,8 @@
 				"image": "assets/previewImages/heroPreview/hero-1.png",
 				"description": "A modern hero section with a background image, overlay, and CTA buttons.",
 				"file": "hero section/hero-1.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "19e5774fa1",
@@ -3209,7 +3605,8 @@
 				"image": "assets/previewImages/heroPreview/hero-10.png",
 				"description": "A modern hero section for car rental services with a search form and unique selling points.",
 				"file": "hero section/hero-10.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "3283b0848c",
@@ -3217,7 +3614,8 @@
 				"image": "assets/previewImages/heroPreview/hero-11.png",
 				"description": "A premium car rental hero section with a luxury theme, featuring a call-to-action and key benefits.",
 				"file": "hero section/hero-11.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "da9ed90143",
@@ -3225,7 +3623,8 @@
 				"image": "assets/previewImages/heroPreview/hero-12.png",
 				"description": "A modern hero section for a car rental website featuring a bold heading, call-to-action button, and a car showcase.",
 				"file": "hero section/hero-12.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "79ec30a0b1",
@@ -3233,7 +3632,8 @@
 				"image": "assets/previewImages/heroPreview/hero-13.png",
 				"description": "A responsive hero section and categories grid for an online grocery store featuring fresh produce and household items.",
 				"file": "hero section/hero-13.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "ef6a07e77c",
@@ -3241,7 +3641,8 @@
 				"image": "assets/previewImages/heroPreview/hero-14.png",
 				"description": "A modern hero section with feature cards and a categories section for a grocery delivery service, emphasizing convenience and quality.",
 				"file": "hero section/hero-14.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "fb1e2fb67f",
@@ -3249,7 +3650,8 @@
 				"image": "assets/previewImages/heroPreview/hero-15.png",
 				"description": "A full-screen hero section with a background image, overlay, animated fade-in effect, and a call-to-action button.",
 				"file": "hero section/hero-15.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "faa3c025cc",
@@ -3257,7 +3659,8 @@
 				"image": "assets/previewImages/heroPreview/hero-16.png",
 				"description": "A full-screen hero section for car rental services, featuring a background image, animated fade-in effect, and a search form.",
 				"file": "hero section/hero-16.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "d78060d975",
@@ -3265,7 +3668,8 @@
 				"image": "assets/previewImages/heroPreview/hero-17.png",
 				"description": "A hero section for a car rental service, featuring a search form and key service highlights.",
 				"file": "hero section/hero-17.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "8c58437149",
@@ -3273,7 +3677,8 @@
 				"image": "assets/previewImages/heroPreview/hero-18.png",
 				"description": "Hero section for a fitness and wellness center, featuring a call-to-action, statistics, and program highlights.",
 				"file": "hero section/hero-18.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "b3d75613ea",
@@ -3281,7 +3686,8 @@
 				"image": "assets/previewImages/heroPreview/hero-19.png",
 				"description": "Hero section for a grocery delivery service, featuring a search bar, key features, and a clean design.",
 				"file": "hero section/hero-19.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "8b0aa3c5e4",
@@ -3289,7 +3695,8 @@
 				"image": "assets/previewImages/heroPreview/hero-2.png",
 				"description": "A modern split hero section with text on one side and an image on the other, featuring smooth animations and call-to-action buttons.",
 				"file": "hero section/hero-2.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "b4b21bfa31",
@@ -3297,7 +3704,8 @@
 				"image": "assets/previewImages/heroPreview/hero-20.png",
 				"description": "Hero section for a digital solutions agency, featuring a gradient background, call-to-action buttons, and feature cards.",
 				"file": "hero section/hero-20.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "37dd95f30c",
@@ -3305,7 +3713,8 @@
 				"image": "assets/previewImages/heroPreview/hero-21.png",
 				"description": "Hero section for a business solutions provider, featuring a title, call-to-action, statistics, and a floating image.",
 				"file": "hero section/hero-21.json",
-				"date": "2024-02-26"
+				"date": "2024-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "2cb3fc1325",
@@ -3313,7 +3722,8 @@
 				"image": "assets/previewImages/heroPreview/hero-22.png",
 				"description": "A hero section for a travel agency website with a call-to-action.",
 				"file": "hero section/hero-22.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "d8f8aeeecb",
@@ -3321,7 +3731,8 @@
 				"image": "assets/previewImages/heroPreview/hero-23.png",
 				"description": "A visually appealing travel booking hero section with a booking form.",
 				"file": "hero section/hero-23.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "8e0621d2ef",
@@ -3329,7 +3740,8 @@
 				"image": "assets/previewImages/heroPreview/hero-24.png",
 				"description": "A modern business growth hero section with strategic solutions and CTA.",
 				"file": "hero section/hero-24.json",
-				"date": "2025-02-26"
+				"date": "2025-02-26",
+				"category": "hero"
 			},
 			{
 				"id": "a884e4fc3d",
@@ -3337,7 +3749,8 @@
 				"image": "assets/previewImages/heroPreview/hero-3.png",
 				"description": "A modern hero section with a full-screen background image, heading, description, and CTA button.",
 				"file": "hero section/hero-3.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "0430ac1a55",
@@ -3345,7 +3758,8 @@
 				"image": "assets/previewImages/heroPreview/hero-4.png",
 				"description": "A modern hero section with a call-to-action button, stats, and a decorative shape.",
 				"file": "hero section/hero-4.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "6d2d7ba8ec",
@@ -3353,7 +3767,8 @@
 				"image": "assets/previewImages/heroPreview/hero-5.png",
 				"description": "A modern, responsive hero section with a background image, animated text, and a call-to-action button.",
 				"file": "hero section/hero-5.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "7ec11029fe",
@@ -3361,7 +3776,8 @@
 				"image": "assets/previewImages/heroPreview/hero-6.png",
 				"description": "A modern hero section with grid layout, CTA buttons, and animated text.",
 				"file": "hero section/hero-6.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "0282d5fdb8",
@@ -3369,7 +3785,8 @@
 				"image": "assets/previewImages/heroPreview/hero-7.png",
 				"description": "A modern gradient hero section with animated elements and a call-to-action button.",
 				"file": "hero section/hero-7.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "5840c2174c",
@@ -3377,7 +3794,8 @@
 				"image": "assets/previewImages/heroPreview/hero-8.png",
 				"description": "A modern animated hero section with engaging visuals and smooth animations.",
 				"file": "hero section/hero-8.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			},
 			{
 				"id": "ebfb671c00",
@@ -3385,7 +3803,8 @@
 				"image": "assets/previewImages/heroPreview/hero-9.png",
 				"description": "A modern diagonal hero section with a gradient overlay, smooth animations, and a CTA button.",
 				"file": "hero section/hero-9.json",
-				"date": "2025-02-25"
+				"date": "2025-02-25",
+				"category": "hero"
 			}
 		],
 		"testimonials": [
@@ -3395,7 +3814,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-1.png",
 				"description": "A responsive and modern testimonial section with hover effects and dynamic content loading.",
 				"file": "testimonial section/testimonial-1.json",
-				"date": "2025-02-28"
+				"date": "2025-02-28",
+				"category": "testimonials"
 			},
 			{
 				"id": "5514cb1315",
@@ -3403,7 +3823,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-10.png",
 				"description": "An animated testimonial section with a theme toggle and dynamic glass-effect testimonial cards.",
 				"file": "testimonial section/testimonial-10.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "512b723705",
@@ -3411,7 +3832,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-11.png",
 				"description": "A timeline style testimonial section with scroll animations and dark mode toggle.",
 				"file": "testimonial section/testimonial-11.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "652d1a2ac9",
@@ -3419,7 +3841,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-12.png",
 				"description": "A modern testimonial section with 3D flip cards, dark mode support, and interactive animations.",
 				"file": "testimonial section/testimonial-12.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "5f76b37124",
@@ -3427,7 +3850,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-2.png",
 				"description": "A responsive testimonial slider with smooth transitions, navigation controls, and keyboard support.",
 				"file": "testimonial section/testimonial-2.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "74bd51c08d",
@@ -3435,7 +3859,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-3.png",
 				"description": "A testimonial section with dark mode toggle feature implemented in HTML, CSS, and JavaScript.",
 				"file": "testimonial section/testimonial-3.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "f6764ecce6",
@@ -3443,7 +3868,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-4.png",
 				"description": "A responsive testimonial slider with dark mode support, smooth transitions, and navigation controls.",
 				"file": "testimonial section/testimonial-4.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "afde36cdff",
@@ -3451,7 +3877,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-5.png",
 				"description": "A modern testimonials section with a theme toggle feature and responsive design.",
 				"file": "testimonial section/testimonial-5.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "2997fde002",
@@ -3459,7 +3886,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-6.png",
 				"description": "A responsive and modern testimonial card section with dark mode support and dynamic content loading.",
 				"file": "testimonial section/testimonial-6.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "d820097fb6",
@@ -3467,7 +3895,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-7.png",
 				"description": "A grid testimonial section with mobile horizontal scroll improvements and theme toggle functionality.",
 				"file": "testimonial section/testimonial-7.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "e3c4253063",
@@ -3475,7 +3904,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-8.png",
 				"description": "A testimonial carousel section with theme toggle functionality and auto-advance carousel slides.",
 				"file": "testimonial section/testimonial-8.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			},
 			{
 				"id": "c35a970991",
@@ -3483,7 +3913,8 @@
 				"image": "assets/previewImages/testimonialsPreview/testimonial-9.png",
 				"description": "A modern testimonial section with floating cards, dark mode support, and smooth animations.",
 				"file": "testimonial section/testimonial-9.json",
-				"date": "2025-02-29"
+				"date": "2025-02-29",
+				"category": "testimonials"
 			}
 		]
 	}

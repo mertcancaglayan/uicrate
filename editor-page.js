@@ -1,3 +1,5 @@
+import { fetchComponent } from "./fetchScript.js";
+
 document.addEventListener("DOMContentLoaded", function () {
 	const htmlEditor = CodeMirror.fromTextArea(document.getElementById("htmlEditor"), {
 		lineNumbers: true,
@@ -54,29 +56,29 @@ document.addEventListener("DOMContentLoaded", function () {
 	const urlParams = new URLSearchParams(window.location.search);
 	const componentFile = urlParams.get("component");
 
-	if (componentFile) {
-		const filePath = "components/" + componentFile;
+	async function loadComponent() {
+		if (componentFile) {
+			const currentComponent = await fetchComponent(componentFile);
 
-		fetch(filePath)
-			.then((response) => {
-				if (!response.ok) throw new Error(`Failed to load ${componentFile}`);
-				return response.text();
-			})
-			.then((result) => {
-				const componentCode = JSON.parse(result);
-				htmlEditor.setValue(componentCode.html || "<!-- No HTML content -->");
-				cssEditor.setValue(componentCode.style || "/* No CSS found */");
-				jsEditor.setValue(componentCode.script || "// No JavaScript found");
-				updatePreview();
-			})
-			.catch((error) => {
-				console.error("Error loading component:", error);
-				htmlEditor.setValue(`Error: ${error.message}`);
+			if (currentComponent === false) {
+				htmlEditor.setValue(`Error: Failed to load component`);
 				cssEditor.setValue("/* Failed to load CSS */");
 				jsEditor.setValue("// Failed to load JavaScript");
-			});
-	} else {
-		console.warn("Component file is not specified in the URL.");
+			} else {
+				displayComponent(currentComponent);
+			}
+		} else {
+			console.warn("Component file is not specified in the URL.");
+		}
+	}
+
+	loadComponent();
+
+	function displayComponent(componentCode) {
+		htmlEditor.setValue(componentCode.html || "<!-- No HTML content -->");
+		cssEditor.setValue(componentCode.style || "/* No CSS found */");
+		jsEditor.setValue(componentCode.script || "// No JavaScript found");
+		updatePreview();
 	}
 
 	Split(["#split-0", "#split-1", "#split-2"], {

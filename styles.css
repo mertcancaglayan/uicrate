@@ -368,7 +368,7 @@ svg {
 
 .results-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
 	gap: 0.8rem;
 }
 
@@ -376,7 +376,6 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	gap: 0.8rem;
 	background-color: var(--surface);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -386,8 +385,37 @@ svg {
 	border: 1px solid var(--border);
 }
 
+.preview-card.wide {
+	grid-column: 1 / -1;
+	grid-row: 1;
+	max-height: 80dvh;
+}
+
+.preview-card.wide img {
+	display: none;
+}
+
+.preview-card.wide iframe {
+	display: block !important;
+	width: 100%;
+}
+
+.preview-card .wideBtn {
+	color: var(--primary);
+	background-color: var(--surface);
+	border: none;
+	margin-left: auto; 
+	cursor: pointer;
+}
+
+.wideBtn:hover {
+	text-decoration: underline;
+	transform: scale(1.1);
+	transition: .3s ease;
+}
+
 .preview-card:hover {
-	transform: translateY(-5px);
+	transform: translateY(-1px);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -469,11 +497,6 @@ svg {
 .all-assets-btn:hover,
 .pagination button:hover {
 	background: rgba(124, 58, 237, 0.1);
-}
-
-.preview-card:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .preview-card-footer a:hover {
