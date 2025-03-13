@@ -404,14 +404,14 @@ svg {
 	color: var(--primary);
 	background-color: var(--surface);
 	border: none;
-	margin-left: auto; 
+	margin-left: auto;
 	cursor: pointer;
 }
 
 .wideBtn:hover {
 	text-decoration: underline;
 	transform: scale(1.1);
-	transition: .3s ease;
+	transition: 0.3s ease;
 }
 
 .preview-card:hover {
