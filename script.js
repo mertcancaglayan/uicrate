@@ -1,3 +1,5 @@
+import { fetchComponent } from "./fetchScript.js";
+
 const resultsGrid = document.getElementById("resultsGrid");
 const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
@@ -68,37 +70,149 @@ function sortResults(components) {
 	});
 }
 
+const wideCategories = [
+	"cards",
+	"navigations",
+	"tabs",
+	"tooltips",
+	"breadcrumbs",
+	"tabs",
+	"sliders",
+	"cta",
+	"features",
+	"footer",
+	"galleries",
+	"hero",
+	"testimonials",
+	"contact",
+	"login",
+];
+
+const narrowCategories = ["loaders", "socials", "alerts", "toggles"];
+
+let previewCategories = wideCategories + narrowCategories;
+
+resultsGrid.addEventListener("click", (e) => {
+	if (e.target.closest(".wideBtn")) {
+		makeWider(e.target.closest(".wideBtn"));
+	}
+});
+
+function makeWider(btn) {
+	const previewCard = btn.closest(".preview-card");
+
+	if (previewCard.classList.contains("wide")) {
+		previewCard.classList.remove("wide");
+	} else {
+		document.querySelectorAll(".preview-card.wide").forEach((card) => {
+			card.classList.remove("wide");
+		});
+		previewCard.classList.add("wide");
+	}
+	scrollTop();
+}
+
 function displayResults(components) {
 	if (components.length === 0) {
 		noResults.style.display = "block";
 		resultsGrid.innerHTML = "";
 	} else {
 		noResults.style.display = "none";
+
 		resultsGrid.innerHTML = components
-			.map(({ image, name, file }) => {
+			.map(({ image, name, file, category }) => {
 				const imageUrl = image || "https://placehold.co/600x400/png?text=No+Image";
 				const componentFile = file ? encodeURIComponent(file) : "#";
+				const componentName = name || "Unnamed Component";
+
+				const mediaPreview = narrowCategories.includes(category)
+					? `<iframe class="loader-preview" data-file="${componentFile}" style="width:100%; height:100%; border-radius:12px; overflow:hidden;"></iframe> \n <img style= "display:none" src="${imageUrl}" onerror="this.onerror=null; this.src='https://placehold.co/600x400/png?text=No+Image';" alt="${componentName}" loading="lazy" />`
+					: `<iframe style = "display:none" class="loader-preview" data-file="${componentFile}" style="width:100%; height:100%; border-radius:12px; overflow:hidden;"></iframe> \n <img src="${imageUrl}" onerror="this.onerror=null; this.src='https://placehold.co/600x400/png?text=No+Image';" alt="${componentName}" loading="lazy" />`;
+
 				return `
-          <article class="preview-card">
-            <div class="preview-card-content">
-              <img src="${imageUrl}" onerror="this.onerror=null; this.src='https://placehold.co/600x400/png?text=No+Image';" alt="${
-					name || "Component"
-				}" loading="lazy" />
-            </div>
-            <div class="preview-card-footer">
-              <p>${name || "Unnamed Component"}</p>
-              <a href="editor-page.html?component=${componentFile}" target="_blank" aria-label="View code for ${name}">
-                <span>Go to Code</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                  <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5-34.7 22-39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
-                </svg>
-              </a>
-            </div>
-          </article>
-        `;
+					<article class="preview-card" data-category="${category}">
+						<div class="preview-card-content">
+							${mediaPreview}
+						</div>
+						<div class="preview-card-footer">
+							<p>${componentName}</p>
+							<a href="editor-page.html?component=${componentFile}" target="_blank" aria-label="View code for ${componentName}">
+								<span>Go to Code</span>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+									<path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5-34.7 22-39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+								</svg>
+							</a>
+							<button class="wideBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"/></svg></button>
+						</div>
+					</article>
+				`;
 			})
 			.join("");
+
+		loadLoaderPreviews();
 	}
+}
+
+function loadLoaderPreviews() {
+	const loaderPreviews = document.querySelectorAll(".loader-preview");
+
+	loaderPreviews.forEach((preview) => {
+		const file = preview.getAttribute("data-file");
+		if (file) {
+			fetchComponent(file).then((component) => {
+				if (component && component.html) {
+					const componentStyles = `<style>${component.style}</style>` || "";
+					const componentScript = `<script>${component.script}</script>` || "";
+					const componentHtml = component.html || "";
+
+					const loaderPreview = document.querySelector(`iframe[data-file="${file}"]`);
+
+					const autoScaleScript = `
+						<script>
+							window.addEventListener('DOMContentLoaded', () => {
+								const containerWidth = window.innerWidth;
+								const containerHeight = window.innerHeight;
+
+								const body = document.body;
+								const contentWidth = body.scrollWidth;
+								const contentHeight = body.scrollHeight;
+
+								const scaleX = containerWidth / contentWidth;
+								const scaleY = containerHeight / contentHeight;
+								const scale = Math.min(scaleX, scaleY, 1); 
+
+								body.style.transform = 'scale(' + scale + ')';
+								body.style.transformOrigin = 'top left';
+								body.style.width = (100 / scale) + '%';
+								body.style.height = (100 / scale) + '%';
+								body.style.overflow = 'hidden';
+							});
+						<\/script>
+					`;
+
+					const antiNavigationScript = `
+					<script>
+						document.querySelectorAll('a').forEach(link => {
+							link.addEventListener('click', function(event) {
+								event.preventDefault();
+							});
+						});
+					<\/script>
+				`;
+
+					loaderPreview.contentWindow.document.open();
+					loaderPreview.contentWindow.document.write(
+						componentStyles,
+						componentHtml,
+						componentScript,
+						antiNavigationScript,
+						autoScaleScript,
+					);
+					loaderPreview.contentWindow.document.close();
+				}
+			});
+		}
+	});
 }
 
 let prevTotalPages = 0;
